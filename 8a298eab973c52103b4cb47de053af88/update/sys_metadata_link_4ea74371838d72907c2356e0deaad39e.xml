@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c668892583a722107c2356e0deaad3ab</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>04231c89dbef8010db97f1471d96194c</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>c668892583a722107c2356e0deaad3ab</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt; Extrait le compte défini par l'ID de l'ensemble de comptes.&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+	&lt;li&gt;&lt;b&gt;ID de l'ensemble de comptee&lt;/b&gt; : identifiant unique de l'ensemble de comptes.&lt;/li&gt;&#13;
+	&lt;p&gt;&lt;/p&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+	&lt;li&gt;&lt;b&gt;Liste d'ensemble de comptes&lt;/b&gt; : liste des objets contenant ces valeurs&#13;
+		&lt;ul&gt;&#13;
+			&lt;li&gt; Référence de l'ensemble de comptes&#13;
+				&lt;ul&gt;&#13;
+					&lt;li&gt; Description de référence de l'ensemble de comptes&lt;/li&gt;&#13;
+					&lt;li&gt; ID de l'ensemble du compte&lt;/li&gt;&#13;
+				&lt;/ul&gt;&#13;
+			&lt;/li&gt;&#13;
+			&lt;li&gt; Liste des données de l'ensemble de comptes : liste des objets contenant ces valeurs&#13;
+				&lt;ul&gt;&#13;
+					&lt;li&gt; Plan comptable&lt;/li&gt;&#13;
+					&lt;li&gt; Nom de l'ensemble de comptes&lt;/li&gt;&#13;
+					&lt;li&gt; ID de l'ensemble du compte&lt;/li&gt;&#13;
+					&lt;li&gt; Données du compte général : liste des objets contenant ces valeurs&#13;
+						&lt;ul&gt;&#13;
+							&lt;li&gt; Mis hors service&lt;/li&gt;&#13;
+							&lt;li&gt; Nom du compte général&lt;/li&gt;&#13;
+							&lt;li&gt; Identificateur du compte général&lt;/li&gt;&#13;
+							&lt;li&gt; Référence du type de compte général&#13;
+								&lt;ul&gt;&#13;
+									&lt;li&gt; Description du compte général&lt;/li&gt;&#13;
+									&lt;li&gt; ID du type de compte général&lt;/li&gt;&#13;
+								&lt;/ul&gt;&#13;
+							&lt;/li&gt;&#13;
+							&lt;li&gt; Limité à la référence de la société ou de la hiérarchie&#13;
+								&lt;ul&gt;&#13;
+									&lt;li&gt; ID de référence de société&lt;/li&gt;&#13;
+									&lt;li&gt; ID de référence d'organisation&lt;/li&gt;&#13;
+									&lt;li&gt; Description de la société restreinte&lt;/li&gt;&#13;
+								&lt;/ul&gt;&#13;
+							&lt;/li&gt;&#13;
+						&lt;/ul&gt;&#13;
+					&lt;/li&gt;&#13;
+				&lt;/ul&gt;&#13;
+			&lt;/li&gt;&#13;
+		&lt;/ul&gt;&#13;
+	&lt;/li&gt;&#13;
+	&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur Réussite. En cas de défaillance dans Workday Financials, l'état est défini sur Erreur.&lt;/li&gt;&#13;
+	&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+    &lt;li&gt;Il n'existe pas de détails relatifs aux ensembles de comptes pour les entrées indiquées.&lt;/li&gt;&#13;
+	&lt;li&gt;Veuillez accéder aux politiques de sécurité SOAP et fournir le nom d\'utilisateur et le mot de passe corrects dans la politique de sécurité SOAP « WorkdayFinancials ».&lt;/li&gt;&#13;
+	&lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:36</sys_created_on>
+        <sys_id>4ea74371838d72907c2356e0deaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_4ea74371838d72907c2356e0deaad39e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:36</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

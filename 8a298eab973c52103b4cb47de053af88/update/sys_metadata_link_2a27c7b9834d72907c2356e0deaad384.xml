@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7c5845a183a722107c2356e0deaad3df</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>011f786debc2301006a5c27849522825</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>7c5845a183a722107c2356e0deaad3df</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt; Récupère le solde de congés pour la personne.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;Champs de requête&lt;/b&gt; : utilisez l'un de ces champs pour faire une demande.&lt;/li&gt;
+   &lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;Enregistrements&lt;/b&gt; : contenant tous les enregistrements du solde de congés.&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur « Réussite ». Si une défaillance se produit dans Oracle Cloud HCM, l'état est défini sur « Erreur ».&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aucun enregistrement n'existe pour les critères de filtre fournis.&lt;/li&gt;
+   &lt;li&gt;Informations d'identification non valides. Veuillez vérifier les détails des informations d'identification dans les alias de connexion et d'informations d'identification d'Oracle Cloud HCM Spoke.&lt;/li&gt;
+   &lt;li&gt;L'utilisateur n'est pas autorisé à effectuer cette action. Veuillez affecter les rôles applicables à cet utilisateur dans l'application Oracle Cloud.&lt;/li&gt;
+   &lt;li&gt;Erreur interne du serveur : une erreur s'est produite sur le serveur Oracle Cloud HCM pendant le traitement de cette demande.&lt;/li&gt;
+   &lt;li&gt;Service indisponible : veuillez vérifier le journal pour plus d'informations.&lt;/li&gt;
+   &lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Oracle Cloud HCM correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Oracle Cloud HCM.&lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:27</sys_created_on>
+        <sys_id>2a27c7b9834d72907c2356e0deaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_2a27c7b9834d72907c2356e0deaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:27</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

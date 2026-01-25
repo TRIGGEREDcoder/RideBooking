@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5748c96183a722107c2356e0deaad398</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0727738e1bab4410d392a9362a4bcbcd</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>5748c96183a722107c2356e0deaad398</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Cette action met à jour l'état d'une demande de congés en passant une demande de congés d'un état à un autre.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Détails de la demande&lt;/b&gt; : détails sur la demande de congé contenant les informations suivantes.
+  &lt;ul&gt;
+    &lt;li&gt;Changez l'état
+      &lt;ul&gt;
+        &lt;li&gt;Faire
+          &lt;ul&gt;
+            &lt;li&gt;Forcez le changement de l'état.&lt;/li&gt;
+            &lt;li&gt;Ignorez l'approbateur multiple.&lt;/li&gt;
+            &lt;li&gt;À l'état
+              &lt;ul&gt;
+                &lt;li&gt;ID&lt;/li&gt;
+                &lt;li&gt;Nom&lt;/li&gt;
+                &lt;li&gt;ID symbolique&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Où
+          &lt;ul&gt;
+            &lt;li&gt;ID de demande de congé&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Demandes de congé du gestionnaire&lt;/b&gt;&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;ID&lt;/li&gt;
+    &lt;li&gt;Créateur&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;ID&lt;/li&gt;
+      &lt;li&gt;Qualificateur&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Employé&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;ID&lt;/li&gt;
+      &lt;li&gt;Qualificateur&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;CreateDateTime&lt;/li&gt;
+    &lt;li&gt;RequestSubType&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;RequestType&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;ID&lt;/li&gt;
+        &lt;li&gt;Nom&lt;/li&gt;
+        &lt;li&gt;Description&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;Symbole&lt;/li&gt;
+      &lt;li&gt;ID&lt;/li&gt;
+      &lt;li&gt;Nom&lt;/li&gt;
+      &lt;li&gt;Description&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;État actuel&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;ID&lt;/li&gt;
+      &lt;li&gt;SymbolicId&lt;/li&gt;
+      &lt;li&gt;Nom&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Périodes&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;ID&lt;/li&gt;
+      &lt;li&gt;StartDate&lt;/li&gt;
+      &lt;li&gt;EndDate&lt;/li&gt;
+      &lt;li&gt;Heure de début&lt;/li&gt;
+      &lt;li&gt;Durée&lt;/li&gt;
+      &lt;li&gt;PayCode&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;ID&lt;/li&gt;
+        &lt;li&gt;Qualificateur&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;SymbolicAmount&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;ID&lt;/li&gt;
+        &lt;li&gt;Qualificateur&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;ApprovalPeriods&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;ID&lt;/li&gt;
+      &lt;li&gt;StartDate&lt;/li&gt;
+      &lt;li&gt;EndDate&lt;/li&gt;
+      &lt;li&gt;Heure de début&lt;/li&gt;
+      &lt;li&gt;Durée&lt;/li&gt;
+      &lt;li&gt;PayCode&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;ID&lt;/li&gt;
+        &lt;li&gt;Qualificateur&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;SymbolicAmount&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;ID&lt;/li&gt;
+        &lt;li&gt;Qualificateur&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;NextValidStatuses&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;ID&lt;/li&gt;
+      &lt;li&gt;SymbolicId&lt;/li&gt;
+      &lt;li&gt;Nom&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+      &lt;ul&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;RequestStatusChanges&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;changeDateTime&lt;/li&gt;
+      &lt;li&gt;FromStatus&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;ID&lt;/li&gt;
+        &lt;li&gt;SymbolicId&lt;/li&gt;
+        &lt;li&gt;Nom&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;toStatus&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;ID&lt;/li&gt;
+        &lt;li&gt;SymbolicId&lt;/li&gt;
+        &lt;li&gt;Nom&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;ApprovalInfo&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;RequestId&lt;/li&gt;
+      &lt;li&gt;PendingSteps&lt;/li&gt;
+      &lt;li&gt;currentReviewers&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;approvalStep&lt;/li&gt;
+        &lt;li&gt;réviseurs&lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;employeeId&lt;/li&gt;
+          &lt;li&gt;personNumber&lt;/li&gt;
+          &lt;li&gt;fullName&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;CommentNotes&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Commentaire&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Actif&lt;/li&gt;
+        &lt;li&gt;ID&lt;/li&gt;
+        &lt;li&gt;Nom&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Notes&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;CommentNoteId&lt;/li&gt;
+      &lt;li&gt;DataSourceDisplayName&lt;/li&gt;
+      &lt;li&gt;Texte&lt;/li&gt;
+      &lt;li&gt;horodatage&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;L'heure de l'ID de demande fournie n'est pas valide.&lt;/li&gt;
+  &lt;li&gt;Le nom du statut fourni n'est pas valide.&lt;/li&gt;
+  &lt;li&gt;L'ID de la demande de congés n'est pas fourni.&lt;/li&gt;
+  &lt;li&gt;Nom de l'état ou ID symbolique non fourni.&lt;/li&gt;
+  &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide ou le jeton a expiré.&lt;/li&gt;
+  &lt;li&gt;L'utilisateur ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification de Kronos correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification de Kronos. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;
+</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:59</sys_created_on>
+        <sys_id>c26b4b358301b2907c2356e0deaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_c26b4b358301b2907c2356e0deaad350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:59</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

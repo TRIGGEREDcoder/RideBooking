@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b278c9a583a722107c2356e0deaad3df</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0638bc38db17c050757af1471d961961</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>b278c9a583a722107c2356e0deaad3df</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt; Récupère les informations sur le disque spécifié dans un groupe de ressources spécifié.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul&gt;&lt;li&gt;&lt;b&gt;ID de l'abonnement&lt;/b&gt; : l'identificateur unique de l'abonnement Microsoft Azure.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Groupe de ressources&lt;/b&gt; : nom du groupe de ressources.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom du disque&lt;/b&gt; : nom du disque.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Informations sur le disque&lt;/b&gt; : renseignez les informations sur le disque dans un groupe de ressources spécifié.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Détails du disque&lt;/b&gt; : objet complexe contenant ces champs :&lt;ul&gt;&lt;li&gt; Géré PAR&lt;/li&gt;&lt;li&gt; Nom&lt;/li&gt;&lt;li&gt; Emplacement&lt;/li&gt;&lt;li&gt; ID&lt;/li&gt;&lt;li&gt; UGS&lt;ul&gt;&lt;li&gt; Couche&lt;/li&gt;&lt;li&gt; Nom&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt; Propriétés&lt;ul&gt;&lt;li&gt; État&lt;/li&gt;&lt;li&gt; État de mise en service&lt;/li&gt;&lt;li&gt; Taille du disque (Go)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Balise&lt;/b&gt; : liste des objets contenant ces valeurs&lt;ul&gt;&lt;li&gt; Valeur&lt;/li&gt;&lt;li&gt; Clé&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée correctement, l'état est défini sur « Réussite ». Si une défaillance s'est produite dans Microsoft Azure Managed Storage, l'état est défini sur « Erreur ».&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ID d'abonnement non valide ou manquant.&lt;/li&gt;&lt;li&gt;Nom du disque manquant.&lt;/li&gt;&lt;li&gt;Erreur d'authentification.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Pour utiliser cette action, les informations d'identification de Microsoft Azure Resource Management correspondantes doivent être créées et associées à l'alias d'informations d'identification de Microsoft Azure Managed Storage. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated from description tool --&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:20:50</sys_created_on>
+        <sys_id>012b0f718301b2907c2356e0deaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_012b0f718301b2907c2356e0deaad3b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:20:50</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

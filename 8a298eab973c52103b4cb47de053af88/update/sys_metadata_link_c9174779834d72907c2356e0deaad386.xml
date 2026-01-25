@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>717845a583a722107c2356e0deaad3c1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>002e48cb1b8a051008420f27cc4bcb82</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>717845a583a722107c2356e0deaad3c1</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Remplace un document qui a précédemment été ajouté au graphique du patient.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Métadonnées&lt;/b&gt; : les métadonnées pour la demande.&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Date/heure de l'événement&lt;/b&gt; : la date/l'heure de l'événement.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Test&lt;/b&gt; : le marqueur comme message de test.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Source&lt;/b&gt; : la source du message.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la source.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la source.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Destinations&lt;/b&gt; : la liste des destinations pour envoyer des messages.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la destination.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la destination.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Journaux&lt;/b&gt; : les identificateurs du journal des demandes.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du journal des demandes qui correspond à cette demande.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;ID de tentative&lt;/b&gt; : l'ID de la tentative du journal des demandes.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Message&lt;/b&gt; : l'enregistrement dans Redox qui correspond à la communication envoyée par la source à Redox.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du message créé dans Redox.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Transmission&lt;/b&gt; : l'enregistrement dans Redox qui correspond à la communication envoyée de Redox à votre
+            destination.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la transmission créée dans Redox.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Code d'installation&lt;/b&gt; : code de l'installation associée au message.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;&lt;b&gt;Patient&lt;/b&gt; : les informations sur le patient.&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Identificateurs&lt;/b&gt; : la liste des ID et des types d'ID qui identifient le patient.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID pour le patient.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Démographie&lt;/b&gt; : les informations démographiques du patient.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Deuxième prénom&lt;/b&gt; : le second prénom du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;DATE DE NAISSANCE&lt;/b&gt; : la date de naissance du patient (« AAAA-MM-JJ »).&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;SSN&lt;/b&gt; : le SSN du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Sexe&lt;/b&gt; : le sexe du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Ethnicité&lt;/b&gt; : l'ethnicité du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Est hispanique&lt;/b&gt; : indique si le patient est d'origine hispanique.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Religion&lt;/b&gt; : la religion du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;État matrimonial&lt;/b&gt; : l'état matrimonial du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Est décédé&lt;/b&gt; : indique si le patient est décédé.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Date/heure du décès&lt;/b&gt; : la date et l'heure auxquelles le patient a été proclamé décédé.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du patient.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Accueil&lt;/li&gt;
+                &lt;li&gt;Bureau&lt;/li&gt;
+                &lt;li&gt;Mobile&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : la liste des adresses e-mail du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Langue&lt;/b&gt; : la langue parlée principale du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Citoyenneté&lt;/b&gt; : le(s) pays de citoyenneté du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt; : l'adresse du patient.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                &lt;li&gt;Ville&lt;/li&gt;
+                &lt;li&gt;État&lt;/li&gt;
+                &lt;li&gt;Code postal&lt;/li&gt;
+                &lt;li&gt;Comté/Région&lt;/li&gt;
+                &lt;li&gt;Pays&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Notes&lt;/b&gt; : les notes au niveau du patient.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;&lt;b&gt;Visite :&lt;/b&gt; les informations sur la visite.&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Numéro de visite&lt;/li&gt;
+        &lt;li&gt;Numéro du compte&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Lieu&lt;/b&gt; : le lieu du rendez-vous.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu, p. ex. clinique, département, domicile, unité de soins infirmiers.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Établissement&lt;/b&gt; : le type d'établissement, p. ex. Hôpital communautaire.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Département&lt;/b&gt; : le département de l'établissement.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Chambre&lt;/b&gt; : le numéro de la chambre de l'établissement.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;&lt;b&gt;Médias&lt;/b&gt; : les informations sur les médias.&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Type de fichier&lt;/b&gt; : le type de fichier du document.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Nom du fichier&lt;/b&gt; : le nom du fichier.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Contenu du fichier&lt;/b&gt; : le contenu du fichier&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Type de document&lt;/b&gt; : le type de document.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;ID du document d'origine&lt;/b&gt; : l'ID du document en cours de remplacement.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;ID du document&lt;/b&gt; : l'identificateur unique de ce document.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Description du document&lt;/b&gt; : l'étiquette descriptive pour ce document.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Date/heure de création&lt;/b&gt; : cette heure représente la date de création de ce média.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Date/heure du service&lt;/b&gt; : cette heure représente l'horodatage du service clinique avec lequel ce média est
+            associé.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Adresse directe de la part de&lt;/b&gt; : l'adresse directe de l'expéditeur, si l'un ou les deux côtés utilisent la messagerie directe.
+        &lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Adresse directe à l'attention de&lt;/b&gt; : l'adresse directe de l'expéditeur, si l'un ou les deux côtés utilisent la messagerie directe.
+        &lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Authentifié&lt;/b&gt; : l'état authentifié du document.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Authentificateur&lt;/b&gt; : détails de l'authentificateur.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du fournisseur qui a authentifié le document.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur qui a authentifié le document.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur qui a authentifié le document.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur qui a authentifié le document.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification du fournisseur qui a authentifié le document.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt; : l'adresse du fournisseur.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                &lt;li&gt;Ville&lt;/li&gt;
+                &lt;li&gt;État&lt;/li&gt;
+                &lt;li&gt;Code postal&lt;/li&gt;
+                &lt;li&gt;Comté/Région&lt;/li&gt;
+                &lt;li&gt;Pays&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : l'/les adresse(s) e-mail du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du fournisseur.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Bureau&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : l'emplacement du fournisseur.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu, p. ex. clinique, département, domicile, unité de soins infirmiers.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Établissement&lt;/b&gt; : le type d'établissement, p. ex. Hôpital communautaire.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Département&lt;/b&gt; : le département de l'établissement.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Chambre&lt;/b&gt; : le numéro de la chambre de l'établissement.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Disponibilité&lt;/b&gt; : indique si le document est disponible.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Notifications&lt;/b&gt; : la liste des fournisseurs qui doivent être informés lorsque ce document est affiché sur le tableau du
+            patient.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du fournisseur qui doit être notifié.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur qui doit être notifié.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur qui doit être notifié.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur qui doit être notifié.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt; Informations d'identification&lt;/b&gt; : la liste des informations d'identification pour le fournisseur qui doit être notifié.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt; : l'adresse du fournisseur.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                &lt;li&gt;Ville&lt;/li&gt;
+                &lt;li&gt;État&lt;/li&gt;
+                &lt;li&gt;Code postal&lt;/li&gt;
+                &lt;li&gt;Comté/Région&lt;/li&gt;
+                &lt;li&gt;Pays&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : l'/les adresse(s) e-mail du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du fournisseur.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Bureau&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : l'emplacement du fournisseur.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu, p. ex. clinique, département, domicile, unité de soins infirmiers.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Établissement&lt;/b&gt; : le type d'établissement, p. ex. Hôpital communautaire.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Département&lt;/b&gt; : le département de l'établissement.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Chambre&lt;/b&gt; : le numéro de la chambre de l'établissement.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;&lt;b&gt;Fournisseur de médias&lt;/b&gt; : les détails du fournisseur.&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du fournisseur responsable du document.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur responsable du document.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur responsable du document.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur responsable du document.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification du fournisseur responsable du document.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt; : l'adresse du fournisseur.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Adresse (rue)&lt;/li&gt;
+            &lt;li&gt;Ville&lt;/li&gt;
+            &lt;li&gt;État&lt;/li&gt;
+            &lt;li&gt;Code postal&lt;/li&gt;
+            &lt;li&gt;Comté/Région&lt;/li&gt;
+            &lt;li&gt;Pays&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : l'/les adresse(s) e-mail du fournisseur.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du fournisseur.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Bureau&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : l'emplacement du fournisseur.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu, p. ex. clinique, département, domicile, unité de soins infirmiers.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Établissement&lt;/b&gt; : le type d'établissement, p. ex. Hôpital communautaire.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Département&lt;/b&gt; : le département de l'établissement.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Chambre&lt;/b&gt; : le numéro de la chambre de l'établissement.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;&lt;b&gt;Commandes&lt;/b&gt; : les détails de la commande.&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la commande affectée par le système de placement.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la commande affectée par le système de placement.&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Métadonnées&lt;/b&gt; : les métadonnées pour la réponse.&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Modèle de données&lt;/b&gt; : le modèle de données de la réponse.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Type d'événement&lt;/b&gt; : le type d'événement de la réponse.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Source&lt;/b&gt; : la source du message.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la source.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la source.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Destinations&lt;/b&gt; : la liste des destinations pour envoyer des messages.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la destination.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la destination.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Journaux&lt;/b&gt; : les identificateurs du journal des réponses.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du journal des réponses qui correspond à cette demande.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;ID de tentative&lt;/b&gt; : l'ID de la tentative du journal des réponses.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Message&lt;/b&gt; : l'enregistrement dans Redox qui correspond à la communication envoyée par la source à Redox.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du message créé dans Redox.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance dans
+    Redox, l'état est défini sur « Erreur ».&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt;
+ :&lt;ul&gt;
+    &lt;li&gt;Les destinations ou destinations non valides doivent contenir une destination provenant d'abonnements existants.&lt;/li&gt;
+    &lt;li&gt;L'ID de destinations de métadonnées fourni semble être vide.&lt;/li&gt;
+    &lt;li&gt;L'ID des identifiants de patients fournis semble être vide.&lt;/li&gt;
+    &lt;li&gt;Le type d'ID des identifiants de patients fournis semble être vide.&lt;/li&gt;
+    &lt;li&gt;Le type du fichier média fourni semble être vide.&lt;/li&gt;
+    &lt;li&gt;Le nom du fichier média fourni semble être vide.&lt;/li&gt;
+    &lt;li&gt;Le contenu du fichier média fourni semble être vide.&lt;/li&gt;
+    &lt;li&gt;Le type du document média fourni semble être vide.&lt;/li&gt;
+    &lt;li&gt;L'ID du document média fourni semble être vide.&lt;/li&gt;
+    &lt;li&gt;L'ID du document média d'origine fourni semble être vide.&lt;/li&gt;
+    &lt;li&gt;L'ID du fournisseur de médias fourni semble être vide.&lt;/li&gt;
+    &lt;li&gt;La disponibilité des médias fournie semble être vide.&lt;/li&gt;
+    &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide ou le jeton a expiré.&lt;/li&gt;
+    &lt;li&gt;Une erreur inattendue s'est produite. Consultez la réponse de l'API pour plus d'informations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Redox correspondantes doivent être créées et associées à
+    l'alias de connexion et d'informations d'identification
+    Redox
+    . &lt;a         href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a         href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir
+        plus&lt;/a&gt;.
+&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:05</sys_created_on>
+        <sys_id>c9174779834d72907c2356e0deaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_c9174779834d72907c2356e0deaad386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:05</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>915849a183a722107c2356e0deaad345</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>058f4002779291106748a2464b5a990c</documentkey>
+        <fieldname>content</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>915849a183a722107c2356e0deaad345</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_embedded_help_content</tablename>
+        <value>&lt;h1 class="topictitle1"&gt;Configurer les propriétés système&lt;/h1&gt;
+&lt;div class="body taskbody"&gt;
+&lt;p&gt;Configurez les propriétés système qui sont utilisées lors de l'extraction des données à partir de l'environnement Microsoft Defender pour IoT (Azure). &lt;/p&gt;
+&lt;p&gt;Cette tâche nécessite un rôle &lt;span class="ph uicontrol"&gt;cmdb_ot_admin&lt;/span&gt;, &lt;span class="ph uicontrol"&gt;cmdb_inst_admin&lt;/span&gt; ou &lt;span class="ph uicontrol"&gt;administrateur&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class="ph uicontrol"&gt;&lt;strong&gt;Chemin d'accès aux ressources de l'API REST Azure&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
+&lt;ul class="steps-unordered"&gt;&lt;li class="li step"&gt;Chemin d'accès aux ressources d'API à utiliser lors de l'extraction des données à partir de Microsoft Defender pour IoT (Azure).&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span class="ph uicontrol"&gt;&lt;strong&gt;Taille de la pagination des capteurs&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
+&lt;ul class="steps-unordered"&gt;&lt;li class="li step"&gt;Le nombre d'enregistrements de capteurs à extraire dans un appel REST paginé vers Microsoft Defender pour IoT (Azure). &lt;/li&gt;&lt;li class="li step"&gt;La valeur par défaut est 1 000 par page. &lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span class="ph uicontrol"&gt;&lt;strong&gt;Taille de la pagination des appareils&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Le nombre d'enregistrements d'appareils à extraire dans un appel REST paginé vers Microsoft Defender pour IoT (Azure). &lt;/li&gt;&lt;li&gt;La valeur par défaut est 1 000 par page. &lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span class="ph uicontrol"&gt;&lt;strong&gt;Obtenir tous les appareils&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
+&lt;ul class="steps-unordered"&gt;&lt;li&gt;Pour les appareils, vous pouvez choisir d'extraire TOUS LES ENREGISTREMENTS (case cochée) ou DELTA (case décochée). &lt;/li&gt;&lt;li&gt;Le DELTA extrait tous les enregistrements créés ou mis à jour depuis l'heure de début de la dernière importation réussie dans la CMDB. &lt;/li&gt;&lt;li class="li step"&gt;Notez que lorsque vous exécutez l'intégration des appareils pour la première fois, TOUS LES ENREGISTREMENTS sont importés indépendamment de cette propriété.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span class="ph uicontrol"&gt;&lt;strong&gt;Convertir les noms de capteurs en minuscules pendant l'importation des appareils&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class="steps-unordered"&gt;&lt;li&gt;Cette propriété système permet de convertir les noms de capteurs fournis par Azure en lettres minuscules lors de l'importation d'appareils. Cela est nécessaire, car Azure s'attend actuellement à ce que les données de la requête soient en minuscules.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Filtrer la configuration pour les importations d'appareil&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="steps-unordered"&gt;
+&lt;li class="li step"&gt;a. Classe/Type : liste séparée par des virgules de sous-types Azure pour filtrer les appareils. &lt;br /&gt;Exemple : pour importer uniquement les PLC et le serveur, fournissez une valeur pour l'attribut DeviceSubType en tant que serveur, PLC dans Azure.&lt;/li&gt;
+&lt;li class="li step"&gt;b. Balises d'appareil : liste séparée par des virgules des balises sensibles à la casse nécessaires pour filtrer les appareils. &lt;br /&gt;Exemple : pour importer des appareils avec des balises spécifiques, fournissez une liste de valeurs à partir de l'attribut DeviceTags depuis Azure.&lt;/li&gt;
+&lt;li class="li step"&gt;c. Requête pour filtrer en fonction d'autres attributs. &lt;br /&gt;Exemple : cela permettrait de filtrer d'autres attributs. Consultez &lt;a href="https://learn.microsoft.com/en-us/azure/governance/resource-graph/concepts/query-language" target="_blank" rel="nofollow noopener noreferrer"&gt;Langage de requête Azure&lt;/a&gt; pour plus d'informations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:07</sys_created_on>
+        <sys_id>d008c375838d72907c2356e0deaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_d008c375838d72907c2356e0deaad35f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:07</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

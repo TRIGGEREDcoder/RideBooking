@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>625881e183a722107c2356e0deaad3aa</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>063f5dbcdbefd740868f5404ce961942</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>625881e183a722107c2356e0deaad3aa</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt; Un pod Kubernetes est un groupe de conteneurs déployés ensemble sur le même hôte. Cette action crée un pod dans l'instance Kubernetes.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Espace de noms&lt;/b&gt; : nom de la grappe virtuelle dans laquelle le pod doit être créé.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Nom du pod&lt;/b&gt; : nom du pod à créer.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Étiquettes du pod&lt;/b&gt; : étiquettes (paire clé-valeur) pour la création du pod, au format JSON.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Spécifications du pod&lt;/b&gt; : spécifications du pod à créer au format JSON. (Étiquettes de sélection, Étiquettes de modèle, Spécifications de conteneur…)&lt;/li&gt;  
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur « Réussite » si la demande aboutit ou sur « Erreur » si une défaillance se produit.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : est rempli si l'état est « Erreur ».&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Nom du pod&lt;/b&gt; : nom du pod créé, en cas de réussite.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Informations sur le pod&lt;/b&gt; : informations sur le pod créé en cas de réussite.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide.&lt;/li&gt;
+  &lt;li&gt;L'utilisateur ayant les informations d'identification associées à la connexion de spoke Kubernetes ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+  &lt;li&gt;L'espace de noms fourni n'est pas valide ou n'existe pas.&lt;/li&gt;
+  &lt;li&gt;Le nom de pod fourni n'est pas valide.&lt;/li&gt;
+  &lt;li&gt;Le nom de pod fourni existe déjà.&lt;/li&gt;
+  &lt;li&gt;Le champ Nom est requis et n'est pas fourni dans l'entrée Métadonnées.&lt;/li&gt;
+  &lt;li&gt;La clé Étiquettes fournie n'est pas valide.&lt;/li&gt;
+  &lt;li&gt;La valeur Étiquettes fournie n'est pas valide.&lt;/li&gt;
+  &lt;li&gt;Le nom de conteneur fourni n'est pas valide.&lt;/li&gt;
+&lt;li&gt;Noms des conteneurs en double fournis.&lt;/li&gt;
+&lt;li&gt;La valeur fournie pour le champ « spec » dans Spécifications du pod n'est pas valide.&lt;/li&gt;
+&lt;li&gt;Le champ Image est requis et n'est pas fourni dans l'entrée Spécifications du pod.&lt;/li&gt;
+&lt;li&gt;Le JSON fourni pour l'entrée Métadonnées, Spécifications du pod ou État du pod n'est pas valide.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque supplémentaire :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lorsque vous utilisez des images de conteneurs provenant d'un référentiel privé, assurez-vous d'avoir créé un secret de référentiel pour le référentiel Kubernetes.&lt;/li&gt;
+&lt;li&gt; Consultez la documentation de l'API Rest Kubernetes pour connaître la description détaillée des champs et des descriptions de chacune des entrées.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion Kubernetes et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Kubernetes.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:20:53</sys_created_on>
+        <sys_id>7d2b8f718301b2907c2356e0deaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_7d2b8f718301b2907c2356e0deaad371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:20:53</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

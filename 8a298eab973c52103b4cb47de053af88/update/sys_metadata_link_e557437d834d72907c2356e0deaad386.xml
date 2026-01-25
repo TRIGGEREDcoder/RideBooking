@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4c5801a183a722107c2356e0deaad311</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>026fb848873bc150dd3e0e1d0ebb3510</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>4c5801a183a722107c2356e0deaad311</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Met à jour la demande dans Salesforce Marketing Cloud.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ID de définition de demande :&lt;/strong&gt; ID de la demande.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nom : &lt;/strong&gt;nom de la demande.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clé : &lt;/strong&gt;clé de la demande.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Description : &lt;/strong&gt;description de la demande.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Texte de la demande&lt;/strong&gt; : texte pour la demande.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nom cible&lt;/strong&gt; : nom de la cible.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clé cible : &lt;/strong&gt;clé de la cible.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ID cible : &lt;/strong&gt;ID de la cible.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Description de la cible : &lt;/strong&gt;description de la cible.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ID du type de mise à jour cible : &lt;/strong&gt;ID du type de mise à jour de la cible.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nom du type de mise à jour cible : &lt;/strong&gt;nom du type de mise à jour de la cible.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ID de catégorie : &lt;/strong&gt;ID de la catégorie.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Est gelé : &lt;/strong&gt;spécifie que la demande est gelée ou non. Les valeurs acceptées sont Vrai et Faux.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Demande : &lt;/strong&gt;objet contenant les champs suivants :&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Date de création &lt;/strong&gt;: date à laquelle la demande a été créée.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Date de modification : &lt;/strong&gt;date à laquelle la demande a été modifiée.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt; : objet contenant les champs suivants :&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée avec succès, le code est positionné sur 0. Si la demande échoue, le code est positionné sur 1.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Message : &lt;/strong&gt;motif de l'erreur. Renseigné lorsqu'une erreur se produit.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fournissez une valeur d'entrée pour l'ID de définition de la demande.&lt;/li&gt;
+  &lt;li&gt;L'identification du GUID n'est pas valide et n'a pas pu être analysée.&lt;/li&gt;
+  &lt;li&gt;L'utilisateur n'est pas autorisé à effectuer cette action.&lt;/li&gt;
+  &lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+  &lt;li&gt;La ressource demandée est introuvable.&lt;/li&gt;
+  &lt;li&gt;Le champ obligatoire ne peut pas être laissé vide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et les informations d'identification de Salesforce Marketing Cloud correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification du spoke Salesforce Marketing Cloud. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pour en savoir plus sur les API dans le cloud de Salesforce Marketing, &lt;a href="https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/apis-overview.html"&gt;cliquez ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : Nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Lire plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:12</sys_created_on>
+        <sys_id>e557437d834d72907c2356e0deaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_e557437d834d72907c2356e0deaad386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:12</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

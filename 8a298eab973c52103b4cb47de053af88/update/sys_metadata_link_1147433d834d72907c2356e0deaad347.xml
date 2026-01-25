@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4b68416583a722107c2356e0deaad372</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>021a6ec84823d010f877d55a049395c9</documentkey>
+        <fieldname>message</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>4b68416583a722107c2356e0deaad372</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_script</tablename>
+        <value>
+	 &lt;p&gt;&lt;span style="font-family: &amp;#39;times new roman&amp;#39;, times; font-size: 10pt;"&gt;Les filtres de vos canaux ont été créés de manière personnalisée afin que vous puissiez naviguer à l'aide des canaux et des files d'attente d'Affectation des tâches avancées. Étant donné qu'ils ont été personnalisés, vous ne pouvez pas créer ou « personnaliser les filtres pour le module des canaux »&lt;/span&gt;&lt;br /&gt;&lt;/p&gt; 
+	</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:54</sys_created_on>
+        <sys_id>1147433d834d72907c2356e0deaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_1147433d834d72907c2356e0deaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:54</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

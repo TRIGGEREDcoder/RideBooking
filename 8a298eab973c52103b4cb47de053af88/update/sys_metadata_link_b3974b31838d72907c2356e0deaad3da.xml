@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c648416183a722107c2356e0deaad3a4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>040c84132548b700964f2531a89b5bfb</documentkey>
+        <fieldname>rich_text</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>c648416183a722107c2356e0deaad3a4</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sn_cd_content_portal</tablename>
+        <value>&lt;div class="circle blue"&gt;&lt;span class="fa fa-stethoscope"&gt;&lt;span class="sr-only"&gt;stéthoscope&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;h3&gt;Obtenez des conseils d'experts et de pairs parentaux&lt;/h3&gt;
+&lt;p&gt;Vous avez des questions sur la santé, des questions juridiques ou financières ?&lt;/p&gt;
+&lt;p&gt; Vous pouvez parler à des conseillers experts par l'intermédiaire du programme d'aide aux employés &lt;a href="/esc?id&amp;#61;kb_article&amp;amp;sys_id&amp;#61;bab3f75bb37c3300f5302ddc16a8dc42#planningLeave2" target="_blank" rel="noopener noreferrer nofollow"&gt;de votre entreprise.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Et si vous n'êtes pas sûr de savoir comment vous mêler aux événements destinés aux parents, demandez des conseils sur des défis communs, comme l'éducation des enfants dans le cadre d'un budget, trouver une garderies pour les nouveau-nés ou partager des tâches parentales.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:27</sys_created_on>
+        <sys_id>b3974b31838d72907c2356e0deaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_b3974b31838d72907c2356e0deaad3da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:27</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

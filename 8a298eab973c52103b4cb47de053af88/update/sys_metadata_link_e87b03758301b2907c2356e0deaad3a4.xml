@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ed68c52583a722107c2356e0deaad3a1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>074698e25b7c10102b7795763381c7c6</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>ed68c52583a722107c2356e0deaad3a1</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p id = "short_desc"&gt; Crée un service back-end.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;ID de projet&lt;/b&gt; : ID unique du projet.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom du service back-end&lt;/b&gt; : nom du service back-end.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Protocole&lt;/b&gt; : protocole que le service back-end utilise pour communiquer avec des back-ends.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Back-ends&lt;/b&gt; : liste des objets contenant ces valeurs&lt;ul&gt;&lt;li&gt; Groupe&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Vérifications de l'intégrité&lt;/b&gt; : liste des URL des vérifications de l'intégrité.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom du port&lt;/b&gt; : un port désigné dans un groupe d'instances back-end qui correspond au port qui permet de  communiquer avec les ordinateurs virtuels back-end figurant dans ce groupe.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Description&lt;/b&gt; : description facultative pour le service back-end.&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : ID unique du service back-end.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Lien automatique&lt;/b&gt; : URL définie par le serveur pour la ressource.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Lien cible&lt;/b&gt; : URL du service back-end.&lt;/li&gt;&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur « Réussite ». Si une défaillance se produit dans l'équilibreur de charge Google Cloud, l'état est défini sur « Erreur ».&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Informations d'identification non valides.&lt;/li&gt;&lt;li&gt;Projet non valide.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Pour utiliser cette action, une connexion de l'équilibreur de charge Google Cloud et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification de l'équilibreur de charge Google Cloud. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:09</sys_created_on>
+        <sys_id>e87b03758301b2907c2356e0deaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_e87b03758301b2907c2356e0deaad3a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:09</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7368856583a722107c2356e0deaad3e7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02432eb05b419010bf9f5c423381c7d7</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>7368856583a722107c2356e0deaad3e7</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Obtenez la liste de tous les champs d'un type d'élément de travail à partir d'un processus d'Azure DevOps.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque :&lt;/b&gt; les concepteurs de flux doivent s'assurer que cette action est toujours utilisée en conjonction avec les actions pertinentes qui utilisent des entrées dynamiques.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Alias de connexion&lt;/strong&gt; : enregistrement d'alias de connexion que vous souhaitez utiliser dans l'action.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID du processus&lt;/strong&gt; : processus pour lequel tous les types d'élément de travail seront récupérés.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom de référence du type d'élément de travail&lt;/strong&gt; : nom de référence du type d'élément de travail. Par exemple : Microsoft.VSTS.WorkItemTypes.Epic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Champs du type d'élément de travail&lt;/strong&gt; : objet complexe contenant le nom et le nom de référence des champs de type d'élément de travail&lt;/li&gt;&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite dans Azure DevOps, l'état est défini sur Erreur.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;L'instance Azure DevOps est inaccessible ou indisponible, car la demande a expiré.&lt;/li&gt;&lt;li&gt;Chemin de ressources non valide.&lt;/li&gt;&lt;li&gt;Soit l'URL de l'instance Azure DevOps Cloud est incorrecte, soit le serveur est inaccessible ou indisponible.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Azure DevOps Boards correspondantes doivent être créées et associées aux alias de connexion et d'informations d'identification Azure DevOps Boards.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:02</sys_created_on>
+        <sys_id>8f47873d834d72907c2356e0deaad3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_8f47873d834d72907c2356e0deaad3c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:02</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

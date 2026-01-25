@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f37881e583a722107c2356e0deaad3ba</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>00b1ff432508b700964f2531a89b5ba1</documentkey>
+        <fieldname>rich_text</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f37881e583a722107c2356e0deaad3ba</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sn_cd_content_portal</tablename>
+        <value>&lt;div class="circle blue"&gt;&lt;span class="fa fa-book"&gt;&lt;span class="sr-only"&gt;Réserver&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;h3&gt;Bases du congé parental&lt;/h3&gt;
+&lt;p&gt;Le congé parental désigne le moment où un employé qui ajoute un enfant à sa famille prend un congé pour se lier à l'enfant.&lt;/p&gt;
+&lt;p&gt;Les détails de votre congé : le nombre de jours de congé auxquels vous avez droit, votre indemnité de congé, entre autres. dépendent de vos circonstances personnelles. Nous vous aiderons à les comprendre.&lt;/p&gt;
+&lt;p&gt;Parfois, le congé parental d'une personne est fait de plusieurs autres types de congés pris successivement, l'un après l'autre. (Cela peut confondre déconcerter parents novices !)&lt;/p&gt;
+&lt;p&gt;Une fois que vous avez soumis votre demande de congé, il se peut que l'on vous demande de partager plus d'informations avec les RH avant l'approbation de votre demande. Ceci est normal. Donc si cela vous arrive, ne vous inquiétez pas.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:15</sys_created_on>
+        <sys_id>e3174f79834d72907c2356e0deaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_e3174f79834d72907c2356e0deaad363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:15</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

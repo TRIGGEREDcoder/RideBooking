@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4f68416583a722107c2356e0deaad381</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>027396e887400010ca8560e3d6cb0b93</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>4f68416583a722107c2356e0deaad381</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Obtenez les dossiers de boîte de réception pour un ID d'utilisateur requis.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;ID d'utilisateur&lt;/b&gt; : ID de l'utilisateur pour lequel récupérer les dossiers de boîte de réception. L'ID d'utilisateur peut être récupéré à l'aide de Azure AD spoke.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Priorité de limitation&lt;/strong&gt; : la priorité de la demande pendant la limitation. Les demandes de priorité basse sont limitées en premier, les demandes de priorité normale en deuxième et les demandes de priorité élevée en dernier.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;Dossiers de boîte de réception&lt;/b&gt; : liste des dossiers de boîte de réception avec les données suivantes :
+    &lt;ul&gt;
+      &lt;li&gt;ID de dossier de boîte de réception&lt;/li&gt;
+      &lt;li&gt;Nom de dossier de boîte de réception&lt;/li&gt;
+      &lt;li&gt;ID du dossier parent&lt;/li&gt;
+      &lt;li&gt;Nombre de dossiers enfants&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Réessayer après&lt;/strong&gt; : indique le délai après lequel la demande peut être réessayée en cas d'échec dans Microsoft Exchange Online suite à une demande limitée.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Code d'état&lt;/b&gt; : code d'état de la demande exécutée.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur « Réussite » si la demande aboutit ou sur « Erreur » si une défaillance se produit.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : est rempli si l'état est « Erreur ».&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Nom d'utilisateur, mot de passe ou jeton non valide ou jeton expiré.&lt;/li&gt;
+  &lt;li&gt;L'utilisateur ayant les informations d'identification associées à la connexion Microsoft Exchange Online spoke ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+  &lt;li&gt;L'ID d'utilisateur fourni n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;Trop de demandes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque supplémentaire :&lt;/b&gt; si l'ID d'utilisateur n'est pas fourni, les dossiers de boîte de réception pour le compte par défaut sont affichés.&lt;/p&gt;
+
+&lt;br&gt;
+&lt;p&gt;Include de script est utilisé dans l'action.&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion Microsoft Exchange Online et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Microsoft Exchange Online. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:13</sys_created_on>
+        <sys_id>f557837d834d72907c2356e0deaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_f557837d834d72907c2356e0deaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:13</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

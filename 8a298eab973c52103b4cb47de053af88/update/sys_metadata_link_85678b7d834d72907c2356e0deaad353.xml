@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8a58cda183a722107c2356e0deaad312</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02b1dc2b976051108cb975771153af06</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8a58cda183a722107c2356e0deaad312</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère les détails de tous les groupes dans un tableau.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID du tableau&lt;/strong&gt; : l'identificateur unique du tableau.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Groupe&lt;/strong&gt; : objet contenant les détails des groupes suivants :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Titre&lt;/strong&gt; : titre du groupe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Position&lt;/strong&gt; : la position du groupe sur le tableau.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Archivé&lt;/strong&gt; : spécifie si le groupe est archivé ou non.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supprimé&lt;/strong&gt; : spécifie si le groupe est supprimé ou non.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Élément&lt;/strong&gt; : objet contenant les détails d'éléments suivants :&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : l'identificateur unique de l'élément.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom&lt;/strong&gt; : le nom de l'élément.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt; : objet contenant les champs suivants :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée correctement, le code est défini sur 0. En cas d'échec, le code est défini sur 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ID de tableau non valide.&lt;/li&gt;
+&lt;li&gt;Fournissez une valeur d'entrée pour l'ID de tableau.&lt;/li&gt;
+&lt;li&gt;Erreur interne du serveur : une erreur est survenue dans monday.com.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et les informations d'identification correspondantes monday.com doivent être créées et associées à l'alias de connexion et d'informations d'identification monday.com. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pour en savoir plus sur cette API, &lt;/strong&gt;&lt;a href="https://developer.monday.com/api-reference/docs/groups-queries#groups-queries" target="&amp;rdquo;"&gt;cliquez ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:26</sys_created_on>
+        <sys_id>85678b7d834d72907c2356e0deaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_85678b7d834d72907c2356e0deaad353</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:26</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

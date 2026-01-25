@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>71580da183a722107c2356e0deaad339</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>00233a820f5150107b75001ea8767e4e</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>71580da183a722107c2356e0deaad339</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère les colonnes indiquées dans l'enregistrement de schéma.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Remarque :&lt;/strong&gt; les concepteurs de flux doivent s'assurer que cette action est toujours utilisée conjointement à l'action &lt;strong&gt;Ajouter au fichier délimité&lt;/strong&gt; qui utilisent des entrées dynamiques.&lt;/p&gt;
+    &lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Schéma&lt;/b&gt; - enregistrement de schéma dont les colonnes doivent être récupérées.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+    &lt;ul&gt;
+         &lt;li&gt;&lt;strong&gt;Champs&lt;/strong&gt; : objet JSON contenant le nom et l'étiquette des colonnes dans l'enregistrement de schéma.&lt;br&gt; Exemple de sortie JSON : 
+            &lt;pre&gt;{
+                 "Données" : [ 
+                    {   
+                    "étiquette" : "field_1",
+                    "nom" : "field_1"
+                    }, 
+                    {   
+                    "étiquette" : "field_2", 
+                    "nom" : "field_2"
+                    }
+                ]
+                }
+            &lt;/pre&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance dans l'exécution, l'état est défini sur « Erreur ».&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation de production. &lt;a target='_blank' href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:04</sys_created_on>
+        <sys_id>b0170779834d72907c2356e0deaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_b0170779834d72907c2356e0deaad370</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:04</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

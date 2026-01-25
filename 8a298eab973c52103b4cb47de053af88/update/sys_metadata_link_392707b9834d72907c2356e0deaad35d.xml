@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>385885a183a722107c2356e0deaad35b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>00fb93b3c344301021f5e81aa840dd5e</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>385885a183a722107c2356e0deaad35b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupère un résumé de l'activité de l'utilisateur composé d'un ensemble de résultats d'utilisateurs et des mesures associées.&lt;/p&gt; 
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+    &lt;li&gt;&lt;b&gt;Heure de début&lt;/b&gt; : heure à partir de laquelle les enregistrements doivent être inclus dans les résultats. Seul le fuseau horaire UTC est accepté.&lt;/li&gt; 
+    &lt;li&gt;&lt;b&gt;Heure de fin&lt;/b&gt; : heure jusqu'à laquelle les enregistrements doivent être  inclus dans les résultats. Seul le fuseau horaire UTC est accepté.&lt;/li&gt; 
+    &lt;li&gt;&lt;b&gt;Taille de page&lt;/b&gt; : nombre maximal d'éléments renvoyés dans une page.&lt;/li&gt; 
+    &lt;li&gt;&lt;b&gt;ID de l'organisation&lt;/b&gt; : l'identificateur unique de l'organisation. Obligatoire si l'utilisateur défini par le jeton d'accès appartient à plusieurs organisations. Sinon, l'organisation unique de l'utilisateur est utilisée.&lt;/li&gt; 
+    &lt;li&gt;&lt;b&gt;Chaîne de requête&lt;/b&gt; : chaîne de  requête utilisée pour effectuer une recherche approximative sur le nom d'utilisateur.&lt;/li&gt; 
+    &lt;li&gt;&lt;b&gt;ID d'utilisateur&lt;/b&gt; : ID d'utilisateur facultatif à filtrer lors du renvoi des résultats.&lt;/li&gt; 
+&lt;/ul&gt; 
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+    &lt;li&gt;&lt;b&gt;Résumé de l'activité&lt;/b&gt; 
+        &lt;ul&gt; 
+            &lt;li&gt;ID d'utilisateur : l'identificateur unique de l'utilisateur dans l'organisation.&lt;/li&gt; 
+            &lt;li&gt;Nom d'utilisateur : nom complet de l'utilisateur&lt;/li&gt; 
+            &lt;li&gt;Noms d'utilisateur alternatifs : noms enregistrés pour cet utilisateur pendant le délai de génération de rapports.&lt;/li&gt; 
+            &lt;li&gt;Valeurs de données : valeurs de données agrégées par mesure. 
+                &lt;ul&gt; 
+                    &lt;li&gt;Volume entrant : nom de famille de l'utilisateur.&lt;/li&gt; 
+                    &lt;li&gt;Durée entrante : durée totale du volume d'appels entrants exprimée en millisecondes.&lt;/li&gt; 
+                    &lt;li&gt;Volume sortant : volume total d'appels sortants en nombre d'appels.&lt;/li&gt; 
+                    &lt;li&gt;Durée sortante : durée totale du volume d'appels sortants exprimée en millisecondes.&lt;/li&gt; 
+                    &lt;li&gt;Durée moyenne : durée moyenne de l'appel exprimée en millisecondes.&lt;/li&gt; 
+                    &lt;li&gt;Volume : volume total d'appels en nombre d'appels.&lt;/li&gt; 
+                    &lt;li&gt;Durée totale : durée totale du volume d'appels exprimée en millisecondes.&lt;/li&gt; 
+                    &lt;li&gt;Volume de file d'attente entrante : volume total de la file d'attente entrante.&lt;/li&gt; 
+                &lt;/ul&gt; 
+            &lt;/li&gt; 
+        &lt;/ul&gt; 
+    &lt;/li&gt; 
+&lt;/ul&gt;
+ 
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification GoTo correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification GoTo. &lt;a target=”_blank” href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt; 
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target=”_blank” href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:24</sys_created_on>
+        <sys_id>392707b9834d72907c2356e0deaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_392707b9834d72907c2356e0deaad35d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:24</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

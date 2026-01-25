@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>fc5845a183a722107c2356e0deaad363</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>008d35901b6b20107457ddf7dc4bcb7d</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>fc5845a183a722107c2356e0deaad363</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>
+
+
+&lt;p&gt;Récupérer les journaux d'appels pour un compte.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;De&lt;/b&gt; : date de début de la requête.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;À&lt;/b&gt; : date de fin de la requête.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Initiateur de l'appel&lt;/b&gt; : objet complexe contenant les champs suivants :	
+    &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; de l'appelant : nom de l'appelant.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;ID &lt;/b&gt; : ID du journal d'appels.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Numéro de l'appelant&lt;/b&gt; : numéro de l'appelant.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type de numéro de l'appelant&lt;/b&gt; : type de numéro de l'appelant.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom de l'appelé&lt;/b&gt; : nom du destinataire de l'appel.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type de numéro de l'appelé&lt;/b&gt; : type de numéro du destinataire de l'appel.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Numéro de l'appelé&lt;/b&gt; : numéro du destinataire de l'appel.&lt;/li&gt;
+                        &lt;li&gt;&lt;b&gt;Direction&lt;/b&gt; : direction de l'appel.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Durée&lt;/b&gt; : durée de l'appel en secondes.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Résultat&lt;/b&gt; : résultat de l'appel.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;ID d'utilisateur&lt;/b&gt; : ID d'utilisateur du propriétaire du journal d'appels.&lt;/li&gt;
+
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;enforce_login_domains invalide ; séparer plusieurs domaines par un point-virgule.&lt;/li&gt;
+&lt;li&gt;L'utilisateur est introuvable.&lt;/li&gt;
+&lt;li&gt;L'hôte de réunion {userId} n'existe pas ou n'appartient pas à ce compte.&lt;/li&gt;
+&lt;li&gt;L'utilisateur n'appartient pas à ce compte : {accountId}&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, une connexion Zoom et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion les informations d'identification Zoom. &lt;a href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation de production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:12</sys_created_on>
+        <sys_id>fe17cb79834d72907c2356e0deaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_fe17cb79834d72907c2356e0deaad329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:12</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

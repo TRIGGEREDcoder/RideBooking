@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>70780d6583a722107c2356e0deaad3bc</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02de1b448726101017d37f9719cb0bfb</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>70780d6583a722107c2356e0deaad3bc</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Cette action récupère toutes les versions d'un fichier dans OneDrive.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;ID de fichier&lt;/b&gt; : l'ID de fichier dont les versions doivent être extraites à partir de OneDrive.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Source&lt;/b&gt; : le fichier, dont les versions doivent être extraites, se trouvant à l'intérieur d'un lecteur, d'un site, d'un groupe ou pour un utilisateur particulier peut être utilisé pour télécharger le fichier en fournissant son ID. Les options prises en charge sont les suivantes :&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Lecteur : recherche les versions d'un fichier dans un lecteur spécifique.&lt;/li&gt;
+    &lt;li&gt;Site : recherche les versions d'un fichier dans un lecteur de haut niveau appartenant à un site.&lt;/li&gt;
+    &lt;li&gt;Groupe : recherche les versions d'un fichier dans un lecteur de haut niveau appartenant à un groupe.&lt;/li&gt;
+    &lt;li&gt;Utilisateur : recherche les versions d'un fichier dans un lecteur de haut niveau appartenant à un utilisateur.&lt;/li&gt;
+    &lt;li&gt;Racine : répertoire racine associé à l'utilisateur authentifié.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;&lt;b&gt;ID de la source&lt;/b&gt; : l'ID du lecteur/groupe/site/utilisateur en fonction du choix fait dans l'option « Source ».&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Code API brut&lt;/b&gt; : code API Microsoft OneDrive pour les erreurs 4xx et 5xx.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Message API brut&lt;/b&gt; : message API Microsoft OneDrive pour les erreurs 4xx et 5xx.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Code d'état&lt;/b&gt; : code d'état Microsoft OneDrive.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Versions&lt;/b&gt; : versions du fichier sous forme d'un tableau d'objets.&lt;/li&gt;    
+    &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur « Réussite » si la demande aboutit ou sur « Erreur » si une défaillance se produit.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : est rempli si l'état est « Erreur ».&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide.&lt;/li&gt;
+    &lt;li&gt;L'utilisateur ayant les informations d'identification associées à la connexion de spoke OneDrive ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+    &lt;li&gt;Ficher introuvable ou l'utilisateur ayant les informations d'identification associées ne possède pas l'autorisation d'accéder au dossier.&lt;/li&gt;
+    &lt;li&gt;L'ID de fichier, l'ID fourni pour le lecteur/site/utilisateur/groupe ou le nom de fichier est incorrect ou l'utilisateur ayant les informations d'identification associées n'a pas l'autorisation d'accéder au fichier.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion OneDrive et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification OneDrive. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:33</sys_created_on>
+        <sys_id>aa67cf7d834d72907c2356e0deaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_aa67cf7d834d72907c2356e0deaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:33</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

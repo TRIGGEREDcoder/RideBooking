@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>885801a183a722107c2356e0deaad37b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>031c3fc6877020108d4c4b3de8cb0b83</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>885801a183a722107c2356e0deaad37b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupérer les informations sur une conversation.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;ID du canal&lt;/b&gt; : ID unique du canal.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Inclure les paramètres régionaux&lt;/b&gt; : activez vrai pour recevoir les paramètres régionaux de cette conversation.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Inclure le nombre de membres&lt;/b&gt; : activez vrai pour inclure le nombre de membres de la conversation spécifiée.&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur Réussite si la demande aboutit ou sur Erreur si une défaillance se produit dans Slack.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : motif de l'erreur. Renseigné uniquement lorsqu'une erreur se produit.
+L'état ne sera Erreur qu'en cas de défaillance dans Slack.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : ID unique du canal.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : nom du canal.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Est Canal&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Est Groupe&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Est IM&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Créé&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Est Archivé&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Est Général&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Nom normalisé&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Est Partagé&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Créateur&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Est Membre&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Est Privé&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Dernière lecture&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Est Ouvert&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Paramètres régionaux&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Nombre de membres&lt;/b&gt; :&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Corps de la réponse&lt;/b&gt; : la réponse JSON contient des informations de conversation récupérées.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Canal introuvable&lt;/li&gt;
+&lt;li&gt;Non authentifié&lt;/li&gt;
+&lt;li&gt;Périmètre manquant&lt;/li&gt;
+&lt;li&gt;Accès à l'équipe non accordé&lt;/li&gt;
+&lt;li&gt;Authentification non valide&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; Pour utiliser cette action, une connexion Slack et des informations d'identification correspondantes doivent être créées et associées à l'alias de connexion les informations d'identification Slack.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:43</sys_created_on>
+        <sys_id>05774bbd834d72907c2356e0deaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_05774bbd834d72907c2356e0deaad3bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:43</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

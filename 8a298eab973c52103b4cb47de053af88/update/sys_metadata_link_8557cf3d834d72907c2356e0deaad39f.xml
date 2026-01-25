@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8a584da183a722107c2356e0deaad3c7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0261dfec97468d108ac03f0e6253afed</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8a584da183a722107c2356e0deaad3c7</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupère les détails d'une campagne en fonction de l'ID.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID de campagne : &lt;/strong&gt;identificateur unique de la campagne dont les données doivent être récupérées.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Campagne : &lt;/strong&gt;objet contenant les champs suivants :&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Favori : &lt;/strong&gt;détermine si la campagne est marquée comme favori ou non.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Couleur : &lt;/strong&gt;spécifie la valeur de couleur hexadécimale.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code de la campagne : &lt;/strong&gt;&lt;em&gt;code&lt;/em&gt; unique pour identifier la campagne&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Description :&lt;/strong&gt; description de la campagne.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom :&lt;/strong&gt; nom de la campagne.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date de modification : &lt;/strong&gt;date à laquelle la campagne a été modifiée.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date de création : &lt;/strong&gt;date à laquelle la campagne a été créée.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt; : objet contenant les champs suivants :&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée avec succès, le code est positionné sur 0. Si la demande échoue, le code est positionné sur 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message : &lt;/strong&gt;motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La campagne n'existe pas.&lt;/li&gt;
+&lt;li&gt;Fournissez une valeur d'entrée pour l'ID de campagne.&lt;/li&gt;
+&lt;li&gt;Session expirée ou non valide.&lt;/li&gt;
+&lt;li&gt;Erreur du serveur interne : une erreur s'est produits dans Sales Force Marketing Cloud.&lt;/li&gt;
+&lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et les informations d'identification de Salesforce Marketing Cloud correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification du spoke Salesforce Marketing Cloud. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pour en savoir plus sur les API dans le cloud de Salesforce Marketing, &lt;a href="https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/apis-overview.html"&gt;cliquez ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque &lt;/strong&gt;: nécessite un abonnement&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;pour une utilisation en production.&lt;/a&gt; En savoir plus.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:10</sys_created_on>
+        <sys_id>8557cf3d834d72907c2356e0deaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_8557cf3d834d72907c2356e0deaad39f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:10</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9f68816583a722107c2356e0deaad3f0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>067bc2e8535130104d4cddeeff7b12af</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>9f68816583a722107c2356e0deaad3f0</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Mettre à jour l'enregistrement dans l'environnement Ansible Tower.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : ID unique de l'enregistrement qui doit être mis à jour.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; :  nom de cet enregistrement.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Entité&lt;/b&gt; :  entité dans laquelle les enregistrements doivent être créés.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Champs supplémentaires&lt;/b&gt; : champs supplémentaires requis pour créer un enregistrement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID unique de l'enregistrement est créé pour une entité après une exécution réussie.&lt;/li&gt;	
+  &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur Réussite. En cas de défaillance dans Ansible, l'état est défini sur Erreur.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; : &lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Le nom (entité) existe déjà.&lt;/li&gt;
+  &lt;li&gt;La valeur fournie pour l'une des entrées n'est pas valide.&lt;/li&gt;
+  &lt;li&gt;Veuillez fournir un JSON ou YAML valide.&lt;/li&gt;
+  &lt;li&gt;Veuillez fournir des informations d'identification d'aperçu valides.&lt;/li&gt;
+  &lt;li&gt;Les inventaires intelligents doivent spécifier le filtre d'hôte.&lt;/li&gt;
+  &lt;li&gt;Nom d'utilisateur, mot de passe ou jeton non valide ou jeton expiré.&lt;/li&gt;
+  &lt;li&gt;L'utilisateur ne dispose pas d'une autorisation suffisante pour effectuer cette action.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Ansible correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Ansible. &lt;a href="http&lt;/b&gt; - //docs.servicenow.com/?context=CSHelp&lt;/b&gt; - credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt;&lt;/b&gt; :  nécessite un abonnement pour une utilisation en production. &lt;a href="https&lt;/b&gt; - //docs.servicenow.com/?context=CSHelp&lt;/b&gt; - IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:11</sys_created_on>
+        <sys_id>5e3b4bb18301b2907c2356e0deaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_5e3b4bb18301b2907c2356e0deaad3fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:11</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

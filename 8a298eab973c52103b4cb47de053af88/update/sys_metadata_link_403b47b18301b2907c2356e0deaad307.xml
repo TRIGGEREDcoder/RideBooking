@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>257881a583a722107c2356e0deaad338</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06633d9e0bec541057d8482393673a6c</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>257881a583a722107c2356e0deaad338</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Met à jour les vérifications de l'intégrité utilisées pour évaluer l'état d'intégrité des cibles dans le groupe cible spécifié.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Région&lt;/strong&gt; : région Amazon.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ARN du groupe cible&lt;/strong&gt; : ARN du groupe cible.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vérification de l'intégrité activée&lt;/strong&gt; : option permettant d'activer la vérification de l'intégrité.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intervalle en secondes de la vérification de l'intégrité&lt;/strong&gt; : durée entre les vérifications de l'intégrité d'une cible individuelle.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Délai d'expiration en secondes de la vérification de l'intégrité&lt;/strong&gt; : durée au cours de laquelle l'absence de réponse signifie un échec de la vérification de l'intégrité.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protocole de vérification de  l'intégrité&lt;/strong&gt; : protocole utilisé par l'équilibreur de charge  pour effectuer des vérifications de l'intégrité sur les cibles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Port de vérification de l'intégrité&lt;/strong&gt; : port utilisé par l'équilibreur de charge pour effectuer des vérifications de l'intégrité sur les cibles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite, l'état est défini sur Erreur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;li&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt; :&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;ARN des groupes cibles introuvable.&lt;/li&gt;
+&lt;/ul&gt;
+(Pour plus d'informations sur les erreurs communes à toutes les actions, voir &lt;a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/CommonErrors.html" target="_blank"&gt;Erreurs courantes&lt;/a&gt;).
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification AWS Elastic Load Balancing correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification AWS Elastic Load Balancing. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:02</sys_created_on>
+        <sys_id>403b47b18301b2907c2356e0deaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_403b47b18301b2907c2356e0deaad307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:02</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

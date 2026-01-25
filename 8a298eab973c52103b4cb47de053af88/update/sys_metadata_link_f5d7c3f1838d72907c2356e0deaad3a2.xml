@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5b68c16583a722107c2356e0deaad3b1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>04f9abe7c3123100d5907bfaa2d3aef3</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>5b68c16583a722107c2356e0deaad3b1</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sysevent_in_email_action</tablename>
+        <value>Cette action d'e-mail entrante est déclenchée lorsqu'un e-mail est envoyé à ServiceNow et :
+
+1. L'e-mail n'est pas une réponse ni un transfert.
+2. L'action entrante de création d'un ticket via le canal n'est pas déclenchée.
+3. L'objet de l'e-mail commençait avec un préfixe configuré dans Service client -&gt; Administration -&gt; Propriétés d'e-mail : Format de préfixe d'objet d'e-mail pour le nouveau ticket. (Le préfixe de l'objet est « Ticket : » par défaut)
+
+
+Cette action d'e-mail entrant peut définir les champs d'un nouveau ticket :
+
+contact
+short_description
+description
+canal
+compte
+
+En plus de pouvoir définir les valeurs des champs cités ci-dessus dans l'e-mail de façon explicite, les propriétés suivantes s'appliquent automatiquement :
+
+1. Le contact du ticket est défini sur l'expéditeur, si son adresse e-mail est enregistrée.
+2. L'objet de l'e-mail est défini sur la description brève du ticket.
+3. L'ensemble de l'e-mail est défini sur la description du ticket.
+4. Le canal du ticket est défini sur « e-mail ».
+5. Le compte du ticket est défini sur le compte de l'expéditeur si ce dernier est correct.
+
+
+Exemple d'e-mail : Cet e-mail créera un nouveau ticket avec les éléments suivants :
+
+1. Le ticket internal_contact est défini sur « Fred Luddy ».
+2. La brève description du ticket sera définie sur « Ticket : connexion impossible au réseau sans fil ».
+3. La description du ticket sera définie sur l'ensemble du corps de l'e-mail.
+4. Le canal du ticket est défini sur « e-mail »
+5. Le compte du ticket est défini sur le compte approprié
+
+-----
+
+De : 	Fred Luddy &lt;fred.luddy@example.com&gt;
+Objet : Ticket : connexion impossible au réseau sans fil
+Date : 11 	juin 2013 13:44:55 PDT
+À : 	        ServiceNow
+
+Le réseau sans fil est indisponible depuis 30 minutes. 
+
+affecter : Bow Ruggeri
+
+-----</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:24</sys_created_on>
+        <sys_id>f5d7c3f1838d72907c2356e0deaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_f5d7c3f1838d72907c2356e0deaad3a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:24</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2c68cde183a722107c2356e0deaad3e5</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>07910a7897645150f10cf1271153af32</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>2c68cde183a722107c2356e0deaad3e5</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupère les détails des fichiers dans un tableau spécifique. Tout fichier chargé sur monday.com est enregistré en tant qu'actif. Chaque actif a un ID qui est utilisé pour l'identifier de façon unique dans un compte.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID du tableau&lt;/strong&gt; : l'identificateur unique du tableau.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Limite&lt;/strong&gt; : le nombre de fichiers renvoyés. La valeur par défaut est 25.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fichier&lt;/strong&gt; : Objet contenant les détails de ce fichier :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID de fichier&lt;/strong&gt; : l'identificateur unique du fichier.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom du fichier&lt;/strong&gt; : le nom du fichier.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;URL de fichier&lt;/strong&gt; : l'URL permettant d'afficher l'actif. Cette URL ne sera disponible que pour les utilisateurs qui auront accès au fichier, dans le cadre de votre compte. Si le fichier est stocké sur un tableau privé ou partageable, il devra également faire partie du tableau en question.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Créé le/à&lt;/strong&gt; : la date et l'heure auxquelles le fichier a été créé.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Taille du fichier&lt;/strong&gt; : taille du premier fichier, en octets.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extension de fichier&lt;/strong&gt; : l'extension du fichier.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Miniature de l'URL de fichier&lt;/strong&gt; : l'URL permettant d'afficher l'actif en mode miniature. Cette option n'est disponible que pour les images.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;URL publique du fichier&lt;/strong&gt; : l'URL publique de l'actif est valide pendant 1 heure. Les utilisateurs sans profil d'utilisateur monday.com peuvent utiliser ce lien pour voir le fichier directement, tant que le lien est valide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt; : objet contenant les champs suivants :
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée correctement, le code est défini sur 0. En cas d'échec, le code est défini sur 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ID de tableau non valide.&lt;/li&gt;
+&lt;li&gt;Valeur limite non valide.&lt;/li&gt;
+&lt;li&gt;Fournissez une valeur d'entrée pour l'ID de tableau.&lt;/li&gt;
+&lt;li&gt;Erreur interne du serveur : une erreur est survenue dans monday.com.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et les informations d'identification correspondantes monday.com doivent être créées et associées à l'alias de connexion et d'informations d'identification monday.com. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pour en savoir plus sur cette API, &lt;/strong&gt;&lt;a href="https://developer.monday.com/api-reference/docs/files-queries#querying-assets-as-part-of-items-or-updates" target="&amp;rdquo;"&gt;cliquez ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:31</sys_created_on>
+        <sys_id>f58b8f758301b2907c2356e0deaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_f58b8f758301b2907c2356e0deaad361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:31</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>bd68092583a722107c2356e0deaad3f4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>059927c6c34220105e0599ccc840dd1d</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>bd68092583a722107c2356e0deaad3f4</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère les détails de tous les abonnements à un webhook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Priorité de limitation&lt;/strong&gt; : la priorité de la demande pendant la limitation. Les demandes de priorité basse sont limitées en premier, les demandes de priorité normale en deuxième et les demandes de priorité élevée en dernier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Détails de l'abonnement&lt;/strong&gt; : objet contenant les détails de l'abonnement :
+&lt;ul&gt;
+&lt;li&gt;ID&lt;/li&gt;
+&lt;li&gt;Ressource&lt;/li&gt;
+&lt;li&gt;ID d'application&lt;/li&gt;
+&lt;li&gt;ID du créateur&lt;/li&gt;
+&lt;li&gt;Type de changement&lt;/li&gt;
+&lt;li&gt;URL de notification&lt;/li&gt;
+&lt;li&gt;Date/Heure d'expiration&lt;/li&gt;
+&lt;li&gt;URL de notification du cycle de vie&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;br&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion Microsoft Exchange Online et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Microsoft Exchange Online. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:11</sys_created_on>
+        <sys_id>95088775838d72907c2356e0deaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_95088775838d72907c2356e0deaad32d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:11</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8478c56583a722107c2356e0deaad3f7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>030d5eb1dbf400107d8f75921f961974</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8478c56583a722107c2356e0deaad3f7</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Met à jour un événement en supprimant la liste des utilisateurs spécifiés. Cette méthode prend en charge la sémantique des correctifs. Les valeurs de champ que vous spécifiez remplacent les valeurs existantes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID de calendrier&lt;/strong&gt; : l'identificateur du calendrier. Si vous souhaitez accéder au calendrier principal de l'utilisateur actuellement connecté, utilisez le mot clé « Principal ».&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID d'événement&lt;/strong&gt; : ID identificateur de l'événement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants&lt;/strong&gt; : tableau des adresses e-mail des participants. Il doit s'agir d'adresses e-mail valides selon le format RFC 5322.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : défini sur Réussite si la demande aboutit, ou sur Erreur si une défaillance se produit lors de la mise à jour d'un événement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : la description de l'erreur qui s'est produite. Rempli si l'erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Champ obligatoire vide, entrée non valide ou combinaison non valide de valeurs d'entrée.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;La ressource spécifiée est introuvable (lorsque la ressource demandée [avec  l'ID de calendrier] n'a jamais existé ou lors de l'accès à un calendrier auquel l'utilisateur ne peut pas accéder).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;L'utilisateur a atteint le taux de demande maximal de l'API Google Agenda par calendrier ou par utilisateur authentifié.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;En-tête d'autorisation non valide. Le jeton d'accès que vous utilisez est soit expiré, soit non valide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;Pour utiliser cette action, la  connexion et les informations d'identification du Calendrier Google correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification du Calendrier Google. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank" rel="noopener"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank" rel="noopener"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:41</sys_created_on>
+        <sys_id>20770bbd834d72907c2356e0deaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_20770bbd834d72907c2356e0deaad311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:41</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

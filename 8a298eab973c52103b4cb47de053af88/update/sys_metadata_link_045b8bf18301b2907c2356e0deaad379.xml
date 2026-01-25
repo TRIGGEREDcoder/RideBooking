@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>665881e183a722107c2356e0deaad3b2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06c341d1931510106b543511e57ffb3c</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>665881e183a722107c2356e0deaad3b2</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p id = "short_desc"&gt; Importe un enregistrement d'une table de problèmes dans l'instance distante vers l'instance locale. L'action d'importation s'effectue par insertion de l'enregistrement remoteProblem avec le sys_id indiqué dans le jeu d'importation respectif sélectionné. Ensuite, les cartes de transformation, qui ont été configurées dans ce jeu d'importation, agit sur l'enregistrement et crée un enregistrement dans la table de problèmes locale.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;ID de problème distant&lt;/b&gt; : sys_id du problème de l'instance distante&lt;/li&gt;&lt;li&gt;&lt;b&gt;Jeu d'importation local&lt;/b&gt; : jeu d'importation de l'instance locale&lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance dans l'instance locale/distante de ServiceNow, l'état est défini sur « Erreur ».&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : raison de l'erreur. Ce champ est renseigné uniquement lorsqu'une erreur se produit.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Enregistrement cible&lt;/b&gt; : liste des objets contenant ces valeurs&lt;ul&gt;&lt;li&gt; Valeur d'affichage&lt;/li&gt;&lt;li&gt; Message d'erreur&lt;/li&gt;&lt;li&gt; ID système&lt;/li&gt;&lt;li&gt; Carte de transformation&lt;/li&gt;&lt;li&gt; Lien d'enregistrement&lt;/li&gt;&lt;li&gt; Nom d'affichage&lt;/li&gt;&lt;li&gt; Table&lt;/li&gt;&lt;li&gt; Statut&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Enregistrement du jeu d'importation&lt;/b&gt; : objet complexe contenant les champs suivants : -&lt;ul&gt;&lt;li&gt; Jeu d'importation&lt;/li&gt;&lt;li&gt; Table intermédiaire&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Informations d'identification non valides.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification de l'instance ServiceNow distante correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification de l'instance ServiceNow distante. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;  
+&lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:35</sys_created_on>
+        <sys_id>045b8bf18301b2907c2356e0deaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_045b8bf18301b2907c2356e0deaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:35</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

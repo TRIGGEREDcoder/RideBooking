@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1536901_ride_b_0.Ride Booking Audience</api_name>
+        <description/>
+        <name>Ride Booking Audience</name>
+        <role_names/>
+        <roles name="x_1536901_ride_b_0.agent">7e29ceab973c52103b4cb47de053af64</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 14:23:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5f29ceab973c52103b4cb47de053afc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ride Booking Audience</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_ux_applicability_5f29ceab973c52103b4cb47de053afc1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 14:23:59</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

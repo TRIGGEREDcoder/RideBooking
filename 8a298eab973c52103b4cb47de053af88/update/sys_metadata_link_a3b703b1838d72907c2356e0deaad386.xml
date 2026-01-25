@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d0688de183a722107c2356e0deaad3e4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>047578c6ebe322008a1f4d3df106fea5</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>d0688de183a722107c2356e0deaad3e4</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_group</tablename>
+        <value>&lt;p&gt;Avec l'application Gestion des configurations, créez des représentations logiques des ressources, des services et des relations qui existent entre ceux qui composent l'infrastructure de votre organisation. Les détails concernant ces composants sont stockés dans la base de données de gestion des configurations (CMDB), que vous pouvez utiliser pour surveiller l'infrastructure, ce qui contribue à l'intégrité, à la stabilité et à l'exploitation continue des services.&lt;/p&gt;
+&lt;p&gt;   &lt;/p&gt;
+&lt;style type="text/css"&gt;&lt;!-- p.p1 {margin: 0.0px 0.0px 0.0px 48.0px; text-indent: -24.0px; font: 15.0px Calibri; background-color: #fffb01} --&gt;&lt;/style&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:58</sys_created_on>
+        <sys_id>a3b703b1838d72907c2356e0deaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_a3b703b1838d72907c2356e0deaad386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:58</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

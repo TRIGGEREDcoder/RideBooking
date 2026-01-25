@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f368856583a722107c2356e0deaad329</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0142def4779d11105fff7277ba5a9940</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f368856583a722107c2356e0deaad329</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Répertorie les disques partagés dans BigFix Inventory. Il s'agit d'une action de flux de données. Par conséquent, toutes les actions dans sa boucle seront exécutées une fois par enregistrement.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Colonnes&lt;/b&gt; : choisissez les colonnes à récupérer dans la réponse. Si vous ne spécifiez pas ce paramètre, toutes les colonnes sont récupérées.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Critères&lt;/b&gt; : critères pour récupérer les enregistrements requis.&lt;ul&gt;&lt;li&gt;Les critères doivent être fournis au format suivant : critères ={&lt;boolean-operator&gt;:[&lt;i&gt;&lt;criterion&gt;&lt;/i&gt;]}.&lt;/li&gt;&lt;li&gt;Ici, &lt;criterion&gt; doit être au format suivant : critère =[&lt;column&gt;,&lt;operator&gt;,&lt;value&gt;].&lt;/li&gt;&lt;/ul&gt;Par exemple, pour récupérer les enregistrements avec l'ID d'ordinateur spécifié et le fournisseur du bios, les critères peuvent être : {"and":[ ["computer_id","=" ,"19"] , ["bios_vendor","=" ,"Phoenix Technologies LTD"]]}.&lt;br&gt;&lt;a href="https://help.hcltechsw.com/bigfix/9.5/inventory/Inventory/integration/r_common_operators_connectors.html"&gt;Cliquez ici&lt;/a&gt; pour en savoir plus sur la syntaxe. Si vous laissez ce champ vide, tous les enregistrements seront récupérés.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Trier par&lt;/b&gt; : permet de trier les détails des processeurs selon les colonnes disponibles par ordre croissant ou décroissant. Il est défini par défaut sur Croissant.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Taille de la page&lt;/b&gt; : nombre d'enregistrements récupérés par le flux de données par appel REST. La valeur par défaut est 100.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/p&gt;
+&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Objet complexe contenant ces champs :&lt;/li&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt; &lt;b&gt;ID de disque partagé&lt;/b&gt; : l'identificateur du produit logiciel.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;État&lt;/b&gt; : indique l'état de l'ordinateur désigné pour analyser l'instance de disque partagé. Les valeurs possibles sont les suivantes :
+            &lt;ul&gt;
+                &lt;li&gt;0 : disque partagé détecté&lt;/li&gt;
+                &lt;li&gt;1 : disque enfant partagé&lt;/li&gt;
+                &lt;li&gt;2 : désignation d'un ordinateur&lt;/li&gt;
+                &lt;li&gt;3 : en attente de l'analyse logicielle&lt;/li&gt;
+                &lt;li&gt;4 : OK&lt;/li&gt;
+                &lt;li&gt;5 : désignation d'un nouveau répertoire de niveau supérieur&lt;/li&gt;
+                &lt;li&gt;6 : désignation d'un nouvel ordinateur&lt;/li&gt;
+                &lt;li&gt;7 : en attente de l'analyse logicielle sur l'ordinateur nouvellement désigné&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;ID du parent&lt;/b&gt; : l'identificateur du parent de l'instance de disque partagé.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Niveau supérieur&lt;/b&gt; : indique la structure du disque partagé.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Répertoire exporté&lt;/b&gt; : répertoire exporté vers le disque partagé.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Type&lt;/b&gt; : type du disque partagé. Les valeurs possibles sont les suivantes :
+            &lt;ul&gt;&lt;li&gt;0 : système de fichiers réseau&lt;/li&gt;
+                    &lt;li&gt;1 : système de fichiers Samba&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Nombre d'ordinateurs&lt;/b&gt; : nombre d'ordinateurs sur lesquels le disque partagé est installé.&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; Pour utiliser cette action, une  connexion et des informations d'identification correspondantes doivent être créées avec la clé API d'un utilisateur de BigFix Inventory. &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:32</sys_created_on>
+        <sys_id>f327cbb9834d72907c2356e0deaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_f327cbb9834d72907c2356e0deaad3da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:32</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

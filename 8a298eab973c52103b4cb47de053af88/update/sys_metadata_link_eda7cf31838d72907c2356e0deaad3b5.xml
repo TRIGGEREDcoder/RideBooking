@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>37484d6183a722107c2356e0deaad3bf</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>04184c5fdb021050ab1354e4dc96190d</documentkey>
+        <fieldname>article</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>37484d6183a722107c2356e0deaad3bf</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;p&gt;&lt;span style="color: #dd9122;"&gt;&lt;strong&gt;Obligatoire&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;L'activation du module d'extension Messagerie instantanée d'agent est requise pour accéder à la page de cette tâche.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;L'installation du chat est votre concentrateur de configuration pour les options de Messagerie instantanée d'agent. Activez les options suivantes pour améliorer davantage l'expérience de vos utilisateurs avec la Messagerie instantanée d'agent en direct.&lt;/p&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Les &lt;strong&gt;paramètres du nom de l'agent&lt;/strong&gt; contrôlent le mode d'affichage des noms et des avatars de l'agent dans la fenêtre de chat.&lt;/li&gt;&lt;li&gt;Le &lt;strong&gt;téléchargement de la transcription&lt;/strong&gt; permet aux utilisateurs finaux de télécharger une copie du texte de leur conversation à partir du client de la messagerie instantanée sur le Web.&lt;/li&gt;&lt;li&gt;La &lt;strong&gt;détection de blasphème &lt;/strong&gt;empêche l'affichage de mots ou d'expression inappropriés.&lt;/li&gt;&lt;li&gt;Les &lt;strong&gt;contrôles de barre d'outils &lt;/strong&gt;sont des actions rapides proposées aux agents dans l'interface de la messagerie instantanée.&lt;/li&gt;&lt;li&gt;Le &lt;strong&gt;chuchotage&lt;/strong&gt; permet aux gestionnaires d'aider les agents pendant leur conversation avec un client sans que l'utilisateur final ne le sache.&lt;/li&gt;&lt;li&gt;Les &lt;strong&gt;emojis &lt;/strong&gt;permettent aux agents d'utiliser des emojis.&lt;/li&gt;&lt;li&gt;Les &lt;strong&gt;temps d'attente estimés&lt;/strong&gt; informent automatiquement les clients de leur place dans la file d'attente après un transfert à un agent en direct.&lt;/li&gt;&lt;li&gt;Les &lt;strong&gt;messages de transfert et d'absence d'agent&lt;/strong&gt; informent automatiquement les clients de leur transfert vers un autre agent.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Les fonctions suivantes exigent une gestion des licences PRO :&lt;/p&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Le &lt;strong&gt;pilote automatique de l'agent&lt;/strong&gt; permet aux agents d'utiliser des actions rapides pour invoquer une rubrique Agent virtuel qui guide automatiquement un demandeur tout au long des questions ou des tâches pré-configurées. L'activation de Agent virtuel est requise.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Traduction dynamique pour le chat d'agent (DTAC)&lt;/strong&gt; traduit automatiquement les messages entre les agents et les utilisateurs finaux lorsqu'ils ne partagent pas une langue commune. La DTAC est automatiquement activée avec l'activation du module d'extension Traduction dynamique pour le chat d'agent.&lt;/li&gt;&lt;/ul&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:34</sys_created_on>
+        <sys_id>eda7cf31838d72907c2356e0deaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_eda7cf31838d72907c2356e0deaad3b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:34</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

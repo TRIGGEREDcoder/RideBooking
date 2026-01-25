@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>bf7881e583a722107c2356e0deaad33c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>045db08653303300aae3ddeeff7b122c</documentkey>
+        <fieldname>article</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>bf7881e583a722107c2356e0deaad33c</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;p&gt;Les incidents majeurs peuvent être créés de façon manuelle ou automatique à partir d'une alerte à l'aide des règles de gestion des alertes. L'&lt;strong&gt;état d'incident majeur&lt;/strong&gt; est défini sur &lt;strong&gt;Proposé&lt;/strong&gt; ou &lt;strong&gt;Accepté&lt;/strong&gt; selon les règles prédéfinies.&lt;/p&gt;
+&lt;p&gt;Les deux règles de gestion des alertes du système de base, &lt;strong&gt;Créer un incident majeur &lt;/strong&gt;et &lt;strong&gt;Créer un candidat aux incidents majeurs, &lt;/strong&gt;sont désactivées par défaut. Vous pouvez activer les règles de gestion des alertes et mettre à jour les conditions de filtre des alertes afin de contrôler la façon dont les incidents majeurs sont créés. De plus, vous pouvez modifier les flux secondaires, &lt;strong&gt;Créer un incident majeur à partir d'une alerte &lt;/strong&gt;et&lt;strong&gt; Créer un candidat aux incidents majeurs, &lt;/strong&gt;afin de créer de façon manuelle ou automatique un enregistrement de l'incident.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:51</sys_created_on>
+        <sys_id>35b70f71838d72907c2356e0deaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_35b70f71838d72907c2356e0deaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:51</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

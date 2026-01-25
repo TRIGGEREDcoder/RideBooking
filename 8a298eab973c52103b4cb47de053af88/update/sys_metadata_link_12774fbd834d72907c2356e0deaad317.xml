@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>88680de183a722107c2356e0deaad3be</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>033c21d54353211028a643852db8f2eb</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>88680de183a722107c2356e0deaad3be</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupère la liste de tous les groupes auxquels un utilisateur particulier appartient.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Nom d'utilisateur&lt;/b&gt; : nom identifiant l'utilisateur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Groupes &lt;/b&gt;: tableau d'objets de groupe auquel l'utilisateur appartient avec les champs suivants :&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Nom du groupe&lt;/b&gt; : nom du groupe.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Date de création&lt;/b&gt; : date à laquelle le groupe est créé.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Chemin d'accès&lt;/b&gt; : chemin d'accès du groupe.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite dans AWS IAM, l'état est défini sur Erreur.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;La demande est refusée, car elle fait référence à une entité de ressource qui n'existe pas. Le message d'erreur décrit la ressource.&lt;/li&gt;
+    &lt;li&gt; Le traitement de la demande a échoué en raison d'une erreur inconnue, d'une exception ou d'une défaillance.&lt;/li&gt;
+&lt;/ul&gt;(Pour plus d'informations sur les erreurs communes à toutes les actions, voir &lt;a href="https://docs.aws.amazon.com/IAM/latest/APIReference/Welcome.html" target="_blank"&gt;Erreurs courantes&lt;/a&gt;).
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification AWS IAM correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification AWS IAM. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:48</sys_created_on>
+        <sys_id>12774fbd834d72907c2356e0deaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_12774fbd834d72907c2356e0deaad317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:48</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

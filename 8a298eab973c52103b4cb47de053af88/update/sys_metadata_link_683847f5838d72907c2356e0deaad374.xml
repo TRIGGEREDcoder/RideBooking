@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ef880d2983a722107c2356e0deaad36e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0629bc06470221009eaff6df1d9a7146</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>ef880d2983a722107c2356e0deaad36e</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Indique le format des fichiers zip UCF avec les  indicateurs Année [YY] et Trimestre [Q]. Par exemple, si le format défini est « [YY]Q[Q]_Final_XML.zip » et que l'année/trimestre souhaité pour le téléchargement est le second trimestre 2014, le fichier qui doit être téléchargé sera « 14Q2_Final_XML.zip » Vous pouvez le modifier uniquement si le site UCF change les conventions d'appellation de fichier par défaut. &#13;
+&#13;
+Actuellement, UCF utilise un format d'année à 2 chiffres (YY) et un trimestre à deux valeurs alphanumériques Q1 à Q4 au début du nom de fichier.</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:58</sys_created_on>
+        <sys_id>683847f5838d72907c2356e0deaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_683847f5838d72907c2356e0deaad374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:58</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

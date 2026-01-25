@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7c5885a183a722107c2356e0deaad30d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>028c939a87f501102e71422e0ebb3537</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>7c5885a183a722107c2356e0deaad30d</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p id="short_desc"&gt; Récupère tous les éléments de ligne d'une facture spécifiée.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id="inputs"&gt;
+    &lt;li&gt;&lt;b&gt;Numéro de client&lt;/b&gt; : l'identificateur unique affecté par Aria indiquant le client Aria qui fournit un service à ce compte.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Clé d'authentification&lt;/b&gt; : la clé unique affectée par Aria à transmettre avec chaque appel de méthode pour authentifier la validité du demandeur.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Numéro d'acct&lt;/b&gt; : l'identificateur de compte affecté par Aria. Cette valeur est unique pour tous les comptes gérés par Aria.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID de transaction Src&lt;/b&gt; : l'ID de transaction Aria ou le numéro de facture Aria de la facture.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID de l'appelant Alt&lt;/b&gt; : la personne ou le processus qui a soumis l'appel d'API. Il peut s'agir de l'ID d'utilisateur de quelqu'un ou du nom d'une application.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Qualificateurs de transaction facultatifs&lt;/b&gt; : un tableau de valeurs supplémentaires que vous pouvez associer à cet appel d'API.&lt;/li&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id='outputs'&gt;
+    &lt;li&gt;&lt;b&gt;Détails de la facture&lt;/b&gt; : objet contenant 
+    la liste des champs avec les détails de toutes les réclamations.
+     &lt;ul&gt;
+
+                    &lt;li&gt;&lt;b&gt;Éléments de ligne de facture&lt;/b&gt; : un tableau des éléments de ligne de facture pour cette facture.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nº de ligne&lt;/b&gt; : le numéro de ligne séquentiel de cet élément de ligne. La valeur de l'enregistrement initial est toujours de 1.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nº de service&lt;/b&gt; : l'identificateur de service unique affecté par Aria&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nom du service&lt;/b&gt; : le nom correspondant au code de service de cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Unités&lt;/b&gt; : le nombre d'unités de ce code de service facturées sur cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Taux unitaire&lt;/b&gt; : le taux par unité facturée.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Montant&lt;/b&gt; : le montant total de cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Description&lt;/b&gt; : la description de texte de cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Début de la plage de dates&lt;/b&gt; : (déconseillé) la plage de dates de début pour cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Fin de la plage de dates&lt;/b&gt; : (déconseillé) la plage de dates de fin pour cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nº du type d'utilisation&lt;/b&gt; : le code du type d'utilisation associé à cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nº du plan&lt;/b&gt; : l'ID de plan unique associé à cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nom du plan&lt;/b&gt; : le nom du plan associé à cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Description du code de motif de crédit&lt;/b&gt; : la longue description du code de motif de crédit qui a été appliqué, le cas échéant.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Commentaires CSR&lt;/b&gt; : commentaires CSR saisis manuellement, le cas échéant.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;UGS client&lt;/b&gt; : l'identificateur de l'élément défini par le client.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nº de commande&lt;/b&gt; : l'identificateur unique d'une commande dans le contexte d'un client_no et d'un account_no.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nº de l'élément&lt;/b&gt; : l'ID unique de l'élément en cours de récupération.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;ID du service client&lt;/b&gt; : l'ID de service unique défini par le client associé à cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;CD de type d'utilisation&lt;/b&gt; : un tableau contenant usage_type_cd pour indiquer le ou les types d'utilisation à enregistrer.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;ID du plan du client&lt;/b&gt; : l'ID du plan unique défini par le client associé à cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;ID de l'élément client&lt;/b&gt; : l'ID de l'élément unique défini par le client en cours de récupération.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Unités du plan de base&lt;/b&gt; : unité de base totale de cette facture.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Facteur de facture au prorata&lt;/b&gt; : spécifie le pourcentage des line_base_units facturés.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Texte de facture au prorata&lt;/b&gt; : spécifie les jours au prorata du nombre total de jours.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nombre total de jours de la période de facturation anticipée &lt;/b&gt;: le nombre total de jours de la période dans cette facture.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Jours restants de la facture au prorata&lt;/b&gt; : les jours de la période de cette facture au prorata.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Description de la facture au prorata&lt;/b&gt; : la description de la facture au prorata.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Type de ligne&lt;/b&gt; : spécifie le type de frais ou de crédit associés à cet élément de ligne.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nº du calendrier d'évaluation&lt;/b&gt; : le numéro de calendrier du taux unique affecté par Aria.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Barème du calendrier d'évaluation&lt;/b&gt; : le nombre séquentiel dans le calendrier des taux pour les niveaux de détermination.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Code de coupon de crédit&lt;/b&gt; : spécifie le code de coupon appliqué à la facture.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Est en attente&lt;/b&gt; : indique si cette facture est en attente ou non.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Étiquette de l'état personnalisé&lt;/b&gt; : la valeur autorisée pour l'état de la facture personnalisée spécifique au client qui peut être modifié au niveau de la facture ou au niveau de la facture en attente.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Descr. de l'état personnalisé&lt;/b&gt; : la description de l'état de la facture personnalisée spécifique au client.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Notes sur le client&lt;/b&gt; : les notes du client qui sont en texte libre.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;CD du type de facture&lt;/b&gt; : ce champ identifie le type de facture générée.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Date de début&lt;/b&gt; : la date de début de la facture.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Date de fin&lt;/b&gt; : la date de fin de la facture.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;CD d'état de publication&lt;/b&gt; : l'état de publication d'une facture.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Utilisateur de publication&lt;/b&gt; : l'utilisateur qui a publié manuellement cette facture. Si la valeur est définie sur « Système », la facture a été automatiquement publiée par le système.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Date de publication&lt;/b&gt; : la date à laquelle la facture a été publiée dans le système de financement externe/GL. La date de publication est nulle pour les factures non publiées et la date de création des factures pour les factures publiées par le système, et est définie sur la date et l'heure auxquelles une facture est publiée manuellement.&lt;/li&gt;
+                    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance dans ARIA, l'état est défini sur « Erreur ».&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;Erreur inattendue.&lt;/li&gt;
+   &lt;li&gt;Erreur d'authentification.&lt;/li&gt;
+   &lt;li&gt;Le compte n'existe pas, compte introuvable : AriaNo (acct_no), compte introuvable : ID d'utilisateur (userid) ou Compte introuvable : ClientId (client_acct_id).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion ARIA correspondante  doit être créée et
+associée
+à l'alias de connexion et d'informations d'identification ARIA. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank'         href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:19</sys_created_on>
+        <sys_id>4357477d834d72907c2356e0deaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_4357477d834d72907c2356e0deaad32b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:19</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

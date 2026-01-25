@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>af68456583a722107c2356e0deaad333</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06a25100733690105bf62ea3c4f6a749</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>af68456583a722107c2356e0deaad333</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupère tous les lecteurs d'un site.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;strong&gt;Locataire&lt;/strong&gt; : locataire SharePoint faisant l'objet de cette requête.&lt;/li&gt;
+   &lt;li&gt;&lt;strong&gt;ID du site&lt;/strong&gt; : l'identificateur unique du site.&lt;/li&gt;
+   &lt;li&gt;&lt;strong&gt;Jeton&lt;/strong&gt; : jeton de lien suivant utilisé pour extraire le jeu d'enregistrements suivant. S'il n'est pas renseigné, tous les lecteurs de l'ID de site donné sont récupérés.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;
+      &lt;strong&gt;Lecteur&lt;/strong&gt; : objet contenant les détails du lecteur :
+      &lt;ul&gt;
+         &lt;li&gt;ID du lecteur&lt;/li&gt;
+         &lt;li&gt;Type de lecteur&lt;/li&gt;
+         &lt;li&gt;ID de la liste&lt;/li&gt;
+         &lt;li&gt;Nom de la liste&lt;/li&gt;
+         &lt;li&gt;Nom d'affichage&lt;/li&gt;
+         &lt;li&gt;Modèle de liste&lt;/li&gt;
+         &lt;li&gt;Description&lt;/li&gt;
+         &lt;li&gt;URL&lt;/li&gt;
+         &lt;li&gt;Taille utilisée&lt;/li&gt;
+         &lt;li&gt;Système&lt;/li&gt;
+         &lt;li&gt;Propriétaire&lt;/li&gt;
+         &lt;li&gt;Créés par&lt;/li&gt;
+         &lt;li&gt;la date et l'heure de la création&lt;/li&gt;
+         &lt;li&gt;Auteur de la dernière modification&lt;/li&gt;
+         &lt;li&gt;la date et l'heure de la dernière modification&lt;/li&gt;
+      &lt;/ul&gt;
+   &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification SharePoint Graph correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification SharePoint Graph. &lt;a target='_blank' href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:22</sys_created_on>
+        <sys_id>304b03f18301b2907c2356e0deaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_304b03f18301b2907c2356e0deaad37c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:22</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

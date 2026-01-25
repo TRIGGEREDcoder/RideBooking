@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7b488d6183a722107c2356e0deaad39f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>03bac2ef0b051010842d03e193673a3b</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>7b488d6183a722107c2356e0deaad39f</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Crée ou met à jour un ensemble d'enregistrements de ressources pondéré qui contient des informations DNS faisant autorité pour un nom de domaine ou un nom de sous-domaine spécifié.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;ID de zone hébergée : &lt;/strong&gt;ID de la zone hébergée qui contient les jeux d'enregistrements de ressources que vous souhaitez créer ou mettre à jour.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Nom&lt;/strong&gt; : nom de l'enregistrement que vous souhaitez créer ou mettre à jour.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Type&lt;/strong&gt; : type d'enregistrement DNS.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Poids&lt;/strong&gt; : parmi les jeux d'enregistrements de ressources qui ont la même combinaison de nom et de type DNS, une valeur qui détermine la proportion de requêtes DNS auxquelles Amazon Route 53 répond à l'aide de l'ensemble d'enregistrements de ressources actuel. La route 53 calcule 
+        la somme des poids pour les jeux d'enregistrements de ressources qui ont la même combinaison de nom et de type DNS. La route 53 répond ensuite aux requêtes en fonction du rapport entre le poids d'une ressource et le total.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Identificateur du jeu&lt;/strong&gt; : l'identificateur qui différencie les différents jeux d'enregistrements de ressources qui ont la même combinaison de nom et de type, tels que plusieurs jeux d'enregistrements de ressources pondérés nommés acme.example.com qui ont un type de A. Dans un 
+        groupe de jeux d'enregistrements de ressources ayant le même nom et le même type, la valeur de SetIdentifier doit être unique pour chaque ensemble d'enregistrements de ressources.&lt;/li&gt;
+
+    &lt;li&gt;&lt;strong&gt;TTL&lt;/strong&gt; : time-to-live (TTL) du cache de l'enregistrement de ressource, en secondes. Si vous créez un jeu d'enregistrements de ressource alias, omettez le TTL.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Enregistrement de la ressource&lt;/strong&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Valeur&lt;/strong&gt; : la valeur actuelle ou nouvelle de l'enregistrement DNS, ne dépassant pas 4 000 caractères. Vous pouvez spécifier plus d'une valeur pour tous les types d'enregistrements à l'exception de CNAME et SOA. Si vous créez un jeu d'enregistrements de ressource alias, omettez la valeur.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Alias Target &lt;/strong&gt; : les informations sur la ressource AWS, telle qu'une distribution CloudFront ou une catégorie Amazon S3 vers laquelle vous voulez diriger le trafic. Applicable uniquement aux jeux d'enregistrements de ressources alias.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Commentaire&lt;/strong&gt; : les commentaires que vous voulez inclure sur une demande par lot de changement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Informations sur le changement&lt;/strong&gt; : objet contenant les informations sur le changement de la demande.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite, l'état est défini sur Erreur.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Jeton d'authentification manquant.&lt;/li&gt;
+    &lt;li&gt;La valeur TTL ne peut pas être négative.&lt;/li&gt;
+    &lt;li&gt;L'enregistrement de ressource ne peut pas être vide si la valeur TTL est supérieure ou égale à 0.&lt;/li&gt;
+    &lt;li&gt;L'enregistrement de ressource doit être vide lorsque la valeur TTL est vide.&lt;/li&gt;
+    &lt;li&gt;Aucune zone hébergée n'a été trouvée avec l'ID.&lt;/li&gt;
+    &lt;li&gt;Le poids doit être un nombre entier compris entre 0 et 255.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;/p&gt;
+(Pour plus d'informations sur les erreurs communes à toutes les actions, voir &lt;a href="https://docs.aws.amazon.com/Route53/latest/APIReference/CommonErrors.html" target="_blank"&gt;Erreurs courantes&lt;/a&gt;).
+&lt;br&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Amazon Route 53 correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Amazon Route 53. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:10</sys_created_on>
+        <sys_id>f7878ffd834d72907c2356e0deaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_f7878ffd834d72907c2356e0deaad37c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:10</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

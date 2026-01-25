@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e05805a183a722107c2356e0deaad33d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>039509a6dbc29b009a985404ce9619e3</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>e05805a183a722107c2356e0deaad33d</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;L'action crée une nouvelle collaboration qui permet à un utilisateur ou à un groupe d'accéder à un fichier ou à un dossier dans un rôle spécifique.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Type d'élément&lt;/b&gt; : type de l'élément. Peut être défini sur la valeur « Fichier » ou « Dossier ».&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;ID de l'élément&lt;/b&gt; : ID du fichier ou du dossier auquel l'accès est accordé.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Accessible au type&lt;/b&gt; : le type d'entité qui est ajouté en tant que collaborateur. Peut être défini sur la valeur Utilisateur ou Groupe.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Accessible à l'ID&lt;/b&gt; : ID de l'utilisateur ou du groupe auquel l'accès est autorisé.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Accessible à l'identifiant&lt;/b&gt; : l'adresse e-mail de la personne à laquelle accorder l'accès. À utiliser au lieu de l'ID pour inviter de nouveaux utilisateurs.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Rôle&lt;/b&gt; : le niveau d'accès accordé. Les valeurs peuvent être les suivantes : Édition, Consultation, Aperçu, Mise en ligne, Mise en ligne et aperçu, Mise en ligne et consultation ou Copropriétaire.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Peut voir le chemin d'accès&lt;/b&gt; : indique si la fonctionnalité de collaboration d'affichage du chemin d'accès est activée ou non. Les collaborations d'affichage du chemin d'accès permettent à l'invité de voir l'ensemble de l'arborescence vers le dossier associé. L'utilisateur n'obtient pas de privilèges dans les dossiers de l'arborescence (par exemple, afficher le contenu sur lequel l'utilisateur n'a pas collaboré).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur « Réussite » si la demande aboutit ou sur « Erreur » si une défaillance se produit.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : est rempli si l'état est « Erreur ».&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;ID de la collaboration&lt;/b&gt; : ID de la collaboration.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Informations sur la collaboration&lt;/b&gt; : informations sur la collaboration créée au format JSON.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;L'utilisateur est déjà un collaborateur.&lt;/li&gt;
+	&lt;li&gt;Le groupe est déjà un collaborateur.&lt;/li&gt;
+	&lt;li&gt;Fichier avec l'ID fourni introuvable ou l'utilisateur ayant les informations d'identification associées ne possède pas l'autorisation d'accéder au dossier.&lt;/li&gt;
+	&lt;li&gt;Dossier avec l'ID fourni introuvable ou l'utilisateur ayant les informations d'identification associées ne possède pas l'autorisation d'accéder au dossier.&lt;/li&gt;
+	&lt;li&gt;L'utilisateur ayant les informations d'identification associées à la connexion de spoke Box ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+	&lt;li&gt;Utilisateur avec l'ID fourni introuvable.&lt;/li&gt;
+	&lt;li&gt;Groupe avec l'ID fourni introuvable.&lt;/li&gt;
+	&lt;li&gt;Les collaborations externes ne sont pas autorisées sur cet élément.&lt;/li&gt;
+       &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Remarque supplémentaire :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Les rôles Affichage Édition sont des rôles valides pour un élément de type Fichier. L'action échoue si un autre rôle est choisi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion Box et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Box. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:03</sys_created_on>
+        <sys_id>0687c7fd834d72907c2356e0deaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_0687c7fd834d72907c2356e0deaad3de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:03</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

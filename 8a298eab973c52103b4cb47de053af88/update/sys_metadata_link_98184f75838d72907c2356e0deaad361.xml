@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a67849a583a722107c2356e0deaad3ec</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>05c0e25f738300105bd3c3e43cf6a76b</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a67849a583a722107c2356e0deaad3ec</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt; Restaure le rôle personnalisé spécifié pour une organisation.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul&gt;&lt;li&gt;&lt;b&gt;ID de l'organisation&lt;/b&gt; : l'ID de l'organisation au format suivant : organizations/{ORGANIZATION_ID}/. Par exemple, organizations/12345678.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom du rôle&lt;/b&gt; : nom du rôle.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ETag&lt;/b&gt; : ETag permettant d'effectuer une lecture-modification-écriture cohérente.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite, l'état est défini sur Erreur.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : le motif et code de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : nom contrôlable de visu pour le rôle.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Titre&lt;/b&gt; : titre contrôlable de visu pour le rôle.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Description&lt;/b&gt; : description contrôlable de visu pour le rôle.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Autorisations incluses&lt;/b&gt; : noms des autorisations accordées par ce rôle lorsqu'elles sont liées dans une politique IAM dans une chaîne d'éléments séparés par une virgule.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ETag&lt;/b&gt; : ETag permettant d'effectuer une lecture-modification-écriture cohérente.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Supprimé&lt;/b&gt; : vrai ou faux.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Étape&lt;/b&gt; : étape de lancement actuelle du rôle.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Informations d'identification non valides.&lt;/li&gt;&lt;li&gt;Organisation non valide.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Google correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Google. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:23</sys_created_on>
+        <sys_id>98184f75838d72907c2356e0deaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_98184f75838d72907c2356e0deaad361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:23</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

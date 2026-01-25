@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a858c1a183a722107c2356e0deaad3a2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>04586f25739f3300d3d878ba4cf6a79e</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a858c1a183a722107c2356e0deaad3a2</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Créer une demande avec l'état Brouillon.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID d'utilisateur demandeur&lt;/strong&gt; : ID unique du demandeur dans Coupa.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID de l'unité business&lt;/strong&gt; : ID unique de d'unité business (ou du service) dans Coupa.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID de l'adresse d'expédition&lt;/strong&gt; : ID unique de l'adresse dans Coupa.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lignes de demande&lt;/strong&gt; : tableau d'objets Ligne de demande dans lequel plusieurs lignes de demande peuvent être ajoutées. Voici certains champs dans les lignes de demande :
+  &lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Nom du fournisseur&lt;/strong&gt; : nom d'un fournisseur existant dans Coupa.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Code de devise&lt;/strong&gt; : code de devise dans Coupa, par exemple : USD, INR…&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nom de l'élément&lt;/strong&gt; : nom d'un élément existant dans Coupa.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Type de ligne&lt;/strong&gt; : entrée attendue :
+    &lt;ul&gt;
+    &lt;li&gt;&lt;i&gt;RequisitionQuantityLine&lt;/i&gt; si le type de ligne est Quantité.&lt;/li&gt;
+    &lt;li&gt;&lt;i&gt;RequisitionAmountLine&lt;/i&gt; si le type de ligne est Montant.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Méthode de transmission&lt;/strong&gt; : entrée attendue :
+    &lt;ul&gt;
+    &lt;li&gt;&lt;i&gt;supplier_default&lt;/i&gt; si la méthode de transmission est Méthode par défaut du fournisseur.&lt;/li&gt;
+    &lt;li&gt;&lt;i&gt;email&lt;/i&gt; si la méthode de transmission est E-mail.&lt;/li&gt;
+    &lt;li&gt;&lt;i&gt;do_not_transmit&lt;/i&gt; si la méthode de transmission est Ne pas transmettre.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nom de l'unité de mesure&lt;/strong&gt; : nom de l'unité de mesure dans Coupa, par exemple : sachet, pièce…&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Code d'expédition&lt;/strong&gt; : code d'expédition existant dans Coupa, par exemple : Standard, FedEx…&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Code des modalités de paiement&lt;/strong&gt; : code des modalités de paiement existantes dans Coupa, par exemple : Net 30…&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Compte&lt;/strong&gt;
+    &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;ID de compte&lt;/strong&gt; : ID unique d'un compte existant dans Coupa. Utilisez cette option si vous souhaitez associer un compte existant à la demande.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Code du compte&lt;/strong&gt; : code du compte dans Coupa. Utilisez cette option si vous souhaitez définir un segment de compte par segment. La valeur de ce champ doit être une chaîne de tous les segments de compte séparés par un trait d'union, par exemple : si segment-1 est Actif et que segment-2 est Finance, le code de compte doit être Actif-Finance.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Segments du compte&lt;/strong&gt; : tableau de tous les segments associés au compte.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nom de la période&lt;/strong&gt; : nom de la période existante dans Coupa.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Autres champs de ligne de demande&lt;/strong&gt; : tableau d'objets dans lesquels vous pouvez ajouter tous les autres champs de ligne de demande nécessaires. Les champs de cet objet sont les suivants :
+    &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Nom du champ&lt;/strong&gt; : nom de l'API du champ. Il peut être obtenu à partir de l'instance Coupa.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Valeur&lt;/strong&gt; : la valeur pour le champ.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Autres champs de demande&lt;/strong&gt; : utilisez cette option pour ajouter des champs dans la demande qui ne sont pas inclus ci-dessus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Champs personnalisés de demande&lt;/strong&gt; : tableau d'objets dans lesquels vous pouvez ajouter des champs personnalisés dans la demande. Les champs de cet objet sont les suivants :
+    &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Nom&lt;/strong&gt; : nom de l'API du champ. Il peut être obtenu à partir de l'instance Coupa.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Valeur&lt;/strong&gt; : la valeur pour le champ.&lt;/li&gt;
+    &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; :
+  &lt;ul&gt;
+    &lt;li&gt;Au moins une des entrées suivantes est obligatoire pour créer une demande : ID d'utilisateur du demandeur, connexion du demandeur, e-mail du demandeur.&lt;/li&gt;
+    &lt;li&gt;Au moins une des entrées suivantes est obligatoire pour créer une demande : nom de l'élément, description.&lt;/li&gt;
+    &lt;li&gt;Si une valeur d'entrée est fournie pour le nom de l'élément, la quantité est obligatoire.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID de demande&lt;/strong&gt; : ID unique du brouillon de demande créé.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite dans Coupa, l'état est défini sur Erreur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Journal d'erreurs&lt;/strong&gt; : message d'erreur réel et réponse reçue de Coupa. Renseigné uniquement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nom de fournisseur non valide&lt;/li&gt;
+&lt;li&gt;Code de devise non valide&lt;/li&gt;
+&lt;li&gt;Unité business non valide&lt;/li&gt;
+&lt;li&gt;Adresse d'expédition non valide&lt;/li&gt;
+&lt;li&gt;Valeur du demandeur non valide&lt;/li&gt;
+&lt;li&gt;Nom de marchandise non valide&lt;/li&gt;
+&lt;li&gt;Entrée non valide dans la ligne de demande&lt;/li&gt;
+&lt;li&gt;Nom de l'unité de mesure non valide&lt;/li&gt;
+&lt;li&gt;Code d'expédition non valide&lt;/li&gt;
+&lt;li&gt;Code de modalité de paiement non valide&lt;/li&gt;
+&lt;li&gt;Entrée du compte non valide&lt;/li&gt;
+&lt;li&gt;Méthode de transmission non valide&lt;/li&gt;
+&lt;li&gt;Nom d'élément non valide&lt;/li&gt;
+&lt;li&gt;Le numéro de référence de bon de commande externe est déjà utilisé&lt;/li&gt;
+&lt;li&gt;Alias de connexion et d'informations d'identification non valide&lt;/li&gt;
+&lt;li&gt;Erreur inconnue. Veuillez consulter le journal des erreurs pour plus d'informations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification Coupa correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification « Informations d'identification du client Coupa ». &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:50</sys_created_on>
+        <sys_id>61b7cb71838d72907c2356e0deaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_61b7cb71838d72907c2356e0deaad363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:50</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

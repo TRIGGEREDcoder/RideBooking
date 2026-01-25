@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5d5849a183a722107c2356e0deaad3ab</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>036f88d6873fc190b97e40c7dabb35cd</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>5d5849a183a722107c2356e0deaad3ab</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupère les informations sur les fonctionnalités en transmettant l'ID pour des objets spécifiques.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Associé à&lt;/strong&gt; : l'API associées aux fonctionnalités : Initiative/Épopées/Objectifs/Produits/Versions&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ID :&lt;/strong&gt; l'ID des objets sélectionnés&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Terme de recherche&lt;/strong&gt; : le paramètre de requête utilisé pour le filtrage. Par exemple : si « Feature123 » est transmis comme entrée, il renvoie toutes les fonctionnalités contenant le nom fourni.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Balises&lt;/strong&gt; : le paramètre de requête utilisé pour le filtrage. Valeur de balise de chaîne. Si elle est fournie, seules les fonctionnalités avec la balise associée sont renvoyées.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Mis à jour depuis&lt;/strong&gt; : le paramètre de requête utilisé pour le filtrage. Horodatage UTC (au format ISO 8601). Si elle est fournie, seules les fonctionnalités mises à jour après l'horodatage sont renvoyées.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Affecté à l'utilisateur&lt;/strong&gt; : le paramètre de requête utilisé pour le filtrage. ID ou adresse e-mail d'un utilisateur. Si elle est fournie, seules les fonctionnalités affectées à cet utilisateur sont renvoyées.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Taille de la page&lt;/strong&gt; : la taille de la page peut être définie de 1 à 1 000 selon les besoins de l'utilisateur.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Sorties&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Fonctionnalités&lt;/strong&gt; : objet contenant des données de fonctionnalité.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : l'ID de la fonctionnalité&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Nom&lt;/strong&gt; : le nom de la fonctionnalité&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Créé le/à&lt;/strong&gt; : la date et l'heure auxquelles la fonctionnalité a été créée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Numéro de référence&lt;/strong&gt; : le numéro de référence de la fonctionnalité.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Ressource &lt;/strong&gt;: la ressource de la fonctionnalité.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;URL &lt;/strong&gt;: l'URL de la fonctionnalité.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ID du produit&lt;/strong&gt; : l'ID du produit.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification correspondantes de Aha doivent être créées et associées à l'alias de connexion et d'informations d'identification Aha. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Nécessite un abonnement pour une utilisation de production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : pour plus d'informations sur cette API, &lt;a href="https://www.aha.io/api/resources/features/list_features_associated_with_a_goal"&gt;cliquez ici&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:56</sys_created_on>
+        <sys_id>088783fd834d72907c2356e0deaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_088783fd834d72907c2356e0deaad32f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:56</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

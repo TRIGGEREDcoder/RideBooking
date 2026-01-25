@@ -1,0 +1,3503 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state>{"creatorStudioRecordProducerId":"178906eb973c52103b4cb47de053afed"}</designer_state>
+        <engine_major_version/>
+        <label>Ride Book Playbook</label>
+        <name>ride_book_playbook</name>
+        <now_assist_prompt/>
+        <permission/>
+        <process_type display_value="Creator Studio Automation">a487710eff0f3110893effffffffff4d</process_type>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <run_strategy>run_once</run_strategy>
+        <run_strategy_on_process_definition>false</run_strategy_on_process_definition>
+        <schema_version>2</schema_version>
+        <snapshot display_value="ride_book_playbook">8865aac0970112103b4cb47de053af35</snapshot>
+        <start_non_blocking>true</start_non_blocking>
+        <status>published</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 14:36:07</sys_created_on>
+        <sys_id>06f59504519a9180d4faa5c923dfa31c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Ride Book Playbook</sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_pd_process_definition_06f59504519a9180d4faa5c923dfa31c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-11-17 12:48:48</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=06f59504519a9180d4faa5c923dfa31c"/>
+    <sys_pd_process_input action="delete_multiple" query="model=06f59504519a9180d4faa5c923dfa31c"/>
+    <sys_pd_process_output action="delete_multiple" query="model=06f59504519a9180d4faa5c923dfa31c"/>
+    <sys_pd_lane action="delete_multiple" query="process_definition=06f59504519a9180d4faa5c923dfa31c^sys_idNOT IN958e42f702389d9ebd63105c1bdc712d"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Fulfillment steps</label>
+        <lane_condition/>
+        <name>fulfillment_steps</name>
+        <order>1</order>
+        <permission/>
+        <process_definition display_value="Ride Book Playbook">06f59504519a9180d4faa5c923dfa31c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_name/>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 14:36:08</sys_created_on>
+        <sys_id>958e42f702389d9ebd63105c1bdc712d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 14:36:08</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=958e42f702389d9ebd63105c1bdc712d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=958e42f702389d9ebd63105c1bdc712d"/>
+    <sys_pd_timer_attributes action="delete_multiple" query="process_definition=06f59504519a9180d4faa5c923dfa31c"/>
+    <sys_pd_activity action="delete_multiple" query="process_definition=06f59504519a9180d4faa5c923dfa31c^sys_idNOT IN6219e6206219fbd06219a7406219e5b0,600fc120600f9c60600f9d20600f2a70,72bcee1072bc03e072bc25a072bcc290,5a8280b05a828e005a8286405a82b6e0"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Request approval">1e1c6cb0c34121107b79e548fa40dd09</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <inputs/>
+        <label>Ride Request</label>
+        <lane display_value="Fulfillment steps">958e42f702389d9ebd63105c1bdc712d</lane>
+        <name>request_approval</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="Ride Book Playbook">06f59504519a9180d4faa5c923dfa31c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_name/>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>6219e6206219fbd06219a7406219e5b0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:14:43</sys_updated_on>
+        <type_vals/>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6219e6206219fbd06219a7406219e5b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>23b1d62f97bc52103b4cb47de053af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value/>
+        <variable display_value="Associated record">d18061f287d300102252c88fc0e3eccb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>27b1d62f97bc52103b4cb47de053af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value/>
+        <variable display_value="Group">a7c1b7e64335311063e1d32acab8f2e0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>27b1d62f97bc52103b4cb47de053af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value>state,approver.name,comments,sys_created_on</value>
+        <variable display_value="Columns">ca4591f25b21001070e4492c11f91a01</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>2bb1d62f97bc52103b4cb47de053af8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value/>
+        <variable display_value="Record fields">bc00dc415ba2001022527d6f7281c7c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>2fb1d62f97bc52103b4cb47de053af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value>4</value>
+        <variable display_value="Max Columns">d6d1f7585b92001022527d6f7281c7cc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>63b1d62f97bc52103b4cb47de053af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value/>
+        <variable display_value="Record">79c41d73c37021107b79e548fa40ddbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>63b1d62f97bc52103b4cb47de053af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">9d2ff6a7c3611010381b60bc0eba8f3c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>67b1d62f97bc52103b4cb47de053af82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Requestor's manager">ebc1b7e64335311063e1d32acab8f2ce</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>67b1d62f97bc52103b4cb47de053af8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value/>
+        <variable display_value="Tagline">01fcbc0673030010fe4a6da44cf6a7d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>6bb1d62f97bc52103b4cb47de053af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value>5</value>
+        <variable display_value="Row Count">66c5b3885b16001022527d6f7281c77c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>6fb1d62f97bc52103b4cb47de053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="Associated table">5fa0e1f287d300102252c88fc0e3ec66</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>6fb1d62f97bc52103b4cb47de053af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value>checklist_fill</value>
+        <variable display_value="Icon">3f9d744673030010fe4a6da44cf6a7b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>a3b1d62f97bc52103b4cb47de053af8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">8cfe36a7c3611010381b60bc0eba8fd2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>a7b1d62f97bc52103b4cb47de053af89</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:56</sys_updated_on>
+        <value/>
+        <variable display_value="Title">1d8b12fe5b61001070e4492c11f91a19</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>abb1d62f97bc52103b4cb47de053af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value/>
+        <variable display_value="Table">7dc41d73c37021107b79e548fa40ddb8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>abb1d62f97bc52103b4cb47de053af87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:56</sys_updated_on>
+        <value/>
+        <variable display_value="List Title">12e9e761870300102252c88fc0e3ecb2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>abb1d62f97bc52103b4cb47de053af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value/>
+        <variable display_value="UI View">320f94505b92001022527d6f7281c7e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>afb1d62f97bc52103b4cb47de053af82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value>any</value>
+        <variable display_value="Approval type">4c38f3734335711063e1d32acab8f26e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>e3b1d62f97bc52103b4cb47de053af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value/>
+        <variable display_value="Description">47ceb192777220102a272f589a10616d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>e7b1d62f97bc52103b4cb47de053af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value/>
+        <variable display_value="Specific person">dfc1b7e64335311063e1d32acab8f2aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>e7b1d62f97bc52103b4cb47de053af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">091e9aeac7e60010bfbaf89f51c260ea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>ebb1d62f97bc52103b4cb47de053af8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="Table">29255db25b21001070e4492c11f91ac5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>6219e6206219fbd06219a7406219e5b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>efb1d62f97bc52103b4cb47de053af89</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:56</sys_updated_on>
+        <value/>
+        <variable display_value="List Query">6f2f7ecf5b21001070e4492c11f91a77</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6219e6206219fbd06219a7406219e5b0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_type</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>a7b1d62f97bc52103b4cb47de053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>2fb1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>{{vl.Request Approval./start.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>abb1d62f97bc52103b4cb47de053af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>columns</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>23b1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>efb1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>{{vl.Request Approval./end.validation_error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>6fb1d62f97bc52103b4cb47de053af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>{{vl.Request Approval.643cdd0e-d5f7-42f7-8575-d0d3c05e84c5./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>afb1d62f97bc52103b4cb47de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groups</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>2fb1d62f97bc52103b4cb47de053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>6bb1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>individuals</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>23b1d62f97bc52103b4cb47de053af82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>e3b1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>list_query</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>ebb1d62f97bc52103b4cb47de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>sysapproval={{vl.Request Approval./end.approval_record}}^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>list_title</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>e7b1d62f97bc52103b4cb47de053af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>{{vl.Request Approval./end.state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_columns</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>2bb1d62f97bc52103b4cb47de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>6bb1d62f97bc52103b4cb47de053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value>{{pd.inputRecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_fields</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>67b1d62f97bc52103b4cb47de053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>request_manager</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>afb1d62f97bc52103b4cb47de053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>row_count</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>67b1d62f97bc52103b4cb47de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>2bb1d62f97bc52103b4cb47de053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>e3b1d62f97bc52103b4cb47de053af82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value>{{pd.inputRecord.:TN}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>a3b1d62f97bc52103b4cb47de053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>a3b1d62f97bc52103b4cb47de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>{{act.6219e6206219fbd06219a7406219e5b0.label}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ui_view</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>a7b1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=6219e6206219fbd06219a7406219e5b0"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6dc41d73c37021107b79e548fa40dda1^id=6219e6206219fbd06219a7406219e5b0"/>
+    <sys_element_mapping action="delete_multiple" query="id=6219e6206219fbd06219a7406219e5b0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_type</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>a7b1d62f97bc52103b4cb47de053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>2fb1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>{{vl.Request Approval./start.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>abb1d62f97bc52103b4cb47de053af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>columns</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>23b1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>efb1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>{{vl.Request Approval./end.validation_error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>6fb1d62f97bc52103b4cb47de053af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>{{vl.Request Approval.643cdd0e-d5f7-42f7-8575-d0d3c05e84c5./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>afb1d62f97bc52103b4cb47de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groups</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>2fb1d62f97bc52103b4cb47de053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>6bb1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>individuals</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>23b1d62f97bc52103b4cb47de053af82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>e3b1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>list_query</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>ebb1d62f97bc52103b4cb47de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>sysapproval={{vl.Request Approval./end.approval_record}}^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>list_title</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>e7b1d62f97bc52103b4cb47de053af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>{{vl.Request Approval./end.state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_columns</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>2bb1d62f97bc52103b4cb47de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>6bb1d62f97bc52103b4cb47de053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value>{{pd.inputRecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_fields</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>67b1d62f97bc52103b4cb47de053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>request_manager</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>afb1d62f97bc52103b4cb47de053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>row_count</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>67b1d62f97bc52103b4cb47de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>2bb1d62f97bc52103b4cb47de053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>e3b1d62f97bc52103b4cb47de053af82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6dc41d73c37021107b79e548fa40dda1</table>
+        <value>{{pd.inputRecord.:TN}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>a3b1d62f97bc52103b4cb47de053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>a3b1d62f97bc52103b4cb47de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value>{{act.6219e6206219fbd06219a7406219e5b0.label}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ui_view</field>
+        <id>6219e6206219fbd06219a7406219e5b0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:01:25</sys_created_on>
+        <sys_id>a7b1d62f97bc52103b4cb47de053af85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:01:25</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_fdbeceb95b61001070e4492c11f91a28</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Decision">226ed8f6c7ad5110bfbaf89f51c260b1</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <label>Confirmed?</label>
+        <lane display_value="Fulfillment steps">958e42f702389d9ebd63105c1bdc712d</lane>
+        <name>decision</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="Ride Book Playbook">06f59504519a9180d4faa5c923dfa31c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule>
+        <start_rule_name/>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:02:31</sys_created_on>
+        <sys_id>600fc120600f9c60600f9d20600f2a70</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:08:24</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=600fc120600f9c60600f9d20600f2a70"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>600fc120600f9c60600f9d20600f2a70</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:02:31</sys_created_on>
+        <sys_id>2ff1166f97bc52103b4cb47de053afe5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:08:24</sys_updated_on>
+        <value>[{"id":"600f9980600fedd0600f9c80600fc550","label":"Yes","condition":"input_record.approval=approved","order":1,"activitiesCount":1},{"id":"ELSE","label":"Else","condition":"","order":2,"activitiesCount":1}]</value>
+        <variable display_value="Branches">074e5876c7ad5110bfbaf89f51c26087</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>600fc120600f9c60600f9d20600f2a70</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:02:31</sys_created_on>
+        <sys_id>2ff1166f97bc52103b4cb47de053afe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:02:31</sys_updated_on>
+        <value>6219e6206219fbd06219a7406219e5b0</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>600fc120600f9c60600f9d20600f2a70</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:02:31</sys_created_on>
+        <sys_id>eff1166f97bc52103b4cb47de053afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:02:31</sys_updated_on>
+        <value>match_first</value>
+        <variable display_value="Type">0f4e18f6c7ad5110bfbaf89f51c260f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>600fc120600f9c60600f9d20600f2a70</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:02:31</sys_created_on>
+        <sys_id>eff1166f97bc52103b4cb47de053afe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:02:31</sys_updated_on>
+        <value/>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_401bd436c7ad5110bfbaf89f51c260be^id=600fc120600f9c60600f9d20600f2a70"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=600fc120600f9c60600f9d20600f2a70"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_401bd436c7ad5110bfbaf89f51c260be^id=600fc120600f9c60600f9d20600f2a70"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Send an email">b0ca51efeb65021041417bd6c1522899</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <inputs/>
+        <label>Ride Rejection</label>
+        <lane display_value="Fulfillment steps">958e42f702389d9ebd63105c1bdc712d</lane>
+        <name>send_an_email_1</name>
+        <order>3</order>
+        <outputs/>
+        <process_definition display_value="Ride Book Playbook">06f59504519a9180d4faa5c923dfa31c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule>
+        <start_rule_name/>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>72bcee1072bc03e072bc25a072bcc290</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:06:18</sys_updated_on>
+        <type_vals/>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=72bcee1072bc03e072bc25a072bcc290"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>22b21ae397fc52103b4cb47de053af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Form View">7cb449e85b41001070e4492c11f91a06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>26b21a2397fc52103b4cb47de053afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="To requestor user name">b30b1829b75686100260b5208e11a948</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>26b21ae397fc52103b4cb47de053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>Email</value>
+        <variable display_value="Tagline">9a0c340673030010fe4a6da44cf6a7de</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>2ab21a2397fc52103b4cb47de053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Cc">fe846439eb31421041417bd6c15228ea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>2ab21ae397fc52103b4cb47de053af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Form fields">fbc1f11b5b40001070e4492c11f91a45</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>2eb21ae397fc52103b4cb47de053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">5e5272b2c3211010381b60bc0eba8f13</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>2eb21ae397fc52103b4cb47de053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>envelope_outline</value>
+        <variable display_value="Icon">ad4db04673030010fe4a6da44cf6a798</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>62b21a2397fc52103b4cb47de053afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Cc requestor user name">3f0bd4a9b75686100260b5208e11a925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>62b21ae397fc52103b4cb47de053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">4612be72c3211010381b60bc0eba8f47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>66b21a2397fc52103b4cb47de053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Cc email address">393f26f8b716c2100260b5208e11a9d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>66b21ae397fc52103b4cb47de053af6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:06:18</sys_updated_on>
+        <value/>
+        <variable display_value="Title">13597d8ac7200010bfbaf89f51c2609e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>6ab21ae397fc52103b4cb47de053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>&lt;p&gt;Automatically sends email during process execution&lt;/p&gt;</value>
+        <variable display_value="Pending State Description">6688ff5d0700101070e493d0fad300f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>6ab21ae397fc52103b4cb47de053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Associated record">8c1ef8e40f100010f5bf5ae9c4767ed6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>6eb21ae397fc52103b4cb47de053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show Checklist">d803775a5b01001031a67d6f7281c7aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>a2b21ae397fc52103b4cb47de053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Associated table">77edf4e40f100010f5bf5ae9c4767edb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>a2b21ae397fc52103b4cb47de053af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Attachments read only">576de7780f1300102920c912d4767e52</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>a6b21ae397fc52103b4cb47de053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">63fd1eeac7e60010bfbaf89f51c26059</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>8</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aab21a2397fc52103b4cb47de053afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Body">03846439eb31421041417bd6c15228f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aab21ae397fc52103b4cb47de053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Attachment Source">4f0e5d7e736100104a905ee515f6a70b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aeb21a2397fc52103b4cb47de053afa2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:06:18</sys_updated_on>
+        <value>Ride has been Rejected</value>
+        <variable display_value="Subject">f2846439eb31421041417bd6c15228ef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aeb21ae397fc52103b4cb47de053af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show SLA">54c49bc60f3200102920c912d4767ee2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aeb21ae397fc52103b4cb47de053af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>600fc120600f9c60600f9d20600f2a70.ELSE</value>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>e6b21a2397fc52103b4cb47de053afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="To">32846439eb31421041417bd6c15228e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>e6b21ae397fc52103b4cb47de053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Record fields">05bee8875b00001070e4492c11f91afb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eab21a2397fc52103b4cb47de053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="To email address">6e1fa2f8b716c2100260b5208e11a9d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eab21ae397fc52103b4cb47de053af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>Send an email</value>
+        <variable display_value="Pending State Title">e9ae23190700101070e493d0fad300c1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eab21ae397fc52103b4cb47de053af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value>600fc120600f9c60600f9d20600f2a70</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eeb21ae397fc52103b4cb47de053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">71ae56b6b74100101a6ddb91de11a9a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>72bcee1072bc03e072bc25a072bcc290</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eeb21ae397fc52103b4cb47de053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <value/>
+        <variable display_value="Description">1d27b10ac7200010bfbaf89f51c26016</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72bcee1072bc03e072bc25a072bcc290"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aeb21a2397fc52103b4cb47de053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>e6b21a2397fc52103b4cb47de053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachments_read_only</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>2ab21a2397fc52103b4cb47de053afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_source</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>62b21ae397fc52103b4cb47de053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>e2b21a2397fc52103b4cb47de053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>22b21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc_email_address</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>6eb21a2397fc52103b4cb47de053afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc_requestor_user_name</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>6ab21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>26b21a2397fc52103b4cb47de053afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>62b21a2397fc52103b4cb47de053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.flow_data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>2ab21ae397fc52103b4cb47de053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>26b21a2397fc52103b4cb47de053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_fields</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eeb21ae397fc52103b4cb47de053af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_view</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>e6b21ae397fc52103b4cb47de053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>62b21a2397fc52103b4cb47de053afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eab21a2397fc52103b4cb47de053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_description</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aeb21a2397fc52103b4cb47de053afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_title</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>a2b21ae397fc52103b4cb47de053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_fields</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aeb21ae397fc52103b4cb47de053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_checklist</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>26b21ae397fc52103b4cb47de053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_sla</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>66b21ae397fc52103b4cb47de053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>subject</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>a6b21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eab21ae397fc52103b4cb47de053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eab21a2397fc52103b4cb47de053afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.title}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eeb21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to_email_address</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>e2b21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to_requestor_user_name</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>2eb21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:06:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value>{{pd.inputRecord.sys_created_by}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=72bcee1072bc03e072bc25a072bcc290"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a8c372cdebf9021041417bd6c1522856^id=72bcee1072bc03e072bc25a072bcc290"/>
+    <sys_element_mapping action="delete_multiple" query="id=72bcee1072bc03e072bc25a072bcc290"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aeb21a2397fc52103b4cb47de053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>e6b21a2397fc52103b4cb47de053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachments_read_only</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>2ab21a2397fc52103b4cb47de053afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_source</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>62b21ae397fc52103b4cb47de053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>e2b21a2397fc52103b4cb47de053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>22b21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc_email_address</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>6eb21a2397fc52103b4cb47de053afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc_requestor_user_name</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>6ab21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>26b21a2397fc52103b4cb47de053afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>62b21a2397fc52103b4cb47de053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.flow_data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>2ab21ae397fc52103b4cb47de053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>26b21a2397fc52103b4cb47de053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_fields</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eeb21ae397fc52103b4cb47de053af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_view</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>e6b21ae397fc52103b4cb47de053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>62b21a2397fc52103b4cb47de053afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eab21a2397fc52103b4cb47de053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_description</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aeb21a2397fc52103b4cb47de053afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_title</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>a2b21ae397fc52103b4cb47de053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_fields</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>aeb21ae397fc52103b4cb47de053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_checklist</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>26b21ae397fc52103b4cb47de053af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_sla</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>66b21ae397fc52103b4cb47de053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>subject</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>a6b21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eab21ae397fc52103b4cb47de053af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eab21a2397fc52103b4cb47de053afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.title}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>eeb21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to_email_address</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>e2b21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to_requestor_user_name</field>
+        <id>72bcee1072bc03e072bc25a072bcc290</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:05:43</sys_created_on>
+        <sys_id>2eb21a2397fc52103b4cb47de053afa1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:06:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value>{{pd.inputRecord.sys_created_by}}</value>
+    </sys_element_mapping>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Send an email">b0ca51efeb65021041417bd6c1522899</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <inputs/>
+        <label>Ride Confirmation</label>
+        <lane display_value="Fulfillment steps">958e42f702389d9ebd63105c1bdc712d</lane>
+        <name>send_an_email</name>
+        <order>4</order>
+        <outputs/>
+        <process_definition display_value="Ride Book Playbook">06f59504519a9180d4faa5c923dfa31c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule>
+        <start_rule_name/>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <swim_lane/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>5a8280b05a828e005a8286405a82b6e0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:05:43</sys_updated_on>
+        <type_vals/>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5a8280b05a828e005a8286405a82b6e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0042522397fc52103b4cb47de053af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">63fd1eeac7e60010bfbaf89f51c26059</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0442522397fc52103b4cb47de053af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Attachment Source">4f0e5d7e736100104a905ee515f6a70b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>8</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>044256af97bc52103b4cb47de053af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Body">03846439eb31421041417bd6c15228f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0842522397fc52103b4cb47de053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show SLA">54c49bc60f3200102920c912d4767ee2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0842522397fc52103b4cb47de053af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>600fc120600f9c60600f9d20600f2a70</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>084256af97bc52103b4cb47de053af06</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:04:17</sys_updated_on>
+        <value>Ride has been confirmed</value>
+        <variable display_value="Subject">f2846439eb31421041417bd6c15228ef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0c42522397fc52103b4cb47de053af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Attachments read only">576de7780f1300102920c912d4767e52</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4042522397fc52103b4cb47de053af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Record fields">05bee8875b00001070e4492c11f91afb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>404256af97bc52103b4cb47de053af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="To">32846439eb31421041417bd6c15228e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4442522397fc52103b4cb47de053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>Send an email</value>
+        <variable display_value="Pending State Title">e9ae23190700101070e493d0fad300c1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>444256af97bc52103b4cb47de053af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="To email address">6e1fa2f8b716c2100260b5208e11a9d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4842522397fc52103b4cb47de053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">71ae56b6b74100101a6ddb91de11a9a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4842522397fc52103b4cb47de053af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Description">1d27b10ac7200010bfbaf89f51c26016</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4c42522397fc52103b4cb47de053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Associated table">77edf4e40f100010f5bf5ae9c4767edb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8042522397fc52103b4cb47de053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Form fields">fbc1f11b5b40001070e4492c11f91a45</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>804256af97bc52103b4cb47de053af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Cc">fe846439eb31421041417bd6c15228ea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8442522397fc52103b4cb47de053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">5e5272b2c3211010381b60bc0eba8f13</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8442522397fc52103b4cb47de053af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>envelope_outline</value>
+        <variable display_value="Icon">ad4db04673030010fe4a6da44cf6a798</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8842522397fc52103b4cb47de053af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Form View">7cb449e85b41001070e4492c11f91a06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8c42522397fc52103b4cb47de053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>Email</value>
+        <variable display_value="Tagline">9a0c340673030010fe4a6da44cf6a7de</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8c4256af97bc52103b4cb47de053af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="To requestor user name">b30b1829b75686100260b5208e11a948</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c042522397fc52103b4cb47de053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>&lt;p&gt;Automatically sends email during process execution&lt;/p&gt;</value>
+        <variable display_value="Pending State Description">6688ff5d0700101070e493d0fad300f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c042522397fc52103b4cb47de053af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Associated record">8c1ef8e40f100010f5bf5ae9c4767ed6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c442522397fc52103b4cb47de053af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show Checklist">d803775a5b01001031a67d6f7281c7aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c842522397fc52103b4cb47de053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">4612be72c3211010381b60bc0eba8f47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c842522397fc52103b4cb47de053af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value>600fc120600f9c60600f9d20600f2a70.600f9980600fedd0600f9c80600fc550</value>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c84256af97bc52103b4cb47de053af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Cc requestor user name">3f0bd4a9b75686100260b5208e11a925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>cc42522397fc52103b4cb47de053af91</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:04:18</sys_updated_on>
+        <value/>
+        <variable display_value="Title">13597d8ac7200010bfbaf89f51c2609e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>5a8280b05a828e005a8286405a82b6e0</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>cc4256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <value/>
+        <variable display_value="Cc email address">393f26f8b716c2100260b5208e11a9d7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5a8280b05a828e005a8286405a82b6e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4c4256af97bc52103b4cb47de053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c44256af97bc52103b4cb47de053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachments_read_only</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c042522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_source</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c842522397fc52103b4cb47de053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4c4256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c84256af97bc52103b4cb47de053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc_email_address</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>084256af97bc52103b4cb47de053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc_requestor_user_name</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>044256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0042522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>004256af97bc52103b4cb47de053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.flow_data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8042522397fc52103b4cb47de053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>044256af97bc52103b4cb47de053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_fields</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4842522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_view</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4042522397fc52103b4cb47de053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>004256af97bc52103b4cb47de053af09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>884256af97bc52103b4cb47de053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_description</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4c4256af97bc52103b4cb47de053af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_title</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0c42522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_fields</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0842522397fc52103b4cb47de053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_checklist</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8c42522397fc52103b4cb47de053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_sla</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>cc42522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>subject</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>404256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4442522397fc52103b4cb47de053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8442522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.title}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>884256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to_email_address</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8c4256af97bc52103b4cb47de053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to_requestor_user_name</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c44256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:04:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value>{{pd.inputRecord.sys_created_by}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=5a8280b05a828e005a8286405a82b6e0"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a8c372cdebf9021041417bd6c1522856^id=5a8280b05a828e005a8286405a82b6e0"/>
+    <sys_element_mapping action="delete_multiple" query="id=5a8280b05a828e005a8286405a82b6e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4c4256af97bc52103b4cb47de053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c44256af97bc52103b4cb47de053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachments_read_only</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c042522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_source</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c842522397fc52103b4cb47de053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4c4256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c84256af97bc52103b4cb47de053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc_email_address</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>084256af97bc52103b4cb47de053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cc_requestor_user_name</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>044256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0042522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>004256af97bc52103b4cb47de053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.flow_data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8042522397fc52103b4cb47de053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>044256af97bc52103b4cb47de053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_fields</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4842522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_view</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4042522397fc52103b4cb47de053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>004256af97bc52103b4cb47de053af09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>884256af97bc52103b4cb47de053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_description</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4c4256af97bc52103b4cb47de053af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_title</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0c42522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_fields</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>0842522397fc52103b4cb47de053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_checklist</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8c42522397fc52103b4cb47de053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_sla</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>cc42522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>subject</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>404256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>4442522397fc52103b4cb47de053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8442522397fc52103b4cb47de053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Send an email./end.title}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>884256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to_email_address</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>8c4256af97bc52103b4cb47de053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:03:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to_requestor_user_name</field>
+        <id>5a8280b05a828e005a8286405a82b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 15:03:38</sys_created_on>
+        <sys_id>c44256af97bc52103b4cb47de053af05</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 15:04:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_a8c372cdebf9021041417bd6c1522856</table>
+        <value>{{pd.inputRecord.sys_created_by}}</value>
+    </sys_element_mapping>
+    <sys_pd_process_variant action="delete_multiple" query="process_definition=06f59504519a9180d4faa5c923dfa31c"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=5a8280b05a828e005a8286405a82b6e0"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=600fc120600f9c60600f9d20600f2a70"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=6219e6206219fbd06219a7406219e5b0"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=72bcee1072bc03e072bc25a072bcc290"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=5a8280b05a828e005a8286405a82b6e0"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=600fc120600f9c60600f9d20600f2a70"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=6219e6206219fbd06219a7406219e5b0"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=72bcee1072bc03e072bc25a072bcc290"/>
+    <sys_pd_snapshot action="delete_multiple" query="sys_id=8865aac0970112103b4cb47de053af35^sys_idNOT IN8865aac0970112103b4cb47de053af35"/>
+    <sys_pd_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <derivatives>{"table":"sys_pd_snapshot","id":"8865aac0970112103b4cb47de053af35","name":"derivatives","type":"com.snc.pd.model.serialization.DerivativeFetcher"}</derivatives>
+        <name>ride_book_playbook</name>
+        <process_definition>{"table":"sys_pd_snapshot","id":"8865aac0970112103b4cb47de053af35","name":"process_definition","type":"com.snc.pd.model.ProcessDefinition"}</process_definition>
+        <process_dependencies>{"table":"sys_pd_snapshot","id":"8865aac0970112103b4cb47de053af35","name":"process_dependencies","type":"com.snc.pd.model.dependency.InstructionBasedProcessDependenciesCollection"}</process_dependencies>
+        <process_plan>{"table":"sys_pd_snapshot","id":"8865aac0970112103b4cb47de053af35","name":"process_plan","type":"com.snc.process_flow.engine.ProcessPlan"}</process_plan>
+        <source display_value="Ride Book Playbook">06f59504519a9180d4faa5c923dfa31c</source>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>8865aac0970112103b4cb47de053af35</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 05:44:10</sys_updated_on>
+    </sys_pd_snapshot>
+    <sys_json_chunk action="delete_multiple" query="document_id=8865aac0970112103b4cb47de053af35"/>
+    <sys_pd_snapshot_chunk action="delete_multiple" query="document_id=8865aac0970112103b4cb47de053af35^sys_idNOT IN0865aac0970112103b4cb47de053af36,4065aac0970112103b4cb47de053af37,4465aac0970112103b4cb47de053af37,cc65aac0970112103b4cb47de053af37"/>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/+1Y227cNhD9lUDoY1TwTtEvjZM6QAA3F8cJUBSGwMswUSNLW0lrwDDy7x1d1pYv611vXSRA8rLcJTnDmTlnDqW9SIqQ7CVERWkkEZIaa2hGgojWSm8YD9Fy6pOnSWVPAXc2RYDc1fWXfFHa8/4LrpXWQYmLR7j45DnOPXk7X6ygTfb+uhiPMjIDwaImjGcmGHBBcUqkpy54TVm4Oiouy1iU5SlUXd52sGhxqe1s0yV7ky/upLTKE0cIpYySYD0RnjPvnI7Um3t8/TJ6eppY3xVnRXeeB4hFVXRFXSV71bIsr9Jabxyg9U2xuG5UwXZp1k2AZmU2eMybZQm3Z/LufHHX9JltsLAXX58mDdy293UVhnTyrsaFywADLKAKUPligOWkn2mKM4tlmHDCZLs+sgSDxDMKW3Wvwsp8KPysbtvA8PVkivt3QF68Geo1RT5PrT6DpufXsIRrGOYl1Ho6w/vxDEMZU0Y6Gggl9n6oez87Aj2a/oT5fBsIdoR5yuoSajedw2E8R0jJOABnjmZe3Q/1yteOcF+Z/4T8fBsodoR8hcDLKwSeXJP4Kd+kOD2FUNgOruIq5reJYtSAYqQfowvDaLUYRpCOzC4u+GeJtcztYtHUZ7ZcR5GEAsXUHPFcYMqUaKfRlciiFSQEYm7ed0ej45ucSZIdGEPvSf8WaxKImXWZJ5ZHIpwHR6lmikdJBXakJslWnEqOPrzO37w+/BM/Xhwkd9ErSR6HXFugNSPfxt0byZccFgMwN+i34g4h0VP0j6PxahzD+JtZPeNOAF+0ParrOINCCCGLymsbJHLGRWdjZhAJzxRxdMaZF3UViwZh/e1RGMNuMMZGxCCftcpdxNEWw6Oaey4pNjZhNusZz53pKa7YncS51n8XyTNf2ha/Ja+qj0M3PRufJLkwIjiSChl9KoSTqWORppaDVC6jXBE68KNcwnaMCEXbP2p+3N6ig1O06GAs6WfbTrZdswRkYrVYdh9awGijLVucaQvcD8djbd683X/34WAM8fjS0UhiZFHd/AFtaz9dzjUQocG2GLsCqecaW/nP9xaJCkWdZCqFTItUaCdSQzKVWssdkMCiU+aqSJO4XyvDOLcu0Smv/zfTbyokm1t3LiSbdm8WkrUiohkKL6Da4thfk/3IpB1Gz8xMRFrMOrdVDqe2KHO6Vkvw5rGSYq2dkqS/c6mgGgXAU8lYZu64f/4G343q9N/1hH9vehJVFqnJUrBCp4JRjVIieP8BIDgKLs3merKZGDf1ZLPFd68nXAYhooQU8TSpCFqnLgae4pu8YpniRDD5gCL9enD4/uDhlVqZfctyfUtR2kIK5m9Tm3ZvFqUj8Ni1a6VJ2oxl+FI+jEDGUYlhdArWSdOjCdP0pGMfTZvEd6ZNwQjjBWeplkZi2ymTOpnZlCksNBOcW2F+eG2ilFoiqUk50i4VRPs0E5qmwcpgpFRaUf4QbRomTDZMAL6PjRvH317KHaq4jcsfVdO20JCZpm3cvbOmndyVzhpPt9r5xr8mx/XRqkT31rU/dNpg3bh+8P54/+h4//nhQf5yf7ztprpNIS2aGmFrD+EMyv35/xV9uL4eUswsMxlYZ1CUJOood8I7oQMQyfGtMVsp0uu6el7W/ktRfRqJ9vVf8IzKGq4XAAA=</data>
+        <document_id display_value="ride_book_playbook">8865aac0970112103b4cb47de053af35</document_id>
+        <field>process_definition</field>
+        <length>1664</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>0865aac0970112103b4cb47de053af36</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/+1caZMbR3L9KxPQV9Zs3Qdjd72yzLU3QhK1OtbhkGREVlUWBS8GGOOgRDP43/2qgRmCnANDDESOjmDENNDd6M7Kynz5MrOKL0cmO0e+yCylUlrJSkXaYnTJOTRV0kejxy9HbTJd8WL0eDR6NHpOiwnNVn+ro8ez9XT6aDSpmwszOmN8+mxe/olvU8o8vbiFymryHBcbTZf8aFR5WRaT89VkPru4o8xnddJPjBfry5MTfHr56tFo9XxzrNzwgs+fPv0CL+CfuHTZmL5+cb774nnBW/oPXuEnQefCrGQ/SsPDUTsajkUn+dG+G+42/L1PuVTPkmd1TLMxn9FkOlavNTX6clL55Ev+Hy6DYl5rbbVYv620LslbKuunBoWNStk+nWpd8LLrYvSXMqX+afS32T9oilv/MsidTFQmFSW09yxsKyRydlEoKzEOQzm2PAx6uuaLAdfJ8nxKL/6xOddfu+IznFltv/1Ay+21jeCT2fl69c2S6+X8Lye4n7fT9vSLj//+zZPNS76+fNDmVbxYzBefYQj07PLcghsveFYYo/n2e0xxKbcM0Eqdc6skIgUrrIpaZK5V6GBClSGlENPrAe48pszPTpezcnq+mONVy3Gbzn885dmzyYxPlwwbmE7+j7r2T//9yy8W859edD1Qng5z/GI5XuMmnOofuyDfduG/h/TzH0ePJc7PF6tLhWJmt7p59fDUu5rf2ZqUL6Em1YTRJgpblYKySxQmZ+VN9mSUfOjWtFzn7oG3mZTK1ZlkRDLdZ6yCz6isYFxko4k++UKvR7lxa4ziJDPPtv4N6a+M/Mb7PrR3jRf8v2teruaLwajHGyC7UT3NkYouRpGoNhiBNSIG5YTVUjVSIUeOD90IYPPvNujEsVnPSbBPfdDNC2oZMANNuDJE1XT7oDfnbhr2dpQ/57ivw756ej6ZTk+/wJ8nP50vLofrJUuVnResY8bMFilIqSQsh1JSqy1VPYTo8x41X77EgwbRv+QyX9TTDoplwZCujvOLV69GrzZKv0XBwWpb2TpoNAPH8X6Rki0idFMLkizz7zh+q03neX1xm4Kbr5wcAK0SprS0zgSkEUV5TKqTbFW5r4KngLinA7xeaHq+mOBGjGgzyP6sZ/2uzd/5cO/md//x9Wef7qDqVfwcPTidXzDX0Tk432T2bPwGhdunQrzz9Ol6tTtHXsGxcvIiDvEmyCZy9EE4q6qxGvPUeEdHfzz/88fr1fwM2gclnr446dxzeTJE85O6XkCkk+0rTzqbXnfB/viH8z9fVe59HvW20q9TMVQFVczLZMCErf8doKFQNEfTEG2k9bDikAXw1wqKribkM1HVsKOh7tXDGK6OePfSHUcAuIO99/kfL1e0Wi8RRDreXT+Sm7C1WlKWiISTFqHEY36TItBWSUEzZePMG9j6fHr6FSbjhGab6Tj9A76ddgWNK62oo+ujUZvPhwzmAJXaTIx3wuiMgV5DRjyPOQrnbJG+NeWivktouxLMbtDiZDmmjanxDZrbI7BG4mqk1qKyq+BnNSA46SQIAQNWUV3QOwRkJK/Ovbz7nE/Kgb5skSxytCya6tOsIxTs8NVF1qZZVjnvskiePefp/JzH8/VqCmi9KvQ1d7y75x1isFG6SKVJITlKYQ1yyGSjFc6Y6mx10Rqz32CHjxtj3QuTN0kiHRsVYaWVlREwXJCEhkwkOMw5m6oytf2S7Lx+Iw+tVlR+OOPZqns01fF8Nn1x0KQz/KjFYMBiEgC8WQiIBBxUmaTN0nmu6WimuZqsbkLRGxVYvKXGJIy0YHNEDr6uovCBdDNOe5vKfgUOL77AncXZuE14WpcHKcxEYE+F8wL4kFFap5DIE4uqWkwpWqXUnmTi3cDnIlLfort96KNbjiFn0UoFXDKocTagxiqZ4GQJqsbdCPSG+q5O99uX7zj1yx+A/sspHTQC2KfRNTuhKIFqU/YieQk6qGVSrlZpjD+akV6NmYcHf6QgrB2ykhhc7uUHAL9PATGrJRNzqKXtCt4j/GWYvJ4A7F6+q9fRswF9D9J84cIJoTZV1zoHR9SvUoGDBxW9qbUotzOAJ9fbzJMDbKX8wOWf08lydRgvzQbU01ihEb1gMTB3iCuFlqSMjapgQo5mMZsQdR9Q0YZaKxwRppTvZRspEIiRWhL70GoCUaBjgsrr+DFezteLcqB1U1HWcRbBVEgdIniYdlpw8b1yX3Mu5ZhSD9D9fMI/HiRty+yTQoJeEpdOxOGVkhCKU9G2Od2o7Cksv4u0l72BLAs5hTQseye1klZZFXL1cByNmJuu6xv89d92uwajVr8qoFH18229frYpVcwXy9W6TuanQwH/Ao9/pMlqDE2NoReItS3Od/vFxVa3b/jqm3/966dP/3M0dCQcRR0lgn0/stwcvR2O2bP8aN8Nd+tI7H3K9R2Jt/sRn8xnbbI4o/fXknDWhOBDFCpUhB/wLZEKsMXWBjtvDkN68PXDW1sSgSmqIIsIHBCcKGaRHOiWYWmyr0yJze+lrCO1JGrNrcSsRbENjBaGLzISVtBuVyJ7RqZiHro13aElQVYXSlHU0gtDJiDb5QSa3BiUyEggoL2xJVE2Lr6/J7F744f2r3esz1MirSLm3Q7B00oWiBNBOEQiX7PJAMaHbgbv3JSI2ZJrFEQGoAqrTQDQhCK0cUrbGKuX4fZB/7KaElGx8roKRwXsOZnuBJ4FcsiclKas9Rt1iPs3JeBbwRVbBXiZRKiyGaruHeZcAhfgjPX3rpn/upF8T1MC3Dzb1LljLb0zgcmN3lnhk5HN2mpS5vsq+PemxD2bEr2v30wTtZeLLPiMSL5ZkZUN8AbZXNwtt/4GmxKM+MvZsgjWux6BEHyS9cBhVUgxky276fFDbEpEzdGnQKKF2IcQmiAjo2jI76tmpTW/16ZEzSr0f8Il5MG2FC9Sr7JZm7z0hdnnO/Xb31tTQloXW6kKGgtZ2NyiiMRK6JARh7loH49XIjm4KdEjp8+9csMDVyoIaA6+HCSip9UWQu5k7Q+5KWF0sonJCO2a72VYUP7OgjJVCx5QUs3x/TQl4B85K4Sv2GvBVibksxWGUIw3nm3T1fkP2pTQKufEuYhoVBQ2INeOrEmAPZrsfPJR0tFM84CmRJNZKZ1UZ3NwnVjB67qveydt1oG9UXfAniM2Jaxsniz1NS9g09YFJVJf9VZCkg1ZmI/RHxN87t+USNWbYEsVMiA1tBlAHlMzAmRVUtK9Trvr1w+wKWEDJrrJINgaGAFACuaQgzCqwdFLK7nZoxnpMZsSOfbVbw6QqlrvYClQ2GCDKMQu2KiQou+2/B5eUyIkT96ngkjQK7kKhg5gLaKmBnqnZOW6y+8eTFPCmOgz8ntBkftSEAgfi8wiKg/SJallOp7F3L8pETrMNgmfNIRUp0iGwlNfBVKYggyk/Z5C1YdoSgBOAhg+sM8E05f/wbpzX07uVCXTi09WPZymhAwNSbpXgqFTSBt7pKtFlJwlxUgKNPe32ZQI210gpWx2gSQwep9cVlUqSb/4XSBeylaUlv2Yit8c6+a7hnd9tO+Guw1/71Mu1VO5TJablspFu+WTi+rqv9yjz5IXNANs3lYRt86UoAn8yVgEpKRsz0S06HPvSXMjs1O0Gn378jsM7rvR4++G4aUUh+Fwrdthbr4XhLjvRo++2wxnuP2/eDmcuRR2ODtUN7aU/pTO4bJ40582H7gOP8AVXuBmhc+DIvBrXn4yX89W/eyrR69FevLpV0/eeu0TGNc1733jyfqGJ39/NQj85sb/gYvcw3NuNN4M70qMUK5qX13jZBTZU0ZC0Pdcee3I7S7xQL5efkBUBkxendnP+sWTv24vPoSa3CW4AXzBqpovgapTSmaQlQbG7lTRHunQu0eMZ9N5RkC8iJA7+HNAtPBaJfbANRxbrsORgh2O7DLgdM8Nd4TTfU+5hNNtX2R84U+jK7vqhuv3ANaLN5zRDPO4uMVEa7U1qMbCgLEJayIoZ0wsgjJIEg3g1e+sl72IhW+a5nD2g/vihTbHe5yyIUNoymvhkwTTTk2BZCPZTMo1k8ghNdvZ9jWi2Yurzvjx7MV8xidbHFx+8LFfU3N6c9BsZQuBoqggSOCS7ERqUgpvwe+Q4WXK9VfUXFNcqOdTIivwZ1tt3x5CDUm4NtJUFZOlm5trF920Z4v5+vz2xR85t4C8XnHsZbsqh3Xvwnk4TiMyoexo9cgdtfEg3q+irzYBjD2f1PU2GNzUv+z7YWM1gCrk9zbDe4mqFUHXBjLoHED3Z9P2r0LPV+tCb5Html1hFQTL2DdzIONMtvW9otHKrGtS8U7rl38hKIEIR1L1Bq31cN+sgBfFB6HJpKadQThXN6PE6eOvP98gxWWTsld/bqt73ryJRlvFugqpqG/7DiQS+SyMIt1c8NFf2USz5QgnH2+j3qZs3Ot/27LxcTYoWWtjjCx07rtjYygiJ6dEzTbrqMjJsluVgodcRuFtbFxcWxW87q732iEsEXE+Yepl0Ugro+9pZSkCiE6uItf0Ue3TuLemIK9iUV0Lwmr8iS44UWU1RTqOtrjNtCwuw0rnbNP12eywqhsFzqqRF142kDXlskimkmDN1LIDV6M39ot1a3h0oeLTzj4f4VVDF+bR7gKSgVm/PUvv9OO7tvru25jMrTkmg3DerdKmvmjeWCmiJsxndVT5eKv915PDi3emJJmaj8L1ZcUIVnDpaHsbyHI2Nhupj7r++eAmKnHz7DwJBzSEFTsWpFJCAiBzrEhQddjhMKPLKjfy1Ok1lfMr199TA7Uhx/IVHpj6ri7Z+bxTCXRXqcyhlpTf3tV1FUFh8ovVG856cBvV+2R0B5Ra+n/kYXrTzfWlV4UNh85F090QHR8mdSAn4yH2beQ6IMZgOhFdQE5bypCDdE974EimuNBcacl63pUIqefpvpT2dEhbNyItegukl2YOa5jpwFqpvso4p45smD+drVAyKIfJlc7tBhp31fDc3W3tjH4a3weGpeaiGXFDct+vA8WJKHvMNiHrFoMqatdl7FVh7d2FHXwJlrG4oV1+03wHJCKRW0GeV3Xv5GmAJMRtoejMtlVpdyLcTkz+0y3WeBm3L5zkv5/8/dgtSN2sZYdUNTfdN2g63beaOsHFNElOy8C7Df6H14KUmmxMLohQ+spOSxlZofbAIh1BqZM0uR0T+o/QzavVypiz8CYgqhpSIleQI7ggApd1puYjbn+5Lg+580oqBi1Hai2kSzCOzNAt6yz6wktAbeQri9N+ZkJ6WQRVrIovWRYDV1PArRyAkTY2shIs8RhtM6p1t2Z4QCk0bxtnhjeNM+ucNsxGZxUh/S+7cfbq/wEpYcufH04AAA==</data>
+        <document_id display_value="ride_book_playbook">8865aac0970112103b4cb47de053af35</document_id>
+        <field>derivatives</field>
+        <length>5360</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>4065aac0970112103b4cb47de053af37</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/62TPW+DMBCG/4vVMcPZYIOzVerSoVPHKsP5fERIqYkSkiXKf68N2X2VYHmxON/Hew8Pdb5MxNfrB585RU408lXtH+ot4JXLyx0vI6b5M6p9up1OO3XCxO80j/dxzrFfeC5R3vbcmqED0/Q+eg7RNRos6RCp0yZf/lEOYCBtoKgnt2pczwY7UDtlsTc9BFiUYVXXLhoclxBntGeXb2UdQlwUu3ZRtqGEdCYQs4ai0PCixuKiZDyow3OnMOWx5+nyzfNrhmp/ZYZa9YNgCJkXklIC2w+CTEtU1bWt2s7mj4mm3zEdN3Ye3GC9hdbmT173ENsB0ZI3TRyw0VTydMFadAREoLXR4LUxztugI2hA8pttsFhaq5XzCJCv8yzasWpe7QRY24lI0FJjKIRu0Ovo1Zicp2rzVjQVVKbbfJz+h8pGlkpoklgqoUlCpYQmyWokqEjolqAi+WslqNT9eebnDzoyN9DOBgAA</data>
+        <document_id display_value="ride_book_playbook">8865aac0970112103b4cb47de053af35</document_id>
+        <field>process_dependencies</field>
+        <length>492</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>4465aac0970112103b4cb47de053af37</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/2VSwW7iMBD9F59zCFCWwI2FsopUWgnQclhVaBIPxK3jsexJW1Tx72sHEqHd2/jNvPF7M/MtlBQz02idCAM1iplwSuKhIHo/WA3nGIhEkPVi9uc1EYWm8j3E35dEeAaOjP083+XPv0SLnPBWieakDC7AQqG04vNvdF6REbNBmgjld+h504TnEbTHRDgsyck9cFmhe25k2+cqjFX9L/QB7ibCNWYeQuHPnrEWLbBXXG1Id0osNB7lBsHH74W4dtzRBn3TWg5IBX4JDFt2CHUv6uphDW/kevnDRDQ+2DzUyCADp9OEzpFbo4/JDpNUgzJ5P+MStP4ZR7igxvAabJ+olJYLMoxfnMvepzdgfUUcO4gs+zEGKNPpJB0MhoN0VDyUxcNEYjoewXE0jsaIQb9YdMBBrH/8wrJhDOS0tfgYJfbuLDg0nC+7z+gjWIjbr8FaZU4drsFzy1xAc6q450czoWxLjSt7x+FSVuQ2aMnxXQ9yKozytrOjps9lmJ7S4R0023Yku7ONy1g9vexFR8jl3MiYuGNuS2oLMxhOM4RiOhmV4//GkWXicjvIJxVOw6C7X0LUfe1zw8gqlCtH9RW5/AVUL+3RGgMAAA==</data>
+        <document_id display_value="ride_book_playbook">8865aac0970112103b4cb47de053af35</document_id>
+        <field>process_plan</field>
+        <length>624</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>cc65aac0970112103b4cb47de053af37</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_input action="delete_multiple" query="model=8865aac0970112103b4cb47de053af35"/>
+    <sys_pd_snapshot_output action="delete_multiple" query="model=8865aac0970112103b4cb47de053af35"/>
+    <sys_flow_compiled_flow action="delete_multiple" query="sys_id=8865aac0a8011210295f7bf50b368938^sys_idNOT IN8865aac0a8011210295f7bf50b368938"/>
+    <sys_flow_compiled_flow action="INSERT_OR_UPDATE">
+        <parent_snapshot_id/>
+        <signature/>
+        <snapshot_id>8865aac0970112103b4cb47de053af35</snapshot_id>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>8865aac0a8011210295f7bf50b368938</sys_id>
+    </sys_flow_compiled_flow>
+    <sys_flow_compiled_flow_chunk action="delete_multiple" query="document_id=8865aac0a8011210295f7bf50b368938^sys_idNOT IN0c65aac0970112103b4cb47de053af3a,0065aac0970112103b4cb47de053af3a,4465aac0970112103b4cb47de053af39,8465aac0970112103b4cb47de053af3a"/>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/zXNMQqAMAyF4bt09gTORXBw6gmCTTUQmxKjDuLdLZSuH//jvS6xPB4NiN2YL+bByY2qFHGBUihvnVcphHFSObrscHowCKYIFRPwibUD5joLtcdetpNEmYwkz7H59wOUb/OmfgAAAA==</data>
+        <document_id display_value="Created 2024-09-29 22:44:10">8865aac0a8011210295f7bf50b368938</document_id>
+        <field>flow_config_param</field>
+        <length>152</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>0c65aac0970112103b4cb47de053af3a</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/92YbW+jOBDHvwu6l1HWmKeQV5tmK12k3W3V9E46rU5osE0WrYM5DHsbRf3uZwOhCZAm6RUp6qtJxzPjwf8ftsvWiLj495azNUtyaUy/bQ0pioywBTWmRhZTFoRC/AhSDhv9wxjV419hzV6O+CMuayA3cnwH2Y7pg29OELUjAIf42KIRWCZp4mc8BqlLCpErZwqZamm5P5QUnI+MfJPqme9nn4L7h7v57XKpSxBReieA/QmD0Pcs4mATWaFNQtujDDkWRJOJCl3HySKReVaQPBaJ7hEpJ/xqOT1rZLAsE9kjZCuW72ZXgbfa2xOdsVRkeZysFsKYbo04SQuVtn0aGaLIm9+URVDw/K5xPT0XnXMGSZEe66Q7rBX7e2TEcvH7MmepMY2AS6Yc3+Xzn0+jA1Gjgkcx51rwQEfJtqbHA2pJfWfCbBx5CFsTn/ospK5lIoeYISWeiWlH0k7F4IwSPQDs2NhD4PPs6+3/1R/36e96l+ivo4fSv+lkIP1/kzlk+UkKWmE1C1boOOASFCJkmmrBKRBkEwuTMPQik/inWajqBmcU6iPiVWjt8TObPy7+XDz+NQhDJr6EIR09FENNJ2/DUMb+KZjMA0jTTPwE3jkWjo3X1LjY9JmLkbZRSEsLnl1a5oSoeyi0CgZnVLhmXEyrjxd80ZmDBzxz8NueOZSRWKrcNicd/44PhCJiKnWV9YlbWVr9jcHr8rErFJyRec1cYLuPC8u+hAsdPRQXTSdvw4VkCQ0gCdgaYh6YbTyODdeUeDgkjJlIW2Sx0mIHSkuw36WkVS84o8A1w2I5fbDYziWw6OihYGk6GQCWF1Fpg+LABE/UzaK0DFXWtUsbuuwUKGekXzMmttuHieNegomOHgqTppOh7rdKzNO32/2g3f5SX0kJqa6kvomx6zuhSZGJ4Ky7rebojDLXjI/jvfN/j1SE3CjHelYmlevP6lT9dWSZw4rtHlD1FydxNffN5kAx3X78PPnN5guTskzdGh9Eqn3A9Rw/43yjnR8JB6mlJmI9lgkZp3S8FpTx8V6Z8WK9LnIIObv/NKP0rlVn72mVerH+XGCODNiNaow1X3Qukpz9yrVja6gLdKF5iBM1ZUCqoSDWAMXygUXGVNVU75URHc2LXsyTCaTyu+iZLhNErUrwvIzBLravTlK9rd3VU1BUi3sPGy6gM03tbdeL5W79GteHuqU5JITxV8lSpfYogd6fEoerpd9qkOqBD2vXzpdWv965m4IPrPq88Jr1r3N7BMAtAU59jAwytvvK8U6Eemge6HUvTKJEUHv2F0ibvXol9h1dUZVzJW6A/HgU1eHwGULGezbLw6hy4Gazl1Ju//8Bk64K1aIWAAA=</data>
+        <document_id display_value="Created 2024-09-29 22:44:10">8865aac0a8011210295f7bf50b368938</document_id>
+        <field>flow_structure</field>
+        <length>1372</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>0065aac0970112103b4cb47de053af3a</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/+WcW2+jOBTHvwvPUWQbTEKfdm5aVbuaWbXd3YfVKjLGtKgEogCdrap+9zUknenkgp2Jz4lSnpybsX0uf/zTcXjysqKql42ss7KovIt/nrxfZC4q/dKT5XxcFXK8SMbzMlH5+NVPx5fzeVOLOFd/fLyuxbK+/P6dN/KyxLsgI0/o9w9Z/Xip33okTHnEScBpJCI6JUmQCsFlxPwkFT6Vs6q9ju68SD6URa3+q9tuT96DyBul+2eFnslMrr6a6RH0MNWVSr0LPbB6Hnnp3n5pb7+qEIvqrtwx3LKUqqpmiUqzImuXNnv57a7rFGLedlxmiZrFZXk/W+TisXvxsrKs+rJoLyNy7yIVeaV7/YS9Pyqph/jcLnTL6PRAo5+xud0Y8/qubPLk3dpmV02xbVM28nIRKz2MNxUsmioRRxNfckaJHwcyDiaJItwX6XQ63nb+OG3yNMvzuSpqHQhqUY39mHMRShITQqm+SiIkCaTPZBxPUiqjb/HygytNvc7YlcumePHA77iW1iPb5+V6UWlefh0/sHVcJXW5O7b+Fll9U96rHRHlj7xyoa989enXy+ubT1f6468vv/5NPVo4e9b+fla3HTwXk70Ry1u1Q08C9Nivs7laOllT64DtFXEAWxs05up7eG/PJ0S38Crmh6Itq7ty0eT5UY4ftd5e5Kpepwqeu5KyUHr4umzkHfbY3aDt4G1Sog/eKUF3d3ifl/I+K25XXgUS7H0aOEHP0DbuACVwii+BN20g7RfBaDh6hH07XWdw68B3tyIrsLO4i2XkjKUE3c6dSgNvGyld7xv//Ay5czwGP9lwEhmNP6nvOppDRiMVMtK2aZx0rZgEXat4THYDqKnXGfsSDECNlj4NgNLASKDGmSMRKOXo0Q+NoDQEsPYxDEqdb3Et434o+tIDoYd4HgxCjZMAhFBzOgJCqKUWbEBoJ9HYe9opeo4CYyiN8GXQwKFss2j1hjUJ+6YKDKJ20YyctIyi2xkDRBmzAFHwXO4DUeYPJ5HxCqHOq0EhIamk2iu6jWS4apPVeyYm+0DU0OuMfQkHoiZLnwZEGTeDqGnmSCDKnFfqjCuDBlE2AbD2MSDK3G9y7eJ+KPrSB6IHeB4ORE2TgARRYzpCgqidFpy+Gsoi9BQF5lCf4KuggUP9zXN8b1iSsO+p0BxqFc3ISes7P8NoJ9TQ5+h8Gw6FzuU+DvWD4SQyGof6zktCExZLpShpW+KrrmVcdK1k0R4ONfU6Y1+CcajR0ic6kRsaOdQ4cyQO9Z0X64wrg+ZQf/tE2vHWPoZDfeebXMu4H4q+9HDoIZ4H41DjJAA51JyOgBxqqQWn59DA+Rk/q8ADVMGA4quggUODzfN8b1iSsO+pwBxqF83YSev8KKOdUAPvHoPAgkPBc7mPQwM+nERG49DAeUWIiymbkph0rSKrNgy6Ng7VHg419TpjX4JxqNHSp+HQYGLkUOPMsf4a6rxWZ1wZNIcG2yfSjrf2MRzKnW9yLeN+KPrSw6GHeB6MQ42TAORQczoCcqilFpyeQ7nzI35WgQf5D3mGr4IGDuWbx/nesCRh31OBOdQumrGT1vlJRjuhBt49cm7BoeC53MehPBxOIqNxKHdfEVr/bVfK1d92I8pYGPGYJoQSse8JRaZeZ+xLuHqoydKn4VA+NddDTTNH4lDuvlZnWhk0h4bbJ9KOt/ZRDylyvsm1jPuh6EtfPfQAz8PVQ02TgKyHGtMRsh5qpwWn59DQ+RE/q8CDVEEfXwUNHBpuHud7w5KEfU+FrodaRTN20ro/yWgl1MC7xzC0qYdC53Ifh4aT4SQyGoeGrypCxqc9rzcMQ3la8Q6ANJroZS9nr0oGH35YX3CH6zafwHfGprYOwVf23f/s7l4n/Dvy9KREk2uJWTT1X+2ctUOenr99/qWpf/ji+X9N9F03cl0AAA==</data>
+        <document_id display_value="Created 2024-09-29 22:44:10">8865aac0a8011210295f7bf50b368938</document_id>
+        <field>instructions</field>
+        <length>1944</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>4465aac0970112103b4cb47de053af39</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/6tWyswrLikqTS7JzM/zTAnJD0rNzS9L9U6tdEosSc5QsqqurQUAOtk80SQAAAA=</data>
+        <document_id display_value="Created 2024-09-29 22:44:10">8865aac0a8011210295f7bf50b368938</document_id>
+        <field>runtime_value_metadata</field>
+        <length>76</length>
+        <position>0</position>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>8465aac0970112103b4cb47de053af3a</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_pd_trigger_instance action="delete_multiple" query="sys_id=fe6fb7109f4719c4e720e607e8d3cc1e^sys_idNOT INfe6fb7109f4719c4e720e607e8d3cc1e"/>
+    <sys_pd_trigger_instance action="INSERT_OR_UPDATE">
+        <label/>
+        <name/>
+        <playbook_inputs/>
+        <process_definition display_value="Ride Book Playbook">06f59504519a9180d4faa5c923dfa31c</process_definition>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 14:36:07</sys_created_on>
+        <sys_id>fe6fb7109f4719c4e720e607e8d3cc1e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 14:36:07</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=fe6fb7109f4719c4e720e607e8d3cc1e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fe6fb7109f4719c4e720e607e8d3cc1e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>fe6fb7109f4719c4e720e607e8d3cc1e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 14:36:07</sys_created_on>
+        <sys_id>01fb8aaf973c52103b4cb47de053af33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 14:36:07</sys_updated_on>
+        <value>x_1536901_ride_b_0_request</value>
+        <variable display_value="Table">a8ae38d1ff2200108c8733af793bf15c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>fe6fb7109f4719c4e720e607e8d3cc1e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 14:36:07</sys_created_on>
+        <sys_id>c5fb8aaf973c52103b4cb47de053af32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-28 14:36:07</sys_updated_on>
+        <value>request_type=178906eb973c52103b4cb47de053afed</value>
+        <variable display_value="Condition">2a8a7851ff2200108c8733af793bf131</variable>
+    </sys_variable_value>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fe6fb7109f4719c4e720e607e8d3cc1e^sys_idNOT IN8865aac0970112103b4cb47de053af34"/>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_trigger":"org.mozilla.javascript.UniqueTag@7b4f6308: NOT_FOUND"}</data>
+        <identifier>fe6fb7109f4719c4e720e607e8d3cc1e</identifier>
+        <runner>PDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_id>8865aac0970112103b4cb47de053af34</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 05:44:10</sys_updated_on>
+        <trigger display_value="">cc65aac0970112103b4cb47de053af33</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="delete_multiple" query="document_id=8865aac0970112103b4cb47de053af34"/>
+    <sys_flow_record_trigger action="delete_multiple" query="sys_id=cc65aac0970112103b4cb47de053af33^sys_idNOT INcc65aac0970112103b4cb47de053af33"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1536901_ride_b_0_request">request_type=178906eb973c52103b4cb47de053afed<item display_table="sc_cat_item_producer" display_value="Ride Booking" endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="178906eb973c52103b4cb47de053afed"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 05:44:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc65aac0970112103b4cb47de053af33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 05:44:10</sys_updated_on>
+        <table>x_1536901_ride_b_0_request</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state>{"creatorStudioRecordProducerId":"178906eb973c52103b4cb47de053afed"}</designer_state>
+        <engine_major_version/>
+        <label>Ride Book Playbook</label>
+        <name>ride_book_playbook</name>
+        <now_assist_prompt/>
+        <permission/>
+        <process_type display_value="Creator Studio Automation">a487710eff0f3110893effffffffff4d</process_type>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <run_strategy>run_once</run_strategy>
+        <run_strategy_on_process_definition>false</run_strategy_on_process_definition>
+        <schema_version>2</schema_version>
+        <snapshot display_value="ride_book_playbook">8865aac0970112103b4cb47de053af35</snapshot>
+        <start_non_blocking>true</start_non_blocking>
+        <status>published</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-28 14:36:07</sys_created_on>
+        <sys_id>06f59504519a9180d4faa5c923dfa31c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Ride Book Playbook</sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_pd_process_definition_06f59504519a9180d4faa5c923dfa31c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-11-17 12:48:48</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=06f59504519a9180d4faa5c923dfa31c"/>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f57805a583a722107c2356e0deaad35b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06e71b0bb7913110876beb25de11a94d</documentkey>
+        <fieldname>message</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f57805a583a722107c2356e0deaad35b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>automation_error_suggestion</tablename>
+        <value>&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;Hôte introuvable pour cette adresse IP et cet emplacement&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt;"&gt;L'adresse IP et l'emplacement réseau de l'hôte pour le point de terminaison sont introuvables. Veillez à planifier la découverte horizontale de ces éléments dans le cadre de ces paramètres.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt;"&gt;Pour plus d'informations et de solutions possibles, consultez &lt;a href="https://support.servicenow.com/nav_to.do?uri&amp;#61;%2Fkb%3Fid%3Dkb_article_view%26sys_kb_id%3D55d8391897c831508a073cbe2153afd7" target="_blank" rel="nofollow noopener noreferrer"&gt;&lt;em&gt;Résolution des erreurs de découverte descendante avec découverte d'hôte activée par emplacement&lt;/em&gt; (KB1436551)&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:42</sys_created_on>
+        <sys_id>355b8ff18301b2907c2356e0deaad3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_355b8ff18301b2907c2356e0deaad3fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:42</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

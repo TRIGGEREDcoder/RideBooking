@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f768856583a722107c2356e0deaad38e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>018603b3eb1032008a1f4d3df106fe8a</documentkey>
+        <fieldname>content</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f768856583a722107c2356e0deaad38e</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_embedded_help_content</tablename>
+        <value>&lt;h1 class="title topictitle1" style="font-family: Times; white-space: normal;"&gt;Règle de péremption  &lt;/h1&gt;
+&lt;style type="text/css"&gt;&lt;!-- p.p1 {margin: 0.0px 0.0px 16.0px 48.0px; text-indent: -24.0px; font: 18.0px Times} p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px 'Times New Roman'} p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Times New Roman'} p.p4 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Times New Roman'} p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Times New Roman'; background-color: #fffb01} span.s1 {font: 9.0px 'Times New Roman'} span.s2 {background-color: #fffb01} span.s3 {font: 13.0px 'Courier New'} table.t1 {margin: 0.0px 0.0px 0.0px 48.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080} td.td1 {width: 460.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080; padding: 4.0px 4.0px 4.0px 4.0px} td.td2 {width: 459.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080; padding: 4.0px 4.0px 4.0px 4.0px} --&gt;&lt;/style&gt;
+&lt;p&gt;1.     Dans la section Actualisation des sources de données, sélectionnez une règle existante à modifier ou cliquez sur &lt;strong&gt;Nouveau&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;2.     Renseignez ou modifiez le formulaire &lt;strong&gt;Définition&lt;/strong&gt;&lt;strong&gt; de péremption&lt;/strong&gt; de source de données.&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p&gt;&lt;strong&gt;Contrôle&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top"&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p&gt;Concerne&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top"&gt;
+&lt;p&gt;La classe à laquelle s'applique la règle.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p&gt;Durée effective&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top"&gt;
+&lt;p&gt;La période utilisée pour le test de péremption.&lt;/p&gt;
+&lt;p&gt;Si les champs spécifiés dans la règle de réconciliation pour la classe du CI n'ont pas été mis à jour par la source de données spécifiée au cours de la période spécifiée : le CI est déterminé comme périmé.&lt;/p&gt;
+&lt;p&gt;Si vous entrez une valeur avec un préfixe valide et un suffixe qui ne l'est pas, tel que 15 x : la partie valide de la valeur est utilisée (« 15 »). Si la valeur entière n'est pas valide : la valeur par défaut 0 est utilisée.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p&gt;Source de données&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top"&gt;
+&lt;p&gt;Source de données de la classe.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p&gt;Actif&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top"&gt;
+&lt;p&gt;Spécifie que la règle est active.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;3.     Cliquez sur &lt;strong&gt;Soumettre&lt;/strong&gt; ou sur &lt;strong&gt;Mettre à jour&lt;/strong&gt; pour enregistrer la règle.&lt;/p&gt;
+&lt;p&gt;   &lt;/p&gt;
+&lt;div class="body taskbody" style="font-family: Times; font-size: medium; white-space: normal;"&gt;
+&lt;div class="body taskbody" style="font-family: Times; font-size: medium; white-space: normal;"&gt;
+&lt;p&gt;&lt;a title="Définir la priorité de la source de données" href="http://docs.servicenow.com/?context&amp;#61;CSHelp:cmdb-data%20source-precedence&amp;amp;version&amp;#61;jakarta" rel="nofollow"&gt;Définir la priorité de la source de données&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style type="text/css"&gt;&lt;!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px 'Times New Roman'} p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Times New Roman'} p.p3 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Times New Roman'} p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Times New Roman'; background-color: #fffb01} span.s1 {font: 13.0px 'Courier New'} table.t1 {margin: 0.0px 0.0px 0.0px 48.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080} td.td1 {width: 460.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080; padding: 4.0px 4.0px 4.0px 4.0px} td.td2 {width: 459.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080; padding: 4.0px 4.0px 4.0px 4.0px} --&gt;&lt;/style&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:38</sys_created_on>
+        <sys_id>853743f9834d72907c2356e0deaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_853743f9834d72907c2356e0deaad3d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:38</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

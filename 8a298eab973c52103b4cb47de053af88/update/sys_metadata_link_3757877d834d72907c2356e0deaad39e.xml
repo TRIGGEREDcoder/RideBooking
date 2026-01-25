@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3268016583a722107c2356e0deaad30d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>029879aedbf91010127e3764e2961991</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>3268016583a722107c2356e0deaad30d</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt; Tire les tâches.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;Enregistrements par page &lt;/b&gt; : transmettez cette valeur pour définir le nombre d'enregistrements à afficher dans une page. Oracle recommande 499 comme valeur limite maximale.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Champs de requête&lt;/b&gt; : utilisez l'un de ces champs pour interroger les informations sur les tâches.&lt;/li&gt;
+   &lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;
+      &lt;b&gt;Tâches&lt;/b&gt; : objet complexe contenant ces champs : - 
+      &lt;ul&gt;
+         &lt;li&gt; Date de création&lt;/li&gt;
+         &lt;li&gt; ID de l'échelle de niveau&lt;/li&gt;
+         &lt;li&gt; Date de fin d'entrée en vigueur&lt;/li&gt;
+         &lt;li&gt; Temporaire normalement&lt;/li&gt;
+         &lt;li&gt; Code fonction de la tâche&lt;/li&gt;
+         &lt;li&gt; Numéro de demande&lt;/li&gt;
+         &lt;li&gt; ID modèle de demande&lt;/li&gt;
+         &lt;li&gt; État actif&lt;/li&gt;
+         &lt;li&gt; Temps partiel/complet&lt;/li&gt;
+         &lt;li&gt; Nom&lt;/li&gt;
+         &lt;li&gt; Autorité d'approbation&lt;/li&gt;
+         &lt;li&gt; ID de la famille de postes&lt;/li&gt;
+         &lt;li&gt; Code de la tâche&lt;/li&gt;
+         &lt;li&gt; Contrôle médical requis&lt;/li&gt;
+         &lt;li&gt; ID d'ensemble&lt;/li&gt;
+         &lt;li&gt; Date de début d'entrée en vigueur&lt;/li&gt;
+         &lt;li&gt; ID de tâche&lt;/li&gt;
+         &lt;li&gt; Date de dernière mise à jour&lt;/li&gt;
+         &lt;li&gt; Niveau de gestionnaire&lt;/li&gt;
+      &lt;/ul&gt;
+   &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Oracle Cloud HCM correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Oracle Cloud HCM.&lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:21</sys_created_on>
+        <sys_id>3757877d834d72907c2356e0deaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_3757877d834d72907c2356e0deaad39e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:21</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

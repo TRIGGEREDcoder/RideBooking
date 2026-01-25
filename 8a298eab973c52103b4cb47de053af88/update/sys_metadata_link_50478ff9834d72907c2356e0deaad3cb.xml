@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2368056583a722107c2356e0deaad30f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02008fbf778625107cac5228c81061d3</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>2368056583a722107c2356e0deaad30f</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupérez les propriétés et les relations d'un canal.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;ID du groupe/ID de l'équipe&lt;/strong&gt; : identificateur unique du groupe ou de l'équipe où se trouve le canal.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;ID du canal&lt;/strong&gt; : l'identificateur unique du canal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Canal&lt;/strong&gt; : objet avec les propriétés suivantes :
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Nom&lt;/strong&gt; : nom d'affichage du canal.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt; : description du canal correspondant au nom de canal donné.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt; : objet avec les champs suivants :
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée avec succès, le code est défini sur 0. En cas d'échec, le code est défini sur 1.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Message : &lt;/strong&gt;motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;L'ID de l'équipe n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;Les valeurs saisies ne doivent pas contenir de caractères non valides.&lt;/li&gt;
+    &lt;li&gt;L'ID de l'équipe ne doit pas contenir de caractère non valide.&lt;/li&gt;
+    &lt;li&gt;Aucune équipe avec l'ID fourni n'existe.&lt;/li&gt;
+    &lt;li&gt;Le canal donné ne se trouve pas dans l'équipe donnée.&lt;/li&gt;
+    &lt;li&gt;Le nom d'affichage n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;Le jeton d'accès est vide. Veuillez vérifier le jeton OAuth et l'autorisation du périmètre.&lt;/li&gt;
+    &lt;li&gt;Demande interdite. Veuillez vérifier le jeton OAuth et l'autorisation du périmètre.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification Microsoft Teams Graph correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Microsoft Teams Graph.&lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : Nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Lire plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:51</sys_created_on>
+        <sys_id>50478ff9834d72907c2356e0deaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_50478ff9834d72907c2356e0deaad3cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:51</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

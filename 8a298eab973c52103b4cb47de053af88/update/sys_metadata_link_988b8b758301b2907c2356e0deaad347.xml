@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0d68812583a722107c2356e0deaad3a4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>077b2b3387944d102e71422e0ebb35c6</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>0d68812583a722107c2356e0deaad3a4</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p id="short_desc"&gt; Crée une suppression ou une conservation du litige pour une facture donnée.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id="inputs"&gt;
+    &lt;li&gt;&lt;b&gt;Nº de compte&lt;/b&gt; : l'identificateur de compte affecté par Aria. Cette valeur est unique pour tous les comptes gérés par Aria.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID du compte client&lt;/b&gt; : l'identificateur de compte défini par le client.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Nº de facture&lt;/b&gt; : l'identificateur unique affecté par Aria d'une facture donnée.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Code du motif&lt;/b&gt; : le code du motif pour la suppression/la contestation.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Date de radiation&lt;/b&gt; : la date de suppression/du litige&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Commentaires&lt;/b&gt; : les commentaires sur la suppression/la contestation.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Faire une dispute&lt;/b&gt; :  spécifie s'il faut contester ou non.  &lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID de reçu client&lt;/b&gt; : l'identificateur unique défini par le client utilisé pour suivre les actions du système qui s'y rapportent.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID de l'appelant Alt&lt;/b&gt; : la personne ou le processus qui a soumis l'appel d'API. Il peut s'agir de l'ID d'utilisateur de quelqu'un ou du nom d'une application (Exemple : « Force de vente »).&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID d'application&lt;/b&gt; : l'identificateur de l'application dans lequel l'API est utilisée (exemple : « Force de vente »).&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Date de l'application&lt;/b&gt; : la date/l'horodatage de l'application, c.-à-d. 01/01/2014 10:00:00 pour suivre quand l'application a appelé l'API.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Qualificateurs de transaction facultatifs&lt;/b&gt; : un tableau de valeurs supplémentaires que vous pouvez associer à cet appel d'API (exemple : « Force de vente »).&lt;/li&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id='outputs'&gt;
+    &lt;li&gt;&lt;b&gt;Transactions de radiations de factures&lt;/b&gt; : objet contenant 
+    la liste des champs avec les détails de toutes les plaintes.
+     &lt;ul&gt;
+
+                    &lt;li&gt;&lt;b&gt;ID de transaction de radiations&lt;/b&gt; : l'ID généré par Aria pour la transaction d'inversion.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nº de facture&lt;/b&gt; : l'identificateur unique affecté par Aria d'une facture donnée.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nº de service&lt;/b&gt; : le numéro de service unique généré par Aria.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;ID du service client&lt;/b&gt; : l'identificateur défini par le client pour le service.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Montant d'origine&lt;/b&gt; : le montant d'origine de la transaction de facture.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Montant&lt;/b&gt; : le montant de la radiation/du litige pour cette transaction.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Code du motif de radiation&lt;/b&gt; : code du motif, le cas échéant, pour cette suppression de fonds.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Facture concernée par un litige&lt;/b&gt; : indique si cela est un litige ou une suppression de fonds.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Peut être en suspens&lt;/b&gt; : spécifie si ce litige peut être en suspens.&lt;/li&gt;
+                    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance dans ARIA, l'état est défini sur « Erreur ».&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;Erreur inattendue.&lt;/li&gt;
+   &lt;li&gt;Erreur d'authentification.&lt;/li&gt;
+   &lt;li&gt;Le compte n'existe pas, compte introuvable : AriaNo (acct_no), compte introuvable : ID d'utilisateur (userid) ou Compte introuvable : ClientId (client_acct_id).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion ARIA correspondante  doit être créée et
+associée
+à l'alias de connexion et d'informations d'identification ARIA. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank'         href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:25</sys_created_on>
+        <sys_id>988b8b758301b2907c2356e0deaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_988b8b758301b2907c2356e0deaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:25</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

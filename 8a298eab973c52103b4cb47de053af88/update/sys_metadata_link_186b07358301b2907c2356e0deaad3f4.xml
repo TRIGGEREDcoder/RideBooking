@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8c5801a183a722107c2356e0deaad372</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>071033b287751010aec3819b88cb0b55</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8c5801a183a722107c2356e0deaad372</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p id = "short_desc"&gt; Crée une intention pour la compétence et le paramètre régional spécifiés.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;ID du fournisseur&lt;/b&gt; : ID unique du fournisseur.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Paramètres régionaux&lt;/b&gt; : paramètres régionaux de la compétence dans laquelle vous voulez créer l'intention, comme de-de, en-au, en-ca, en-go, en-go, en-in, en-us, es-es, es-mx, es-mx, es-us, fr-ca, fr-fr, hi-in, it-it, ja-jp ou pt-br.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ID de la compétence&lt;/b&gt; : ID unique de la compétence.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Intentions&lt;/b&gt; : liste des intentions à créer. Cette entrée est une liste des objets d'intention contenant ces valeurs :&lt;ul&gt;&lt;li&gt; Nom&lt;/li&gt;&lt;li&gt; Échantillons&lt;ul&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt; Emplacement : liste des objets contenant ces valeurs :&lt;ul&gt;&lt;li&gt; Nom&lt;/li&gt;&lt;li&gt; Type&lt;/li&gt;&lt;li&gt; Échantillons&lt;ul&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Dialogue&lt;/b&gt; : règles pour la conduite d'un dialogue multi-tours avec utilisation. Cette entrée est un objet complexe contenant les champs suivants :&lt;ul&gt;&lt;li&gt; Stratégie de délégation&lt;/li&gt;&lt;li&gt; Intention : liste des objets contenant ces valeurs :&lt;ul&gt;&lt;li&gt; Confirmation requise&lt;/li&gt;&lt;li&gt; Nom&lt;/li&gt;&lt;li&gt; Invites&lt;ul&gt;&lt;li&gt; Confirmation&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt; Emplacement : liste des objets contenant ces valeurs :&lt;ul&gt;&lt;li&gt; Élicitation obligatoire&lt;/li&gt;&lt;li&gt; Nom&lt;/li&gt;&lt;li&gt; Type&lt;/li&gt;&lt;li&gt; Confirmation requise&lt;/li&gt;&lt;li&gt; Invites&lt;ul&gt;&lt;li&gt; Élicitation&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt; Validation : liste des objets contenant ces valeurs :&lt;ul&gt;&lt;li&gt; Invite&lt;/li&gt;&lt;li&gt; Type&lt;/li&gt;&lt;li&gt; Valeurs&lt;ul&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Invites&lt;/b&gt; : signaux adressés à l'utilisateur pour le compte de la compétence afin de recueillir des données ou de fournir des commentaires. Cette entrée est une liste des objets contenant ces valeurs :&lt;ul&gt;&lt;li&gt; ID&lt;/li&gt;&lt;li&gt; Variation : liste des objets contenant ces valeurs :&lt;ul&gt;&lt;li&gt; Type&lt;/li&gt;&lt;li&gt; Valeur&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur « Réussite ». Si une défaillance s'est produite dans Amazon Alexa, l'état est défini sur « Erreur ».&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : objet complexe contenant ces champs :&lt;ul&gt;&lt;li&gt; « Erreur »&lt;/li&gt;&lt;li&gt; Violation : liste des objets contenant ces valeurs :&lt;ul&gt;&lt;li&gt; Code d'erreur&lt;/li&gt;&lt;li&gt; Message&lt;/li&gt;&lt;li&gt; Détails de la violation&lt;ul&gt;&lt;li&gt; Instance d'origine&lt;ul&gt;&lt;li&gt; Type de données&lt;/li&gt;&lt;li&gt; Chemin de la propriété&lt;/li&gt;&lt;li&gt; Type&lt;/li&gt;&lt;li&gt; Valeur&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Informations d'identification non valides.&lt;/li&gt;&lt;li&gt;ID de fournisseur non valide.&lt;/li&gt;&lt;li&gt;ID de compétence non valide.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Amazon Alexa correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Amazon Alexa. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:52</sys_created_on>
+        <sys_id>186b07358301b2907c2356e0deaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_186b07358301b2907c2356e0deaad3f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:52</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

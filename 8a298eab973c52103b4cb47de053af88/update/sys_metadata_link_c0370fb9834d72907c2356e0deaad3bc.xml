@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>575809e183a722107c2356e0deaad321</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>014c9b311bf9cd10e76643f28d4bcb23</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>575809e183a722107c2356e0deaad321</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Trouve et renvoie les rendez-vous réservés dans une plage de temps donnée.
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Métadonnées&lt;/b&gt;&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Date/heure de l'événement&lt;/b&gt; : la date/l'heure de l'événement.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Test&lt;/b&gt; : le marqueur comme message de test.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Source&lt;/b&gt; : le lieu d'origine du message.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la source.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la source.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Destinations&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la destination.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la destination.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Journaux : les identificateurs du journal des demandes.&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID d'un journal des demandes.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;ID de tentative&lt;/b&gt; : l'ID de la tentative du journal des demandes.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Message&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du message créé.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Transmission&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la transmission.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;FacilityCode&lt;/b&gt; : le code de l'installation associée au message.&lt;/li&gt;
+    &lt;/ul&gt;
+
+
+    &lt;li&gt;&lt;b&gt;Date/heure de début&lt;/b&gt; : le début de la plage horaire pour rechercher des rendez-vous.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Date/heure de fin&lt;/b&gt; : la fin de la plage horaire pour rechercher des rendez-vous.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Visite&lt;/b&gt;&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Motif&lt;/b&gt; : le motif du rendez-vous à rechercher.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Numéro de visite&lt;/b&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Fournisseurs présents&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification pour le fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                &lt;li&gt;Ville&lt;/li&gt;
+                &lt;li&gt;État&lt;/li&gt;
+                &lt;li&gt;Code postal&lt;/li&gt;
+                &lt;li&gt;Comté/Région&lt;/li&gt;
+                &lt;li&gt;Pays&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : l'/les adresse(s) e-mail du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;Bureau&lt;/b&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : l'emplacement du fournisseur.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Installation&lt;/b&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Département&lt;/b&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Salle&lt;/b&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+
+        &lt;li&gt;&lt;b&gt;Consulter le fournisseur&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification pour le fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                &lt;li&gt;Ville&lt;/li&gt;
+                &lt;li&gt;État&lt;/li&gt;
+                &lt;li&gt;Code postal&lt;/li&gt;
+                &lt;li&gt;Comté/Région&lt;/li&gt;
+                &lt;li&gt;Pays&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : l'/les adresse(s) e-mail du fournisseur.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;Bureau&lt;/b&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : l'emplacement du fournisseur.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Installation&lt;/b&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Département&lt;/b&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Salle&lt;/b&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Lieu&lt;/b&gt; : le lieu du rendez-vous.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Installation&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Département&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Salle&lt;/b&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Patients&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Identificateurs&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du patient.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type de l'ID.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;
+    &lt;ul&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Modèle de données&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type d'événement&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Date/heure de l'événement&lt;/b&gt; : la date/l'heure de l'événement.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Test&lt;/b&gt; : le marqueur comme message de test.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Source&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la source.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la source.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Destinations&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la destination.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la destination.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Journaux : les identificateurs du journal des demandes.&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID d'un journal des demandes.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;ID de tentative&lt;/b&gt; : l'ID de la tentative du journal des demandes.&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;li&gt;&lt;b&gt;Message&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de message.&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;li&gt;&lt;b&gt;Transmission&lt;/b&gt; : l'enregistrement dans Redox qui correspond à la communication envoyée de Redox à votre
+            destination.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la transmission.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;FacilityCode&lt;/b&gt; : le code de l'installation associée au message.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Visites&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Numéro de visite&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Numéro du compte&lt;/b&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Date/heure de la visite&lt;/b&gt; : la date/l'heure du rendez-vous.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Classe des patients&lt;/b&gt; : la classe du patient est utilisée dans de nombreux DSE pour déterminer où placer le patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : l'état de la visite.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Durée&lt;/b&gt; : la durée du rendez-vous.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Motif&lt;/b&gt; : le motif du rendez-vous.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Motif d'annulation&lt;/b&gt; : le motif de l'annulation de la visite.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Dernière mise à jour&lt;/b&gt; : la date/l'heure à laquelle le rendez-vous a été modifié pour la dernière fois.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Date/heure planifiée&lt;/b&gt; : la date/l'heure à laquelle la visite a été planifiée.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Annuler date/heure&lt;/b&gt; : la date/l'heure à laquelle la visite a été annulée.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type de rendez-vous.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Instructions&lt;/b&gt; : les instructions pour le rendez-vous.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Fournisseurs présents&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification pour le fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                    &lt;li&gt;Ville&lt;/li&gt;
+                    &lt;li&gt;État&lt;/li&gt;
+                    &lt;li&gt;Code postal&lt;/li&gt;
+                    &lt;li&gt;Comté/Région&lt;/li&gt;
+                    &lt;li&gt;Pays&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : l'/les adresse(s) e-mail du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Bureau&lt;/b&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : l'emplacement du fournisseur.&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Installation&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Département&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Salle&lt;/b&gt;&lt;/li &gt;&lt;/ul&gt;
+                &lt;/ul&gt;
+
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Fournisseur de services de conseil&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification pour le fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                    &lt;li&gt;Ville&lt;/li&gt;
+                    &lt;li&gt;État&lt;/li&gt;
+                    &lt;li&gt;Code postal&lt;/li&gt;
+                    &lt;li&gt;Comté/Région&lt;/li&gt;
+                    &lt;li&gt;Pays&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : l'/les adresse(s) e-mail du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Bureau&lt;/b&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : l'emplacement du fournisseur.&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Installation&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Département&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Salle&lt;/b&gt;&lt;/li &gt;&lt;/ul&gt;
+                &lt;/ul&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Fournisseur référent&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification pour le fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                    &lt;li&gt;Ville&lt;/li&gt;
+                    &lt;li&gt;État&lt;/li&gt;
+                    &lt;li&gt;Code postal&lt;/li&gt;
+                    &lt;li&gt;Comté/Région&lt;/li&gt;
+                    &lt;li&gt;Pays&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : l'/les adresse(s) e-mail du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Bureau&lt;/b&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : l'emplacement du fournisseur.&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Installation&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Département&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Salle&lt;/b&gt;&lt;/li &gt;&lt;/ul&gt;
+                &lt;/ul&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Consulter le fournisseur&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification pour le fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                    &lt;li&gt;Ville&lt;/li&gt;
+                    &lt;li&gt;État&lt;/li&gt;
+                    &lt;li&gt;Code postal&lt;/li&gt;
+                    &lt;li&gt;Comté/Région&lt;/li&gt;
+                    &lt;li&gt;Pays&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : l'/les adresse(s) e-mail du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Bureau&lt;/b&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : l'emplacement du fournisseur.&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Installation&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Département&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Salle&lt;/b&gt;&lt;/li&gt;
+
+                &lt;/ul&gt;
+            &lt;/ul&gt;
+
+            &lt;li&gt;&lt;b&gt;Lieu&lt;/b&gt; : le lieu du rendez-vous.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Installation&lt;/b&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Département&lt;/b&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Salle&lt;/b&gt;&lt;/li &gt;&lt;/ul&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Personnel supplémentaire&lt;/b&gt; : tout le personnel affecté à ce rendez-vous. Chacun peut être
+                planifié individuellement.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification pour le fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                    &lt;li&gt;Ville&lt;/li&gt;
+                    &lt;li&gt;État&lt;/li&gt;
+                    &lt;li&gt;Code postal&lt;/li&gt;
+                    &lt;li&gt;Comté/Région&lt;/li&gt;
+                    &lt;li&gt;Pays&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : l'/les adresse(s) e-mail du fournisseur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Bureau&lt;/b&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : l'emplacement du fournisseur.&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du lieu.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Installation&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Département&lt;/b&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Salle&lt;/b&gt;&lt;/li&gt;
+
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Rôle&lt;/b&gt; : le rôle de cette personne lors du rendez-vous.&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Code&lt;/b&gt; : le code du service.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Ensemble de codes&lt;/b&gt; : l'ensemble des codes utilisé pour identifier le service.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Description&lt;/b&gt; : la description du service.&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Date/heure de début&lt;/b&gt; : si le calendrier de ce membre du personnel est différent du calendrier des rendez-vous,
+                    il s'agit de l'heure à laquelle ce membre du personnel doit commencer à travailler.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Durée&lt;/b&gt; : la durée pendant laquelle le membre du personnel est planifié.&lt;/li&gt;
+
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Diagnostic de rencontres&lt;/b&gt; : la liste des diagnostics associés à cette visite.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code&lt;/b&gt; : le code du diagnostic.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Ensemble de codes&lt;/b&gt; : l'ensemble des codes utilisés pour identifier les diagnostics.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom du diagnostic.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type du diagnostic.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Date/heure documentée&lt;/b&gt; : la date/l'heure à laquelle les diagnostics ont été documentés.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Équipement&lt;/b&gt; : l'équipement ou les ressources affectés à ce rendez-vous. Chacun peut être planifié
+                individuellement.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;Code&lt;/b&gt; : le code pour l'équipement.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Ensemble de codes&lt;/b&gt; : l'ensemble des codes utilisé pour identifier l'équipement.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Description&lt;/b&gt; : la description de l'équipement.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Date/heure de début&lt;/b&gt; : si le calendrier de l'équipement est différent du calendrier des rendez-vous, il s'agit de
+                    l'heure à laquelle cet équipement doit commencer à travailler.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Durée&lt;/b&gt; : la durée pendant laquelle l'équipement est planifié.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Patient&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;Identificateurs&lt;/b&gt; : la liste des ID et des types d'ID qui identifient le patient.&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type de l'ID.&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;li&gt;&lt;b&gt;Démographie&lt;/b&gt;&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : le prénom du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Deuxième prénom&lt;/b&gt; : le second prénom du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de famille du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;DATE DE NAISSANCE&lt;/b&gt; : la date de naissance du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;SSN&lt;/b&gt; : le SSN du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Sexe&lt;/b&gt; : le sexe du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Ethnicité&lt;/b&gt; : l'ethnicité du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Est hispanique&lt;/b&gt; : indique si le patient est d'origine hispanique.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Religion&lt;/b&gt; : la religion du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;État matrimonial&lt;/b&gt; : l'état matrimonial du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Est décédé&lt;/b&gt; : indique si le patient est décédé.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Date/heure du décès&lt;/b&gt; : la date et l'heure auxquelles le patient a été proclamé décédé.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du patient.&lt;/li&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;Accueil&lt;/li&gt;
+                        &lt;li&gt;Bureau&lt;/li&gt;
+                        &lt;li&gt;Mobile&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;li&gt;&lt;b&gt;Adresses e-mail&lt;/b&gt; : la liste des adresses e-mail du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Langue&lt;/b&gt; : la langue parlée principale du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Citoyenneté&lt;/b&gt; : le(s) pays de citoyenneté du patient.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Adresse&lt;/b&gt; : l'adresse du patient.&lt;/li&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;Adresse (rue)&lt;/li&gt;
+                        &lt;li&gt;Ville&lt;/li&gt;
+                        &lt;li&gt;État&lt;/li&gt;
+                        &lt;li&gt;Code postal&lt;/li&gt;
+                        &lt;li&gt;Comté/Région&lt;/li&gt;
+                        &lt;li&gt;Pays&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;li&gt;&lt;b&gt;Notes&lt;/b&gt; : les notes au niveau du patient.&lt;/li&gt;
+                &lt;/ul&gt;
+
+            &lt;/ul&gt;
+            &lt;li&gt;&lt;b&gt;Informations sur le rendez-vous&lt;/b&gt; : la liste des informations cliniques supplémentaires associées au
+                rendez-vous.&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;Code&lt;/b&gt; : le code pour l'élément d'information.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Ensemble de codes&lt;/b&gt; : l'ensemble de codes utilisé pour identifier l'élément d'informations.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Description&lt;/b&gt; : la description de l'élément d'information.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Valeur&lt;/b&gt; : la valeur du code d'informations sur le rendez-vous correspondant.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+
+
+    &lt;/ul&gt;
+
+    &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance
+        dans Redox, l'état est défini sur « Erreur ».&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt;
+ :&lt;ul&gt;
+    &lt;li&gt;Les destinations ou destinations non valides doivent contenir une destination provenant d'abonnements existants.&lt;/li&gt;
+    &lt;li&gt;Plusieurs destinations synchrones ont été spécifiées. Veuillez fournir une destination correcte.&lt;/li&gt;
+    &lt;li&gt;L'ID de destinations de métadonnées fourni semble être vide.&lt;/li&gt;
+    &lt;/li&gt;Le format de la date/l'heure de début fournie n'est pas valide.&lt;/li&gt;
+    &lt;/li&gt;Le format de la date/l'heure de fin fournie n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide ou le jeton a expiré.&lt;/li&gt;
+    &lt;li&gt;Une erreur inattendue s'est produite. Consultez la réponse de l'API pour plus d'informations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Redox correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Redox. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:33</sys_created_on>
+        <sys_id>c0370fb9834d72907c2356e0deaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_c0370fb9834d72907c2356e0deaad3bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:33</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

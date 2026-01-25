@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5b5885e183a722107c2356e0deaad3d6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0149503553b43010fe6addeeff7b12f0</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>5b5885e183a722107c2356e0deaad3d6</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Cette action obtient les détails du fichier chargé et les noms de pièce jointe de la tâche LF et les fichiers de RWS TMS.&lt;/p&gt;
+&lt;p&gt;
+	&lt;b&gt;Entrées :&lt;/b&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;strong&gt;Détails du fichier&lt;/strong&gt; : JSON contenant les informations des ID de fichier RWS, les noms de pièce jointe et les langues cibles. Exemple : 
+        &lt;pre&gt;
+        {
+         "XXX-Target-Language-Code":{
+            "rwsFileId":"XXX-RWS-File-ID",
+            "attachmentName":"XXXX-sentToRWS.xliff",
+            "targets":[
+               "FR"
+            ]
+         },
+         "YYY-Target-Language-Code":{
+            "rwsFileId":"YYY-RWS-File-ID",
+            "attachmentName":"YYYY-sentToRWS.xliff",
+            "targets":[
+               "FR"
+            ]
+         }
+      }
+      &lt;/pre&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	&lt;b&gt;Sorties :&lt;/b&gt;
+&lt;/p&gt;
+    &lt;li&gt;
+		&lt;strong&gt;Noms de pièce jointe&lt;/strong&gt; : noms des fichiers XLIFF joints à la tâche LF.
+	&lt;/li&gt;
+    &lt;li&gt;
+		&lt;strong&gt;ID de fichier RWS&lt;/strong&gt; : ID de fichier RWS des fichiers chargés dans RWS.
+	&lt;/li&gt;
+    &lt;li&gt;
+		&lt;strong&gt;Fichiers de projet RWS&lt;/strong&gt; : tableau Stringified d'éléments JSON qui contient des informations de l'ID de fichier RWS et les langues cibles. Exple : {"fileId":"XXX-RWS-File-ID","targets":["FR"]},{"fileId":"YYY-RWS-File-ID","targets":["DE"]}
+	&lt;/li&gt;
+&lt;/ul&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:33</sys_created_on>
+        <sys_id>44370fb9834d72907c2356e0deaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_44370fb9834d72907c2356e0deaad3b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:33</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

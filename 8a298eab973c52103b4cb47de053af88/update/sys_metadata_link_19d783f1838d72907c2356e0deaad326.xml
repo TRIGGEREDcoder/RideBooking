@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e6688d2583a722107c2356e0deaad360</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>04eb33cb0b381010ba266f3463673a03</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>e6688d2583a722107c2356e0deaad360</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Met à jour une plage de valeurs de cellule dans une feuille.&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Alias de connexion et d'informations d'identification&lt;/strong&gt; : l'alias de connexion et d'informations d'identification du spoke Google Sheets.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID de feuille de calcul&lt;/strong&gt; : l'identificateur unique de la feuille de calcul que vous pouvez obtenir à partir de l'URL de Google Sheets, https://docs.Google.com/Spreadsheets/d/&lt;strong&gt;spreadsheetid&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feuille&lt;/strong&gt;  : le titre de la feuille.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plage&lt;/strong&gt; : la notation A1 de la plage de cellules à mettre à jour.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Valeurs&lt;/strong&gt; : les valeurs avec lesquelles la plage de cellules spécifiée doit être mise à jour.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : l'entrée des valeurs est de type tableau de chaînes où chaque chaîne de ce tableau correspond à une ligne dans la feuille. Chaque chaîne doit être indiquée en tant que valeurs séparées par une virgule entre crochets telles que - [val1, val2, val3,....]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; :&lt;strong&gt; &lt;/strong&gt;si la demande est effectuée avec succès, l'état est défini sur « Réussite ». Si une défaillance se produit dans Google Sheets, l'état est défini sur « Erreur ».&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : le motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Feuille ou plage non valide.&lt;/li&gt;
+&lt;li&gt;Les valeurs de dimension et la plage spécifiées ne correspondent pas.&lt;/li&gt;
+&lt;li&gt;Feuille de calcul introuvable pour l'ID fourni.&lt;/li&gt;
+&lt;li&gt;Activer l'API Google Sheets pour le projet dans la console de l'application.&lt;/li&gt;
+&lt;li&gt;Jeton d'accès non valide.&lt;/li&gt;
+&lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Google Sheets correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Google Sheets. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque :&lt;/strong&gt; nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:22</sys_created_on>
+        <sys_id>19d783f1838d72907c2356e0deaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_19d783f1838d72907c2356e0deaad326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:22</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

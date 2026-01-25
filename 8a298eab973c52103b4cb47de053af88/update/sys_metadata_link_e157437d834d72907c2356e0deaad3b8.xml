@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>fd68092583a722107c2356e0deaad38d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0270313553603300e8cbddeeff7b1201</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>fd68092583a722107c2356e0deaad38d</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Crée un webhook qui envoie une notification lorsque les événements de signature ont lieu dans Adobe Sign.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : nom du webhook.
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Enregistrement du groupe&lt;/b&gt; : l'enregistrement du groupe qui représente l'alias de connexion et d'informations d'identification du groupe.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Périmètre&lt;/b&gt; : portée jusqu'à laquelle le webhook devrait être efficace.
+    &lt;ul&gt;
+      &lt;li&gt;Utilisateur&lt;/li&gt;
+      &lt;li&gt;Groupe&lt;/li&gt;
+      &lt;li&gt;Compte&lt;/li&gt;
+      &lt;li&gt;Ressource&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;b&gt;ID de l'accord&lt;/b&gt; : si le périmètre est sélectionné comme ressource, l'ID de l'accord doit être fourni.
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;URL du Webhook&lt;/b&gt; : saisissez l'URL ServiceNow qui sera utilisée pour l'envoi de notifications concernant les événements couverts par l'abonnement. Exemple : https://www.ServiceNow.com&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;S'abonner ou se désabonner des événements de conclusion d'accords&lt;/b&gt; : selon que cette option est sélectionnée ou non, l'utilisateur s'abonne à l'événement de signature ou s'en désabonne, et ServiceNow est notifié si la signature est effectuée par le signataire.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;S'abonner ou se désabonner des événements de refus d'accords&lt;/b&gt; : selon que cette option est sélectionnée ou non, l'utilisateur s'abonne à l'événement de refus de signature ou s'en désabonne et ServiceNow est notifié si la signature est refusée par le signataire.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;S'abonner ou se désabonner des événements d'expiration d'accords&lt;/b&gt; : selon que cette option est sélectionnée ou non, l'utilisateur s'abonne à l'événement d'expiration de signature ou s'en désabonne et ServiceNow est notifié si la signature est annulée après avoir atteint sa 
+    date d'expiration désignée.&lt;/li&gt;
+  &lt;/li&gt;
+  &lt;ul&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur « Réussite » si la demande aboutit ou sur « Erreur » si une défaillance se produit.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : est rempli si l'état est « Erreur ».&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;ID du Webhook&lt;/b&gt; : l'ID du webhook pour lequel des événements d'abonnement ont été créés et enregistrés.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Il existe déjà un webhook enregistré avec la même configuration pour les événements fournis.&lt;/li&gt;
+  &lt;li&gt;Le nom fourni semble vide.&lt;/li&gt;
+  &lt;li&gt;La valeur fournie pour le nom n'est pas valide.&lt;/li&gt;
+  &lt;li&gt;Valeur non valide fournie pour une ou plusieurs entrées.&lt;/li&gt;
+  &lt;li&gt;Les événements d'abonnement Webhook fournis semblent vides.&lt;/li&gt;
+  &lt;li&gt;L'URL Webhook fournie n'est pas valide.&lt;/li&gt;
+  &lt;li&gt;La validation de l'URL webhook fournie a échoué.&lt;/li&gt;
+  &lt;li&gt;L'ID fourni n'est pas valide.&lt;/li&gt;
+  &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide ou le jeton a expiré.&lt;/li&gt;
+  &lt;li&gt;L'utilisateur ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+  &lt;li&gt;La version Adobe Sign fournie n'est pas valide ou la ressource est introuvable.&lt;/li&gt;
+  &lt;li&gt;La version de l'API n'est pas fournie ou pas valide dans l'attribut Connexion.&lt;/li&gt;
+  &lt;li&gt;L'enregistrement de groupe fourni n'est pas valide.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Remarques supplémentaires :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;L'utilisateur peut s'attendre à des messages d'erreur supplémentaires de la réponse API en raison de la version de l'API sélectionnée&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Pour utiliser cette action, la connexion Adobe Sign et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Adobe Sign. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:13</sys_created_on>
+        <sys_id>e157437d834d72907c2356e0deaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_e157437d834d72907c2356e0deaad3b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:13</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

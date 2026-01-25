@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>fe5805e183a722107c2356e0deaad323</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>07541b7773500010a88f7e363cf6a730</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>fe5805e183a722107c2356e0deaad323</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère l'enregistrement en fonction de la requête de recherche et de l'entité sélectionnées dans la liste de choix.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Entité&lt;/b&gt; : entité pour laquelle vous souhaitez récupérer l'enregistrement.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Requête de recherche&lt;/b&gt; : requête de recherche permettant de filtrer un enregistrement spécifique.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Comportement&lt;/b&gt; : Renvoyer le premier élément trouvé, Générer un échec si plusieurs éléments trouvés, Définir une erreur, mais pas un échec.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+     &lt;li&gt;&lt;b&gt;ID d'enregistrement&lt;/b&gt; : ID de l'enregistrement.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Nombre d'enregistrements trouvés&lt;/b&gt; : la valeur entière correspondant aux enregistrements trouvés.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur « Réussite » si la demande aboutit ou sur « Erreur » si une défaillance se produit.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : est rempli si l'état est « Erreur ».&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;La requête de recherche fournie n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;Plusieurs enregistrements trouvés.&lt;/li&gt;
+    &lt;li&gt;Aucun enregistrement trouvé.&lt;/li&gt;
+   &lt;li&gt;L'entité fournie n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide ou le jeton a expiré.&lt;/li&gt;
+    &lt;li&gt;L'utilisateur ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Microsoft Dynamics CRM correspondantes doivent être créées et
+    associées à l'alias de connexion et d'informations d'identification Microsoft Dynamics CRM. &lt;a target="_blank"         href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement &lt;a target="_blank"         href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;pour une utilisation en production. &lt;/a&gt;En savoir plus
+.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:14</sys_created_on>
+        <sys_id>657bc3758301b2907c2356e0deaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_657bc3758301b2907c2356e0deaad388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:14</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e858c1a183a722107c2356e0deaad39d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02d7d891db7f04104efb54e3dc9619db</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>e858c1a183a722107c2356e0deaad39d</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Répertorie les données d'utilisation des licences dans BigFix Inventory. Il s'agit d'une action de flux de données. Par conséquent, toutes les actions dans sa boucle seront exécutées une fois par enregistrement.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Taille de la page&lt;/strong&gt; : nombre d'enregistrements récupérés par le flux de données par appel REST. La valeur par défaut est 5 000. Elle peut être ajustée pour améliorer les performances du serveur BigFix Inventory.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Critères&lt;/strong&gt; : critères facultatifs pour limiter les enregistrements renvoyés par le flux de données. Le format de la langue de la requête est &lt;a href="https://help.hcltechsw.com/bigfix/9.5/inventory/Inventory/integration/r_common_operators_connectors.html"&gt;documenté ici&lt;/a&gt;. Si le champ est vide, tous les enregistrements sont récupérés.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/p&gt;
+&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Objet complexe contenant ces champs :&lt;/li&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt; &lt;b&gt;Nom du fournisseur du produit&lt;/b&gt; : nom du fournisseur du produit.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;ID du produit&lt;/b&gt; : l'identificateur du produit logiciel.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Nom du produit&lt;/b&gt; : nom du produit logiciel.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;GUID de la famille de produits&lt;/b&gt; : nom du produit logiciel.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;ID de la métrique&lt;/b&gt; : l'identificateur de la métrique de licence. Pour obtenir des explications sur les valeurs renvoyées, consultez &lt;a href="https://help.hcltechsw.com/bigfix/9.5/inventory/Inventory/integration/r_metric_mapping.html#reference_vys_ysj_b1b"&gt;ID de mesures et noms de code&lt;/a&gt;.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Nom de la métrique&lt;/b&gt; : nom de la métrique de licence.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Nom de code de la métrique&lt;/b&gt; : nom de code de la métrique de licence.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Quantité HWM&lt;/b&gt; : nombre le plus élevé d'unités de mesure que le produit a utilisé dans la période pour laquelle les données sont récupérées.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Seuil&lt;/b&gt; : nombre maximal d'unités de mesures que le produit a le droit d'utiliser au sein d'un groupe d'ordinateurs.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Seuil delta&lt;/b&gt; : différence entre la quantité de mesure et le seuil.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Nombre de pièces importées&lt;/b&gt; : nombre de pièces importées dans BigFix Inventory. Il représente le produit répertorié dans la colonne product_name et sa métrique de licence.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Une réagrégation est-elle nécessaire&lt;/b&gt; : spécifie si un recalcul est nécessaire pour le produit.&lt;/li&gt;
+        &lt;li&gt; &lt;b&gt;Heures de pointe HWM&lt;/b&gt; : la date et l'heure auxquelles le nombre le plus élevé d'unités de mesure a été utilisé par un produit dans la période sélectionnée.&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; Pour utiliser cette action, une  connexion et des informations d'identification correspondantes doivent être créées avec la clé API d'un utilisateur de BigFix Inventory. &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+ 
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:32</sys_created_on>
+        <sys_id>9a67cf7d834d72907c2356e0deaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_9a67cf7d834d72907c2356e0deaad322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:32</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

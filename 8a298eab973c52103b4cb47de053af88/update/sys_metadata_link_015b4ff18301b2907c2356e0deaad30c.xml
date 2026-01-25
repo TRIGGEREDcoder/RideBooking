@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7c784d6583a722107c2356e0deaad339</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06dfc24653233300200bddeeff7b12a6</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>7c784d6583a722107c2356e0deaad339</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Détecte la langue du texte à l'aide de IBM Watson Translator Service.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Texte&lt;/strong&gt; : texte pour identifier la langue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Langue détectée&lt;/strong&gt; : objet contenant l'information sur le code et la fiabilité de la langue détectée.&lt;/li&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : code de langue de la langue détectée, tel que spécifié par IBM Watson Translator Service.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Score de confiance&lt;/strong&gt; : une valeur flottante indiquant le score de confiance envers le résultat. La valeur se situe entre zéro et un et une valeur faible indique un faible score de confiance.&lt;/li&gt;
+
+        &lt;br/&gt;Exemple de réponse linguistique détectée pour le texte en Français avec un score de confiance de 0,93
+        &lt;br/&gt; {
+        &lt;br/&gt; 'code' : 'fr',
+        &lt;br/&gt; 'confidence' : '0.93'
+        &lt;br/&gt; }
+
+    &lt;/ul&gt;
+    &lt;li&gt;&lt;strong&gt;Alternatives&lt;/strong&gt; : tableau d'objets contenant d'autres langues possibles. Chaque élément du tableau est un objet contenant un code de la langue possible et une fiabilité.
+        &lt;ul&gt;
+            &lt;br/&gt; Exemples de réponse alternatives, si l'allemand et l'anglais sont les alternatives possibles
+            &lt;br/&gt; [
+
+            &lt;br/&gt; { 'code' : 'de' , 'confidence' : '0.42' }, 
+            &lt;br/&gt; { 'code' : 'en' , 'confidence' : '0.36' }
+            &lt;br/&gt;]
+        &lt;/ul&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : « Réussite » si la demande aboutit ou « Erreur » si une défaillance se produit.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Code d'erreur&lt;/strong&gt; : code d'erreur. Renseigné uniquement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Codes d'erreur : messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;40052 : la longueur maximale du texte (champ de « texte ») a été dépassée.&lt;/li&gt;
+    &lt;li&gt;40055 : la demande n'est pas autorisée car les informations d'identification sont manquantes ou invalides.&lt;/li&gt;
+    &lt;li&gt;40050 – Code d'erreur à renseigner pour les messages d'erreur provenant de IBM Translator au lieu des messages d'erreur standardisés.&lt;/li&gt;
+    &lt;li&gt;40051 : une erreur inconnue s'est produite&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, une connexion IBM Watson Translator Service et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification de IBM Translator. &lt;a target="_blank"  href="/api/now/v1/context_doc_url/IBM_Watson_Translator_Service_Spoke"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:39</sys_created_on>
+        <sys_id>015b4ff18301b2907c2356e0deaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_015b4ff18301b2907c2356e0deaad30c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:39</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

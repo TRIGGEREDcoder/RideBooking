@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ba78c9a583a722107c2356e0deaad326</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>03b43b82c354301021f5e81aa840dd71</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>ba78c9a583a722107c2356e0deaad326</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupère tous les rôles personnalisés d'un compte Entreprise.&lt;/p&gt; 
+ 
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+    &lt;li&gt;&lt;b&gt;Rôles personnalisés&lt;/b&gt; 
+        &lt;ul&gt; 
+            &lt;li&gt;ID de rôle personnalisé : identificateur unique du rôle personnalisé.&lt;/li&gt; 
+            &lt;li&gt;Nom : nom du rôle.&lt;/li&gt; 
+            &lt;li&gt;Description : description du rôle.&lt;/li&gt; 
+            &lt;li&gt;Type de rôle : type de rôle. La valeur par défaut est de 0 pour tout rôle personnalisé.&lt;/li&gt; 
+            &lt;li&gt;Créé à : heure à laquelle le rôle a été créé.&lt;/li&gt; 
+            &lt;li&gt;Mis à jour à : heure à laquelle le rôle a été mis à jour.&lt;/li&gt; 
+            &lt;li&gt;Configuration : paramètres de configuration pour le rôle.   
+               &lt;ul&gt;  
+                   &lt;li&gt;Accès à la messagerie instantanée : spécifie que le rôle a accès à la messagerie instantanée.&lt;/li&gt;  
+                   &lt;li&gt;Gérer les règles métier : spécifie que le rôle peut gérer les règles métier.&lt;/li&gt;  
+                   &lt;li&gt;Gérer le contenu dynamique : spécifie que le rôle peut gérer le contenu dynamique.&lt;/li&gt;  
+                   &lt;li&gt;Gérer les extensions et les canaux : spécifie que le rôle peut gérer les extensions et les canaux.&lt;/li&gt;  
+                   &lt;li&gt;Gérer Facebook : spécifie que le rôle peut gérer les pages Facebook.&lt;/li&gt;  
+                   &lt;li&gt;Modification de l'organisation : spécifie que le rôle peut modifier les champs de l'organisation.&lt;/li&gt; 
+                   &lt;li&gt;Modification des notes de l'organisation : spécifie que le rôle peut modifier les notes de l'organisation.&lt;/li&gt; 
+                   &lt;li&gt;Suppression de ticket : spécifie que le rôle peut supprimer des tickets.&lt;/li&gt; 
+                   &lt;li&gt;Voir les tickets supprimés : spécifie que le rôle peut voir les tickets supprimés.&lt;/li&gt; 
+                   &lt;li&gt;Modification des balises de ticket : spécifie que le rôle peut modifier des balises sur un ticket.&lt;/li&gt; 
+                   &lt;li&gt;Accès à la recherche Twitter : spécifie que le rôle a accès à la recherche Twitter.&lt;/li&gt; 
+                   &lt;li&gt;Contenu restreint pour l'accès au forum : spécifie que le rôle a accès à du contenu restreint.&lt;/li&gt; 
+                   &lt;li&gt;Accès à la liste des utilisateurs finaux : spécifie que le rôle a accès à la liste des utilisateurs finaux.&lt;/li&gt; 
+                   &lt;li&gt;Accès aux tickets : spécifie que le rôle a accès aux tickets.&lt;/li&gt; 
+                   &lt;li&gt;Accès aux commentaires des tickets : spécifie que le rôle a accès aux commentaires des tickets.&lt;/li&gt; 
+                   &lt;li&gt;Accès aux fonctions vocales : spécifie que le rôle a accès aux fonctions vocales.&lt;/li&gt; 
+                   &lt;li&gt;Modération de forums : spécifie que le rôle peut modérer les forums.&lt;/li&gt; 
+                   &lt;li&gt;Accès aux groupes : spécifie que le rôle a accès aux groupes.&lt;/li&gt; 
+                   &lt;li&gt;Agent léger : spécifie que le rôle est un agent léger.&lt;/li&gt; 
+                   &lt;li&gt;Création d'une conversation secondaire : spécifie que le rôle peut démarrer de nouvelles conversations secondaires ou y répondre.&lt;/li&gt; 
+                   &lt;li&gt;Accès au profil de l'utilisateur final : spécifie que le rôle a accès au profil de l'utilisateur final.&lt;/li&gt; 
+                   &lt;li&gt;Accès à l'exploration : spécifie que le rôle a accès aux fonctions d'exploration.&lt;/li&gt; 
+                   &lt;li&gt;Accès au forum : spécifie que le rôle a accès au forum.&lt;/li&gt; 
+                   &lt;li&gt;Accès aux macros : spécifie que le rôle a accès aux macros.&lt;/li&gt; 
+                   &lt;li&gt;Accès aux rapports : spécifie que le rôle a accès aux rapports.&lt;/li&gt; 
+                   &lt;li&gt;Modification de ticket : spécifie que le rôle peut modifier les tickets.&lt;/li&gt; 
+                   &lt;li&gt;Fusion de tickets : spécifie que le rôle peut fusionner des tickets.&lt;/li&gt; 
+                   &lt;li&gt;Accès aux vues : spécifie que le rôle a accès aux vues.&lt;/li&gt; 
+                   &lt;li&gt;Accès aux vues de l'utilisateur : spécifie que le rôle a accès aux vues de l'utilisateur.&lt;/li&gt;  
+               &lt;/ul&gt;   
+            &lt;/li&gt; 
+        &lt;/ul&gt; 
+    &lt;/li&gt; 
+    &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance, l'état est défini sur « Erreur ». 
+    &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt; 
+&lt;/ul&gt; 
+ 
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+    &lt;li&gt;Le nom d'utilisateur ou le mot de passe n'est pas valide. Vérifiez auprès de votre administrateur système.&lt;/li&gt; 
+    &lt;li&gt;Une erreur inattendue s'est produite. Vérifiez auprès de votre administrateur système.&lt;/li&gt; 
+&lt;/ul&gt; 
+ 
+&lt;p&gt;Pour utiliser cette action, la connexion Zendesk et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification &lt;b&gt;Zendesk&lt;/b&gt;. &lt;a target=”_blank” href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt; 
+ 
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : Nécessite un abonnement pour une utilisation en production. &lt;a target=”_blank” href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Lire plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:09</sys_created_on>
+        <sys_id>2f874ffd834d72907c2356e0deaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_2f874ffd834d72907c2356e0deaad3cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:09</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

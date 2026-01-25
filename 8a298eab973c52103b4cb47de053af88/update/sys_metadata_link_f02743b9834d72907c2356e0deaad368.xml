@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9c78496583a722107c2356e0deaad37f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>00dde97b471a6110d9aee522736d4332</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>9c78496583a722107c2356e0deaad37f</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère les données de compétences.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;strong&gt;ID de compétences&lt;/strong&gt; : tableau d'ID de compétences permettant de récupérer les détails des compétences.&lt;/li&gt;
+   &lt;li&gt;&lt;strong&gt;Taille de la page&lt;/strong&gt; : définit le nombre d'objets à renvoyer dans chaque page de réponse. Définissez une valeur comprise entre 1 et 999. La valeur par défaut est 100.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sorties&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;
+      &lt;strong&gt;Compétence&lt;/strong&gt; : contient des données de compétences pour chaque ID de compétence transmis. Si ce champ est vide, toutes les données de compétence sont récupérées.
+      &lt;ul&gt;
+         &lt;li&gt;
+            Référence de compétences
+            &lt;ul&gt;
+               &lt;li&gt;Descripteur de compétences&lt;/li&gt;
+               &lt;li&gt;WID&lt;/li&gt;
+               &lt;li&gt;ID de compétence&lt;/li&gt;
+            &lt;/ul&gt;
+         &lt;/li&gt;
+         &lt;li&gt;
+            Données de compétences
+            &lt;ul&gt;
+               &lt;li&gt;ID&lt;/li&gt;
+               &lt;li&gt;Nom&lt;/li&gt;
+               &lt;li&gt;Inactif&lt;/li&gt;
+               &lt;li&gt;Masquer des candidats&lt;/li&gt;
+               &lt;li&gt;
+                  Référence de catégorie
+                  &lt;ul&gt;
+                     &lt;li&gt;WID&lt;/li&gt;
+                     &lt;li&gt;Descripteur de la référence de catégorie&lt;/li&gt;
+                     &lt;li&gt;ID de catégorie de l'élément de compétence&lt;/li&gt;
+                     &lt;li&gt;Nom de catégorie de l'élément de compétence&lt;/li&gt;
+                  &lt;/ul&gt;
+               &lt;/li&gt;
+            &lt;/ul&gt;
+         &lt;/li&gt;
+      &lt;/ul&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+      &lt;p&gt;Pour utiliser cette action, une connexion et les informations d'identification de Workday Learning correspondantes doivent être créées et associées à l'alias de connexion et des informations d'identification de l'apprentissage Workday. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : Nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank"&gt;Lire plus&lt;/a&gt;.&lt;/p&gt;
+   &lt;/li&gt;
+&lt;/ul&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:20</sys_created_on>
+        <sys_id>f02743b9834d72907c2356e0deaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_f02743b9834d72907c2356e0deaad368</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:20</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9ba8052d83a722107c2356e0deaad3e9</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>04b96ad10be33200e115650d37673acf</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>9ba8052d83a722107c2356e0deaad3e9</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>samp_sw_license_metric</tablename>
+        <value>L'unité de valeur du processeur (PVU) est une unité de mesure permettant d'obtenir une licence pour le programme.
+Le nombre d'autorisations PVU requis est basé sur la technologie du processeur (définie dans le tableau PVU par le vendeur du processeur, la marque, le type et le numéro de modèle) et le nombre de processeurs mis à la disposition du programme.
+IBM continue à définir un processeur, aux fins de l'octroi de licences PVU, comme étant chaque cœur de processeur sur une puce. Une puce de processeur à double cœur, par exemple, a deux cœurs de processeur.
+En cas d'utilisation d'une licence à pleine capacité, le titulaire de la licence doit obtenir des autorisations PVU suffisantes pour couvrir tous les cœurs de processeur activés* dans l'environnement matériel physique mis à disposition ou géré par le programme, à l'exception des serveurs sur lesquels le programme a été définitivement supprimé.
+En cas d'utilisation d'une licence de capacité de virtualisation, le titulaire de la licence doit obtenir des autorisations suffisantes pour couvrir tous les cœurs de processeur activés mis à disposition ou gérés par le programme, tels que définis selon les règles de comptage des licences de capacité de virtualisation.
+Un cœur de processeur activé est un cœur de processeur qui est disponible pour être utilisé dans un serveur physique ou virtuel, indépendamment du fait que la capacité du cœur de processeur peut être ou est limitée par des technologies de virtualisation, des commandes de système d'exploitation, des paramètres du BIOS ou des restrictions similaires.</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:12</sys_created_on>
+        <sys_id>f2c7cbb1838d72907c2356e0deaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_f2c7cbb1838d72907c2356e0deaad3e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:12</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

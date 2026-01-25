@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8d48c92183a722107c2356e0deaad3e5</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>050ad81493c13200bebe7344967ffb81</documentkey>
+        <fieldname>article</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8d48c92183a722107c2356e0deaad3e5</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;&lt;strong&gt;Informations d'identification AWS : &lt;/strong&gt;Requises pour connecter ServiceNow à votre environnement AWS.&lt;br /&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Numéro de compte&lt;/li&gt;&lt;li&gt;Clé d'accès&lt;/li&gt;&lt;li&gt;Clé secrète&lt;/li&gt;&lt;li&gt;ServiceNow requiert qu'un MID Server ait accès à l'environnement AWS. Le MID Server peut se situer sur votre propre environnement ou dans AWS. Veuillez suivre les instructions de configuration du MID Server ici.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;URL du centre de données&lt;/strong&gt; (requise uniquement pour les comptes AWS GovCloud (US) : URL complète du centre de données, par exemple : https://&lt;IP-of-center&gt;/sdk.)&lt;/li&gt;&lt;li&gt;L'utilisateur AWS utilisé pour connecter ServiceNow à AWS doit avoir les autorisations suivantes configurées dans son propre profil IAM.  Veuillez consulter la documentation de Cloud Provisioning and Governance pour en savoir plus.  &lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Compte parent : &lt;/strong&gt;&lt;/strong&gt;Apparait lorsque vous sélectionnez le centre de données AWS&lt;br /&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Sélectionnez le compte principal AWS qui représente l'entreprise dans AWS à laquelle appartient ce compte membre.&lt;/li&gt;&lt;li&gt;Laissez le champ vide si ce compte ne fait pas partie d'une entreprise AWS.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Est le compte principal : &lt;/strong&gt;&lt;/strong&gt;Apparait lorsque vous sélectionnez le centre de données AWS&lt;br /&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Décochez la case si le compte n'est pas le compte de l'entreprise.&lt;/li&gt;&lt;li&gt;Sélectionnez la case à cocher pour associer le compte de service dans le cloud AWS au compte principal. Le compte principal correspond à l'entreprise dans AWS. Vous pouvez identifier tous les comptes de service dans le cloud dans votre instance de compte principal seulement si vous avez configuré le compte en tant qu'entreprise dans AWS et que vous avez déjà associé d'autres comptes dans l'entreprise. &lt;a title="Consultez la documentation d'AWS" href="https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html" target="_blank" rel="noopener noreferrer nofollow"&gt;Consultez la documentation d'AWS&lt;/a&gt; pour en savoir plus sur les entreprises.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Pour en savoir plus, consultez le &lt;a title="Guide de configuration d'AWS" href="https://docs.servicenow.com/?context&amp;#61;CSHelp:Cloud-Prereq-AWS" rel="nofollow"&gt;Guide de configuration d'AWS&lt;/a&gt;.                         &lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:28</sys_created_on>
+        <sys_id>fad787f1838d72907c2356e0deaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_fad787f1838d72907c2356e0deaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:28</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

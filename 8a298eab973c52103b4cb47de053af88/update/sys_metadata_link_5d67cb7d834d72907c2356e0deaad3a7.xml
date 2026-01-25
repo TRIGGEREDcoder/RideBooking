@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>867885a583a722107c2356e0deaad3c4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02bcd9b2dba344101c7b50d3e296194d</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>867885a583a722107c2356e0deaad3c4</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Crée un modèle d'instance à partir de l'instance.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;ID de projet&lt;/b&gt; : ID unique du projet.
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Zone&lt;/b&gt; : nom de la zone.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Instance&lt;/b&gt; : le nom de l'instance.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : nom du modèle d'instance.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Description&lt;/b&gt; : description de cette ressource.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Configurations de disque&lt;/b&gt; : objet contenant le nom de l'appareil, l'image, la source d'instanciation et la suppression automatique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Modèle d'instance&lt;/b&gt; : objet contenant le nom, l'ID, le type d'opération, le lien cible, l'ID cible, l'état, l'utilisateur, la progression, l'heure d'insertion, l'heure de début, le lien automatique et le type.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance se produit dans Google Compute Engine, l'état est défini sur Erreur.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Rempli uniquement lorsqu'une erreur se produit.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Ce modèle d'instance existe déjà.&lt;/li&gt;
+&lt;li&gt;ID de projet non valide.&lt;/li&gt;
+ &lt;li&gt;URL d'image non valide.&lt;/li&gt;
+&lt;li&gt;Sous-réseau non valide.&lt;/li&gt;
+&lt;li&gt;Valeurs d'interface réseau non valides.&lt;/li&gt;
+&lt;li&gt;Le nom d'appareil spécifié dans la configuration d'instanciation de disque ne se trouve pas dans l'instance source demandée.&lt;/li&gt;
+&lt;li&gt;En-tête d'autorisation non valide. Le jeton d'accès que vous utilisez est soit expiré, soit non valide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt; Pour utiliser cette action, une connexion et des informations d'identification Google Compute Engine correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Google Compute Engine.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:28</sys_created_on>
+        <sys_id>5d67cb7d834d72907c2356e0deaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_5d67cb7d834d72907c2356e0deaad3a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:28</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

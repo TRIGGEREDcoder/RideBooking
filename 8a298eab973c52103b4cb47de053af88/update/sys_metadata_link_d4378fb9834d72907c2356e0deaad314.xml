@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>145881a183a722107c2356e0deaad365</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>01592bd387a581501172b846cebb3596</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>145881a183a722107c2356e0deaad365</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Ajouter une note enfant&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID du ticket&lt;/strong&gt; : l'identificateur qui identifie le ticket de façon unique.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID parent&lt;/strong&gt; : l'identificateur unique de la classe parente (ticket, éléments, agences ou participants).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type de note enfant&lt;/strong&gt; : type de note enfant actuellement transmis au système (élément, participant ou agence).&lt;/li&gt;
+&lt;li&gt;&lt;Strong&gt;Note&lt;/strong&gt; : note du participant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée correctement, le code est défini sur 0. En cas d'échec, le code est défini sur 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt; : si la demande est effectuée correctement, l'état est défini sur Réussite. En cas d'échec, l'état est défini sur Erreur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID de note&lt;/strong&gt; : ID de retour d'un objet qui vient d'être ajouté.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages&lt;/strong&gt; : en cas d'erreur. Les motifs possibles de l'erreur.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un de (UserName, Mot de passe) a une valeur non valide&lt;/li&gt;
+&lt;li&gt;Il n'existe pas de ticket où CaseId est égal à « 280 000 »&lt;/li&gt;
+&lt;li&gt;Il n'existe pas de sujet avec SubjectId « 4 560 » dans le ticket avec CaseId « 28 »&lt;/li&gt;
+&lt;li&gt;Champ obligatoire manquant : ID de ticket&lt;/li&gt;
+&lt;li&gt;Champ obligatoire manquant : ID parent&lt;/li&gt;
+&lt;li&gt;Champ obligatoire manquant : type de note enfant&lt;/li&gt;
+&lt;li&gt;Champ obligatoire manquant : note&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cette action utilise un include de script qui contient des fonctions d'utilitaire.&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification Navex Global correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Navex Global. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:34</sys_created_on>
+        <sys_id>d4378fb9834d72907c2356e0deaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_d4378fb9834d72907c2356e0deaad314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:34</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

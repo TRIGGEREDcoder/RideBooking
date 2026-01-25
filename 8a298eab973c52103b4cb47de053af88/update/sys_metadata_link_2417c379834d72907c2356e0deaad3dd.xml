@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f868812583a722107c2356e0deaad32f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>001903c3430fa5101dbafc4bbcb8f22f</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f868812583a722107c2356e0deaad32f</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sn_pace_policy_version</tablename>
+        <value>Compare les valeurs de clés d'un instantané avec la liste des valeurs fournies dans l'entrée. La valeur de clé peut être une chaîne, une liste de chaînes séparées par des virgules, un tableau de chaînes ou un objet. Lorsque la valeur de clé est un objet, les clés de l'objet sont utilisées dans la comparaison.
+Lorsque l'opérateur est DANS, la politique est conforme lorsque toutes les chaînes dans la valeur de clé sont inclues dans la liste d'entrées.
+Lorsque l'opérateur est EST ÉGAL À, la politique est conforme lorsque toutes les chaînes dans la valeur de clé correspondent à toutes les chaînes, listées dans n'importe quel ordre dans la liste d'entrées.
+Lorsque l'opérateur est CONTIENT, la politique est conforme lorsque la valeur de clé contient toutes les chaînes dans la liste d'entrées.
+Lorsque l'opérateur est NE CONTIENT PAS, la politique est conforme lorsqu'aucune des chaînes dans la valeur de clé n'existe dans la liste d'entrées.</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:03</sys_created_on>
+        <sys_id>2417c379834d72907c2356e0deaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_2417c379834d72907c2356e0deaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:03</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

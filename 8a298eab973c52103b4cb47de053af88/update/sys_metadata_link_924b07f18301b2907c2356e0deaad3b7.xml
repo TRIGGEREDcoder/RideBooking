@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3668cd2583a722107c2356e0deaad3b2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06addc8577633300d4bdaeca781061f1</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>3668cd2583a722107c2356e0deaad3b2</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Avec un sys_id d'application, cette action publie l'application dans le référentiel d'application.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/p&gt;
+&lt;/b&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;ID système&lt;/b&gt; : ID système de l'application que vous souhaitez publier. Pour publier la personnalisation de l'application du magasin, indiquez l'ID système de l'application du magasin.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;URL de l'instance&lt;/b&gt; : URL de l'instance à partir de laquelle vous souhaitez publier l'application dans le référentiel d'application.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Alias d'informations d'identification&lt;/b&gt; : l'alias de connexion et d'informations d'identification doit être de type « Informations d'identification » et doit avoir un utilisateur avec un rôle « sn_cicd.sys_ci_automation ».&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Version&lt;/b&gt; : version de l'application d'entreprise ou personnalisation de l'application du magasin que vous souhaitez publier.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Notes de développement&lt;/b&gt; : notes que l'auteur de l'application veut publier pour cette mise à jour de version.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Version d'API&lt;/b&gt; : ce paramètre facultatif permet d'indiquer la version de CICD REST API connexe.  À défaut, la version la plus récente de l'API est utilisée.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/p&gt;
+&lt;/b&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur « 0 » si la demande est « En attente ». Défini sur « 1 » si la demande est « En cours d'exécution ». Défini sur « 2 » si la demande est « Succès ». Défini sur « 3 » si la demande est « Échec ». Défini sur « 4 » si la demande est « Annulé ».&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Erreur&lt;/b&gt; : motif de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;État HTTP&lt;/b&gt; : code d'état HTTP de la réponse.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Étiquette de l'état&lt;/b&gt; : étiquette correspondant à « l'état ». Sera soit « En attente », « En cours d'exécution », « Succès », « Échec », « Annulé ».&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Message d'état&lt;/b&gt; : plus d'informations sur le motif d'échec de l'opération si disponible. Peut être vide.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Détail d'état&lt;/b&gt; : plus de détails sur le motif d'échec de l'opération si disponible. Peut être vide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/p&gt;
+&lt;/b&gt;
+&lt;ul&gt;
+   &lt;li&gt;L'utilisateur ne dispose pas de l'accès au rôle CICD.&lt;/li&gt;
+   &lt;li&gt;sys_id du paramètre obligatoire manquant&lt;/li&gt;
+   &lt;li&gt;Impossible de localiser l'application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Pour utiliser cette action, une connexion CICD et les informations d'identification correspondantes doivent être créées et associées à l'URL de l'instance utilisé ci-dessus. &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:27</sys_created_on>
+        <sys_id>924b07f18301b2907c2356e0deaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_924b07f18301b2907c2356e0deaad3b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:27</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

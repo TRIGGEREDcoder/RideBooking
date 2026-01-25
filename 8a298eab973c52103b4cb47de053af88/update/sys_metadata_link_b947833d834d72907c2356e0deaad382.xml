@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3e78c9a583a722107c2356e0deaad345</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0225b908774431105fff7277ba5a99e3</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>3e78c9a583a722107c2356e0deaad345</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Envoie un message à une rubrique Amazon SNS.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Région&lt;/strong&gt; : zones géographiques distinctes qu'AWS utilise pour abriter son infrastructure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ARN de la rubrique&lt;/strong&gt; : ARN permettant d'identifier la rubrique de façon unique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt; : message à envoyer à la rubrique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID de déduplication du message&lt;/strong&gt; : jeton utilisé pour la déduplication des messages envoyés.&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : elle ne s'applique qu'aux rubriques FIFO.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID du groupe de messages&lt;/strong&gt; : groupe de messages spécifique.&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : elle ne s'applique qu'aux rubriques FIFO.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID du message&lt;/strong&gt; : l'identificateur unique affecté au message publié.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Numéro de séquence&lt;/strong&gt; : cet élément de réponse s'applique uniquement aux rubriques FIFO (premier entré, premier sorti).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée correctement, le code est défini sur 0. En cas d'échec dans Amazon SNS, le code est défini sur 1.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;L'état est défini sur Erreur uniquement en cas d'échec de la publication du message dans la rubrique.&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification AWS SNS correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification AWS SNS. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank" rel="noopener"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank" rel="noopener"&gt;Lire plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:56</sys_created_on>
+        <sys_id>b947833d834d72907c2356e0deaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_b947833d834d72907c2356e0deaad382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:56</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

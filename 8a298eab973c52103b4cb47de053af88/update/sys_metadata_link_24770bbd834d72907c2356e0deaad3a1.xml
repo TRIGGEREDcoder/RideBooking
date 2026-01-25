@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d25801e183a722107c2356e0deaad3ee</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0312a689db33401075d8721dbf961915</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>d25801e183a722107c2356e0deaad3ee</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt; Cette action permet d'obtenir les factures des comptes fournisseurs.&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Enregistrements par page &lt;/b&gt; : transmettez cette valeur pour définir le nombre d'enregistrements à afficher dans une page.&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Champs de requête&lt;/b&gt; : utilisez l'un de ces champs pour demander des factures AP.&lt;/li&gt;&#13;
+   &lt;p&gt;&lt;/p&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+   &lt;li&gt;&#13;
+      &lt;b&gt;Facture&lt;/b&gt; : objet complexe contenant ces champs : - &#13;
+      &lt;ul&gt;&#13;
+         &lt;li&gt; ID de facture&lt;/li&gt;&#13;
+         &lt;li&gt; Numéro de facture&lt;/li&gt;&#13;
+         &lt;li&gt; Devise de la facture&lt;/li&gt;&#13;
+         &lt;li&gt; Devise du paiement&lt;/li&gt;&#13;
+         &lt;li&gt; Montant de la facture&lt;/li&gt;&#13;
+         &lt;li&gt; Date de la facture&lt;/li&gt;&#13;
+         &lt;li&gt; Unité business&lt;/li&gt;&#13;
+         &lt;li&gt; Fournisseur&lt;/li&gt;&#13;
+         &lt;li&gt; Site du fournisseur&lt;/li&gt;&#13;
+         &lt;li&gt; Date de la comptabilité&lt;/li&gt;&#13;
+         &lt;li&gt; Type de facture&lt;/li&gt;&#13;
+         &lt;li&gt; Groupe de salaire&lt;/li&gt;&#13;
+         &lt;li&gt; Modalités de paiement&lt;/li&gt;&#13;
+         &lt;li&gt; Code du mode de paiement&lt;/li&gt;&#13;
+         &lt;li&gt; Entité juridique&lt;/li&gt;&#13;
+         &lt;li&gt; État Payé&lt;/li&gt;&#13;
+         &lt;li&gt; Montant payé&lt;/li&gt;&#13;
+         &lt;li&gt; Numéro de bon de commande&lt;/li&gt;&#13;
+         &lt;li&gt; Pays d'imposition&lt;/li&gt;&#13;
+      &lt;/ul&gt;&#13;
+   &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Oracle Cloud Financials correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Oracle Cloud Financials.&lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:41</sys_created_on>
+        <sys_id>24770bbd834d72907c2356e0deaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_24770bbd834d72907c2356e0deaad3a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:41</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>195849a183a722107c2356e0deaad3f9</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>07451ef4873b70102e71422e0ebb3551</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>195849a183a722107c2356e0deaad3f9</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p id="short_desc"&gt; Récupère tous les plans de Cloudify (appliquez des filtres pour affiner les résultats).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id="inputs"&gt;
+    &lt;li&gt;&lt;b&gt;Enregistrements par page&lt;/b&gt; : le nombre d'enregistrements sur une page. Si non défini ou 0, il est défini sur la valeur par défaut qui est 1 000.&lt;/li&gt;
+    
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id='outputs'&gt;
+    &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : ID de plans disponible sur le serveur Cloudify.&lt;/li&gt;
+     &lt;li&gt;&lt;b&gt;Visibilité&lt;/b&gt; : la visibilité pour chaque plan disponible sur le serveur Cloudify. La valeur par défaut est : locataire.&lt;/li&gt;
+     &lt;li&gt;&lt;b&gt;Créé le&lt;/b&gt; : la date de création pour chaque plan.&lt;/li&gt;
+     &lt;li&gt;&lt;b&gt;Nom du fichier principal&lt;/b&gt; : le nom du fichier principal, c'est-à-dire le nom de fichier yaml pour chaque plan.&lt;/li&gt;
+    
+    &lt;/ul&gt;                
+&lt;p&gt;Pour utiliser cette action, la connexion Cloudify correspondante  doit être créée et
+associée
+à l'alias de connexion et d'informations d'identification Cloudify. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank'         href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:09</sys_created_on>
+        <sys_id>907b03758301b2907c2356e0deaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_907b03758301b2907c2356e0deaad39c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:09</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8268892583a722107c2356e0deaad346</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02c743f801fc6010451dbbdd9b02e89f</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8268892583a722107c2356e0deaad346</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Action pour exécuter une commande active-responder RTR entre les hôtes pour que les utilisateurs se connectent.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID de lot&lt;/strong&gt; : ID de lot pour exécuter la commande.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID de l'agent&lt;/strong&gt; : ID de l'agent (AID) de l'hôte sur lequel nous voulons exécuter la commande active-responder.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Profil&lt;/strong&gt; : détails du profil d'aptitude spécifiques à CrowdStrike.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Script&lt;/strong&gt; : désigne l'enregistrement de script personnalisé en cours de chargement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Compte d'utilisateur&lt;/strong&gt; : liste des objets contenant les valeurs suivantes.
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;Compte&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ComputerName&lt;/strong&gt; : nom de l'ordinateur auquel des utilisateurs sont connectés&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Username&lt;/strong&gt; : nom des utilisateurs connectés.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SessionState&lt;/strong&gt; : représente l'état de la session des utilisateurs connectés.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SessionType&lt;/strong&gt; : représente le type de session des utilisateurs connectés.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PSComputerName&lt;/strong&gt; : fait référence au nom de l'ordinateur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas d'échec dans CrowdStrike, l'état est défini sur « Erreur ».&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; :  raison de l'erreur. Rempli uniquement lorsqu'une erreur se produit.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ID de lot fourni non valide.&lt;/li&gt;
+&lt;li&gt;Tous les hôtes facultatifs ne sont pas dans la session par lots.&lt;/li&gt;
+&lt;li&gt;Le fichier testscript est introuvable.&lt;/li&gt;
+&lt;li&gt;Accès refusé, jeton de porteur non valide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:29</sys_created_on>
+        <sys_id>e5670f7d834d72907c2356e0deaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_e5670f7d834d72907c2356e0deaad37c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:29</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

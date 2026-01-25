@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a7480d6183a722107c2356e0deaad385</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0547a84d1b1ec91009360e9cdc4bcbb1</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a7480d6183a722107c2356e0deaad385</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupérer les documents de notes en fonction des critères de filtre spécifiés.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Métadonnées&lt;/b&gt; : les métadonnées pour la demande.&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Date/heure de l'événement&lt;/b&gt; : la date/l'heure de l'événement.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Test&lt;/b&gt; : le marqueur comme message de test.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Source&lt;/b&gt; : la source du message.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la source.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la source.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Destinations&lt;/b&gt; : la liste des destinations pour envoyer des messages.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la destination.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la destination.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Journaux&lt;/b&gt; : les identificateurs du journal des demandes.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du journal des demandes qui correspond à cette demande.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;ID de tentative&lt;/b&gt; : l'ID de la tentative du journal des demandes.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Message&lt;/b&gt; : l'enregistrement dans Redox qui correspond à la communication envoyée par la source à Redox.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du message créé dans Redox.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Transmission&lt;/b&gt; : l'enregistrement dans Redox qui correspond à la communication envoyée de Redox à votre
+            destination.&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la transmission créée dans Redox.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Code d'installation&lt;/b&gt; : code de l'installation associée au message.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Patient&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Identificateurs&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du patient.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID pour l'ID correspondant de ce patient.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;&lt;b&gt;Numéros de visites&lt;/b&gt; : tableau des visites de patients à interroger.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Types de documents&lt;/b&gt; : tableau des types de documents à interroger.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID de documents&lt;/b&gt; : le tableau d'un identificateur de document à interroger.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Métadonnées&lt;/b&gt;&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Modèle de données&lt;/b&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Type d'événement&lt;/b&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Date/heure de l'événement&lt;/b&gt; : la date/l'heure de l'événement.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Test&lt;/b&gt; : le marqueur comme message de test.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Source&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la source.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la source.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Destinations&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la destination.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : le nom de la destination.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Journaux : les identificateurs du journal des demandes.&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID d'un journal des demandes.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;ID de tentative&lt;/b&gt; : l'ID de la tentative du journal des demandes.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Message&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du message créé dans Redox.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Transmission&lt;/b&gt;&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID de la transmission créée dans Redox.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;&lt;b&gt;Code d'installation&lt;/b&gt; : code de l'installation associée au message.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Notes&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Patient&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Identificateurs&lt;/b&gt;&lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : l'ID du patient.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID pour l'ID correspondant de ce patient.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;Visite&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Numéro de visite&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type de contenu&lt;/b&gt; : le type de texte fourni dans Note.FileContents.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Contenu du fichier&lt;/b&gt; : le contenu de la note.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Nom du fichier&lt;/b&gt; : le nom du fichier.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Type de document&lt;/b&gt; : le type de document.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;ID du document&lt;/b&gt; : l'identificateur unique de ce document.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Date/heure de service&lt;/b&gt; : la date/l'heure d'exécution de l'activité.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Date/heure de la documentation&lt;/b&gt; : la date/l'heure à laquelle la documentation a été finalisée ou un fichier créé.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance
+        dans Redox, l'état est défini sur « Erreur ».&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt;
+ :&lt;ul&gt;
+    &lt;li&gt;Les destinations ou destinations non valides doivent contenir une destination provenant d'abonnements existants.&lt;/li&gt;
+    &lt;li&gt;Plusieurs destinations synchrones ont été spécifiées. Veuillez fournir une destination correcte.&lt;/li&gt;
+    &lt;li&gt;L'ID de destinations de métadonnées fourni semble être vide.&lt;/li&gt;
+    &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide ou le jeton a expiré.&lt;/li&gt;
+    &lt;li&gt;L'utilisateur ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+    &lt;li&gt;Une erreur inattendue s'est produite. Consultez la réponse de l'API pour plus d'informations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, les informations d'identification Redox correspondantes doivent être créées et associées à 
+    l'alias d'informations d'identification Redox. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a         href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:51</sys_created_on>
+        <sys_id>d4f7c735838d72907c2356e0deaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_d4f7c735838d72907c2356e0deaad331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:51</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

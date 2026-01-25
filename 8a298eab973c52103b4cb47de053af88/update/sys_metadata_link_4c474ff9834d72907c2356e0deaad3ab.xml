@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>665841e183a722107c2356e0deaad369</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>01f71d67535d10100b39ddeeff7b1263</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>665841e183a722107c2356e0deaad369</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p id = "short_desc"&gt; Déplace le fichier traité Thomson Reuters à partir du chemin source vers le chemin de destination.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Chemin source&lt;/b&gt; : chemin du répertoire dans lequel se trouvent les fichiers traités.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Chemin d'accès destination&lt;/b&gt; : chemin d'accès au répertoire dans lequel les fichiers traités doivent être déplacés.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom du fichier&lt;/b&gt; : nom du fichier à déplacer.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Alias de connexion et d'informations d'identification&lt;/b&gt; : alias de connexion et d'informations d'identification faisant référence à la connexion et aux informations d'identification SFTP.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Erreur&lt;/b&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Échec de l'authentification avec l'utilisateur.&lt;/li&gt;&lt;li&gt;Échec du renommage du fichier : NO_SUCH_FILE&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:49</sys_created_on>
+        <sys_id>4c474ff9834d72907c2356e0deaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_4c474ff9834d72907c2356e0deaad3ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:49</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

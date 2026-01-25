@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ce48816183a722107c2356e0deaad392</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>00b1ff432508b700964f2531a89b5ba1</documentkey>
+        <fieldname>body_text</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>ce48816183a722107c2356e0deaad392</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sn_cd_content_portal</tablename>
+        <value>Commencez ici… Nous avons décrit les bases pour vous : qu'est-ce que le congé parental ? C'est le terme utilisé quand  un employé  prend des congés afin de tisser des liens  avec  son nouvel enfant. (Fait amusant : il n'est pas inhabituel qu'un congé parental soit constitué  d'une série d'autres congés — comme le congé d'invalidité financé par le gouvernement, les jours de vacances inutilisés, etc.) Combien de temps puis-je être en congé ? Serai-je payé(e) ? Ces détails dépendront  des circonstances (comme les avantages qu'une entreprise offre ainsi que les lois applicables), les préférences et les besoins ainsi que d'autres facteurs. Nous vous aiderons à comprendre à quoi vous avez droit. Qui est impliqué ? Votre demande de congé passe  par  votre département RH.  Souvent, les entreprises embauchent une agence d'administration des congés pour coordonner les  choses. Ainsi,  les RH ou cette agence agira comme un centre d'informations provenant   d'autres  ministères — finances, paie, installations, etc. </value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:15</sys_created_on>
+        <sys_id>63174f79834d72907c2356e0deaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_63174f79834d72907c2356e0deaad360</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:15</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

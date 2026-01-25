@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d288052983a722107c2356e0deaad321</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0023ab50b73010101099e781de11a94e</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>d288052983a722107c2356e0deaad321</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_transform_definition</tablename>
+        <value>&lt;p&gt;Fonction mathématique qui renvoie la distance de zéro pour tout nombre réel. Une valeur absolue est toujours une valeur positive ou nulle.&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Entrée :&#13;
+&lt;/b&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+  &lt;ul&gt;&#13;
+    &lt;li&gt;&lt;strong&gt;Numéro&lt;/strong&gt;&lt;/li&gt;&#13;
+  &lt;/ul&gt;&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Sortie :&lt;/b&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+  &lt;ul&gt;&#13;
+    &lt;li&gt;&lt;strong&gt;Nombre&lt;/strong&gt; : la valeur absolue du résultat du nombre entré.&lt;/li&gt;&#13;
+  &lt;/ul&gt;&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Exemple :&lt;/b&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+  Input:&#13;
+  &lt;pre&gt;-3&lt;/pre&gt;&#13;
+  Result:&#13;
+  &lt;pre&gt;3&lt;/pre&gt;&#13;
+&lt;/p&gt;&#13;
+&lt;p&gt;Remarque : Si la fonction de transformation reçoit une valeur d'entrée non numérique, elle renvoie la valeur d'entrée d'origine non modifiée.&lt;/p&gt;&#13;
+&lt;p&gt;&lt;a href="/api/now/v1/context_doc_url/CSHelp:Math-Transform-Functions" target="_blank"&gt;Lire plus.&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:04</sys_created_on>
+        <sys_id>78170779834d72907c2356e0deaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_78170779834d72907c2356e0deaad394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:04</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

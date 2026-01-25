@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f65805e183a722107c2356e0deaad39b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>03939677771001106a9e78adaf5a99e6</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f65805e183a722107c2356e0deaad39b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Crée ou met à jour des attributs de contact définis par l'utilisateur associés au contact spécifié.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Région&lt;/strong&gt; : région de la ressource AWS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID d'instance&lt;/strong&gt; : l'identificateur unique de l'instance Amazon Connect.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID du contact initial&lt;/strong&gt; : l'identificateur unique du contact initial.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Attributs de contact&lt;/strong&gt; :  attributs en tant que paires de clé et de valeur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite, l'état est défini sur Erreur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jeton d'authentification manquant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;(Pour plus d'informations sur les erreurs communes à toutes les actions, voir &lt;a href="https://docs.aws.amazon.com/connect/latest/APIReference/CommonErrors.html" target="_blank" rel="noopener"&gt;Erreurs courantes&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, les informations d'identification Amazon Connect correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Amazon Connect respectivement. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank" rel="noopener"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank" rel="noopener"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:02</sys_created_on>
+        <sys_id>a18787fd834d72907c2356e0deaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_a18787fd834d72907c2356e0deaad391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:02</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

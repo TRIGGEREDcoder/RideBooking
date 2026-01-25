@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d15809a183a722107c2356e0deaad33f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>058603b3eb1032008a1f4d3df106fe87</documentkey>
+        <fieldname>content</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>d15809a183a722107c2356e0deaad33f</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_embedded_help_content</tablename>
+        <value>&lt;h1 class="title topictitle1" style="font-family: Times; white-space: normal;"&gt;Priorité des sources de données&lt;/h1&gt;
+&lt;div class="body taskbody" style="font-family: Times; font-size: medium; white-space: normal;"&gt;
+&lt;ol class="ol steps" style="list-style-position: inside;"&gt;&lt;li class="li step stepexpand"&gt;Dans la section &lt;span class="ph uicontrol"&gt;Priorités des sources de données&lt;/span&gt;, sélectionnez une règle existante à modifier ou cliquez sur &lt;span class="ph uicontrol"&gt;Nouvelle&lt;/span&gt;.&lt;/li&gt;&lt;li class="li step stepexpand"&gt;Remplissez le formulaire.
+&lt;div class="itemgroup info"&gt;
+&lt;div class="tablenoborder"&gt;
+&lt;table id="ciModel-setup-data-source__d9390e151" class="table" border="1" summary="" frame="border" rules="all" cellspacing="0" cellpadding="4"&gt;&lt;caption&gt;&lt;span class="tablecap"&gt;Table 1. Formulaire de priorité des sources de données&lt;/span&gt;&lt;/caption&gt;&lt;thead class="thead" align="left"&gt;&lt;tr class="row"&gt;&lt;th id="d286611e60" class="entry" valign="top"&gt;Champ&lt;/th&gt;&lt;th id="d286611e63" class="entry" valign="top"&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody class="tbody"&gt;&lt;tr class="row"&gt;&lt;td class="entry" headers="d286611e60 " valign="top"&gt;Concerne&lt;/td&gt;&lt;td class="entry" headers="d286611e63 " valign="top"&gt;La table à laquelle cette règle de priorité s'applique.&lt;/td&gt;&lt;/tr&gt;&lt;tr class="row"&gt;&lt;td class="entry" headers="d286611e60 " valign="top"&gt;Source de données&lt;/td&gt;&lt;td class="entry" headers="d286611e63 " valign="top"&gt;La source de données à laquelle cette règle de priorité s'applique.&lt;/td&gt;&lt;/tr&gt;&lt;tr class="row"&gt;&lt;td class="entry" headers="d286611e60 " valign="top"&gt;Ordre&lt;/td&gt;&lt;td class="entry" headers="d286611e63 " valign="top"&gt;La priorité de cette règle de priorité dans le jeu de règles de priorité pour la table spécifiée. Plus le chiffre est petit, plus la priorité est élevée. Les sources de données sans règle de priorité se voient affecter la priorité la plus basse.&lt;/td&gt;&lt;/tr&gt;&lt;tr class="row"&gt;&lt;td class="entry" headers="d286611e60 " valign="top"&gt;Application&lt;/td&gt;&lt;td class="entry" headers="d286611e63 " valign="top"&gt;Domaine auquel cette règle de priorité s'applique, si Séparation en domaines est activé.&lt;/td&gt;&lt;/tr&gt;&lt;tr class="row"&gt;&lt;td class="entry" headers="d286611e60 " valign="top"&gt;Actif&lt;/td&gt;&lt;td class="entry" headers="d286611e63 " valign="top"&gt;Case à cocher pour activer cette règle de priorité.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;&lt;li class="li step stepexpand"&gt;Cliquez sur &lt;span class="ph uicontrol"&gt;Soumettre&lt;/span&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:05</sys_created_on>
+        <sys_id>3bf74375838d72907c2356e0deaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_3bf74375838d72907c2356e0deaad3c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:05</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0078496583a722107c2356e0deaad319</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>03d064ec078110102144a2324dd3006f</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>0078496583a722107c2356e0deaad319</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Action de métadonnées pour renseigner les champs associés aux colonnes d'une table dans une feuille de calcul.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque :&lt;/strong&gt; les concepteurs de flux doivent s'assurer que cette action est toujours utilisée conjointement à l'action Gestion de table qui utilise des entrées dynamiques.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Alias de connexion et d'informations d'identification :&lt;/strong&gt; alias de connexion et d'informations d'identification associé.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID du lecteur : l'identificateur&lt;/strong&gt; unique du lecteur à rechercher.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID du classeur : l'identificateur&lt;/strong&gt; unique associé au classeur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom de la feuille de calcul :&lt;/strong&gt; nom de la feuille de calcul dans le classeur sélectionné.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom de table : &lt;/strong&gt;nom de la table dans la feuille de calcul sélectionnée.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;En-têtes : &lt;/strong&gt;objet JSON associé aux en-têtes de table d'une table   dans une feuille de calcul donnée.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur « Réussite ». Si une défaillance s'est produite dans Microsoft 365 Excel, l'état est défini sur « Erreur ».&lt;/li&gt;
+ &lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Exemple d'objet JSON :&lt;/strong&gt; {data=[{name=User ID, label=User ID}]}&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, les informations d'identification Dropbox correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification DropboxBusinessTeamManagement. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" rel="noopener noreferrer nofollow" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" rel="noopener noreferrer nofollow" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:15</sys_created_on>
+        <sys_id>34974331838d72907c2356e0deaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_34974331838d72907c2356e0deaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:15</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c85801a183a722107c2356e0deaad3da</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>00091f510bf81110113d40976877b2ed</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>c85801a183a722107c2356e0deaad3da</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p id = "short_desc"&gt; Récupère la liste des détails de partition logique des ordinateurs dans l'infrastructure.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Colonnes&lt;/b&gt; : choisissez les colonnes à récupérer dans la réponse. Si vous ne spécifiez pas ce paramètre, toutes les colonnes sont récupérées.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Critères&lt;/b&gt; : critères pour récupérer les enregistrements requis.&lt;ul&gt;&lt;li&gt;Les critères doivent être fournis au format suivant : critères ={&lt;boolean-operator&gt;:[&lt;i&gt;&lt;criterion&gt;&lt;/i&gt;]}.&lt;/li&gt;&lt;li&gt;Ici, &lt;criterion&gt; doit être au format suivant : critère =[&lt;column&gt;,&lt;operator&gt;,&lt;value&gt;].&lt;/li&gt;&lt;/ul&gt;Par exemple, pour récupérer les enregistrements avec l'ID d'ordinateur spécifié et le fournisseur du bios, les critères peuvent être : {"and":[ ["computer_id","=" ,"19"] , ["bios_vendor","=" ,"Phoenix Technologies LTD"]]}.&lt;br&gt;&lt;a href="https://help.hcltechsw.com/bigfix/9.5/inventory/Inventory/integration/r_common_operators_connectors.html"&gt;Cliquez ici&lt;/a&gt; pour en savoir plus sur la syntaxe. Si vous laissez ce champ vide, tous les enregistrements seront récupérés.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Trier par&lt;/b&gt; : triez les détails des partitions logiques selon les colonnes disponibles par ordre croissant ou décroissant. Il est défini par défaut sur Croissant.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Taille de la page&lt;/b&gt; : nombre d'enregistrements récupérés par le flux de données par appel REST. La valeur par défaut est 100.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Partitions logiques&lt;/b&gt; : objet complexe contenant ces champs : -&lt;ul&gt;&lt;li&gt; ID informatique&lt;/li&gt;&lt;li&gt; Nombre de packages en ligne&lt;/li&gt;&lt;li&gt; Heure de mise à jour&lt;/li&gt;&lt;li&gt; Nombre de processeurs en ligne&lt;/li&gt;&lt;li&gt; Nombre de cœurs en ligne&lt;/li&gt;&lt;li&gt; ID&lt;/li&gt;&lt;li&gt; Capacités dans les cœurs&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Informations d'identification non valides.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification BigFix Inventory correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification BigFix Inventory. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:02</sys_created_on>
+        <sys_id>1c178379834d72907c2356e0deaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_1c178379834d72907c2356e0deaad3bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:02</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

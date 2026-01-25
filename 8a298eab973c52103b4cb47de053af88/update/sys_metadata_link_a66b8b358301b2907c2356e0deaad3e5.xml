@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>317805a583a722107c2356e0deaad365</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>072e69244749cd90bd95a144846d43f2</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>317805a583a722107c2356e0deaad365</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Supprime l'utilisateur spécifié de l'équipe spécifiée.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;ID de l'équipe&lt;/strong&gt; : ID unique de l'équipe.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ID d'utilisateur&lt;/strong&gt; : ID de l'utilisateur dans l'équipe.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Sorties : &lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt; : objet contenant les champs suivants :&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : indique le statut de l'action exécutée. Si l'action est exécutée avec succès, la valeur du code est définie sur 0. Si l'exécution de l'action échoue, la valeur du code est définie sur 1.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt; : message d'erreur renvoyé lorsqu'une erreur se produit.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Message d'erreur :&lt;/strong&gt; &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;&lt;li&gt;La ressource demandée est introuvable.&lt;/li&gt;&lt;li&gt;Le champ obligatoire ne peut pas être laissé vide.&lt;/li&gt;&lt;li&gt;Erreur interne du serveur : une erreur s'est produite dans PagerDuty.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification PagerDuty correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification PagerDuty. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&lt;p&gt; Pour obtenir plus d'informations sur cette action. &lt;a href="https://developer.pagerduty.com/api-reference/b3A6Mjc0ODIzMQ-remove-a-user-from-a-team"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Remarque &lt;/strong&gt;: nécessite un abonnement&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;pour une utilisation en production.&lt;/a&gt; En savoir plus.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:01</sys_created_on>
+        <sys_id>a66b8b358301b2907c2356e0deaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_a66b8b358301b2907c2356e0deaad3e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:01</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

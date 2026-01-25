@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f85845a183a722107c2356e0deaad396</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>03a3eba81b8f10108b20a9bd2a4bcbbc</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f85845a183a722107c2356e0deaad396</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Lance un basculement de la base de données autonome spécifiée vers une mise en attente.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;b&gt;ID de location&lt;/b&gt; : l'OCID de la location.&lt;/li&gt; &lt;li&gt;&lt;b&gt;ID du compartiment&lt;/b&gt; : OCID du compartiment de la base de données autonome.&lt;/li&gt; &lt;li&gt;&lt;b&gt;ID de base de données&lt;/b&gt; : OCID de la base de données.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur Réussite. En cas de défaillance, l'état est défini sur Erreur.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : le motif et code de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Nom d'affichage&lt;/b&gt; : nom convivial de la base de données autonome. Le nom ne doit pas nécessairement être unique.&lt;/li&gt; &lt;li&gt;&lt;b&gt;ID de base de données&lt;/b&gt; : OCID de la base de données.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Nom de la base de données&lt;/b&gt; : nom de la base de données.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Version de la base de données&lt;/b&gt; : version valide de la base de données Oracle pour la base de données autonome.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Charge de travail de la base de données&lt;/b&gt; : type de charge de travail de base de données autonome.&lt;/li&gt; &lt;li&gt;&lt;b&gt;ID du compartiment&lt;/b&gt; : OCID du compartiment de la base de données autonome.&lt;/li&gt; &lt;li&gt;&lt;b&gt;URL de la console de service&lt;/b&gt; : URL de la console de service pour la base de données autonome.&lt;/li&gt; &lt;li&gt;&lt;b&gt;État du cycle de vie&lt;/b&gt; : état actuel de la base de données autonome.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Heure de création&lt;/b&gt; : la date et l'heure de création de la base de données autonome.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Nombre de cœurs du processeur&lt;/b&gt; : nombre de cœurs OCPU à mettre à la disposition de la base de données.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Taille du stockage des données en To&lt;/b&gt; : quantité de données dans la base de données, en téraoctets&lt;/li&gt; &lt;li&gt;&lt;b&gt;Modèle de licence&lt;/b&gt; : modèle de licence Oracle qui s'applique à la base de données autonome Oracle.&lt;/li&gt; &lt;li&gt;&lt;b&gt;Détails de la base de données&lt;/b&gt; : réponse JSON entière comprenant les informations de la base de données.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Demande incorrecte.&lt;/li&gt; &lt;li&gt;Non autorisé.&lt;/li&gt; &lt;li&gt;Introuvable.&lt;/li&gt; &lt;li&gt;Erreur interne du serveur.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Oracle correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Oracle. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:07</sys_created_on>
+        <sys_id>4f87cbfd834d72907c2356e0deaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_4f87cbfd834d72907c2356e0deaad3f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:07</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

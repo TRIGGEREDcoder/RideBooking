@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>085801a183a722107c2356e0deaad386</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0664ad481b099410fa8adb56ec4bcbdf</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>085801a183a722107c2356e0deaad386</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère les approbations en attente. Il récupère toutes les approbations ouvertes pour l'employé en fonction des paramètres de l'URL. Si aucun paramètre n'est fourni, toutes les approbations ouvertes pour l'employé sont récupérées.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Nom d'utilisateur&lt;/b&gt; :  nom d'utilisateur de l'employé requis.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID de l'élément&lt;/b&gt; : ID d'élément unique des approbations en attente pour l'utilisateur.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : un des types d'approbation valides. Nécessaire si la valeur de l'ID d'élément est fournie. Les valeurs prises en charge sont les suivantes : approbation du plan de développement et approbation du formulaire de formation.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Date de soumission&lt;/b&gt; : date valide au format DateHeure UTC (JJ/MM/AAAA, J/M/AAAA,   JJ-MM-AAAA ou J-M-AAAA).&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Numéro de page&lt;/b&gt; : le numéro de page de l'ensemble de résultats. La valeur par défaut est 1.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Taille de la page&lt;/b&gt; : nombre d'enregistrements dans un ensemble de résultats. La valeur par défaut est 25.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Approbation&lt;/b&gt;
+            &lt;ul&gt;
+                &lt;li&gt;ID&lt;/li&gt;
+                &lt;li&gt;Titre&lt;/li&gt;
+                &lt;li&gt;Type d'approbation&lt;/li&gt;
+                &lt;li&gt;Date de soumission&lt;/li&gt;
+                &lt;li&gt;Détails
+                    &lt;ul&gt;
+                        &lt;li&gt;Élément du plan de développement
+                            &lt;ul&gt;
+                                &lt;li&gt;Statut&lt;/li&gt;
+                                &lt;li&gt;Envoyé par&lt;/li&gt;
+                                &lt;li&gt;Action&lt;/li&gt;
+                                &lt;li&gt;Catégorie&lt;/li&gt;
+                                &lt;li&gt;Progression&lt;/li&gt;
+                                &lt;li&gt;Description&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;Élément du formulaire de formation
+                            &lt;ul&gt;
+                                &lt;li&gt;Statut&lt;/li&gt;
+                                &lt;li&gt;Action&lt;/li&gt;
+                                &lt;li&gt;Titre de la tâche&lt;/li&gt;
+                                &lt;li&gt;Envoyé par&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion Cornerstone et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Cornerstone. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:03</sys_created_on>
+        <sys_id>103b47b18301b2907c2356e0deaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_103b47b18301b2907c2356e0deaad386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:03</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

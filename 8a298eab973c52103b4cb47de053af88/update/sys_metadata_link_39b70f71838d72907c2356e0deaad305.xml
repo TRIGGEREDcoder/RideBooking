@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a6688d2583a722107c2356e0deaad363</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>045c72b877433300d4bdaeca7810618f</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a6688d2583a722107c2356e0deaad363</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Appliquez les modifications à distance à partir du contrôle de la source à l'aide du périmètre de l'application sur une instance donnée.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/p&gt;
+&lt;/b&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;Périmètre de l'application&lt;/b&gt; :  périmètre de l'application auquel vous souhaitez appliquer les modifications à partir du contrôle de source. Pour appliquer les changements à la personnalisation de l'application du magasin, indiquez le nom du périmètre de l'application du magasin.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;URL de l'instance&lt;/b&gt; : URL de l'instance où l'application doit être mise à jour.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Alias d'informations d'identification&lt;/b&gt; : l'alias de connexion et d'informations d'identification doit être de type « Informations d'identification » et doit avoir un utilisateur avec un rôle « sn_cicd.sys_ci_automation ».&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Nom de la branche&lt;/b&gt; : nom de branche du référentiel Git à partir duquel les changements seront appliqués à l'application.&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;Mise à niveau auto de l'application de base&lt;/b&gt; : ce champ n'est disponible que lorsque les changements sont appliqués à la personnalisation de l'application du magasin. Définissez-le sur faux si l'application du magasin de base ne doit pas être mise à niveau lorsque la dernière validation Git à appliquer repose sur une version plus récente de l'application de base que celle installée sur l'instance. Sinon, laissez ce champ vide (Vrai par défaut).&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;Version d'API&lt;/b&gt; : ce paramètre facultatif permet d'indiquer la version de CICD REST API connexe.  À défaut, la version la plus récente de l'API est utilisée.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/p&gt;
+&lt;/b&gt;
+&lt;ul&gt;
+     &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur « 0 » si la demande est « En attente ». Défini sur « 1 » si la demande est « En cours d'exécution ». Défini sur « 2 » si la demande est « Succès ». Défini sur « 3 » si la demande est « Échec ». Défini sur « 4 » si la demande est « Annulé ».&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Erreur&lt;/b&gt; : motif de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;État HTTP&lt;/b&gt; : code d'état HTTP de la réponse.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Étiquette de l'état&lt;/b&gt; : étiquette correspondant à « l'état ». Sera soit « En attente », « En cours d'exécution », « Succès », « Échec », « Annulé ».&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Message d'état&lt;/b&gt; : plus d'informations sur le motif d'échec de l'opération si disponible. Peut être vide.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Détail d'état&lt;/b&gt; : plus de détails sur le motif d'échec de l'opération si disponible. Peut être vide.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;ID de progression&lt;/b&gt; : sys_id du suivi de l'exécution de cette demande. Permet de suivre la progression de la demande.&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;URL de progression&lt;/b&gt; : URL du point de terminaison REST pour obtenir la progression à partir du sys_id du suivi de l'exécution de cette demande.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Pour utiliser cette action, une connexion CICD et les informations d'identification correspondantes doivent être créées et associées à l'URL de l'instance utilisé ci-dessus.   &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:51</sys_created_on>
+        <sys_id>39b70f71838d72907c2356e0deaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_39b70f71838d72907c2356e0deaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:51</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1536901_ride_b_0.GetManager</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetManager</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetManager = Class.create();
+GetManager.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+getManager : function(){
+	var userSysId = this.getParameter('sysparm_user');
+	var grUser = new GlideRecord('sys_user');
+	if(grUser.get(userSysId))
+	{
+		return grUser.manager;
+	}
+	return '';
+}
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-29 09:54:44</sys_created_on>
+        <sys_id>6910204f83b8f2d07c2356e0deaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetManager</sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_script_include_6910204f83b8f2d07c2356e0deaad315</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:54:44</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6910204f83b8f2d07c2356e0deaad315</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-29 09:54:44</sys_created_on>
+        <sys_id>88212c8f83b8f2d07c2356e0deaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:54:44</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

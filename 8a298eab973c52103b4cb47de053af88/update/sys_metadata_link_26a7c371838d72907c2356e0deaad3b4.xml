@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f368856583a722107c2356e0deaad326</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0429e1c487d8511002c4a64d0ebb3576</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f368856583a722107c2356e0deaad326</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère tous les groupes d'attributs associés à un schéma de données de contact spécifié.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID de schéma :&lt;/strong&gt; identificateur unique du schéma&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Taille de la page : &lt;/strong&gt;nombre de résultats à renvoyer sur une page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Groupes d'attributs : &lt;/strong&gt;objet contenant les détails de ces attribut&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID :&lt;/strong&gt; ID du groupe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Est défini par le système :&lt;/strong&gt; renvoie Vrai ou Faux en fonction du système.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID d'application :&lt;/strong&gt; identificateur unique de l'application.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clé d'application :&lt;/strong&gt; clé primaire de l'application.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom complet :&lt;/strong&gt; nom qualifié basé sur le nom de l'application.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type de groupe d'attributs :&lt;/strong&gt; renvoie le type de groupe d'attributs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peut ajouter des relations :&lt;/strong&gt; spécifie que les relations peuvent être ajoutées ou non. Il s'agit d'un champ booléen qui accepte Vrai ou Faux comme valeur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peut modifier : &lt;/strong&gt;spécifie que l'attribut peut être modifié ou non. Champ booléen qui accepte vrai ou faux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peut supprimer :&lt;/strong&gt; spécifie que l'attribut peut être supprimé ou non. Champ booléen qui accepte Vrai ou Faux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clé :&lt;/strong&gt; clé du groupe d'attributs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom&lt;/strong&gt; : nom du groupe d'attribut.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clé d'icône de groupe d'attributs :&lt;/strong&gt; clé qui indique le groupe d'attributs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Est type de population :&lt;/strong&gt; champ booléen qui affiche Vrai ou Faux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Liens :&lt;/strong&gt; représente un lien dans un message.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;État de l'objet :&lt;/strong&gt; renvoie l'état de l'objet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et les informations d'identification de Sales Force Marketing Cloud correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification du spoke Sales Force Marketing Cloud. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pour en savoir plus sur les API dans le cloud de Salesforce Marketing, &lt;a href="https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/apis-overview.html"&gt;cliquez ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:38</sys_created_on>
+        <sys_id>26a7c371838d72907c2356e0deaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_26a7c371838d72907c2356e0deaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:38</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

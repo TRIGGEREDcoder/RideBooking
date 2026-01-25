@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3c784d6583a722107c2356e0deaad32e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06e39fbc47edc950bd95a144846d435a</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>3c784d6583a722107c2356e0deaad32e</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère des informations sur la liste des calendriers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Requête&lt;/strong&gt; : requête qui filtre les résultats.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Sorties : &lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Calendrier &lt;/strong&gt;: objet contenant les champs suivants :&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;ID : &lt;/strong&gt;ID unique de calendrier.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Nom : &lt;/strong&gt;nom du calendrier.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Fuseau horaire : &lt;/strong&gt;fuseau horaire du calendrier.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Utilisateurs : &lt;/strong&gt;liste de tous les utilisateurs figurant sur le calendrier.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Politiques d'escalade : &lt;/strong&gt;liste de toutes les politiques d'escalade qui utilisent le calendrier.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Équipes&lt;/strong&gt; : liste de toutes les équipes figurant sur le calendrier.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Message d'erreur :&lt;/strong&gt; &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;&lt;li&gt;La ressource demandée est introuvable.&lt;/li&gt;&lt;li&gt;Le champ obligatoire ne peut pas être laissé vide.&lt;/li&gt;&lt;li&gt;Erreur interne du serveur : une erreur s'est produite dans PagerDuty.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification PagerDuty correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification PagerDuty. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&lt;p&gt; Pour obtenir plus d'informations sur cette action. &lt;a href="https://developer.pagerduty.com/api-reference/b3A6Mjc0ODE4MQ-list-schedules"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Remarque &lt;/strong&gt;: nécessite un abonnement&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;pour une utilisation en production.&lt;/a&gt; En savoir plus.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:40</sys_created_on>
+        <sys_id>9d5b8ff18301b2907c2356e0deaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_9d5b8ff18301b2907c2356e0deaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:40</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

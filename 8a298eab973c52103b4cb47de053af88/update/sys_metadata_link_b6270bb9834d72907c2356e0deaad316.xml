@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1a78c5a583a722107c2356e0deaad3ff</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0123e6bc732b730091792ea3c4f6a79c</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>1a78c5a583a722107c2356e0deaad3ff</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Obtenir les détails d'un reçu.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Type&lt;/strong&gt; : type de transaction d'inventaire&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID du reçu&lt;/strong&gt; : ID unique du reçu dont vous souhaitez obtenir les détails.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Détails du reçu&lt;/strong&gt; : objet contenant les détails suivants du reçu :
+  &lt;ul&gt;
+    &lt;li&gt;ID&lt;/li&gt;
+         &lt;li&gt;Heure de création&lt;/li&gt;
+         &lt;li&gt;Heure de mise à jour&lt;/li&gt;
+         &lt;li&gt;Code-barre&lt;/li&gt;
+         &lt;li&gt;Prix&lt;/li&gt;
+         &lt;li&gt;Quantité&lt;/li&gt;
+         &lt;li&gt;Balise RFID&lt;/li&gt;
+         &lt;li&gt;Total&lt;/li&gt;
+         &lt;li&gt;Date de transaction&lt;/li&gt;
+         &lt;li&gt;Type&lt;/li&gt;
+         &lt;li&gt;Statut&lt;/li&gt;
+         &lt;li&gt;Exporté&lt;/li&gt;
+    &lt;li&gt;Compte
+        &lt;ul&gt;
+            &lt;li&gt;ID&lt;/li&gt;
+            &lt;li&gt;Nom&lt;/li&gt;
+            &lt;li&gt;Code&lt;/li&gt;
+            &lt;li&gt;Type de compte
+                &lt;ul&gt;
+                    &lt;li&gt;ID&lt;/li&gt;
+                    &lt;li&gt;Nom&lt;/li&gt;
+                    &lt;li&gt;Devise
+                        &lt;ul&gt;
+                            &lt;li&gt;Code&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Contact principal
+                        &lt;ul&gt;
+                            &lt;li&gt;ID&lt;/li&gt;
+                            &lt;li&gt;E-mail&lt;/li&gt;
+                            &lt;li&gt;Prénom&lt;/li&gt;
+                            &lt;li&gt;Nom de famille&lt;/li&gt;
+                            &lt;li&gt;Nom complet&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Adresse principale
+                        &lt;ul&gt;
+                            &lt;li&gt;ID&lt;/li&gt;
+                            &lt;li&gt;Nom&lt;/li&gt;
+                            &lt;li&gt;Adresse, ligne 1&lt;/li&gt;
+                            &lt;li&gt;Adresse, ligne 2&lt;/li&gt;
+                            &lt;li&gt;Ville&lt;/li&gt;
+                            &lt;li&gt;État&lt;/li&gt;
+                            &lt;li&gt;Code postal&lt;/li&gt;
+                            &lt;li&gt;Pays
+                                &lt;ul&gt;
+                                    &lt;li&gt;Code&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;Pays d'application de la TVA
+                                &lt;ul&gt;
+                                    &lt;li&gt;Code&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Ligne de commande
+        &lt;ul&gt;
+            &lt;li&gt;ID&lt;/li&gt;
+            &lt;li&gt;Heure de création&lt;/li&gt;
+            &lt;li&gt;Heure de mise à jour&lt;/li&gt;
+            &lt;li&gt;Total de la comptabilité&lt;/li&gt;
+            &lt;li&gt;Devise du total de la comptabilité
+                &lt;ul&gt;
+                    &lt;li&gt;Code&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Description&lt;/li&gt;
+            &lt;li&gt;ID du site du fournisseur&lt;/li&gt;
+            &lt;li&gt;Facturé&lt;/li&gt;
+            &lt;li&gt;Numéro de ligne&lt;/li&gt;
+            &lt;li&gt;Requis avant le&lt;/li&gt;
+            &lt;li&gt;ID d'en-tête de commande&lt;/li&gt;
+            &lt;li&gt;Numéro de bon de commande&lt;/li&gt;
+            &lt;li&gt;Prix&lt;/li&gt;
+            &lt;li&gt;Quantité&lt;/li&gt;
+            &lt;li&gt;Reçu obligatoire&lt;/li&gt;
+            &lt;li&gt;Quantité reçue&lt;/li&gt;
+            &lt;li&gt;Numéro de pièce source&lt;/li&gt;
+            &lt;li&gt;Statut&lt;/li&gt;
+            &lt;li&gt;Numéro de sous-ligne&lt;/li&gt;
+            &lt;li&gt;Numéro de la pièce aux. du fournisseur&lt;/li&gt;
+            &lt;li&gt;Total&lt;/li&gt;
+            &lt;li&gt;Type&lt;/li&gt;
+            &lt;li&gt;Version&lt;/li&gt;
+            &lt;li&gt;Pourcentage d'économies&lt;/li&gt;
+            &lt;li&gt;Total des reporting&lt;/li&gt;
+            &lt;li&gt;Numéro de commande du fournisseur&lt;/li&gt;
+            &lt;li&gt;Type de correspondance&lt;/li&gt;
+            &lt;li&gt;Type de service&lt;/li&gt;
+            &lt;li&gt;ID de la charge de dépense&lt;/li&gt;
+            &lt;li&gt;Compte
+                &lt;ul&gt;
+                    &lt;li&gt;ID&lt;/li&gt;
+                    &lt;li&gt;Nom&lt;/li&gt;
+                    &lt;li&gt;Code&lt;/li&gt;
+                    &lt;li&gt;Type de compte
+                        &lt;ul&gt;
+                            &lt;li&gt;ID&lt;/li&gt;
+                            &lt;li&gt;Nom&lt;/li&gt;
+                            &lt;li&gt;Devise
+                                &lt;ul&gt;
+                                    &lt;li&gt;Code&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;Contact principal
+                                &lt;ul&gt;
+                                    &lt;li&gt;ID&lt;/li&gt;
+                                    &lt;li&gt;E-mail&lt;/li&gt;
+                                    &lt;li&gt;Prénom&lt;/li&gt;
+                                    &lt;li&gt;Nom de famille&lt;/li&gt;
+                                    &lt;li&gt;Nom complet&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;Adresse principale
+                                &lt;ul&gt;
+                                    &lt;li&gt;ID&lt;/li&gt;
+                                    &lt;li&gt;Nom&lt;/li&gt;
+                                    &lt;li&gt;Adresse, ligne 1&lt;/li&gt;
+                                    &lt;li&gt;Adresse, ligne 2&lt;/li&gt;
+                                    &lt;li&gt;Ville&lt;/li&gt;
+                                    &lt;li&gt;État&lt;/li&gt;
+                                    &lt;li&gt;Code postal&lt;/li&gt;
+                                    &lt;li&gt;Pays
+                                        &lt;ul&gt;
+                                            &lt;li&gt;Code&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/li&gt;
+                                    &lt;li&gt;Pays d'application de la TVA
+                                        &lt;ul&gt;
+                                            &lt;li&gt;Code&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Devise
+                &lt;ul&gt;
+                    &lt;li&gt;Code&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Marchandise
+                &lt;ul&gt;
+                    &lt;li&gt;ID&lt;/li&gt;
+                    &lt;li&gt;Nom&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Département
+                &lt;ul&gt;
+                    &lt;li&gt;ID&lt;/li&gt;
+                    &lt;li&gt;Nom&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Demandeur
+                &lt;ul&gt;
+                    &lt;li&gt;ID&lt;/li&gt;
+                    &lt;li&gt;Connexion&lt;/li&gt;
+                    &lt;li&gt;E-mail&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Fournisseur
+                &lt;ul&gt;
+                    &lt;li&gt;ID&lt;/li&gt;
+                    &lt;li&gt;Nom&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+         &lt;li&gt;
+            Emplacement de l'entrepôt d'origine
+            &lt;ul&gt;
+               &lt;li&gt;ID&lt;/li&gt;
+               &lt;li&gt;Allée&lt;/li&gt;
+               &lt;li&gt;Bac&lt;/li&gt;
+               &lt;li&gt;Niveau&lt;/li&gt;
+               &lt;li&gt;Nom de l'entrepôt&lt;/li&gt;
+               &lt;li&gt;ID de l'entrepôt&lt;/li&gt;
+            &lt;/ul&gt;
+         &lt;/li&gt;
+    &lt;li&gt;Emplacement de l'entrepôt de destination
+        &lt;ul&gt;
+            &lt;li&gt;ID&lt;/li&gt;
+            &lt;li&gt;Allée&lt;/li&gt;
+            &lt;li&gt;Bac&lt;/li&gt;
+            &lt;li&gt;Niveau&lt;/li&gt;
+            &lt;li&gt;Nom de l'entrepôt&lt;/li&gt;
+            &lt;li&gt;ID de l'entrepôt&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite dans Coupa, l'état est défini sur Erreur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Journal d'erreurs&lt;/strong&gt; : réponse supplémentaire reçue de Coupa. Renseigné uniquement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ID de reçu non valide&lt;/li&gt;
+&lt;li&gt;Type non valide&lt;/li&gt;
+&lt;li&gt;Alias de connexion et d'informations d'identification non valide&lt;/li&gt;
+&lt;li&gt;Erreur inconnue. Veuillez consulter le journal des erreurs pour plus d'informations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification Coupa correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification « Informations d'identification du client Coupa ». &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" rel="noopener noreferrer nofollow"&gt;Lire plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:28</sys_created_on>
+        <sys_id>b6270bb9834d72907c2356e0deaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_b6270bb9834d72907c2356e0deaad316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:28</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

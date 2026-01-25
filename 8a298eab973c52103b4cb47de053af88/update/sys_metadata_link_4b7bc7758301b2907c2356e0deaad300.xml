@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>505841a183a722107c2356e0deaad314</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>07676b951baad41015dfdce7cc4bcb7f</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>505841a183a722107c2356e0deaad314</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère les détails d'une clé DNS existante.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;ID de projet&lt;/b&gt; : ID unique du projet.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Zone gérée&lt;/b&gt; : nom de la zone gérée.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Clé DNS&lt;/b&gt; : ID unique de la clé DNS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Clé DNS&lt;/b&gt; : objet complexe contenant les détails de la clé DNS.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur « Réussite ». Si une défaillance se produit dans Google Cloud DNS, l'état est défini sur « Erreur ».&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Rempli uniquement lorsqu'une erreur se produit.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;ID de projet non valide.&lt;/li&gt;
+&lt;li&gt;La zone gérée n'existe pas.&lt;/li&gt;
+&lt;li&gt;La clé DNS n'existe pas.&lt;/li&gt;
+&lt;li&gt;Informations d'identification non valides.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; Pour utiliser cette action, la connexion et les informations d'identification de Google Cloud DNS correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification de Google Cloud DNS.   &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:20</sys_created_on>
+        <sys_id>4b7bc7758301b2907c2356e0deaad300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_4b7bc7758301b2907c2356e0deaad300</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:20</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

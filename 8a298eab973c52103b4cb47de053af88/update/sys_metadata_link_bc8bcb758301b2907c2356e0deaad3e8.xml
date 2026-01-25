@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3548416183a722107c2356e0deaad34d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>07843ede5323101032b7ddeeff7b12d4</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>3548416183a722107c2356e0deaad34d</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>pa_indicators</tablename>
+        <value>Numéro de série manquant des CI de matériel : à partir de la vue est mesurée quotidiennement en unité Nombre.&#13;
+ L'objectif de cet indicateur est de minimiser.&#13;
+Il s'agit du décompte dans la source de données CIMatériel.Vue, qui utilise la table : &#13;
+sn_getwell_hardware_ci_class_view&#13;
+avec les conditions suivantes : &#13;
+Classe est un ordinateur ou équipement réseau, et le statut est « installé » et le statut opérationnel est « Opérationnel »&#13;
+Conditions supplémentaires :&#13;
+Numéro de série est vide</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:27</sys_created_on>
+        <sys_id>bc8bcb758301b2907c2356e0deaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_bc8bcb758301b2907c2356e0deaad3e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:27</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

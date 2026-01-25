@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8748496183a722107c2356e0deaad3b3</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06550e8e87b519107701ed3e0ebb3518</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8748496183a722107c2356e0deaad3b3</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Vérifie l'état du compte d'ordinateur spécifié dans Active Directory (AD).&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nom de l'ordinateur&lt;/strong&gt; : Nom de l'ordinateur pour lequel vous voulez vérifier l'état.&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;L'ordinateur est-il désactivé ?&lt;/strong&gt; : la valeur est « vrai » si le compte est désactivé et « faux » si le compte est activé.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée correctement, le code est défini sur 0. En cas d'échec dans Active Directory, le code est défini sur 1.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nom de l'ordinateur non valide&lt;/li&gt;
+&lt;li&gt;Le champ du nom de l'ordinateur est vide.&lt;/li&gt;
+&lt;li&gt;L'utilisateur ne peut pas être associé à un mot de passe.&lt;/li&gt;
+&lt;li&gt;Informations d'identification non valides pour l'hôte.&lt;/li&gt;
+&lt;li&gt;Nom d'hôte non valide dans la connexion ou hôte non accessible à partir de Serveur MID.&lt;/li&gt;
+&lt;li&gt;Informations d'identification de l'hôte incorrectes. Erreur d'authentification dans Serveur MID.&lt;/li&gt;
+&lt;li&gt;Erreur inconnue. Consultez le journal des erreurs pour plus d'informations.&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification AD correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification AD. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+ 
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:00</sys_created_on>
+        <sys_id>232b83b18301b2907c2356e0deaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_232b83b18301b2907c2356e0deaad3b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:00</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

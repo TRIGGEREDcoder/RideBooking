@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3a48096183a722107c2356e0deaad34d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>074c67340b8b001038b903e193673a33</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>3a48096183a722107c2356e0deaad34d</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Listez les instances réservées de la base de données.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Région&lt;/strong&gt; : région de la ressource RDS.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Identificateur d'instance réservée de base de données&lt;/strong&gt; : la valeur du filtre d'identificateur d'instance réservée de la base de données. Indiquez ce paramètre pour afficher uniquement la réservation qui correspond à l'ID de réservation spécifié.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    
+    &lt;li&gt;&lt;strong&gt;Instances réservées de la base de données&lt;/strong&gt; : renvoie des informations sur les instances réservées de la base de données pour ce compte ou sur une instance réservée de base de données spécifiée.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;/p&gt;
+(Pour plus d'informations sur les erreurs communes à toutes les actions, voir &lt;a href="https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/CommonErrors.html" target="_blank"&gt;Erreurs courantes&lt;/a&gt;).
+&lt;br&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Amazon RDS correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Amazon RDS. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:11</sys_created_on>
+        <sys_id>747b43758301b2907c2356e0deaad3e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_747b43758301b2907c2356e0deaad3e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:11</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

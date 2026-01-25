@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f678c9a583a722107c2356e0deaad3ae</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0719053e87a823000e3dd61e36cb0b40</documentkey>
+        <fieldname>more_info_html</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f678c9a583a722107c2356e0deaad3ae</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;p&gt;Les listes connexes disponibles dépendent de la licence des produits (modules d'extension) que les utilisateurs ont installés. Les listes connexes supplémentaires que les utilisateurs peuvent activer pour le formulaire de problème sont les suivantes :&lt;/p&gt;
+&lt;table cellpadding="4"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th width="150"&gt;
+&lt;p align="center"&gt;Nom du module d'extension&lt;/p&gt;
+&lt;/th&gt;&lt;th width="142"&gt;
+&lt;p align="center"&gt;ID de module d'extension&lt;/p&gt;
+&lt;/th&gt;&lt;th width="162"&gt;
+&lt;p align="center"&gt;Liste connexe&lt;/p&gt;
+&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign="top" width="150"&gt;
+&lt;p&gt; Agile Development 2.0&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top" width="142"&gt;
+&lt;p&gt; com.snc.sdlc.agile.2.0&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top" width="162"&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Défauts [Défaut -&gt; Parent]&lt;/li&gt;&lt;li&gt;Améliorations [Amélioration -&gt; Parent]&lt;/li&gt;&lt;li&gt;Versions [Version -&gt; Parent]&lt;/li&gt;&lt;/ul&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign="top" width="150"&gt;
+&lt;p&gt; Service clientèle&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top" width="142"&gt;
+&lt;p&gt; com.sn_customerservice&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top" width="162"&gt;
+&lt;p&gt; Ticket [Ticket -&gt; Problème]&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign="top" width="150"&gt;
+&lt;p&gt; Amélioration continue des services (CIM)&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top" width="142"&gt;
+&lt;p&gt; com.sn_cim&lt;/p&gt;
+&lt;/td&gt;&lt;td valign="top" width="162"&gt;
+&lt;p&gt; Initiatives d'amélioration&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;p&gt; Point de départ de la gestion des services&lt;br /&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;td&gt;
+&lt;p&gt; com.snc.service&lt;br /&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;td&gt;
+&lt;p&gt; Applications de gestion&lt;br /&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:55</sys_created_on>
+        <sys_id>416b87358301b2907c2356e0deaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_416b87358301b2907c2356e0deaad3f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:55</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

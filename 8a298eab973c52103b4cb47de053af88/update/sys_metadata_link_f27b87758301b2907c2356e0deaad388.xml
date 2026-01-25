@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0c78096583a722107c2356e0deaad345</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>07628171071300102144a2324dd300bf</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>0c78096583a722107c2356e0deaad345</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Répertorie toutes les versions disponibles d'une fonction AWS Lambda donnée.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Région AWS&lt;/strong&gt; : région géographique du compte AWS.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nom de la fonction&lt;/strong&gt; : nom de la fonction Lambda.
+    &lt;br&gt;Exemples de formats de noms :
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Nom de la fonction&lt;/strong&gt; : MyFunction.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;ARN de la fonction&lt;/strong&gt; : arn:aws:lambda:us-east-1:123456789012:function:my-function.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;ARN partiel&lt;/strong&gt; : 123456789012:function:my-function.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Versions&lt;/strong&gt; : l'objet comporte un attribut appelé :
+    &lt;br&gt;Version : version de la fonction.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, des informations d'identification AWS Lambda correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification AWS Lambda. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque :&lt;/strong&gt; nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank" rel="noopener noreferrer nofollow"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:19</sys_created_on>
+        <sys_id>f27b87758301b2907c2356e0deaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_f27b87758301b2907c2356e0deaad388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:19</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

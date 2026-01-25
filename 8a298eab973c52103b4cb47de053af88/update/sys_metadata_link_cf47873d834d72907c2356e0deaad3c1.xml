@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6a684d2583a722107c2356e0deaad323</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02423584c33001105b8d314f1840ddf1</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>6a684d2583a722107c2356e0deaad323</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p id="short_desc"&gt; Met à jour l'événement de réunion dans le calendrier MS Teams.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id="inputs"&gt;
+	&lt;li&gt;&lt;b&gt;ID d'utilisateur/Nom principal&lt;/b&gt; : ID unique ou nom principal de l'utilisateur.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;ID de réunion&lt;/b&gt; : ID unique de l'événement de réunion.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Objet&lt;/b&gt; : objet de l'événement de réunion.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Début&lt;/b&gt; : la date et l'heure de début de la réunion.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Fin&lt;/b&gt; : la date et l'heure de fin de la réunion.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Fuseau horaire&lt;/b&gt; : fuseau horaire de la réunion. Par défaut, le fuseau horaire est UTC.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : le lieu de la réunion :
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Nom d'affichage&lt;/b&gt; : nom associé à l'emplacement.&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Participants&lt;/b&gt; : l'ensemble des participants à la réunion :
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Adresse e-mail&lt;/b&gt; : comprend le nom et l'adresse SMTP du participant.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type de participant : obligatoire ou facultatif.&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Corps&lt;/b&gt; : le corps du message associé à la réunion. Il peut être au format HTML ou texte :
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Contenu&lt;/b&gt; : le contenu de l'élément.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Type de contenu&lt;/b&gt; : le type du contenu. Les valeurs possibles sont texte et html.&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Récurrence&lt;/b&gt; : le modèle de récurrence de la réunion :
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;Modèle&lt;/b&gt; : la fréquence d'un événement :
+				&lt;ul&gt;
+					&lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : le type de schéma de récurrence.&lt;/li&gt;
+					&lt;li&gt;&lt;b&gt;Jour du mois&lt;/b&gt; : le jour du mois au cours duquel l'événement se produit. Requis si le type est Mensuel absolu ou Annuel absolu.&lt;/li&gt;
+					&lt;li&gt;&lt;b&gt;Jours de la semaine&lt;/b&gt; : un ensemble des jours de la semaine où l'événement se produit. Les valeurs possibles sont : dimanche, lundi, mardi, mercredi, jeudi, vendredi et samedi. Obligatoire si le type est « Hebdomadaire », « Mensuel relatif » ou « Annuel relatif ».&lt;/li&gt;
+					&lt;li&gt;&lt;b&gt;Premier jour de la semaine&lt;/b&gt; : le premier jour de la semaine. Les valeurs possibles sont : dimanche, lundi, mardi, mercredi, jeudi, vendredi et samedi. La valeur par défaut est le dimanche. Obligatoire si le type est « Hebdomadaire ».&lt;/li&gt;
+					&lt;li&gt;&lt;b&gt;Mois&lt;/b&gt; : le mois au cours duquel l'événement se produit. Il s'agit d'un nombre compris entre 1 et 12.&lt;/li&gt;
+					&lt;li&gt;&lt;b&gt;Indice&lt;/b&gt; : spécifie l'indice hebdomadaire des jours autorisés où l'événement se produit, compté à partir de la première instance du mois. Les valeurs possibles sont : premier, deuxième, troisième, quatrième et dernier. La valeur par défaut est premier. Facultative et utilisée si le type est « Mensuel relatif » ou « Annuel relatif ».&lt;/li&gt;
+					&lt;li&gt;&lt;b&gt;Intervalle&lt;/b&gt; : le nombre d'unités entre les occurrences, où les unités peuvent être en jours, semaines, mois ou années, selon le type.&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Plage&lt;/b&gt; : la durée d'un événement :
+				&lt;ul&gt;
+					&lt;li&gt;&lt;b&gt;Type&lt;/b&gt; : la plage de récurrences. Les valeurs possibles sont : Date de fin, Pas de fin et Numéroté.&lt;/li&gt;
+					&lt;li&gt;&lt;b&gt;Date de début&lt;/b&gt; : la date à laquelle on commence à appliquer le modèle de récurrence. La première occurrence de la réunion peut être cette date ou une date ultérieure, en fonction du modèle de récurrence de l'événement. Elle doit avoir la même valeur que la propriété de début de l'événement récurrent.&lt;/li&gt;
+					&lt;li&gt;&lt;b&gt;Date de fin&lt;/b&gt; : la date à laquelle se termine l'application du modèle de récurrence. En fonction du modèle de récurrence de l'événement, la dernière occurrence de la réunion peut ne pas être cette date. Obligatoire si le type est Date de fin.&lt;/li&gt;
+					&lt;li&gt;&lt;b&gt;Nombre d'occurrences&lt;/b&gt; : le nombre de fois que l'événement doit être répété. Obligatoire et doit être positif si le type est numéroté.&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id='outputs'&gt;
+	&lt;li&gt;&lt;b&gt;Détails de la réunion
+        &lt;/b&gt; : objet contenant les détails suivants de la réunion :
+		&lt;ul&gt;
+			&lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : ID unique de l'événement de réunion.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Objet&lt;/b&gt; : objet de l'événement de réunion.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Début&lt;/b&gt; : date, heure et fuseau horaire de début de l'événement de réunion :
+				&lt;ul&gt;
+					&lt;li&gt;Date/Heure&lt;/li&gt;
+					&lt;li&gt;Fuseau horaire&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Fin&lt;/b&gt; : date, heure et fuseau horaire de fin de l'événement de réunion :
+				&lt;ul&gt;
+					&lt;li&gt;Date/Heure&lt;/li&gt;
+					&lt;li&gt;Fuseau horaire&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Participants&lt;/b&gt; : l'ensemble des participants à la réunion :
+				&lt;ul&gt;
+					&lt;li&gt;Adresses e-mail&lt;/li&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Adresse&lt;/li&gt;
+						&lt;li&gt;Nom&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;li&gt;Type&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Organisateur&lt;/b&gt; : l'organisateur de la réunion :
+				&lt;ul&gt;
+					&lt;li&gt;Adresses e-mail&lt;/li&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Adresse&lt;/li&gt;
+						&lt;li&gt;Nom&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Emplacement&lt;/b&gt; : le lieu de la réunion :
+				&lt;ul&gt;
+					&lt;li&gt;Nom d'affichage&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Réunion en ligne&lt;/b&gt; : détails permettant à un participant de se joindre à la réunion en ligne :
+				&lt;ul&gt;
+					&lt;li&gt;URL pour rejoindre&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Aperçu du corps&lt;/b&gt; : l'aperçu du corps du message associé à la réunion. Il peut être au format HTML ou texte.&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Récurrence&lt;/b&gt; : contient les détails du modèle de récurrence de la réunion :
+				&lt;ul&gt;
+					&lt;li&gt;&lt;b&gt;Modèle&lt;/b&gt; : la fréquence d'un événement :
+						&lt;ul&gt;
+							&lt;li&gt;Type&lt;/li&gt;
+							&lt;li&gt;Jour du mois&lt;/li&gt;
+							&lt;li&gt;Jours de la semaine&lt;/li&gt;
+							&lt;li&gt;Premier jour de la semaine&lt;/li&gt;
+							&lt;li&gt;Mois&lt;/li&gt;
+							&lt;li&gt;index&lt;/li&gt;
+							&lt;li&gt;Intervalle&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/li&gt;
+					&lt;li&gt;&lt;b&gt;Plage&lt;/b&gt; : la durée d'un événement :
+						&lt;ul&gt;
+							&lt;li&gt;Type&lt;/li&gt;
+							&lt;li&gt;Date de démarrage&lt;/li&gt;
+							&lt;li&gt;Date de fin&lt;/li&gt;
+							&lt;li&gt;Nombre d'occurences&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;b&gt;Lien Web&lt;/b&gt; : l'URL permettant d'ouvrir l'événement dans Outlook sur le Web.&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite, l'état est défini sur Erreur.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id='error_messages'&gt;
+	&lt;li&gt;Impossible de traiter la demande, car elle est malformée ou incorrecte.&lt;/li&gt;
+	&lt;li&gt;La ressource demandée n'existe pas.&lt;/li&gt;
+	&lt;li&gt;La méthode HTTP de la requête n'est pas autorisée sur la ressource.&lt;/li&gt;
+	&lt;li&gt;Ce service ne prend pas en charge le format demandé dans l'en-tête Accepter.&lt;/li&gt;
+	&lt;li&gt;Le type de contenu de la demande est un format qui n'est pas pris en charge par le service.&lt;/li&gt;
+	&lt;li&gt;Une erreur interne du serveur est survenue lors du traitement de la demande.&lt;/li&gt;
+	&lt;li&gt;Le service est temporairement indisponible pour des raisons de maintenance.&lt;/li&gt;
+	&lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification Microsoft Teams Graph correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Microsoft Teams Graph.&lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:02</sys_created_on>
+        <sys_id>cf47873d834d72907c2356e0deaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_cf47873d834d72907c2356e0deaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:02</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

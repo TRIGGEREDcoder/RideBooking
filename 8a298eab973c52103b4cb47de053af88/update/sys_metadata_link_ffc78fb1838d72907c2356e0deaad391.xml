@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5d5849a183a722107c2356e0deaad3ac</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>04cc9157c31e6010092d99ccc840dd0c</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>5d5849a183a722107c2356e0deaad3ac</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Supprime une ou plusieurs pièces jointes associées à l'enregistrement d'événement spécifié. Vous pouvez supprimer une pièce jointe unique en fournissant le champ d'entrée Nom de fichier de la pièce jointe. Vous pouvez également supprimer toutes les pièces jointes liées à l'enregistrement à l'aide de la case Supprimer tout&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Événement&lt;/b&gt; : référence de l'enregistrement d'événement auquel la pièce jointe doit être jointe.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Nom du fichier de la pièce jointe&lt;/b&gt; : nom de la pièce jointe à supprimer.&lt;/li&gt;
+ &lt;li&gt;&lt;b&gt;Supprimer tout&lt;/b&gt; : booléen qui indique si toutes les pièces jointes doivent être supprimées ou non.&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la suppression de la pièce jointe se déroule correctement ou si aucune pièce jointe à supprimer n'est trouvée si Supprimer tout a été sélectionnée, l'état affiche la valeur « Réussi ». En cas d'échec, l'état affiche la valeur « Erreur ».&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fichier de pièce jointe indiqué non trouvé.&lt;/li&gt;
+&lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:16</sys_created_on>
+        <sys_id>ffc78fb1838d72907c2356e0deaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_ffc78fb1838d72907c2356e0deaad391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:16</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

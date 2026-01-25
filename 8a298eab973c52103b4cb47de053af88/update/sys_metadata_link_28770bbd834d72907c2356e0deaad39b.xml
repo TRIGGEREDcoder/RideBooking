@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>dca8cda983a722107c2356e0deaad3c2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>031282843b10030060a8695593efc471</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>dca8cda983a722107c2356e0deaad3c2</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>pa_indicators</tablename>
+        <value>Score de l'enquête de satisfaction attribué par les employés à leur expérience d'intégration&#13;
+&#13;
+Le Score moyen de l'enquête de satisfaction des nouveaux employés est mesuré quotidiennement en unité #.&#13;
+L'objectif de cet indicateur est de maximiser.&#13;
+Il s'agit de la moyenne sur la source de données RH.CycledeVie.Résultat.Mesure.Enquête.Intégration, qui utilise la table suivante :&#13;
+asmt_metric_result&#13;
+avec les conditions suivantes :&#13;
+Créé le Aujourd'hui .et. Valeur réelle ! = -1 .et. Catégorie de mesure = Enquête d'expérience d'intégration pour les nouveaux employés</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:41</sys_created_on>
+        <sys_id>28770bbd834d72907c2356e0deaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_28770bbd834d72907c2356e0deaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:41</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

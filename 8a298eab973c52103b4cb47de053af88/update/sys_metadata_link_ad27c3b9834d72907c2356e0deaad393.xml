@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>305805a183a722107c2356e0deaad3fc</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>00ecd70b8712091072fbbaa8dabb35cd</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>305805a183a722107c2356e0deaad3fc</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère les informations sur les idées en transmettant l'ID du produit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;ID du produit : &lt;/strong&gt;l'ID numérique ou la clé du produit.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Terme de recherche : &lt;/strong&gt;le terme de recherche à mettre en correspondance avec le nom de l'idée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Taille de la page&lt;/strong&gt; : elle peut varier jusqu'à 1 000 selon les besoins de l'utilisateur.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Créé avant : &lt;/strong&gt;le paramètre de requête pour filtrer les idées créées avant la date fournie.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Créé depuis : &lt;/strong&gt;le paramètre de requête pour filtrer les idées créées après la date fournie.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Mis à jour depuis : &lt;/strong&gt;le paramètre de requête pour filtrer les idées mises à jour après la date fournie.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Sorties&lt;/strong&gt; :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Idées&lt;/strong&gt; : l'objet contenant des données d'idées.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : l'ID de l'idée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Numéro de référence : &lt;/strong&gt;le numéro de référence de l'idée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Créé le/à&lt;/strong&gt; : la date et l'heure auxquelles l'idée a été créée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Nom&lt;/strong&gt; : le nom de l'idée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Mis à jour le/à&lt;/strong&gt; : la date et l'heure auxquelles l'idée a été mise à jour.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;URL&lt;/strong&gt; : l'URL de l'idée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Ressource&lt;/strong&gt; : la ressource de l'idée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ID du produit&lt;/strong&gt; : l'ID du produit.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Statut du workflow&lt;/strong&gt; : objet contenant les champs suivants :&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : l'ID du statut du workflow.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Nom&lt;/strong&gt; : le nom de l'état du workflow.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Position&lt;/strong&gt; : la position du statut du workflow.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Terminé&lt;/strong&gt; : il s'agit d'une valeur booléenne. Les valeurs acceptées sont Vrai ou Faux.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Couleur&lt;/strong&gt; : la couleur du statut du workflow.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt; : objet contenant les champs suivants :&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : l'ID de la description.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Corps&lt;/strong&gt; : le corps de la description.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Créé le/à&lt;/strong&gt; : la date et l'heure de création de la description.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification correspondantes de Aha doivent être créées et associées à l'alias de connexion et d'informations d'identification Aha. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Nécessite un abonnement pour une utilisation de production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : pour plus d'informations sur cette API, &lt;a href="https://www.aha.io/api/resources/ideas/list_ideas_for_a_product"&gt;cliquez ici&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:23</sys_created_on>
+        <sys_id>ad27c3b9834d72907c2356e0deaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_ad27c3b9834d72907c2356e0deaad393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:23</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

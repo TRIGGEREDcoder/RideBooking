@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>27884d2983a722107c2356e0deaad3d4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02b9ef4cc3010110985a1b2d3640dd2c</documentkey>
+        <fieldname>content</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>27884d2983a722107c2356e0deaad3d4</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_embedded_help_content</tablename>
+        <value>&lt;p&gt;Définir le calendrier de l'importation complète&lt;/p&gt;
+&lt;ul class="steps-unordered"&gt;&lt;li class="li step"&gt;REMARQUE : avant la planification, nous vous conseillons d'exécuter l'intégration manuellement pour résoudre tout problème éventuel.&lt;/li&gt;&lt;/ul&gt;
+&lt;ul class="steps-unordered"&gt;&lt;li class="li step"&gt;Importation complète
+&lt;ul class="steps-unordered"&gt;&lt;li class="li step"&gt;Modifiez l'enregistrement en définissant active=true et planifiez-le en fonction des besoins&lt;/li&gt;&lt;li class="li step"&gt;REMARQUE : l'importation complète analyse tous les appareils pour détecter des vulnérabilités. Il n'est pas recommandé de l'exécuter régulièrement car le nombre d'enregistrements peut être élevé.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:27</sys_created_on>
+        <sys_id>1167cb7d834d72907c2356e0deaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_1167cb7d834d72907c2356e0deaad30b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:27</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

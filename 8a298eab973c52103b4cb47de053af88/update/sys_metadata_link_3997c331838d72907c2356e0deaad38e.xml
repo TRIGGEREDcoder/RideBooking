@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9c78496583a722107c2356e0deaad3b1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>03e1b7560b251410842d03e193673a5a</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>9c78496583a722107c2356e0deaad3b1</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Met à jour un certificat. Actuellement, cette fonction vous permet de spécifier s'il est nécessaire d'accepter ou de refuser l'enregistrement de votre certificat dans un journal de transparence de certificat.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Région&lt;/strong&gt; : région de la ressource AWS.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;ARN du certificat&lt;/strong&gt; : ARN du certificat demandé pour la mise à jour.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Préférence en matière de connexion pour la transparence des certificats&lt;/strong&gt; : la transparence du certificat permet de détecter les certificats SSL/TLS qui ont été émis par erreur ou malicieusement. Les certificats qui n'ont pas été journalisés génèrent généralement un message d'erreur dans un navigateur.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite, l'état est défini sur Erreur.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Jeton d'authentification manquant.&lt;/li&gt;
+    &lt;li&gt;Impossible de trouver le certificat « ARN du certificat spécifié ».&lt;/li&gt;
+    &lt;li&gt;Le certificat sélectionné n'est pas émis et/ou valide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;/p&gt;
+(Pour plus d'informations sur les erreurs communes à toutes les actions, voir &lt;a href="https://docs.aws.amazon.com/acm/latest/APIReference/CommonErrors.html" target="_blank"&gt;Erreurs courantes&lt;/a&gt;).
+&lt;br&gt;
+&lt;p&gt;Pour utiliser cette action, les informations d'identification d'AWS Certificate Manager correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification de Certificate Manager respectivement. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:18</sys_created_on>
+        <sys_id>3997c331838d72907c2356e0deaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_3997c331838d72907c2356e0deaad38e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:18</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

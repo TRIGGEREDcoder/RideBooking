@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>25888de583a722107c2356e0deaad3bc</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>05317cd10b10220050192f15d6673af8</documentkey>
+        <fieldname>html_description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>25888de583a722107c2356e0deaad3bc</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_atf_step_config</tablename>
+        <value>&lt;p class="p1"&gt;&lt;span class="s1"&gt;Ouvre un nouveau formulaire pour la table et l'interface utilisateur du formulaire sélectionnés.&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Considérations supplémentaires&lt;/h4&gt;
+&lt;p class="p1"&gt;&lt;span class="s1"&gt;Utilisez le champ &lt;code&gt;Form UI&lt;/code&gt; pour spécifier le test dans l'interface utilisateur de la plateforme standard ou dans l'interface utilisateur de l'espace de travail.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p1"&gt;&lt;span class="s1"&gt;Vous pouvez éventuellement spécifier le &lt;code&gt;name&lt;/code&gt; de la vue du formulaire. Gardez à l'esprit que cela ne peut être effectué que pour les utilisateurs qui peuvent accéder à cette vue.&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:43</sys_created_on>
+        <sys_id>9ee78335838d72907c2356e0deaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_9ee78335838d72907c2356e0deaad314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:43</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

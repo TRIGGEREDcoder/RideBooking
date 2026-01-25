@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>285805a183a722107c2356e0deaad390</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0600f0f9b7e23300a134d818ee11a923</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>285805a183a722107c2356e0deaad390</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Cette action crée un dossier dans OneDrive.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Nom du dossier&lt;/b&gt; : le nom du dossier à créer dans OneDrive.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Source&lt;/b&gt; : les options prises en charge sont les suivantes :
+        &lt;ul&gt;
+            &lt;li&gt;Lecteur : créer un dossier dans un lecteur spécifique.&lt;/li&gt;
+            &lt;li&gt;Site : crée un dossier dans un lecteur appartenant à un site.&lt;/li&gt;
+            &lt;li&gt;Groupe : crée un dossier dans un lecteur appartenant à un groupe.&lt;/li&gt;
+            &lt;li&gt;Utilisateur : crée un dossier dans un lecteur appartenant à un utilisateur.&lt;/li&gt;
+             &lt;li&gt;Racine : répertoire racine associé à l'utilisateur authentifié.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID de l'élément parent&lt;/b&gt; : l'ID du dossier parent, sous lequel le nouveau dossier doit être créé.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID de la source&lt;/b&gt; : l'ID du lecteur/groupe/site/utilisateur en fonction du choix fait dans l'entrée « Source ».&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur Réussite si la demande aboutit ou sur Erreur si une défaillance se produit.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : est rempli si l'état est Erreur.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID du dossier&lt;/b&gt; : ID du dossier créé.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;URL Web&lt;/b&gt; : l'URL Web représentant le dossier.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Le nom de dossier fourni n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;Le nom de dossier fourni existe déjà.&lt;/li&gt;
+    &lt;li&gt;L'ID d'élément parent fourni n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;L'ID de lecteur fourni semble vide ou ne représente pas un lecteur valide.&lt;/li&gt;
+    &lt;li&gt;Le champ ID du site semble vide.&lt;/li&gt;
+    &lt;li&gt;L'ID de site fourni n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;Le champ ID du groupe semble vide.&lt;/li&gt;
+    &lt;li&gt;L'ID de groupe fourni n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;Le champ ID de l'utilisateur semble vide.&lt;/li&gt;
+    &lt;li&gt;L'ID d'utilisateur fourni n'est pas valide.&lt;/li&gt;
+    &lt;li&gt;L'ID d'utilisateur fourni ne possède pas l'autorisation requise pour créer un dossier.&lt;/li&gt;
+    &lt;li&gt;OneDrive n'a pas été mis en service pour l'ID d'utilisateur fourni.&lt;/li&gt;
+    &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide.&lt;/li&gt;
+    &lt;li&gt;L'utilisateur ayant les informations d'identification associées à la connexion de spoke OneDrive ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion OneDrive et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification OneDrive. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:42</sys_created_on>
+        <sys_id>7428cbb5838d72907c2356e0deaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_7428cbb5838d72907c2356e0deaad3d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:42</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

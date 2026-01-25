@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>33b885ad83a722107c2356e0deaad31d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>020fb10073bd0010011e3e2dfef6a79d</documentkey>
+        <fieldname>article</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>33b885ad83a722107c2356e0deaad31d</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;p&gt;Cliquez sur &lt;strong&gt;Configurer, &lt;/strong&gt; puis sur le lien connexe &lt;strong&gt;Tester le chargement de 20 enregistrements&lt;/strong&gt; pour tester la connexion à l'API JAMF. Le test de la connexion prend quelques instants, ensuite la page s'actualise pour afficher les résultats du test. La connexion aboutit si l'&lt;strong&gt;état HTTP&lt;/strong&gt; affiche la valeur &lt;strong&gt;200.&lt;/strong&gt; En cas d'apparition d'un &lt;strong&gt;code d'erreur&lt;/strong&gt; et d'un &lt;strong&gt;message d'erreur&lt;/strong&gt;, la connexion a échoué et un dépannage supplémentaire est requis.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:53</sys_created_on>
+        <sys_id>3047033d834d72907c2356e0deaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_3047033d834d72907c2356e0deaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:53</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

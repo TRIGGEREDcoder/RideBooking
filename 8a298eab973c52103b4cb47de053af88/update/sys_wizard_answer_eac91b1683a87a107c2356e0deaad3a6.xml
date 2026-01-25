@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Query Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Query Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">7acdb36af872021008dd9cfea425ac6c</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-15 05:10:23</sys_created_on>
+        <sys_id>eac91b1683a87a107c2356e0deaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query Results</sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_wizard_answer_eac91b1683a87a107c2356e0deaad3a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-15 05:10:23</sys_updated_on>
+        <table/>
+        <target_url>u_cmdb_qb_result_af4f621494464cfa9501ebdb780cd5ff12edd137.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

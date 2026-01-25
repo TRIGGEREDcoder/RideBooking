@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9d484d2183a722107c2356e0deaad322</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>01567b74b3233200c81862ff86a8dc57</documentkey>
+        <fieldname>article</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>9d484d2183a722107c2356e0deaad322</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;style type="text/css"&gt;&lt;!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px 'Helvetica Neue'; color: #455464; -webkit-text-stroke: #455464; background-color: #ffffff} p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px 'Helvetica Neue'; color: #455464; -webkit-text-stroke: #455464; background-color: #ffffff; min-height: 14.0px} span.s1 {font-kerning: none} --&gt;&lt;/style&gt;
+&lt;p&gt;La bibliothèque de solutions vous permet d'installer et de mettre à jour facilement des tableaux de bord et des visualisations pour les packs de contenu d'Analyse des performances. &lt;/p&gt;
+&lt;p&gt;À l'aide de la bibliothèque de solutions, vous pouvez installer et mettre à jour des tableaux de bord, des widgets, des rapports, des filtres interactifs et d'autres enregistrements de configuration sans impact sur vos indicateurs ou sources d'indicateurs. La bibliothèque de solutions garantit que vos données restent cohérentes et vous permet de mettre à jour des visualisations existantes quand vous voulez, et non uniquement lorsque vous mettez à niveau l'instance.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:34</sys_created_on>
+        <sys_id>58374fb9834d72907c2356e0deaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_58374fb9834d72907c2356e0deaad3b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:34</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

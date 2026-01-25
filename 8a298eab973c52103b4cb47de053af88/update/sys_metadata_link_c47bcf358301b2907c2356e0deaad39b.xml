@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7a58c1e183a722107c2356e0deaad32b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>07428cdc0bb71810eb3903e193673a10</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>7a58c1e183a722107c2356e0deaad32b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupère les données de mesure historiques de l'instance Amazon Connect spécifiée.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Région&lt;/strong&gt; : région de la ressource AWS.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;ID d'instance&lt;/strong&gt; : l'identificateur unique de l'instance Amazon Connect.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Heure de début&lt;/strong&gt; : horodatage auquel démarrer l'intervalle de génération des rapports pour la récupération des données de mesure historiques. L'heure doit être spécifiée à l'aide d'un multiple de 5 minutes, par exemple 10 h 05, 10 h 10, 10 h 15. L'heure de début ne peut pas être antérieure à 24 heures avant l'heure de la demande. Les mesures historiques ne sont disponibles que pendant 24 heures.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Heure de fin&lt;/strong&gt; : horodatage auquel terminer l'intervalle de génération des rapports pour la récupération des données de mesures historiques. L'heure doit être spécifiée à l'aide d'un intervalle de 5 minutes, par exemple 11 h 00, 11 h 05, 11 h 10, et doit être ultérieure à l'horodatage de l'heure de début. La plage horaire entre l'heure de début et de fin doit être inférieure à 24 heures.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Mesure historique&lt;/strong&gt; : mesures à récupérer. Sélectionnez les mesures requises.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Niveau de service&lt;/strong&gt; : indiquez le niveau de seuil. Seules les comparaisons « inférieur à » sont prises en charge, avec les seuils de niveau de service suivants : 15, 20, 25, 30, 45, 60, 90, 120, 180, 240, 300, 600.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Files d'attente&lt;/strong&gt; : files d'attente pour filtrer les mesures.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Canaux&lt;/strong&gt; : canaux pour filtrer les mesures.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Résultats des mesures&lt;/strong&gt; : objet complexe contenant les informations sur les mesures historiques.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite, l'état est défini sur Erreur.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Jeton d'authentification manquant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;/p&gt;
+(Pour plus d'informations sur les erreurs communes à toutes les actions, voir &lt;a href="https://docs.aws.amazon.com/connect/latest/APIReference/CommonErrors.html" target="_blank"&gt;Erreurs courantes&lt;/a&gt;).
+&lt;br&gt;
+&lt;p&gt;Pour utiliser cette action, les informations d'identification Amazon Connect correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Amazon Connect respectivement. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:07</sys_created_on>
+        <sys_id>c47bcf358301b2907c2356e0deaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_c47bcf358301b2907c2356e0deaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:07</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

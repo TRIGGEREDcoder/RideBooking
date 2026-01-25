@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0f5845e183a722107c2356e0deaad3c2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>05a8f07a87620010aec3819b88cb0b74</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>0f5845e183a722107c2356e0deaad3c2</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Crée un abonnement aux notifications d'événement RDS. Cette action nécessite une rubrique Amazon Resource Name (ARN) créé par la console RDS, la console SNS ou l'API SNS. Pour obtenir un ARN avec SNS, vous devez créer une rubrique dans Amazon SNS et vous abonner à la rubrique. L'ARN s'affiche dans la console SNS.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nom de l'abonnement&lt;/strong&gt; : nom de l'abonnement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ARN de la rubrique SNS&lt;/strong&gt; : Amazon Resource Name (ARN) de la rubrique SNS créé pour la notification d'événement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type de source&lt;/strong&gt; : type de source qui génère les événements.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Catégories d'événements&lt;/strong&gt; : liste des catégories d'événements pour un SourceType auquel vous souhaitez vous abonner.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Activé&lt;/strong&gt; : option permettant d'activer l'abonnement. Si l'abonnement à la notification d'événement n'est pas activé, l'abonnement est créé mais pas actif.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Région&lt;/strong&gt; : région de la ressource RDS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite, l'état est défini sur Erreur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vous avez atteint le nombre maximal d'abonnements à l'événement.&lt;/li&gt;
+&lt;li&gt;SNS a répondu qu'il existe un problème avec la rubrique SNS indiquée.&lt;/li&gt;
+&lt;li&gt;Vous ne disposez pas de l'autorisation requise pour publier dans l'ARN de la rubrique SNS.&lt;/li&gt;
+&lt;li&gt;L'ARN de la rubrique SNS n'existe pas.&lt;/li&gt;
+&lt;li&gt;Le nom de l'abonnement fourni existe déjà.&lt;/li&gt;
+&lt;li&gt;La catégorie indiquée n'existe pas.&lt;/li&gt;
+&lt;li&gt;Type de source d'événement non valide.&lt;/li&gt;
+&lt;li&gt;Jeton d'authentification manquant.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;/p&gt;
+(Pour plus d'informations sur les erreurs communes à toutes les actions, voir &lt;a href="https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/CommonErrors.html" target="_blank"&gt;Erreurs courantes&lt;/a&gt;).
+&lt;br&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Amazon RDS correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Amazon RDS. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:16</sys_created_on>
+        <sys_id>a6084b75838d72907c2356e0deaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_a6084b75838d72907c2356e0deaad322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:16</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>fc68412583a722107c2356e0deaad3cf</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>049e8a0b77023110699b6f974f5a995e</documentkey>
+        <fieldname>rich_description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>fc68412583a722107c2356e0deaad3cf</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>help_guidance_step</tablename>
+        <value>&lt;p style="font-size: 17px;"&gt;Par défaut, la tâche planifiée d'importation &lt;strong&gt;SG-Wiz-Organization&lt;/strong&gt; est désactivée.&lt;/p&gt;
+&lt;p style="font-size: 17px;"&gt;Dans le formulaire &lt;strong&gt;Importation de données planifiée&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul style="list-style-type: square; font-size: 17px;"&gt;&lt;li&gt;Sélectionnez &lt;strong&gt;Actif&lt;/strong&gt; pour activer la tâche planifiée.&lt;/li&gt;&lt;li&gt;Sélectionnez &lt;strong&gt;Périodiquement&lt;/strong&gt; pour définir la fréquence à laquelle la tâche sera exécutée.&lt;/li&gt;&lt;/ul&gt;
+&lt;p style="font-size: 15px;"&gt;&lt;strong&gt;Remarque :&lt;/strong&gt; la tâche d'importation planifiée effectue une extraction à partir de Wiz lors de l'exécution initiale. Les exécutions suivantes ne captureront que la charge de différentiel contenant des données créées ou mises à jour dans le délai spécifié.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:06</sys_created_on>
+        <sys_id>99c787b1838d72907c2356e0deaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_99c787b1838d72907c2356e0deaad3c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:06</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

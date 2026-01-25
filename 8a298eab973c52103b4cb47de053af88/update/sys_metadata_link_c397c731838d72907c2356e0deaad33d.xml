@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a9c881ed83a722107c2356e0deaad364</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>03ff72bbeb5032008a1f4d3df106fea9</documentkey>
+        <fieldname>article</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a9c881ed83a722107c2356e0deaad364</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;p&gt;Si plusieurs sources de données sont autorisées à mettre à jour la même table ou les mêmes attributs de table dans la CMDB, affectez une priorité à chacune de ces sources de données pour les empêcher d'écraser les mises à jour les unes des autres. Sans règles de priorité des sources de données, celles-ci peuvent remplacer les modifications les unes des autres. Une fois un attribut mis à jour par une source de données autorisée, les mises à jour suivantes ne sont acceptées que si elles proviennent de la même source de données ou d'une source de données à la priorité plus élevée. Les mises à jour provenant d'une source de données ayant un priorité plus faible sont rejetées, à moins que l'attribut CI n'ait été précédemment mis à jour par une source de données plus élevée mais soit devenu périmé d'après les règles de péremption de la classe CI. Les règles de priorité des sources de données affectent la réconciliation des attributs CI périmés. Lors de la réconciliation, les informations contenues dans la table d'historique de la source de données sont considérées en même temps que les règles de péremption de la clase du CI pour déterminer si un attribut CI est périmé. Un attribut CI est déterminé périmé si il n'a pas été mis à jour par la même source de données utilisée lors de la dernière mise à jour du CI, pendant la Durée effective définie dans la règle de péremption de la classe pour cette source de données particulière. Dans ce cas, si une autre source de données autorisée ayant une priorité inférieure tente de mettre à jour l'attribut CI périmé, la mise à jour est autorisée. Les informations sur la source de données ayant réalisé la dernière mise à jour de chaque attribut sont stockées dans la table d'historique de la source de données [cmdb_datasource_last_update].&lt;/p&gt;
+&lt;p&gt;      &lt;/p&gt;
+&lt;p&gt;   &lt;/p&gt;
+&lt;style type="text/css"&gt;&lt;!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Arial Narrow'; color: #7f1b7f} span.s1 {letter-spacing: -0.4px} --&gt;&lt;/style&gt;
+&lt;style type="text/css"&gt;&lt;!-- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Arial Narrow'; color: #7f1b7f} span.s1 {letter-spacing: -0.4px} --&gt;&lt;/style&gt;
+&lt;style type="text/css"&gt;&lt;!-- li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Arial Narrow'; color: #7f1b7f} span.s1 {letter-spacing: -0.4px} span.s2 {font: 16.0px Calibri; color: #801b80} ol.ol1 {list-style-type: decimal} --&gt;&lt;/style&gt;
+&lt;p&gt; &lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:24</sys_created_on>
+        <sys_id>c397c731838d72907c2356e0deaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_c397c731838d72907c2356e0deaad33d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:24</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

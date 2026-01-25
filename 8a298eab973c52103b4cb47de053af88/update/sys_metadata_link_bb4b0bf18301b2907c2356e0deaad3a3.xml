@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>115849a183a722107c2356e0deaad38f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06bf2f04870e215018c742ec0ebb35ad</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>115849a183a722107c2356e0deaad38f</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt; Approuve le processus d'entreprise.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;ID Workday&lt;/b&gt; : ID unique dans Workday.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Commentaire&lt;/b&gt; : commentaire à ajouter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+ &lt;li&gt;&lt;b&gt;ID Workday&lt;/b&gt; : ID unique dans Workday.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Statut de l'action&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Code : si la demande est exécutée avec succès, le code est défini sur 0. En cas d'échec, le code est défini sur 1.&lt;/li&gt;
+&lt;li&gt;Message : le motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;Nom d'utilisateur ou mot de passe non valide. Veuillez accéder aux politiques de sécurité SOAP et fournir le nom d'utilisateur et le mot de passe corrects dans la politique de sécurité SOAP « WorkdayHR ».&lt;/li&gt;
+   &lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification WorkdayHR correspondantes doivent être créées et associées à l'alias Connexion et informations d'identification WorkdayHR. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : Nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Lire plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:33</sys_created_on>
+        <sys_id>bb4b0bf18301b2907c2356e0deaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_bb4b0bf18301b2907c2356e0deaad3a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:33</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

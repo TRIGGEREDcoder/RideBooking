@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0b48096183a722107c2356e0deaad3ca</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.bsm.max_num_rels" tablename="sys_properties">037e4e76933112002e2f3b5b357ffbee</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>0b48096183a722107c2356e0deaad3ca</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>&lt;div style = 'font-family: SourceSansPro, "Helvetica Neue", Arial;&#13;     font-size: 16px;&#13;     color: #4a4a4a;'&gt;&#13;
+Nombre maximal de nœuds à extraire de la base de données. Si d'autres nœuds existent dans la base de données, ils ne sont pas affichés sur la carte.&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Type : nombre entier, valeurs valides supérieures ou égales à 1&lt;/li&gt;&#13;
+&lt;li&gt;Valeur par défaut : 100&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:58</sys_created_on>
+        <sys_id>2c87c3fd834d72907c2356e0deaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_2c87c3fd834d72907c2356e0deaad373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:58</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ff68856583a722107c2356e0deaad38a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>05b1abd70f33201037983a3485767ec0</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>ff68856583a722107c2356e0deaad38a</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Installe Agent Client Collector Framework sur l'hôte Windows.&lt;/p&gt;
+&lt;p&gt;Avant cela&lt;/p&gt;
+&lt;p&gt;1. &lt;a href="https://docs.servicenow.com/bundle/quebec-it-operations-management/page/product/agent-client-collector/task/acc-configure-web-server.html"&gt;Configurez le serveur websocket sur Serveur MID&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2. Créez un enregistrement d'informations d'identification, accédez aux alias de connexion et d'informations d'identification, ouvrez l'enregistrement Windows d'Agent Client Collector et créez un nouvel identifiant Windows puis fournissez les informations d'identification administratives du serveur hôte et définissez le champ actif vrai.&lt;/p&gt;
+&lt;p&gt;Remarque : l'alias Windows d'Agent Client Collector prend en charge un seul enregistrement d'informations d'identification actif.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chemin d'accès au fichier du programme d'installation MSI&lt;/strong&gt; : chemin d'accès au fichier du programme d'installation MSI, accédez à Agent Client Collector &gt; Téléchargements de l'agent &gt; Copiez le lien du programme d'installation MSI dans Windows MSI Download&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hôte&lt;/strong&gt; : adresse IP de l'hôte Windows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Point de terminaison WebSocket ACC&lt;/strong&gt; : point de terminaison Acc websocket, l'URL du point de terminaison doit être websocket(ws://), &lt;a href="https://docs.servicenow.com/bundle/quebec-it-operations-management/page/product/agent-client-collector/task/acc-install-windows.html"&gt;Configurez le serveur websocket sur Serveur MID.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clé API&lt;/strong&gt; : clé API de MID Server, accédez à Agent Client Collector &gt; clé API du serveur Web MID et copiez la clé API du serveur Web MID.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Emplacement du journal&lt;/strong&gt; : emplacement du journal d'installation, par défaut C:\ServicenowAgentClientCollector.log&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul id="outputs"&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance dans l'installation, l'état est défini sur « Erreur ».&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, les informations d'identification Windows d'Agent Client Collector doivent être créées et associées à l'alias d'informations d'identifications Windows d'Agent Client Collector. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank"&gt;En savoir plus&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Une fois que l'état de l'action est défini sur Réussite, attendez quelques minutes avant d'installer l'agent sur l'hôte. Enregistrez la table sn_agent_cmdb_ci_agent pour le résultat de l'installation.&lt;/li&gt;
+&lt;li&gt;Pour installer l'agent, le système hôte doit être connecté à Internet.&lt;/li&gt;
+&lt;li&gt;Vérifiez le fichier d'emplacement de journal spécifié pour vérifier les journaux d'installation en cas de défaillances d'installation&lt;/li&gt;
+&lt;/ul&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:19</sys_created_on>
+        <sys_id>9f088b75838d72907c2356e0deaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_9f088b75838d72907c2356e0deaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:19</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

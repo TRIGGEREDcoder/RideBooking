@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>dd484d2183a722107c2356e0deaad320</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>043eae4a7f11030032dcb0d8adfa9193</documentkey>
+        <fieldname>content</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>dd484d2183a722107c2356e0deaad320</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_embedded_help_content</tablename>
+        <value> &lt;h1 class="title topictitle1"&gt;Créer une règle d'événement pour mapper les mesures sur un CI spécifique&lt;/h1&gt;   &lt;div class="body conbody"&gt;&lt;p class="shortdesc"&gt;  &lt;/p&gt;&lt;div class="section"&gt;   &lt;p class="p"&gt;Par exemple, dans le concepteur de règle d'événement, vous pouvez mettre à jour la        règle d'événement &lt;span class="ph uicontrol"&gt;Serveur Web SCOM IIS&lt;/span&gt; comme suit :&lt;/p&gt;   &lt;ul class="ul" id="zz_sa_event_rules_list-setup-metrics__ul_zvk_s3j_yy"&gt;&lt;li class="li"&gt;Sous l'onglet &lt;span class="ph uicontrol"&gt;Règle d'événement&lt;/span&gt;, définissez un filtre pour mettre en correspondance uniquement les serveurs Web     IIS.&lt;/li&gt;&lt;li class="li"&gt;Dans l'onglet &lt;span class="ph uicontrol"&gt;Liaison&lt;/span&gt;, définissez la &lt;span class="ph uicontrol"&gt;Classe&lt;/span&gt; sur      Serveur Web IIS Microsoft.&lt;/li&gt;&lt;li class="li"&gt;Sous l'onglet &lt;span class="ph uicontrol"&gt;Transforme&lt;/span&gt;, définissez &lt;span class="ph uicontrol"&gt;Nom de mesure&lt;/span&gt; sur un          nom de mesure personnalisé tel que  &lt;Metricname&gt;_&lt;Instance          Name&gt;.&lt;/li&gt;&lt;/ul&gt;  &lt;/div&gt; &lt;/div&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:42</sys_created_on>
+        <sys_id>e3a78771838d72907c2356e0deaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_e3a78771838d72907c2356e0deaad357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:42</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a368056583a722107c2356e0deaad3b0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>055cb2220b730010b0ec2eec83673af1</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a368056583a722107c2356e0deaad3b0</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Crée un modèle d'instance.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;ID de projet&lt;/b&gt; : ID unique du projet.
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : nom du modèle.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Description&lt;/b&gt; : description de cette ressource.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Propriétés&lt;/b&gt; : propriétés de l'instance pour ce modèle d'instance.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Type d'ordinateur&lt;/b&gt; : nom du type d'ordinateur.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Disques&lt;/b&gt; : informations sur les disques.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Interfaces réseau&lt;/b&gt; : informations sur les interfaces réseau.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Étiquettes&lt;/b&gt; : étiquettes à appliquer aux instances créées à partir de ce modèle.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Balises&lt;/b&gt; : informations sur les balises.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Planification&lt;/b&gt; : options de planification pour les instances créées à partir de ce modèle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Modèle d'instance&lt;/b&gt; : objet contenant le nom, l'ID, le type d'opération, le lien cible, l'ID cible, l'état, l'utilisateur, la progression, l'heure d'insertion, l'heure de début, le lien automatique et le type.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance se produit dans Google Compute Engine, l'état est défini sur Erreur.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Rempli uniquement lorsqu'une erreur se produit.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Image non valide.&lt;/li&gt;
+&lt;li&gt;ID de projet non valide.&lt;/li&gt;
+&lt;li&gt;Valeurs de disque non valides.&lt;/li&gt;
+&lt;li&gt;Ce modèle d'instance existe déjà.&lt;/li&gt;
+&lt;li&gt;Valeurs d'interface réseau non valides.&lt;/li&gt;
+&lt;li&gt;Au moins un disque de démarrage doit être spécifié.&lt;/li&gt;
+&lt;li&gt;Le disque de démarrage doit être le premier disque joint à l'instance.&lt;/li&gt;
+&lt;li&gt;Le disque ne peut pas être plus petit que la taille de l'image choisie.&lt;/li&gt;
+&lt;li&gt;En-tête d'autorisation non valide. Le jeton d'accès que vous utilisez est soit expiré, soit non valide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt; Pour utiliser cette action, une connexion et des informations d'identification Google Compute Engine correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Google Compute Engine.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:56</sys_created_on>
+        <sys_id>edf78b35838d72907c2356e0deaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_edf78b35838d72907c2356e0deaad351</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:56</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

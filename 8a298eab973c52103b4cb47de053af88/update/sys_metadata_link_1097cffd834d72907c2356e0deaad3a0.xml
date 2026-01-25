@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>cfb841ad83a722107c2356e0deaad351</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>03c105ba87a823000e3dd61e36cb0b12</documentkey>
+        <fieldname>more_info_html</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>cfb841ad83a722107c2356e0deaad351</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;p&gt;Les Politiques d'interface utilisateur permettent de marquer les champs en lecture seule ou de les masquer.&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;table id="c_MI_PM_ReadOnlyHiddenFields__table_rjb_v5n_cfb" summary="" frame="border" rules="all" cellpadding="4"&gt;&lt;caption&gt;Table 1. Champs Problèmes&lt;/caption&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th id="d528374e34" valign="top" width="33.33333333333333%"&gt; Champ&lt;/th&gt;&lt;th id="d528374e37" valign="top" width="33.33333333333333%"&gt; Action&lt;/th&gt;&lt;th id="d528374e40" valign="top" width="33.33333333333333%"&gt; Quand&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td headers="d528374e34 " valign="top" width="33.33333333333333%"&gt; Champs Fermés&lt;/td&gt;&lt;td headers="d528374e37 " valign="top" width="33.33333333333333%"&gt; Masquer&lt;/td&gt;&lt;td headers="d528374e40 " valign="top" width="33.33333333333333%"&gt; Le code Résolution est Aucun&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td headers="d528374e34 " valign="top" width="33.33333333333333%"&gt; Doublon de&lt;/td&gt;&lt;td headers="d528374e37 " valign="top" width="33.33333333333333%"&gt; Masquer&lt;/td&gt;&lt;td headers="d528374e40 " valign="top" width="33.33333333333333%"&gt; Le code de Résolution n'est pas Dupliquer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td headers="d528374e34 " valign="top" width="33.33333333333333%"&gt; Code de résolution&lt;/td&gt;&lt;td headers="d528374e37 " valign="top" width="33.33333333333333%"&gt; Masquer&lt;/td&gt;&lt;td headers="d528374e40 " valign="top" width="33.33333333333333%"&gt; L'état n'est pas Résolu ou Fermé&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td headers="d528374e34 " valign="top" width="33.33333333333333%"&gt; Sous-catégorie&lt;/td&gt;&lt;td headers="d528374e37 " valign="top" width="33.33333333333333%"&gt; Masquer&lt;/td&gt;&lt;td headers="d528374e40 " valign="top" width="33.33333333333333%"&gt; La catégorie est Aucun&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td headers="d528374e34 " valign="top" width="33.33333333333333%"&gt; Tous les champs&lt;/td&gt;&lt;td headers="d528374e37 " valign="top" width="33.33333333333333%"&gt; Lecture seule&lt;/td&gt;&lt;td headers="d528374e40 " valign="top" width="33.33333333333333%"&gt; L'état est Fermé&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;table id="c_MI_PM_ReadOnlyHiddenFields__table_eqb_cvn_cfb" summary="" frame="border" rules="all" cellpadding="4"&gt;&lt;caption&gt;Table 2. Champs Tâche de problème&lt;/caption&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th id="d528374e127" valign="top" width="33.33333333333333%"&gt; Champ&lt;/th&gt;&lt;th id="d528374e130" valign="top" width="33.33333333333333%"&gt; Action&lt;/th&gt;&lt;th id="d528374e133" valign="top" width="33.33333333333333%"&gt; Quand&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td headers="d528374e127 " valign="top" width="33.33333333333333%"&gt; Champs annulés&lt;/td&gt;&lt;td headers="d528374e130 " valign="top" width="33.33333333333333%"&gt; Masquer&lt;/td&gt;&lt;td headers="d528374e133 " valign="top" width="33.33333333333333%"&gt; Le code de fermeture n'est pas annulé&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td headers="d528374e127 " valign="top" width="33.33333333333333%"&gt; Code de fermeture&lt;/td&gt;&lt;td headers="d528374e130 " valign="top" width="33.33333333333333%"&gt; Masquer&lt;/td&gt;&lt;td headers="d528374e133 " valign="top" width="33.33333333333333%"&gt; L'état n'est pas Fermé&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td headers="d528374e127 " valign="top" width="33.33333333333333%"&gt; Autre raison&lt;/td&gt;&lt;td headers="d528374e130 " valign="top" width="33.33333333333333%"&gt; Masquer&lt;/td&gt;&lt;td headers="d528374e133 " valign="top" width="33.33333333333333%"&gt; Le code de cause n'est pas Autre&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td headers="d528374e127 " valign="top" width="33.33333333333333%"&gt; Fournisseur&lt;/td&gt;&lt;td headers="d528374e130 " valign="top" width="33.33333333333333%"&gt; Masquer&lt;/td&gt;&lt;td headers="d528374e133 " valign="top" width="33.33333333333333%"&gt; Le code de cause n'est pas Problème de fournisseur&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td headers="d528374e127 " valign="top" width="33.33333333333333%"&gt; Tous les champs&lt;/td&gt;&lt;td headers="d528374e130 " valign="top" width="33.33333333333333%"&gt; Lecture seule&lt;/td&gt;&lt;td headers="d528374e133 " valign="top" width="33.33333333333333%"&gt; L'état est Fermé&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:12</sys_created_on>
+        <sys_id>1097cffd834d72907c2356e0deaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_1097cffd834d72907c2356e0deaad3a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:12</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

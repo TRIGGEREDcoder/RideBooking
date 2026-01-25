@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ae48856183a722107c2356e0deaad333</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>05fc337477d601100dfa1bfaae5a99ff</documentkey>
+        <fieldname>article</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>ae48856183a722107c2356e0deaad333</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;p&gt;Pour créer une importation planifiée pour la nouvelle connexion dans Connecteur du graphe de services pour SolarWinds, vous devez modifier les autorisations de la table Importation de données planifiée (scheduled_import_set).&lt;/p&gt;
+&lt;p&gt;Pour modifier cet enregistrement,&lt;/p&gt;
+&lt;p&gt;1. Passez au périmètre « Global ».&lt;/p&gt;
+&lt;p&gt;2. Sous l'onglet « Accès à l'application », cochez les cases « Peut créer », « Peut mettre à jour » et « Peut supprimer ».&lt;/p&gt;
+&lt;p&gt;3. Enregistrez l'enregistrement et revenez au périmètre « Connecteur du graphe de services pour SolarWinds ».&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:41</sys_created_on>
+        <sys_id>24288bb5838d72907c2356e0deaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_24288bb5838d72907c2356e0deaad3f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:41</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

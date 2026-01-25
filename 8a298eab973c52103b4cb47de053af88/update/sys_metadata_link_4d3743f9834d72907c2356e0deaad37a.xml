@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>36c80ded83a722107c2356e0deaad34b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0181115573401010491d235f04f6a77b</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>36c80ded83a722107c2356e0deaad34b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>pa_indicators</tablename>
+        <value>Les incidents P2 causés par le changement sont mesurés quotidiennement en unité #.&#13;
+L'objectif de cet indicateur est de minimiser.&#13;
+Il s'agit du décompte sur la source de données Score de réussite du changement.Incidents.Causés par un changement au cours des 30 derniers jours, qui utilise la table suivante : &#13;
+incident&#13;
+avec les conditions suivantes :&#13;
+Causé par Changement n'est pas vide .et. Créé le 30 derniers jours&#13;
+Conditions supplémentaires :&#13;
+Priorité = 2 - Forte</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:37</sys_created_on>
+        <sys_id>4d3743f9834d72907c2356e0deaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_4d3743f9834d72907c2356e0deaad37a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:37</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

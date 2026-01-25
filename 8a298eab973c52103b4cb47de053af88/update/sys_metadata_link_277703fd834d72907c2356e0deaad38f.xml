@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7d48016183a722107c2356e0deaad3d8</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.email.forward_from_prefix" tablename="sys_properties">036311037f023100b6c6108c3ffa910b</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>7d48016183a722107c2356e0deaad3d8</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_properties</tablename>
+        <value>Lorsque vous déterminez si un e-mail est un transfert, ce champ est utilisé pour effectuer une comparaison avec quelque chose se trouvant dans le corps. Il s'agissait traditionnellement de « de : », mais il peut inclure d'autres mots ou des mots dans d'autres langues, séparés par des virgules. Par exemple, « de :,da: » recherche soit « de : », soit « da: ». L'un ou l'autre permet que l'e-mail soit classé en tant que transfert. Si ce champ reste vide, cela signifie qu'aucune recherche n'est effectuée, et le logiciel ne requiert rien dans le corps pour établir une correspondance avec un transfert.    </value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:53</sys_created_on>
+        <sys_id>277703fd834d72907c2356e0deaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_277703fd834d72907c2356e0deaad38f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:53</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

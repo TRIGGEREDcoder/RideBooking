@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>cf68816583a722107c2356e0deaad305</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02ff5cccdb2700105131f6c5ae96198e</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>cf68816583a722107c2356e0deaad305</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Crée une nouvelle tâche en copiant une tâche existante sur le serveur Jenkins.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chemin de la tâche de destination&lt;/strong&gt; : nom de la tâche à créer. Indiquez le chemin complet si vous souhaitez créer une tâche dans un dossier. Par exemple : UAT-jobs/Jpetstore_v1.0.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chemin de la tâche source&lt;/strong&gt; : nom de la tâche à l'origine de la copie. Indiquez le chemin complet au cas où la tâche se trouve dans un dossier. Par exemple : development-job/Jpetstore_v1.0.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite dans Jenkins, l'état est défini sur Erreur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vous n'avez pas les autorisations nécessaires pour effectuer cette action dans le serveur Jenkins.&lt;/li&gt;
+&lt;li&gt;La demande n'a pas pu être satisfaite en raison de caractères non valides dans le nom de la tâche.&lt;/li&gt;
+&lt;li&gt;Le serveur Jenkins est en cours de redémarrage.&lt;/li&gt;
+&lt;li&gt;Nom d'utilisateur, mot de passe ou jeton non valide.&lt;/li&gt;
+&lt;li&gt;Soit les entrées contiennent des espaces, soit le chemin d'accès cible pour le nom de la tâche de destination n'existe pas ou est inaccessible.&lt;/li&gt;
+&lt;li&gt;Une tâche portant le nom donné existe déjà.&lt;/li&gt;
+&lt;li&gt;Le chemin de la tâche de destination ou le chemin de la tâche source est non valide ou introuvable.&lt;/li&gt;
+&lt;li&gt;Le nom de tâche ne correspond pas au modèle de convention de nommage des tâches.&lt;/li&gt;
+&lt;li&gt;Aucune tâche de ce type : invalid-job.&lt;/li&gt;
+&lt;li&gt;Le nom de tâche fourni existe déjà ou est le même que le nom de tâche actuel.&lt;/li&gt;
+&lt;li&gt;Le nom de tâche fourni ne correspond pas à la stratégie de nommage appliquée sur le serveur Jenkins&lt;/li&gt;
+&lt;li&gt;La demande n'a pas pu être satisfaite en raison de caractères non valides dans Nom de la tâche ou dans Nouveau nom de tâche.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion Jenkins et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Jenkins.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Avertissement :&lt;/b&gt;Jenkins et le logo Jenkins sont une marque déposée de &lt;a target="_blank" href="https://jenkins.io"&gt;Jenkins&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:38</sys_created_on>
+        <sys_id>087787bd834d72907c2356e0deaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_087787bd834d72907c2356e0deaad352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:38</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

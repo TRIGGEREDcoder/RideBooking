@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d15809a183a722107c2356e0deaad3cc</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06723a2a87ff1d10e5d17e49dabb35be</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>d15809a183a722107c2356e0deaad3cc</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Crée une liste avec les détails fournis.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt; 
+&lt;ul&gt;  
+    &lt;li&gt;&lt;b&gt;Nom de la liste&lt;/b&gt; : nom de la liste&lt;/li&gt; 
+    &lt;li&gt;&lt;b&gt;ID du tableau&lt;/b&gt; : l'identificateur unique du tableau dans lequel la liste doit être créée.&lt;/li&gt; 
+    &lt;li&gt;&lt;b&gt;ID de la liste source&lt;/b&gt; : liste à copier dans la nouvelle liste.&lt;/li&gt;  
+    &lt;li&gt;&lt;b&gt;Position&lt;/b&gt; : position de la liste. La valeur peut être, haut, bas ou un nombre positif à virgule flottante.&lt;/li&gt; 
+&lt;/ul&gt;    
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+    &lt;li&gt;&lt;b&gt;Détails de liste&lt;/b&gt; : détails de la liste.&lt;/li&gt; 
+    &lt;li&gt; &lt;b&gt;Statut de l'action&lt;/b&gt; : objet avec les champs suivants :&lt;/li&gt;
+      &lt;ul&gt;
+         &lt;li&gt;&lt;b&gt;Code&lt;/b&gt; : si la demande est exécutée avec succès, la valeur du code est positionnée sur 0. Si la demande échoue, la valeur du code est positionnée sur 1.&lt;li&gt;
+         &lt;li&gt;&lt;b&gt;Message&lt;/b&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+      &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+    &lt;li&gt;Fournissez une valeur d'entrée pour le nom de liste et
+    l'ID du tableau.&lt;/li&gt; 
+    &lt;li&gt;ID non valide.&lt;/li&gt;
+    &lt;li&gt;Session expirée ou entrée non valide.&lt;/li&gt;
+     &lt;li&gt;Demande incorrecte : veuillez vérifier l'URI de la demande.&lt;/li&gt;
+&lt;/ul&gt; 
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Trello correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Trello. &lt;a target=”_blank” href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Pour en savoir plus sur cette API Trello,   &lt;a target=”_blank” href="https://developer.atlassian.com/cloud/trello/rest/api-group-lists/#api-lists-post"&gt;cliquez ici&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : Nécessite un abonnement pour une utilisation en production. &lt;a target=”_blank” href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Lire plus&lt;/a&gt;.&lt;/p&gt; </value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:07</sys_created_on>
+        <sys_id>d13bc7b18301b2907c2356e0deaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_d13bc7b18301b2907c2356e0deaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:07</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

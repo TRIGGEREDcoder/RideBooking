@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9c78896583a722107c2356e0deaad313</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>007ec8480f9101102708ca6227767ea3</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>9c78896583a722107c2356e0deaad313</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>pa_indicators</tablename>
+        <value>La valeur Haraka : nombre de requêtes acheminées à MySQL est mesurée quotidiennement en unité Nombre.&#13;
+L'objectif de cet indicateur est de maximiser.&#13;
+Il s'agit du décompte sur la base de données Source Haraka, qui utilise la table suivante : &#13;
+kagami_decision_queries&#13;
+avec les conditions suivantes :&#13;
+Décision la dernière fois au cours des 7 derniers jours et Dernière moyenne de la décision MySQL et Dernière moyenne de la décision PostgreSQL n'est pas vide et Dernière moyenne de la décision MonetDB n'est pas vide&#13;
+Conditions supplémentaires :&#13;
+Moteur = MySQL</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:11</sys_created_on>
+        <sys_id>ee178b79834d72907c2356e0deaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_ee178b79834d72907c2356e0deaad357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:11</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

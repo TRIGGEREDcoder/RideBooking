@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f0788d6583a722107c2356e0deaad331</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>036de7981ba3b410de13db16cc4bcb6e</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f0788d6583a722107c2356e0deaad331</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Trouve un enregistrement de patient à l'aide d'un sous-ensemble d'informations démographiques du patient. Si le système interrogé correspond avec succès à un patient existant en fonction des champs fournis, la requête renvoie les champs démographiques disponibles dans l'objet Patient. Si le système interrogé ne trouve aucun patient ou plusieurs correspondances, l'objet patient est vide et les correspondances potentielles peuvent être renvoyées dans le tableau PotentialMatches.&lt;/p&gt;
+&lt;p&gt;
+  &lt;b&gt;Entrées :&lt;/b&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;b&gt;Métadonnées&lt;/b&gt; : les métadonnées pour la demande.
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Date/heure de l'événement&lt;/b&gt; : la date/l'heure de l'événement.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Test&lt;/b&gt; : le marqueur comme message de test.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Source&lt;/b&gt; : la source du message.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'ID de la source.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de la source.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Destinations&lt;/b&gt; : la liste des destinations pour envoyer des messages.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'ID de la destination.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de la destination.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Journaux&lt;/b&gt; : les identificateurs du journal des demandes.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'ID du journal des demandes qui correspond à cette demande.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID de tentative&lt;/b&gt; : l'ID de la tentative du journal des demandes.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Message&lt;/b&gt; : l'enregistrement dans Redox qui correspond à la communication envoyée par la source à Redox.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'ID du message créé dans Redox.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Transmission&lt;/b&gt; : l'enregistrement dans Redox qui correspond à la communication envoyée de Redox à votre destination.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'ID de la transmission créée dans Redox.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Code d'installation&lt;/b&gt; : code de l'installation associée au message.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+    &lt;b&gt;Patient&lt;/b&gt; : les informations sur le patient.
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Identificateurs&lt;/b&gt; : une liste des identificateurs pour le patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'identificateur réel du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type d'ID&lt;/b&gt; : un type d'ID associé à l'identificateur, par ex. MRN, EPI.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Démographie&lt;/b&gt; : les informations démographiques du patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Prénom&lt;/b&gt; : le prénom du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Deuxième prénom&lt;/b&gt; : le second prénom du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de famille du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;DATE DE NAISSANCE&lt;/b&gt; : la date de naissance du patient au format AAAA-MM-JJ.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;SSN&lt;/b&gt; : le SSN du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Sexe&lt;/b&gt; : le sexe du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Ethnicité&lt;/b&gt; : l'ethnicité du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Est hispanique&lt;/b&gt; : indique si le patient est d'origine hispanique.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Religion&lt;/b&gt; : la religion du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;État matrimonial&lt;/b&gt; : l'état matrimonial du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Est décédé&lt;/b&gt; : indique si le patient est décédé.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Date/heure du décès&lt;/b&gt; : la date et l'heure auxquelles le patient a été proclamé décédé, dans le format ISO 8601.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du patient.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Accueil&lt;/li&gt;
+        &lt;li&gt;Bureau&lt;/li&gt;
+        &lt;li&gt;Mobile&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresses e-mail&lt;/b&gt; : la liste des adresses e-mail du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Langue&lt;/b&gt; : la langue parlée principale du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Citoyenneté&lt;/b&gt; : le(s) pays de citoyenneté du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresse&lt;/b&gt; : l'adresse du patient.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Adresse (rue)&lt;/li&gt;
+        &lt;li&gt;Ville&lt;/li&gt;
+        &lt;li&gt;État&lt;/li&gt;
+        &lt;li&gt;Code postal&lt;/li&gt;
+        &lt;li&gt;Comté/Région&lt;/li&gt;
+        &lt;li&gt;Pays&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Notes&lt;/b&gt; : les notes au niveau du patient.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;b&gt;Sorties :&lt;/b&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;b&gt;Métadonnées&lt;/b&gt; : les métadonnées pour la réponse.
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Modèle de données&lt;/b&gt; : le modèle de données auquel la réponse appartient.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Type d'événement&lt;/b&gt; : le type de l'événement.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Date/heure de l'événement&lt;/b&gt; : la date/l'heure de l'événement.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Test&lt;/b&gt; : le marqueur comme message de test.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Source&lt;/b&gt; : la source du message.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'ID de la source.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de la source.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Destinations&lt;/b&gt; : la liste des destinations pour envoyer des messages.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'ID de la destination.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de la destination.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Journaux&lt;/b&gt; : les identificateurs du journal des demandes.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'ID d'un journal de demande qui correspond à cette demande, utilisé pour l'assistance et la référence dans le tableau de bord Redox.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID de tentative&lt;/b&gt; : l'ID de la tentative du journal des demandes.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Message&lt;/b&gt; : l'enregistrement dans Redox qui correspond à la communication envoyée par la source à Redox.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'ID du message créé dans Redox.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Transmission&lt;/b&gt; : l'enregistrement dans Redox qui correspond à la communication envoyée de Redox à votre destination.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'ID de la transmission créée dans Redox.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Code d'installation&lt;/b&gt; : code de l'installation associée au message.
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Est incomplet&lt;/b&gt; : indique qu'une limite a été atteinte et que toutes les données n'ont pas été renvoyées. Si vrai, l'expéditeur peut vouloir restreindre les paramètres de la demande afin de faire correspondre moins de résultats.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+    &lt;b&gt;Patient&lt;/b&gt; : les informations sur le patient.
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Identificateurs&lt;/b&gt; : une liste des identificateurs pour le patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'identificateur réel du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type d'ID&lt;/b&gt; : un type d'ID associé à l'identificateur, par ex. MRN, EPI.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Démographie&lt;/b&gt; : les informations démographiques du patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Prénom&lt;/b&gt; : le prénom du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Deuxième prénom&lt;/b&gt; : le second prénom du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de famille du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;DATE DE NAISSANCE&lt;/b&gt; : la date de naissance du patient au format AAAA-MM-JJ.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;SSN&lt;/b&gt; : le SSN du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Sexe&lt;/b&gt; : le sexe du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Ethnicité&lt;/b&gt; : l'ethnicité du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Est hispanique&lt;/b&gt; : indique si le patient est d'origine hispanique.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Religion&lt;/b&gt; : la religion du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;État matrimonial&lt;/b&gt; : l'état matrimonial du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Est décédé&lt;/b&gt; : indique si le patient est décédé.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Date/heure du décès&lt;/b&gt; : la date et l'heure auxquelles le patient a été proclamé décédé, dans le format ISO 8601.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du patient.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Accueil&lt;/li&gt;
+        &lt;li&gt;Bureau&lt;/li&gt;
+        &lt;li&gt;Mobile&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresses e-mail&lt;/b&gt; : la liste des adresses e-mail du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Langue&lt;/b&gt; : la langue parlée principale du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Citoyenneté&lt;/b&gt; : le(s) pays de citoyenneté du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresse&lt;/b&gt; : l'adresse du patient.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Adresse (rue)&lt;/li&gt;
+        &lt;li&gt;Ville&lt;/li&gt;
+        &lt;li&gt;État&lt;/li&gt;
+        &lt;li&gt;Code postal&lt;/li&gt;
+        &lt;li&gt;Comté/Région&lt;/li&gt;
+        &lt;li&gt;Pays&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Notes&lt;/b&gt; : les notes au niveau du patient.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Contacts&lt;/b&gt; : la personne à contacter pour le patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Prénom&lt;/b&gt; : le prénom du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Deuxième prénom&lt;/b&gt; : le second prénom du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de famille du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresse&lt;/b&gt; : l'adresse du patient.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Adresse (rue)&lt;/li&gt;
+        &lt;li&gt;Ville&lt;/li&gt;
+        &lt;li&gt;État&lt;/li&gt;
+        &lt;li&gt;Code postal&lt;/li&gt;
+        &lt;li&gt;Comté/Région&lt;/li&gt;
+        &lt;li&gt;Pays&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du patient.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Accueil&lt;/li&gt;
+        &lt;li&gt;Bureau&lt;/li&gt;
+        &lt;li&gt;Mobile&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Relation avec le patient&lt;/b&gt; : la relation personnelle avec le patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresses e-mails&lt;/b&gt; : les adresses e-mail de la personne à contacter.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Rôles&lt;/b&gt; : le rôle de cette personne à contacter pour le patient, par exemple employeur, contact en cas d'urgence.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;PCP&lt;/b&gt; : le fournisseur de soins primaires du patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;NPI&lt;/b&gt; : le NPI du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;NPI&lt;/b&gt; : l'ID du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification du fournisseur de soins primaires pour le patient, par exemple, MD, PhD.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresse&lt;/b&gt; : l'adresse du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Adresse (rue)&lt;/li&gt;
+        &lt;li&gt;Ville&lt;/li&gt;
+        &lt;li&gt;État&lt;/li&gt;
+        &lt;li&gt;Code postal&lt;/li&gt;
+        &lt;li&gt;Comté/Région&lt;/li&gt;
+        &lt;li&gt;Pays&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresses e-mail&lt;/b&gt; : la liste des adresses e-mail du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Bureau&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Lieu&lt;/b&gt; : le lieu du fournisseur de soins primaires, p. ex. clinique, département, domicile, unité de soins infirmiers.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Type&lt;/li&gt;
+        &lt;li&gt;Installation&lt;/li&gt;
+        &lt;li&gt;Département&lt;/li&gt;
+        &lt;li&gt;Salle&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Garant&lt;/b&gt; : la personne responsable en dernier ressort des factures du patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro&lt;/b&gt; : le numéro du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Prénom&lt;/b&gt; : le prénom du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Deuxième prénom&lt;/b&gt; : le second prénom du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de famille du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;SSN&lt;/b&gt; : le SSN du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;DATE DE NAISSANCE&lt;/b&gt; : la date de naissance du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Sexe&lt;/b&gt; : le sexe du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Conjoint&lt;/b&gt; : le conjoint du garant.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Prénom&lt;/li&gt;
+        &lt;li&gt;Nom&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresse&lt;/b&gt; : l'adresse du conjoint du garant.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Adresse (rue)&lt;/li&gt;
+        &lt;li&gt;Ville&lt;/li&gt;
+        &lt;li&gt;État&lt;/li&gt;
+        &lt;li&gt;Code postal&lt;/li&gt;
+        &lt;li&gt;Comté/Région&lt;/li&gt;
+        &lt;li&gt;Pays&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du garant.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Accueil&lt;/li&gt;
+        &lt;li&gt;Business&lt;/li&gt;
+        &lt;li&gt;Mobile&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresses e-mail&lt;/b&gt; : les adresses e-mail du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type&lt;/b&gt; : le type de garant, par exemple institution, individu.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Relation avec le patient&lt;/b&gt; : la relation personnelle avec le patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Employeur&lt;/b&gt; : l'employeur du garant.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Nom&lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Adresse&lt;/b&gt; : l'adresse de l'employeur du garant.
+        &lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Adresse (rue)&lt;/li&gt;
+          &lt;li&gt;Ville&lt;/li&gt;
+          &lt;li&gt;État&lt;/li&gt;
+          &lt;li&gt;Code postal&lt;/li&gt;
+          &lt;li&gt;Comté/Région&lt;/li&gt;
+          &lt;li&gt;Pays&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone de l'employeur du garant.
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Assurances&lt;/b&gt; : la liste des couvertures d'assurance pour le patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Plan&lt;/b&gt; : les détails du régime d'assurance.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;ID&lt;/b&gt; : l'identificateur du plan d'assurance.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID du plan d'assurance.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Nom&lt;/b&gt; : le nom du plan d'assurance.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Type&lt;/b&gt; : le type de plan d'assurance.
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de membre&lt;/b&gt; : le numéro de membre du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Société&lt;/b&gt; : les détails de la compagnie d'assurance.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;ID&lt;/b&gt; : l'ID de la compagnie d'assurance (payeur).
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Type d'ID&lt;/b&gt; : l'ID de la compagnie d'assurance (payeur).
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Nom&lt;/b&gt; : le nom de la compagnie d'assurance (payeur).
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Type&lt;/b&gt; : le type de plan d'assurance.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Adresse&lt;/b&gt; : l'adresse de la compagnie d'assurance.
+        &lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Adresse (rue)&lt;/li&gt;
+          &lt;li&gt;Ville&lt;/li&gt;
+          &lt;li&gt;État&lt;/li&gt;
+          &lt;li&gt;Code postal&lt;/li&gt;
+          &lt;li&gt;Comté/Région&lt;/li&gt;
+          &lt;li&gt;Pays&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;Numéro de téléphone&lt;/b&gt; : numéro de téléphone de la compagnie d'assurance au format E. 164 (c.-à-d. +16085551234).
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de groupe&lt;/b&gt; : le numéro du groupe de la police d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom du groupe&lt;/b&gt; : le nom du groupe de la police d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Date Effective Date&lt;/b&gt; : date d'entrée en vigueur de cette police d'assurance, au format AAAA-MM-JJ.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Date d'expiration&lt;/b&gt; : date d'expiration de cette police d'assurance, au format AAAA-MM-JJ.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de police&lt;/b&gt; : le numéro de la police d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Priorité&lt;/b&gt; : l'ordre de priorité en matière d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type d'accord&lt;/b&gt; : le type d'accord d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type de couverture&lt;/b&gt; : le type de contrat d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Assuré&lt;/b&gt; : la personne qui a conclu un accord avec la compagnie d'assurance pour la police correspondante.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;Identificateurs&lt;/b&gt; : la liste des ID et des types d'ID qui identifient l'assuré.
+        &lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;b&gt;ID&lt;/b&gt; : l'ID de l'assuré.
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID, par exemple MRN, EPI.
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;b&gt;Type&lt;/b&gt; : s'il est présent, le type contient la même valeur que Type d'ID.
+          &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;Prénom&lt;/b&gt; : le prénom de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Deuxième prénom&lt;/b&gt; : le deuxième prénom de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Nom&lt;/b&gt; : le nom de famille de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;SSN&lt;/b&gt; : le numéro de sécurité sociale de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Relation&lt;/b&gt; : la relation de l'assuré avec le patient.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;DATE DE NAISSANCE&lt;/b&gt; : la date de naissance de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Sexe&lt;/b&gt; : le sexe de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Adresse&lt;/b&gt; : l'adresse de l'assuré.
+        &lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Adresse (rue)&lt;/li&gt;
+          &lt;li&gt;Ville&lt;/li&gt;
+          &lt;li&gt;État&lt;/li&gt;
+          &lt;li&gt;Code postal&lt;/li&gt;
+          &lt;li&gt;Comté/Région&lt;/li&gt;
+          &lt;li&gt;Pays&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+    &lt;b&gt;Correspondances potentielles&lt;/b&gt; : les informations sur le patient.
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Identificateurs&lt;/b&gt; : une liste des identificateurs pour le patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;ID&lt;/b&gt; : l'identificateur réel du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type d'ID&lt;/b&gt; : un type d'ID associé à l'identificateur, par ex. MRN, EPI.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Démographie&lt;/b&gt; : les informations démographiques du patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Prénom&lt;/b&gt; : le prénom du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Deuxième prénom&lt;/b&gt; : le second prénom du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de famille du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;DATE DE NAISSANCE&lt;/b&gt; : la date de naissance du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;SSN&lt;/b&gt; : le SSN du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Sexe&lt;/b&gt; : le sexe du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Ethnicité&lt;/b&gt; : l'ethnicité du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Est hispanique&lt;/b&gt; : indique si le patient est d'origine hispanique.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Religion&lt;/b&gt; : la religion du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;État matrimonial&lt;/b&gt; : l'état matrimonial du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Est décédé&lt;/b&gt; : indique si le patient est décédé.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Date/heure du décès&lt;/b&gt; : la date et l'heure auxquelles le patient a été proclamé décédé, dans le format ISO 8601.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du patient.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Accueil&lt;/li&gt;
+        &lt;li&gt;Bureau&lt;/li&gt;
+        &lt;li&gt;Mobile&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresses e-mail&lt;/b&gt; : la liste des adresses e-mail du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Langue&lt;/b&gt; : la langue parlée principale du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Citoyenneté&lt;/b&gt; : le(s) pays de citoyenneté du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresse&lt;/b&gt; : l'adresse du patient.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Adresse (rue)&lt;/li&gt;
+        &lt;li&gt;Ville&lt;/li&gt;
+        &lt;li&gt;État&lt;/li&gt;
+        &lt;li&gt;Code postal&lt;/li&gt;
+        &lt;li&gt;Comté/Région&lt;/li&gt;
+        &lt;li&gt;Pays&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Notes&lt;/b&gt; : les notes au niveau du patient.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Contacts&lt;/b&gt; : la personne à contacter pour le patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Prénom&lt;/b&gt; : le prénom du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Deuxième prénom&lt;/b&gt; : le second prénom du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de famille du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresse&lt;/b&gt; : l'adresse du patient.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Adresse (rue)&lt;/li&gt;
+        &lt;li&gt;Ville&lt;/li&gt;
+        &lt;li&gt;État&lt;/li&gt;
+        &lt;li&gt;Code postal&lt;/li&gt;
+        &lt;li&gt;Comté/Région&lt;/li&gt;
+        &lt;li&gt;Pays&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du patient.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Accueil&lt;/li&gt;
+        &lt;li&gt;Bureau&lt;/li&gt;
+        &lt;li&gt;Mobile&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Relation avec le patient&lt;/b&gt; : la relation personnelle avec le patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresses e-mails&lt;/b&gt; : les adresses e-mail de la personne à contacter.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Rôles&lt;/b&gt; : le rôle de cette personne à contacter pour le patient, par exemple employeur, contact en cas d'urgence.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;PCP&lt;/b&gt; : le fournisseur de soins primaires du patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;NPI&lt;/b&gt; : le NPI du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;NPI&lt;/b&gt; : l'ID du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID de l'ID du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Prénom&lt;/b&gt; : le prénom du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de famille du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Informations d'identification&lt;/b&gt; : la liste des informations d'identification du fournisseur de soins primaires pour le patient, par exemple, MD, PhD.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresse&lt;/b&gt; : l'adresse du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Adresse (rue)&lt;/li&gt;
+        &lt;li&gt;Ville&lt;/li&gt;
+        &lt;li&gt;État&lt;/li&gt;
+        &lt;li&gt;Code postal&lt;/li&gt;
+        &lt;li&gt;Comté/Région&lt;/li&gt;
+        &lt;li&gt;Pays&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresses e-mail&lt;/b&gt; : la liste des adresses e-mail du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du fournisseur de soins primaires.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Bureau&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Lieu&lt;/b&gt; : le lieu du fournisseur de soins primaires, p. ex. clinique, département, domicile, unité de soins infirmiers.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Type&lt;/li&gt;
+        &lt;li&gt;Installation&lt;/li&gt;
+        &lt;li&gt;Département&lt;/li&gt;
+        &lt;li&gt;Salle&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+    &lt;li&gt;
+      &lt;b&gt;Garant&lt;/b&gt; : la personne responsable en dernier ressort des factures du patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro&lt;/b&gt; : le numéro du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Prénom&lt;/b&gt; : le prénom du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Deuxième prénom&lt;/b&gt; : le second prénom du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom&lt;/b&gt; : le nom de famille du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;SSN&lt;/b&gt; : le SSN du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;DATE DE NAISSANCE&lt;/b&gt; : la date de naissance du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Sexe&lt;/b&gt; : le sexe du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Conjoint&lt;/b&gt; : le conjoint du garant.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Prénom&lt;/li&gt;
+        &lt;li&gt;Nom&lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Adresse&lt;/b&gt; : l'adresse du conjoint du garant.
+        &lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Adresse (rue)&lt;/li&gt;
+          &lt;li&gt;Ville&lt;/li&gt;
+          &lt;li&gt;État&lt;/li&gt;
+          &lt;li&gt;Code postal&lt;/li&gt;
+          &lt;li&gt;Comté/Région&lt;/li&gt;
+          &lt;li&gt;Pays&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone du garant.
+        &lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Accueil&lt;/li&gt;
+          &lt;li&gt;Business&lt;/li&gt;
+          &lt;li&gt;Mobile&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Adresses e-mail&lt;/b&gt; : les adresses e-mail du garant.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type&lt;/b&gt; : le type de garant, par exemple institution, individu.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Relation avec le patient&lt;/b&gt; : la relation personnelle avec le patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Employeur&lt;/b&gt; : l'employeur du garant.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Nom&lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Adresse&lt;/b&gt; : l'adresse de l'employeur du garant.
+        &lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Adresse (rue)&lt;/li&gt;
+          &lt;li&gt;Ville&lt;/li&gt;
+          &lt;li&gt;État&lt;/li&gt;
+          &lt;li&gt;Code postal&lt;/li&gt;
+          &lt;li&gt;Comté/Région&lt;/li&gt;
+          &lt;li&gt;Pays&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;Numéro de téléphone&lt;/b&gt; : le numéro de téléphone de l'employeur du garant.
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;
+      &lt;b&gt;Assurances&lt;/b&gt; : la liste des couvertures d'assurance pour le patient.
+    &lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Plan&lt;/b&gt; : les détails du régime d'assurance.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;ID&lt;/b&gt; : l'identificateur du plan d'assurance.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID du plan d'assurance.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Nom&lt;/b&gt; : le nom du plan d'assurance.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Type&lt;/b&gt; : le type de plan d'assurance.
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de membre&lt;/b&gt; : le numéro de membre du patient.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Société&lt;/b&gt; : les détails de la compagnie d'assurance.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;ID&lt;/b&gt; : l'ID de la compagnie d'assurance (payeur).
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Type d'ID&lt;/b&gt; : l'ID de la compagnie d'assurance (payeur).
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Nom&lt;/b&gt; : le nom de la compagnie d'assurance (payeur).
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Type&lt;/b&gt; : le type de plan d'assurance.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Adresse&lt;/b&gt; : l'adresse de la compagnie d'assurance.
+        &lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Adresse (rue)&lt;/li&gt;
+          &lt;li&gt;Ville&lt;/li&gt;
+          &lt;li&gt;État&lt;/li&gt;
+          &lt;li&gt;Code postal&lt;/li&gt;
+          &lt;li&gt;Comté/Région&lt;/li&gt;
+          &lt;li&gt;Pays&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;Numéro de téléphone&lt;/b&gt; : numéro de téléphone de la compagnie d'assurance au format E. 164 (c.-à-d. +16085551234).
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de groupe&lt;/b&gt; : le numéro du groupe de la police d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Nom du groupe&lt;/b&gt; : le nom du groupe de la police d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Date Effective Date&lt;/b&gt; : date d'entrée en vigueur de cette police d'assurance, au format AAAA-MM-JJ.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Date d'expiration&lt;/b&gt; : date d'expiration de cette police d'assurance, au format AAAA-MM-JJ.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Numéro de police&lt;/b&gt; : le numéro de la police d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Priorité&lt;/b&gt; : l'ordre de priorité en matière d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type d'accord&lt;/b&gt; : le type d'accord d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Type de couverture&lt;/b&gt; : le type de contrat d'assurance.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;b&gt;Assuré&lt;/b&gt; : la personne qui a conclu un accord avec la compagnie d'assurance pour la police correspondante.
+      &lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;Identificateurs&lt;/b&gt; : la liste des ID et des types d'ID qui identifient l'assuré.
+        &lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;b&gt;ID&lt;/b&gt; : l'ID de l'assuré.
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;b&gt;Type d'ID&lt;/b&gt; : le type d'ID, par exemple MRN, EPI.
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;b&gt;Type&lt;/b&gt; : s'il est présent, le type contient la même valeur que Type d'ID.
+          &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;
+          &lt;b&gt;Nom&lt;/b&gt; : le nom de famille de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Deuxième prénom&lt;/b&gt; : le deuxième prénom de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Prénom&lt;/b&gt; : le prénom de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;SSN&lt;/b&gt; : le numéro de sécurité sociale de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Relation&lt;/b&gt; : la relation de l'assuré avec le patient.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;DATE DE NAISSANCE&lt;/b&gt; : la date de naissance de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Sexe&lt;/b&gt; : le sexe de l'assuré.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;b&gt;Adresse&lt;/b&gt; : l'adresse de l'assuré.
+        &lt;/li&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Adresse (rue)&lt;/li&gt;
+          &lt;li&gt;Ville&lt;/li&gt;
+          &lt;li&gt;État&lt;/li&gt;
+          &lt;li&gt;Code postal&lt;/li&gt;
+          &lt;li&gt;Comté/Région&lt;/li&gt;
+          &lt;li&gt;Pays&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+    &lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance dans Redox, l'état est défini sur « Erreur ».
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;b&gt;Message d'erreur&lt;/b&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;b&gt;Messages d'erreur&lt;/b&gt;
+ :&lt;ul&gt;
+  &lt;li&gt;L'ID de destinations de métadonnées fourni semble être vide.&lt;/li&gt;
+  &lt;li&gt;Les destinations ou destinations non valides doivent contenir une destination provenant d'abonnements existants.&lt;/li&gt;
+  &lt;li&gt;Plusieurs destinations synchrones ont été spécifiées. Veuillez fournir une destination correcte.&lt;/li&gt;
+  &lt;li&gt;Aucun patient ni aucune correspondance entre plusieurs patients n'ont été trouvés pour les champs fournis.&lt;/li&gt;
+  &lt;li&gt;Le format de la date de naissance n'est pas valide. Veuillez le fournir au format aaaa-mm-jj.&lt;/li&gt;
+  &lt;li&gt;Aucune information n'a pu être trouvée pour le patient fourni.&lt;/li&gt;
+  &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide ou le jeton a expiré.&lt;/li&gt;
+  &lt;li&gt;Une erreur inattendue s'est produite. Consultez la réponse de l'API pour plus d'informations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Redox correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Redox. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation de production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.
+&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:55</sys_created_on>
+        <sys_id>0c8743fd834d72907c2356e0deaad3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_0c8743fd834d72907c2356e0deaad3fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:55</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

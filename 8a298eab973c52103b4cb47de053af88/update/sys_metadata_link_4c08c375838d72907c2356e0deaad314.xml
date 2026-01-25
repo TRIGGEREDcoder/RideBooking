@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0a48c16183a722107c2356e0deaad302</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>058d5868db741300c47f5f135e9619bb</documentkey>
+        <fieldname>content</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>0a48c16183a722107c2356e0deaad302</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_embedded_help_content</tablename>
+        <value>&lt;h1 class="title topictitle1"&gt;Paramètres de ruban&lt;/h1&gt;
+&lt;div class="body taskbody"&gt;
+&lt;div id="sys_aw_ribbon_setting_list-setup__context_gvf_swr_1db" class="section context"&gt;Vous pouvez configurer plusieurs paramètres du ruban qui s'affiche dans l'en-tête de formulaire Espace de travail d'agent.&lt;/div&gt;
+&lt;ol class="ol steps"&gt;&lt;li class="li step"&gt;&lt;span class="ph cmd"&gt;Cliquez sur &lt;span class="ph uicontrol"&gt;New&lt;/span&gt; pour ajouter un nouveau paramètre de ruban.&lt;/span&gt;&lt;/li&gt;&lt;li class="li step"&gt;&lt;span class="ph cmd"&gt;Pour chaque paramètre de ruban, procédez comme suit :&lt;/span&gt;
+&lt;ol id="sys_aw_ribbon_setting_list-setup__substeps_dmw_cxr_1db" class="ol substeps"&gt;&lt;li class="li substep substepexpand"&gt;&lt;span class="ph cmd"&gt;Entrez un nom pour le paramètre de ruban.&lt;/span&gt;&lt;/li&gt;&lt;li class="li substep substepexpand"&gt;&lt;span class="ph cmd"&gt;Sélectionnez le composant du ruban. Vous pouvez choisir parmi :&lt;/span&gt;
+&lt;div class="itemgroup info"&gt;En fonction du composant que vous avez sélectionné, d'autres options s'affichent dans le formulaire.&lt;/div&gt;
+&lt;/li&gt;&lt;li class="li substep substepexpand"&gt;&lt;span class="ph cmd"&gt;Sélectionnez la table pour laquelle vous souhaitez que le ruban s'affiche. Par exemple, incident ou sn_customerservice_case.&lt;/span&gt;&lt;/li&gt;&lt;li class="li substep substepexpand"&gt;&lt;span class="ph cmd"&gt;Choisissez une largeur pour le composant de ruban. &lt;/span&gt;
+&lt;div class="itemgroup info"&gt;La largeur est basée sur une disposition à 12 colonnes. Les composants ensemble ne peuvent pas dépasser 12.&lt;/div&gt;
+&lt;/li&gt;&lt;li class="li substep substepexpand"&gt;&lt;span class="ph cmd"&gt;Entrez l'ordre d'affichage du composant. Plus le numéro est petit, plus le composant s'affiche à gauche sur le ruban.&lt;/span&gt;&lt;/li&gt;&lt;li class="li substep substepexpand"&gt;&lt;span class="ph cmd"&gt;Cliquez sur &lt;span class="ph uicontrol"&gt;Soumettre&lt;/span&gt;.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:07</sys_created_on>
+        <sys_id>4c08c375838d72907c2356e0deaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_4c08c375838d72907c2356e0deaad314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:07</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

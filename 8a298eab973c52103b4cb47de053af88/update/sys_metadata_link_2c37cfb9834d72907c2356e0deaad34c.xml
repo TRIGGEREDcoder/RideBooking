@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>26684d2583a722107c2356e0deaad3ff</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>016b919b778330104b68b0fabe5a994b</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>26684d2583a722107c2356e0deaad3ff</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Cette action récupère la dernière notification à l'aide de l'ID de notification.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;ID de notification&lt;/b&gt; : ID unique de la notification.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Notification&lt;/b&gt; : détails de la notification, y compris :
+    &lt;ul&gt;
+      &lt;li&gt;ID&lt;/li&gt;
+      &lt;li&gt;Référence&lt;/li&gt;
+      &lt;li&gt;Adresses e-mail&lt;/li&gt;
+      &lt;li&gt;Numéro de téléphone&lt;/li&gt;
+      &lt;li&gt;Ligne d'adresse 1&lt;/li&gt;
+      &lt;li&gt;Ligne d'adresse 2&lt;/li&gt;
+      &lt;li&gt;Ligne d'adresse 3&lt;/li&gt;
+      &lt;li&gt;Type&lt;/li&gt;
+      &lt;li&gt;Objet&lt;/li&gt;
+      &lt;li&gt;Corps&lt;/li&gt;
+      &lt;li&gt;Heure de création&lt;/li&gt;
+      &lt;li&gt;Créé par&lt;/li&gt;
+      &lt;li&gt;Envoyé à&lt;/li&gt;
+      &lt;li&gt;Heure de fin :&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur Réussite si la demande aboutit ou sur Erreur si une défaillance se produit.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : est rempli si l'état est Erreur.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;L'ID de notification fourni n'est pas valide ou est manquant.&lt;/li&gt;
+  &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide ou le jeton a expiré.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification GovNotify correspondantes doivent être créées et associées à l'Alias de connexion et d'informations d'identification GovNotify. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;
+</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:35</sys_created_on>
+        <sys_id>2c37cfb9834d72907c2356e0deaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_2c37cfb9834d72907c2356e0deaad34c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:35</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

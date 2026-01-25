@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6868cde183a722107c2356e0deaad30d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>053ac930dbb3d4107bdae5f1ca961972</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>6868cde183a722107c2356e0deaad30d</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p id = "short_desc"&gt; Commentaire sur les mises à jour par ID. Un commentaire n'est disponible pour les mises à jour qu'au cours des 5 minutes qui suivent sa création.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;ID de commentaire&lt;/b&gt; : ID unique du commentaire.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Texte&lt;/b&gt; : texte du commentaire.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Texte brut&lt;/b&gt; : traitez le texte de commentaire comme du texte brut, HTML dans le cas contraire.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Commentaire&lt;/b&gt; : objet complexe contenant ces champs : -&lt;ul&gt;&lt;li&gt; CreatedDate&lt;/li&gt;&lt;li&gt; AttachmentIds&lt;/li&gt;&lt;li&gt; id&lt;/li&gt;&lt;li&gt; Texte&lt;/li&gt;&lt;li&gt; updatedDate&lt;/li&gt;&lt;li&gt; authorId&lt;/li&gt;&lt;li&gt; folderId&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas d'échec dans Wrike, l'état est défini sur « Erreur ».&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Le type HTTP de la demande n'est pas valide, les données critiques de la demande sont absentes ou formées de manière incorrecte.&lt;/li&gt;&lt;li&gt;L'entité demandée n'est pas trouvée.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification correspondantes Wrike doivent être créées et associées à l'alias de connexion et d'informations d'identification Wrike. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:46</sys_created_on>
+        <sys_id>8be7c335838d72907c2356e0deaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_8be7c335838d72907c2356e0deaad3fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:46</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>517801a583a722107c2356e0deaad31e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>01ac707953862110203dddeeff7b12ec</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>517801a583a722107c2356e0deaad31e</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p id="short_desc"&gt; Supprime l'événement de réunion du calendrier MS Teams.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id="inputs"&gt;
+  &lt;li&gt;&lt;b&gt;ID d'utilisateur/Nom principal&lt;/b&gt; : ID unique ou nom principal de l'utilisateur.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;ID de réunion&lt;/b&gt; : ID unique de l'événement de réunion.&lt;/li&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id='outputs'&gt;
+  &lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt; : un objet avec les champs suivants :&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée avec succès, le code est défini sur 0. En cas d'échec, le code est défini sur 1.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Message : &lt;/strong&gt;motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt; 
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id='error_messages'&gt;
+  &lt;li&gt;La ressource demandée n'existe pas.&lt;/li&gt;
+  &lt;li&gt;La méthode HTTP de la requête n'est pas autorisée sur la ressource.&lt;/li&gt;
+  &lt;li&gt;Ce service ne prend pas en charge le format demandé dans l'en-tête Accepter.&lt;/li&gt;
+  &lt;li&gt;Une erreur interne du serveur est survenue lors du traitement de la demande.&lt;/li&gt;
+  &lt;li&gt;Le service est temporairement indisponible pour des raisons de maintenance.&lt;/li&gt;
+  &lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification Microsoft Teams Graph correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Microsoft Teams Graph.&lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:41</sys_created_on>
+        <sys_id>ca3747f9834d72907c2356e0deaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_ca3747f9834d72907c2356e0deaad3aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:41</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

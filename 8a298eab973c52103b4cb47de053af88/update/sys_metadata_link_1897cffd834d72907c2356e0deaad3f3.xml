@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2d78c1a583a722107c2356e0deaad3d6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>03c15f01c7451010854f231c95c26025</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>2d78c1a583a722107c2356e0deaad3d6</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Action de métadonnées pour renseigner la liste des attaques par catégorie sur Gremlin.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque :&lt;/strong&gt; les concepteurs de flux doivent s'assurer que cette action est toujours utilisée conjointement aux actions &lt;strong&gt;Créer une attaque, Créer un calendrier d'attaque&lt;/strong&gt; qui utilisent des entrées dynamiques.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Catégorie&lt;/strong&gt; : catégorie (type) dont vous souhaitez la liste des attaques possibles sur Gremlin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Attaques&lt;/strong&gt; : JSON contenant la commande et le nom des attaques sur Gremlin. Les champs de nom et de commande de l'attaque du corps de la réponse Gremlin ont été mappés aux champs d'étiquette et de nom respectivement dans la sortie JSON. 
+    &lt;br&gt;Exemple de sortie JSON : 
+    &lt;pre&gt; {
+  "Données" : [ 
+    {   
+       "étiquette" : "CPU", 
+       "nom" : "processeur"
+    }, 
+     {   
+      "étiquette" : "processus Killer", 
+      "nom" : "process_killer"
+    }
+  ]
+}&lt;/pre&gt;
+  &lt;/li&gt;&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance dans Gremlin, l'état est défini sur « Erreur ».&lt;/li&gt;
+ &lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;ID de l'équipe non valide.&lt;/li&gt;
+	&lt;li&gt;Clé API non configurée dans les informations d'identification.&lt;/li&gt;
+	&lt;li&gt;Clé API non valide.&lt;/li&gt;
+	&lt;li&gt;Version d'API non valide.&lt;/li&gt;
+	&lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, les informations d'identification Gremlin correspondantes doivent être créées et associées aux  alias de connexion et d'informations d'identification. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" rel="noopener noreferrer nofollow" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" rel="noopener noreferrer nofollow" target="_blank"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:12</sys_created_on>
+        <sys_id>1897cffd834d72907c2356e0deaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_1897cffd834d72907c2356e0deaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:12</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

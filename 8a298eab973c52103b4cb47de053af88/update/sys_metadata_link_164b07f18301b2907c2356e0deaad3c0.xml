@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f2a8412d83a722107c2356e0deaad3ee</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>06ae47ebeb6322008a1f4d3df106fe11</documentkey>
+        <fieldname>article</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>f2a8412d83a722107c2356e0deaad3ee</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;p class="shortdesc" style="font-family: Times; font-size: medium; white-space: normal;"&gt;&lt;span class="ph"&gt;Si la mesure de péremption est activée, les règles de péremption sont utilisées pour déterminer le pourcentage de CI périmés dans la CMDB. Cette somme est ensuite agrégée dans le KPI d'exactitude et pèse dans le calcul de l'intégrité globale de la CMDB. Les règles de péremption sont définies par classe et par source de données.&lt;/span&gt;&lt;/p&gt;
+&lt;div class="section" style="font-family: Times; font-size: medium; white-space: normal;"&gt;Si elle existe, une règle de péremption qui est définie pour une classe spécifique est utilisée en conjonction avec une règle de rapprochement pour la même classe afin de déterminer l'état de péremption des CI de cette classe. Sinon, la propriété de péremption du système est utilisée. Un CI est défini comme étant périmé si :
+&lt;ul id="GS_ConfigMgr_Task_Staleness__ul_m1m_p2m_5y" class="ul" style="list-style-position: inside;"&gt;&lt;li class="li"&gt;le CI n'a pas été mis à jour par la source de données qui est la dernière à avoir mis à jour les CI, au cours de la durée effective définie dans la règle de péremption pour la classe pour cette source de données spécifique ;&lt;/li&gt;&lt;li class="li"&gt;Le CI n'a pas été mis à jour pendant la durée spécifiée par la propriété système d'intégrité de la CMDB glide.cmdb.health.staleness.&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;   &lt;/p&gt;
+&lt;style type="text/css"&gt;&lt;!-- p.p2 {margin: 0.0px 0.0px 0.0px 144.0px; text-indent: -24.0px; font: 16.0px Calibri; color: #801b80} li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Calibri; color: #801b80} span.s1 {font: 16.0px 'Courier New'; background-color: #fffb01} span.s2 {font: 9.0px 'Times New Roman'; background-color: #fffb01} span.s3 {background-color: #fffb01} ol.ol1 {list-style-type: decimal} --&gt;&lt;/style&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:28</sys_created_on>
+        <sys_id>164b07f18301b2907c2356e0deaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_164b07f18301b2907c2356e0deaad3c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:28</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

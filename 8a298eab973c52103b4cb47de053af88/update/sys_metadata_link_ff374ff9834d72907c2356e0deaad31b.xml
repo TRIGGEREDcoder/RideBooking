@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3a68cd2583a722107c2356e0deaad3a1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>01f2b7ce875a05104cbb42e5dabb359a</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>3a68cd2583a722107c2356e0deaad3a1</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Renvoie le commentaire ajouté à la demande correspondant à l'ID de demande et à l'ID de commentaire.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;ID de demande&lt;/strong&gt; : ID du demandeur.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ID du commentaire &lt;/strong&gt;: ID du commentaire.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Commentaire&lt;/strong&gt; : objet avec les champs suivants :&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;URL&lt;/strong&gt; : URL de l'API de cette demande.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : ID automatiquement affecté lorsque le commentaire est créé.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Type&lt;/strong&gt; : catégorie de commentaire. Les valeurs de sortie possibles sont Commentaire ou Commentaire vocal.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ID de demande&lt;/strong&gt; : ID de la demande.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Corps&lt;/strong&gt; : commentaire réel fait par l'auteur.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ID de l'auteur&lt;/strong&gt; : ID de l'auteur du commentaire.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pièces jointes&lt;/strong&gt; : liste en lecture seule des pièces jointes au commentaire.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt; : objet avec les champs suivants :&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée avec succès, le code est positionné sur 0. Si la demande échoue, le code est positionné sur 1.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Message&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Messages d'erreur :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;L'ID de demande/de commentaire n'est pas valide.&lt;/li&gt;&lt;li&gt;Le nom d'utilisateur ou le mot de passe n'est pas valide. Vérifiez auprès de votre administrateur système.&lt;/li&gt;&lt;li&gt;Une erreur inattendue s'est produite. Vérifiez auprès de votre administrateur système.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;La connexion Zendesk et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification&lt;strong&gt;Zendesk&lt;/strong&gt; pour utiliser cette action. Pour en savoir plus, rendez-vous sur &lt;u&gt;&lt;a href="https://docs.servicenow.com/bundle/sandiego-servicenow-platform/page/product/credentials/task/connection-alias.html"&gt;Créer un alias de connexion et d'informations d'identification&lt;/a&gt;.&lt;/u&gt;&lt;/p&gt;&lt;p&gt;Pour en savoir plus sur les API Zendesk, &lt;a href="https://developer.zendesk.com/api-reference/ticketing/introduction/"&gt;cliquez ici&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:49</sys_created_on>
+        <sys_id>ff374ff9834d72907c2356e0deaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_ff374ff9834d72907c2356e0deaad31b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:49</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

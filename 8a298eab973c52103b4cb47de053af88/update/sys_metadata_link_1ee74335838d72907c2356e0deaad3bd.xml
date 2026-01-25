@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2878c96583a722107c2356e0deaad37b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>05307d10eb26211018334b863852287b</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>2878c96583a722107c2356e0deaad37b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère un emplacement dans une police.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ID de police&lt;/strong&gt; : l'identificateur de la police.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID d'emplacement&lt;/strong&gt; : identificateur de l'emplacement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Include (inclure)&lt;/strong&gt; : utilisé pour demander que des ressources supplémentaires soient renvoyées avec la réponse API dans la section incluse de l'enveloppe de réponse. Le paramètre Include peut apparaître plusieurs fois et se présente sous forme d'une liste de ressources supplémentaires à inclure séparées par des virgules. Par ex. : questions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;À partir de la date&lt;/strong&gt; : date à laquelle la police doit être consultée.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Sorties&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+
+  &lt;li&gt;&lt;strong&gt;Détails de l'emplacement&lt;/strong&gt; : 
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Emplacement du compte&lt;/strong&gt; : « AccountLocation » auquel ce « PolicyLocation » est lié. Les modifications apportées à la plupart des champs de cet « PolicyLocation » affecteront également l'« AccountLocation » lié.
+        &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Nom d'affichage&lt;/strong&gt; : nom formaté de l'élément.      &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : identificateur unique de l'élément référencé.      &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Type&lt;/strong&gt; : type de l'élément référencé.      &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Ligne d'adresse 1&lt;/strong&gt; : la première ligne de l'adresse de l'emplacement.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Ligne d'adresse 1 Kanji&lt;/strong&gt; : version kanji de la première ligne de l'emplacement de l'adresse. Applicable uniquement dans certains pays.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Ligne d'adresse 2&lt;/strong&gt; : la deuxième ligne de l'adresse de l'emplacement.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Ligne d'adresse 2 Kanji&lt;/strong&gt; : version kanji de la deuxième ligne d'adresse de l'emplacement. Applicable uniquement dans certains pays.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Ligne d'adresse 3&lt;/strong&gt; : la troisième ligne de l'adresse de l'emplacement.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Type d'adresse&lt;/strong&gt; : type de l'adresse de l'emplacement. Voici quelques-unes des valeurs disponibles :&lt;ul&gt;&lt;li&gt;&lt;strong&gt;billing&lt;/strong&gt; : facturation&lt;/li&gt;&lt;li&gt;&lt;strong&gt;business&lt;/strong&gt; : professionnel&lt;/li&gt;&lt;li&gt;&lt;strong&gt;home&lt;/strong&gt; : domicile&lt;/li&gt;&lt;li&gt;&lt;strong&gt;autre&lt;/strong&gt; : autre&lt;/li&gt;&lt;/ul&gt;
+      Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;AddressType&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Zone&lt;/strong&gt; : zone de l'adresse de l'emplacement. Applicable uniquement dans certains pays. Pour obtenir des détails sur les valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;State&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;ID système de la politique Cc&lt;/strong&gt; : ID d'intégration à utiliser dans ClaimCenter (depuis la version 1.5.0 de Guidewire).    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;CEDEX&lt;/strong&gt; : le bureau CEDEX de l'adresse de l'emplacement. Applicable uniquement dans certains pays.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Ville&lt;/strong&gt; : ville de l'adresse de l'emplacement.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Kanji de la ville&lt;/strong&gt; : version kanji de la ville de l'adresse de l'emplacement. Applicable uniquement dans certains pays.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Pays&lt;/strong&gt; : pays de l'adresse de l'emplacement. La valeur du champ « pays » détermine les autres champs applicables. Voici quelques-unes des valeurs disponibles :&lt;ul&gt;&lt;li&gt;&lt;strong&gt;US&lt;/strong&gt; : États-Unis&lt;/li&gt;&lt;li&gt;&lt;strong&gt;CA&lt;/strong&gt; : Canada&lt;/li&gt;&lt;li&gt;&lt;strong&gt;AF&lt;/strong&gt; : Afghanistan&lt;/li&gt;&lt;li&gt;&lt;strong&gt;AL&lt;/strong&gt; : Albanie&lt;/li&gt;&lt;/ul&gt;
+    Pour obtenir des détails sur les valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;Pays&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Comté&lt;/strong&gt; : comté de l'adresse de l'emplacement. Applicable uniquement dans certains pays.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Département&lt;/strong&gt; : département de l'adresse de l'emplacement. Applicable uniquement dans certains pays. Pour obtenir des détails sur les valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;State&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt; Description&lt;/strong&gt; : description de l'emplacement.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Nom d'affichage&lt;/strong&gt; : valeur formatée de l'adresse représentée par cette « PolicyLocation », y compris tous les champs standard pour le pays de l'adresse.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Émirat&lt;/strong&gt; : émirat de l'adresse de l'emplacement. Applicable uniquement dans certains pays. Pour obtenir des détails sur les valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;State&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Nombre d'employés&lt;/strong&gt; : nombre d'employés à cet emplacement.    &lt;/li&gt;
+
+      &lt;li&gt;&lt;strong&gt;Classe de protection contre l'incendie&lt;/strong&gt; : classe de protection contre l'incendie de cet emplacement. Voici quelques-unes des valeurs disponibles :&lt;ul&gt;&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; : supérieur&lt;/li&gt;&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; : standard&lt;/li&gt;&lt;li&gt;&lt;strong&gt;3&lt;/strong&gt; : limité&lt;/li&gt;&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; : faible&lt;/li&gt;&lt;/ul&gt;
+      Pour obtenir des détails sur les valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;FireProtectClass&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : identificateur unique de cet élément.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Code de l'industrie&lt;/strong&gt; : code de l'industrie qui décrit le type de travail effectué à cet emplacement.
+      &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : code de l'entrée de table de référence.      &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt; : description de l'entrée de table de référence.      &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : identificateur unique de cet élément.      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Île&lt;/strong&gt; : île de l'adresse de l'emplacement. Applicable uniquement dans certains pays. Pour obtenir des détails sur les valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;State&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Numéro d'emplacement&lt;/strong&gt; : numéro affecté automatiquement à cet emplacement dans le contexte de cette politique.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Région&lt;/strong&gt; : région de l'adresse de l'emplacement. Applicable uniquement dans certains pays. Pour obtenir des détails sur les valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;State&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Paroisse&lt;/strong&gt; : paroisse de l'adresse de l'emplacement. Applicable uniquement dans certains pays. Pour obtenir des détails sur les valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;State&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Code postal&lt;/strong&gt; : code postal de l'adresse de l'emplacement. Applicable uniquement dans certains pays.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Préfecture&lt;/strong&gt; : préfecture de l'adresse de l'emplacement. Applicable uniquement dans certains pays. Pour obtenir des détails sur les valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;State&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Primaire&lt;/strong&gt; : une valeur « vrai » indique que l'emplacement de politique est l'emplacement principal pour cette politique (depuis la version 1.4.0 de Guidewire).    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Province&lt;/strong&gt; : province de l'adresse de l'emplacement. Applicable uniquement dans certains pays. Pour obtenir des détails sur les valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;State&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : état de l'adresse de l'emplacement. Applicable uniquement dans certains pays. Voici quelques-unes des valeurs disponibles :&lt;ul&gt;&lt;li&gt;&lt;strong&gt;AL&lt;/strong&gt; : Alabama&lt;/li&gt;&lt;li&gt;&lt;strong&gt;AK&lt;/strong&gt; : Alaska&lt;/li&gt;&lt;li&gt;&lt;strong&gt;AB&lt;/strong&gt; : Alberta&lt;/li&gt;&lt;li&gt;&lt;strong&gt;CA&lt;/strong&gt; : Californie&lt;/li&gt;&lt;/ul&gt;
+      Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux :  &lt;i&gt; rechercher la liste de types du centre de politiques&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;État&lt;/strong&gt;.    &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Emplacement fiscal&lt;/strong&gt; : référence à « TaxLocation » auquel cet emplacement a été affecté à des fins fiscales.
+        &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Nom d'affichage&lt;/strong&gt; : nom formaté de l'élément.      &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : identificateur unique de l'élément référencé.      &lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Type&lt;/strong&gt; : type de l'élément référencé.      &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Codes de territoire&lt;/strong&gt; : les codes de territoire de classification (depuis la version 1.5.0 de Guidewire).
+        &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Ligne automatique personnelle&lt;/strong&gt; : ligne automatique personnelle de la ligne de police.
+          &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : code de territoire pour Ligne automatique personnelle.     &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Fin de validité&lt;/strong&gt; : date et heure après lesquelles ces informations ne sont plus valides.    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Somme de contrôle&lt;/strong&gt; : somme de contrôle pour l'élément qui permet de prévenir toute perte de mise à jour en détectant que l'élément a été mis à jour depuis la dernière récupération par l'appelant. Consultez la documentation pour en savoir plus sur la prévention des mises à jour perdues.  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;JSON d'emplacement&lt;/strong&gt; : réponse complète de Guidewire.  &lt;/li&gt;
+&lt;/ul&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:42</sys_created_on>
+        <sys_id>1ee74335838d72907c2356e0deaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_1ee74335838d72907c2356e0deaad3bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:42</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

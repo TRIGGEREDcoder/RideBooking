@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4268492583a722107c2356e0deaad3c0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>054a180da3bee1105dd0747f26fcdad6</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>4268492583a722107c2356e0deaad3c0</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupère l'autorisation d'accès d'un utilisateur pour le document.&lt;/p&gt;
+    &lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;ID du client&lt;/b&gt; : ID du client attribué au client.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;ID de bibliothèque&lt;/b&gt; : ID de bibliothèque de la bibliothèque cible (anciennement appelée base de données).&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;ID du document&lt;/b&gt; : identificateur unique du document. Par exemple, active_us!453.1.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;ID d'utilisateur&lt;/b&gt; : identificateur unique de l'utilisateur.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;Accès&lt;/b&gt; : indique les autorisations d'accès à un document ou à un conteneur définies par le propriétaire ou un utilisateur disposant d'un accès complet.Allowed : no_access┃lecture┃read_write┃full_access┃change_security┃inconnu&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;ID d'utilisateur&lt;/b&gt; : l'ID de l'utilisateur.&lt;/li&gt;
+        &lt;li&gt;&lt;p&gt;&lt;b&gt;Statut de l'action&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Code&lt;/b&gt; : si la demande est exécutée avec succès, le code est défini sur 0. En cas d'échec dans iManage, le code est défini sur 1.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Message&lt;/b&gt; : la raison de l'erreur. Renseigné uniquement lorsqu'une erreur survient.&lt;/li&gt;
+        &lt;/ul&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Nom d'utilisateur, mot de passe ou jeton non valide, ou le jeton a expiré. NRC_ACCESS_DENIED : accès refusé&lt;/li&gt;
+        &lt;li&gt;Enregistrement ou base de données non valide ou non disponible. NRC_NO_RECORD : aucun enregistrement trouvé&lt;/li&gt;
+        &lt;li&gt;Un paramètre non valide est fourni pour la demande. NRC_INVALID_PARAM : paramètre non valide&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification iManage correspondantes doivent être créées et associées à l'alias de 
+        connexion et d'informations d'identification iManage. &lt;a target="_blank"             href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank"             href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Lire plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:52</sys_created_on>
+        <sys_id>24f7c735838d72907c2356e0deaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_24f7c735838d72907c2356e0deaad36f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:52</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

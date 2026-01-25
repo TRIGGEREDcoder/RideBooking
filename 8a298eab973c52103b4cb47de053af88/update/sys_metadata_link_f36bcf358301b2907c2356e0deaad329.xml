@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ad5889a183a722107c2356e0deaad31d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>073ec687db6d9740bea7ff561d9619a5</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>ad5889a183a722107c2356e0deaad31d</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Stocker les informations sur l'origine fournies en les ajoutant comme métadonnées dans les fichiers Box. Les informations sur l'origine peuvent être utilisées ultérieurement à des fins de corrélation.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;ID du fichier&lt;/b&gt; : l'ID du fichier pour lequel créer un objet de métadonnées.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Périmètre&lt;/b&gt; : le périmètre de l'objet de métadonnées. Les champs d'application Global et Entreprise sont pris en charge. Le périmètre Global contient le modèle Propriétés , tandis que le périmètre Entreprise se rapporte aux modèles personnalisés au sein de l'entreprise.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Modèle&lt;/b&gt; : la clé du modèle. Par exemple, le périmètre Global comprend le modèle Propriétés.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Enregistrement de pièce jointe&lt;/b&gt; : enregistrement de pièce jointe ServiceNow.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;En tant qu'utilisateur&lt;/b&gt; : en tant qu'utilisateur peut être utilisé par les administrateurs et les coadministrateurs pour emprunter l'identité d'un autre utilisateur lors de l'exécution d'une demande d'API. ID de l'utilisateur avec lequel les métadonnées doivent être ajoutées au fichier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur « Réussite » si la demande aboutit ou sur « Erreur » si une défaillance se produit.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : est rempli si l'état est « Erreur ».&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;ID des métadonnées&lt;/b&gt; : ID des métadonnées ajoutées au fichier. Est rempli en cas de réussite.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Informations sur les métadonnées&lt;/b&gt; : informations sur les métadonnées ajoutées au fichier au format JSON. Est rempli en cas de réussite.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Un objet de métadonnées existe déjà pour le fichier donné.&lt;/li&gt;
+  &lt;li&gt;Fichier avec l'ID fourni introuvable ou l'utilisateur ayant les informations d'identification associées ne possède pas l'autorisation d'accéder au dossier.&lt;/li&gt;
+  &lt;li&gt;Nom d'utilisateur ou mot de passe/jeton non valide.&lt;/li&gt;
+  &lt;li&gt;L'utilisateur ayant les informations d'identification associées à la connexion de spoke Box ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+  &lt;li&gt;L'entrée « En tant qu'utilisateur » fournie ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+  &lt;li&gt;Modèle non trouvé dans le périmètre donné dans Box.&lt;/li&gt;
+  &lt;li&gt;Non autorisé : « En tant qu'utilisateur » doit suivre la procédure de confirmation par e-mail.&lt;/li&gt;
+  &lt;li&gt;Non autorisé : « En tant qu'utilisateur » a été désactivé.&lt;/li&gt;
+  &lt;li&gt;ID d'utilisateur non valide pour l'entrée « En tant qu'utilisateur » fournie.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Remarques supplémentaires :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+        &lt;li&gt;Pour activer la fonctionnalité « En tant qu'utilisateur » pour les applications Box utilisant OAuth2, veuillez déposer un ticket de support Box avec votre ID client ou votre clé d'API.&lt;/li&gt;
+	&lt;li&gt;Pour activer la fonctionnalité « En tant qu'utilisateur » pour les applications Box utilisant OAuth2 avec JWT, veuillez accéder à la section Caractéristiques avancées dans la console développeur et activer l'autorisation « Effectuer des actions au nom des utilisateurs ».&lt;/li&gt;
+&lt;li&gt;Pour utiliser le modèle Entreprise, assurez-vous que le schéma de modèle est dans la paire de clé/valeur. Cependant, les clés doivent seulement être Origin_Attachment_ID, Record_ID, Table_Name et Source.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion Box et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Box. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;
+</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:06</sys_created_on>
+        <sys_id>f36bcf358301b2907c2356e0deaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_f36bcf358301b2907c2356e0deaad329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:06</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

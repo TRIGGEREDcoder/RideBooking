@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ab5849e183a722107c2356e0deaad382</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>024791000f434010b489c7d92f767e5a</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>ab5849e183a722107c2356e0deaad382</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Répertorie une ou plusieurs de vos connexions d'appairage de VPC.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Région&lt;/b&gt; : code unique de la région.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Filtres&lt;/b&gt; : objets de filtre.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;ID de connexions d'appairage de VPC&lt;/b&gt; : ID unique des connexions d'appairage de VPC.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Jeton suivant&lt;/b&gt; : jeton suivant pour la pagination.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Résultats maximaux&lt;/b&gt; : nombre maximal de résultats à rechercher.&lt;/li&gt;
+	&lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Connexions d'appairage de VPC&lt;/b&gt; : liste des objets contenant ces champs :&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Jeton suivant&lt;/b&gt; : jeton suivant pour la pagination.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite dans Amazon EC2, l'état est défini sur Erreur.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Informations d'identification non valides.&lt;/li&gt;
+	&lt;li&gt;ID de connexions d'appairage de VPC non valides.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Amazon EC2 correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Amazon EC2. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:02</sys_created_on>
+        <sys_id>0347c73d834d72907c2356e0deaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_0347c73d834d72907c2356e0deaad381</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:02</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

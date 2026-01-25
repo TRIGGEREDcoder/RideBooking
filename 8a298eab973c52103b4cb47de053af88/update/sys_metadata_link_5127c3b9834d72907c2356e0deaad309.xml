@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8b48096183a722107c2356e0deaad3d3</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>00e4cfea1b7820101b918775cc4bcb80</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8b48096183a722107c2356e0deaad3d3</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p id="short_desc"&gt;Récupère la liste de tous les utilisateurs connectés et ses métadonnées pertinentes sur un système hôte donné.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Agent&lt;/strong&gt; : nom de l'agent (ne fournissez qu'un seul des éléments Agent et CI en entrée, mais pas les deux).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom de CI/SysID&lt;/strong&gt; : nom ou SysID de l'élément de configuration (CI) de la table cmdb_ci.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Délai d'expiration&lt;/strong&gt; : durée, en secondes, après laquelle l'exécution de l'action s'arrête lorsqu'aucune sortie n'est renvoyée. La valeur par défaut est de 60 secondes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nombre maximum de résultats&lt;/strong&gt; : nombre maximum d'enregistrements à extraire de l'agent en tant que sortie.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sorties&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul id="outputs"&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas d'échec dans Agent Client Collector, l'état est défini sur « Erreur ».&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Utilisateurs connectés&lt;/strong&gt; : liste des objets contenant ces valeurs
+&lt;ul&gt;
+&lt;li&gt;registry_hive - HKEY_USERS registre hive&lt;/li&gt;
+&lt;li&gt;host - nom d'hôte distant&lt;/li&gt;
+&lt;li&gt;tty - nom de l'appareil&lt;/li&gt;
+&lt;li&gt;pid - ID du processus (ou du thread)&lt;/li&gt;
+&lt;li&gt;time - la durée a été saisie&lt;/li&gt;
+&lt;li&gt;type - type de connexion&lt;/li&gt;
+&lt;li&gt;user - nom de connexion de l'utilisateur&lt;/li&gt;
+&lt;li&gt;sid - identificateur de sécurité unique de l'utilisateur&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul id="error_messages"&gt;
+&lt;li&gt;Ne fournissez qu'un seul des éléments Agent, Nom de CI ou ID Sys comme entrée, mais pas les deux.&lt;/li&gt;
+&lt;li&gt;Vous devez indiquer soit l'agent soit le nom de CI/ID Sys comme entrée.&lt;/li&gt;
+&lt;li&gt;ACC est hors service, relancez l'agent.&lt;/li&gt;
+&lt;li&gt;Aucun agent n'est installé pour le CI fourni.&lt;/li&gt;
+&lt;li&gt;CI non valide.&lt;/li&gt;
+&lt;li&gt;L'exécution a expiré.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank" rel="noopener"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- This description is generated using the description tool --&gt;
+&lt;p&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:22</sys_created_on>
+        <sys_id>5127c3b9834d72907c2356e0deaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_5127c3b9834d72907c2356e0deaad309</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:22</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

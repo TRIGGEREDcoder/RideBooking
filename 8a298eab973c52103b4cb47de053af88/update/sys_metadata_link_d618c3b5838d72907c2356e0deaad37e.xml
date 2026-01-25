@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>175885e183a722107c2356e0deaad3f0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>05dae7db0f5d00109c60001ea8767e9b</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>175885e183a722107c2356e0deaad3f0</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Démarre les tâches pour exécuter le processus en fonction de la configuration indiquée comme entrée.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Processus&lt;/strong&gt; : processus qui doit être exécuté.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cible d'exécution&lt;/strong&gt; : a trois options. Choisissez &lt;strong&gt;Allouer dynamiquement&lt;/strong&gt; pour les dossiers modernes.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Tous les robots&lt;/strong&gt; : exécute le processus sélectionné sur tous les robots compatibles.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Robots spécifiques&lt;/strong&gt; : exécute le processus sélectionné uniquement sur les robots spécifiés dans « ID de robots ».&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Allouer dynamiquement&lt;/strong&gt; : alloue dynamiquement des robots pour exécuter le processus sélectionné. La valeur fournie dans « Nombre de tâches » spécifie le nombre de fois où le processus s'exécute.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Robots&lt;/strong&gt; : robots sur lesquels le processus doit être exécuté. Doit être spécifié uniquement lorsque « Robots spécifiques » est sélectionné pour « Cible d'exécution ».&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nombre de tâches&lt;/strong&gt; : nombre de fois où le processus doit être exécuté. Doit être spécifié uniquement lorsque l'option « Allouer dynamiquement » est sélectionnée pour « Cible d'exécution ».&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Arguments d'entrée&lt;/strong&gt; : valeurs à transmettre pour les arguments en fonction du processus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Tâches créées&lt;/strong&gt; : détails des tâches créées, renseigné uniquement lorsque la demande est traitée avec succès. Les valeurs de champ suivantes sont recherchées.
+    &lt;ul&gt;
+      &lt;li&gt;Clé&lt;/li&gt;
+      &lt;li&gt;Heure de début&lt;/li&gt;
+      &lt;li&gt;Heure de fin&lt;/li&gt;
+      &lt;li&gt;État&lt;/li&gt;
+      &lt;li&gt;Source&lt;/li&gt;
+      &lt;li&gt;Type de source&lt;/li&gt;
+      &lt;li&gt;Clé d'exécution du lot&lt;/li&gt;
+      &lt;li&gt;Info&lt;/li&gt;
+      &lt;li&gt;Heure de création&lt;/li&gt;
+      &lt;li&gt;ID de calendrier de démarrage&lt;/li&gt;
+      &lt;li&gt;Nom de mise en production&lt;/li&gt;
+      &lt;li&gt;Type&lt;/li&gt;
+      &lt;li&gt;Arguments d'entrée&lt;/li&gt;
+      &lt;li&gt;Arguments de sortie&lt;/li&gt;
+      &lt;li&gt;Nom d'ordinateur hôte&lt;/li&gt;
+      &lt;li&gt;Contient des médias enregistrés&lt;/li&gt;
+      &lt;li&gt;ID de persistance&lt;/li&gt;
+      &lt;li&gt;Reprendre la version&lt;/li&gt;
+      &lt;li&gt;Stratégie d'arrêt&lt;/li&gt;
+      &lt;li&gt;ID de version de mise en production&lt;/li&gt;
+      &lt;li&gt;ID&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite, l'état est défini sur Erreur.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Messages d'erreur :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Les robots ont déjà des tâches en attente pour ce processus&lt;/li&gt;
+  &lt;li&gt;Informations d'identification non valides&lt;/li&gt;
+  &lt;li&gt;URL de connexion non valide&lt;/li&gt;
+  &lt;li&gt;Erreur inconnue. Consultez le journal des erreurs pour plus d'informations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion UiPath et des informations d'identification correspondantes doivent être créées et associées à l'alias de connexion les informations d'identification UiPath. 
+  &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" rel="noopener noreferrer nofollow" target="_blank"&gt;En savoir plus&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. 
+  &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" rel="noopener noreferrer nofollow" target="_blank"&gt;En savoir plus&lt;/a&gt;
+&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:32</sys_created_on>
+        <sys_id>d618c3b5838d72907c2356e0deaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_d618c3b5838d72907c2356e0deaad37e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:32</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

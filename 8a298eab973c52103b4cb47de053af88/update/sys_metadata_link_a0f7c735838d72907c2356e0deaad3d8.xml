@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a8a801e983a722107c2356e0deaad325</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>054b0569739c1010e37d71ef64f6a7f1</documentkey>
+        <fieldname>article</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a8a801e983a722107c2356e0deaad325</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;div&gt;
+&lt;p&gt;Un groupe d'activités est un regroupement logique de types d'activités. Un groupe d'activités s'affiche dans le flux d'activités en fonction de la facette sélectionnée. &lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;Créez un groupe d'activités, puis ajoutez-y des types d'activités. &lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;ol style="list-style-position: inside;"&gt;&lt;li&gt;Cliquez sur Nouveau pour créer un nouveau groupe d'activités.&lt;/li&gt;&lt;li&gt;Remplissez les champs demandés.&lt;/li&gt;&lt;/ol&gt;
+&lt;table border="1"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Champ &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Description &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Nom&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Choisissez le nom du groupe d'activités.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Nom de table &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;p&gt;Sélectionnez la table qui contient l'objet sur lequel les activités de ce groupe sont menées.  &lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;Dans la plupart des cas, c'est la même que la source d'activité sélectionnée dans le type d'activité.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;div&gt;
+&lt;p&gt;Une fois le groupe d'activités créé, sélectionnez-le dans la liste de groupes d'activités et ajoutez les types d'activité au groupe.  &lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;ol style="list-style-position: inside;"&gt;&lt;li&gt;Cliquez sur Nouveau dans la liste connexe des types d'activité.&lt;/li&gt;&lt;li&gt;Remplissez les champs demandés. &lt;/li&gt;&lt;/ol&gt;
+&lt;table border="1"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Champ &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Description &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Type d'activité &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Sélectionnez le type d'activité que vous souhaitez ajouter au groupe d'activités.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;Champ de groupe d'activité &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;td&gt;
+&lt;div&gt;
+&lt;p&gt;Sélectionnez le champ dans la table Source d'activité, qui identifie l'objet dans la table associée au groupe d'activités.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://www.youtube.com/embed/m7OpJBQbJ0o" referrerpolicy="strict-origin" allowfullscreen=""&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:52</sys_created_on>
+        <sys_id>a0f7c735838d72907c2356e0deaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_a0f7c735838d72907c2356e0deaad3d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:52</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e578c1a583a722107c2356e0deaad373</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0678c865c7240010271beb861dc260d5</documentkey>
+        <fieldname>article</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>e578c1a583a722107c2356e0deaad373</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>gsw_content_information</tablename>
+        <value>&lt;p&gt;&lt;strong&gt;Remarque :&lt;/strong&gt; cette étape peut être terminée uniquement si les modules d'extension suivants sont actifs :&lt;/p&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Gestion du Service clientèle avec Service sur site (com.snc.csm_fsm_integration)&lt;/li&gt;&lt;li&gt;Service sur site avec Gestion des projets (com.snc.wm_ppm)&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Ajoutez les listes connexes suivantes à la vue &lt;strong&gt;Par défaut&lt;/strong&gt; du formulaire de tâche Projet client :&lt;/p&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Commande de travaux -&gt; Initié à partir de&lt;/li&gt;&lt;/ul&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:10</sys_created_on>
+        <sys_id>c23b4bb18301b2907c2356e0deaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_c23b4bb18301b2907c2356e0deaad399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:10</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3e68016583a722107c2356e0deaad30b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>055db10477a6011003ab76974f5a9979</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>3e68016583a722107c2356e0deaad30b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p id = "short_desc"&gt; Rechercher des actions correctives&lt;/p&gt;&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Tiers impliqué&lt;/b&gt; : tiers impliqué&lt;/li&gt;&lt;li&gt;&lt;b&gt;Ticket RH&lt;/b&gt; : ticket RH associé&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom&lt;/b&gt; : nom du participant impliqué&lt;/li&gt;&lt;li&gt;&lt;b&gt;Résultat primaire&lt;/b&gt; : résultat primaire&lt;/li&gt;&lt;li&gt;&lt;b&gt;Résultat secondaire&lt;/b&gt; : résultat secondaire&lt;/li&gt;&lt;li&gt;&lt;b&gt;Résultat ternaire&lt;/b&gt; : résultat ternaire&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Statut de l'action&lt;/b&gt; : état des actions : réussite ou erreur&lt;/li&gt;&lt;li&gt;&lt;b&gt;Ne pas traiter comme une erreur&lt;/b&gt; :&lt;/li&gt;&lt;li&gt;&lt;b&gt;Prénom&lt;/b&gt; : prénom du participant impliqué&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom de famille&lt;/b&gt; : nom de famille du participant impliqué&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message&lt;/b&gt; : message indiquant s'il existe d'autres actions correctives&lt;/li&gt;&lt;li&gt;&lt;b&gt;Résultat primaire&lt;/b&gt; : résultat primaire&lt;/li&gt;&lt;li&gt;&lt;b&gt;Résultat secondaire&lt;/b&gt; : résultat secondaire&lt;/li&gt;&lt;li&gt;&lt;b&gt;Résultat ternaire&lt;/b&gt; : résultat ternaire&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Informations d'identification non valides.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Navex EthicsPoint correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Navex EthicsPoint. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque &lt;/b&gt;: nécessite un abonnement&lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;pour une utilisation en production.&lt;/a&gt; En savoir plus.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:57</sys_created_on>
+        <sys_id>b1f78b35838d72907c2356e0deaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_b1f78b35838d72907c2356e0deaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:57</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

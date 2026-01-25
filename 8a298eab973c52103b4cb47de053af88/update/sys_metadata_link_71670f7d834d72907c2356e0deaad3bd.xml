@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d968052583a722107c2356e0deaad36b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02c923a81b5f8850243764abbc4bcb59</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>d968052583a722107c2356e0deaad36b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt; Cette action est utilisée pour créer une facture AP.&lt;/p&gt;&#13;
+&lt;p&gt;Veuillez noter qu'en plus des champs d'entrée marqués obligatoires, au moins une valeur de champ doit être fournie pour chacun des champs suivants.&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;&lt;b&gt;ID&lt;/b&gt; ou &lt;b&gt;nom du fournisseur&lt;/b&gt;&lt;/li&gt;&#13;
+&lt;li&gt;&lt;b&gt;ID de site&lt;/b&gt; ou &lt;b&gt;code de site du fournisseur&lt;/b&gt;&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;Si ce n'est pas fourni, l'action n'apparaît pas en erreur, mais le programme simultané ne créera pas la facture AP dans Oracle  EBS.&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Source&lt;/b&gt; : source&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Numéro de facture&lt;/b&gt; : numéro de la facture&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Montant de facture&lt;/b&gt; : montant de la facture&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;ID Org&lt;/b&gt; : ID unique de l'organisation.&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Date GL&lt;/b&gt; : date du GL&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Date de facture&lt;/b&gt; : date de la facture&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;ID du fournisseur&lt;/b&gt; : ID unique du fournisseur.&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Nom du fournisseur&lt;/b&gt; : nom du fournisseur&lt;/li&gt; &#13;
+   &lt;li&gt;&lt;b&gt;Numéro de fournisseur&lt;/b&gt; : numéro du fournisseur&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;ID de site fournisseur&lt;/b&gt; : ID de site du fournisseur&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Code de site fournisseur&lt;/b&gt; : code de site du fournisseur&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Code de recherche de type de facture&lt;/b&gt; : code de recherche du type de facture&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Code de devise de facture&lt;/b&gt; : code de devise de la facture&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Type de taux de change&lt;/b&gt; : type du taux de change&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;ID de terme&lt;/b&gt; : ID du terme&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Code de catégorie de document&lt;/b&gt; : code de catégorie du document&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Code de recherche de moyen de paiement&lt;/b&gt; : code de recherche du moyen de paiement&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Code de recherche de groupe de rémunération&lt;/b&gt; : code de recherche du groupe de rémunération&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;ID de combinaison de rémunération des comptes&lt;/b&gt; : ID de la combinaison de rémunération des comptes&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;ID de groupe&lt;/b&gt; : ID du groupe&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : état&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Attribute1&lt;/b&gt; - Attribute1&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Attribute2&lt;/b&gt; - Attribute2&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Attribute3&lt;/b&gt; - Attribute3&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Attribute4&lt;/b&gt; - Attribute4&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Attribute5&lt;/b&gt; - Attribute5&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Champs supplémentaires&lt;/b&gt; : champs ou valeurs supplémentaires que vous souhaitez ajouter aux détails.&lt;/li&gt;&#13;
+   &lt;li&gt;&#13;
+      &lt;b&gt;Lignes de facture AP&lt;/b&gt; : liste des objets contenant ces valeurs&#13;
+      &lt;ul&gt;&#13;
+         &lt;li&gt; Numéro de ligne&lt;/li&gt;&#13;
+		 &lt;li&gt; Code de recherche de type de ligne&lt;/li&gt;&#13;
+		 &lt;li&gt; Montant&lt;/li&gt;&#13;
+		 &lt;li&gt; Date de la comptabilité&lt;/li&gt;&#13;
+		 &lt;li&gt; Code fiscal&lt;/li&gt;&#13;
+		 &lt;li&gt; ID de version de bon de commande&lt;/li&gt;&#13;
+		 &lt;li&gt; ID d'en-tête de bon de commande&lt;/li&gt;&#13;
+		 &lt;li&gt; ID de ligne de bon de commande&lt;/li&gt;&#13;
+		 &lt;li&gt; Numéro d'expédition du bon de commande&lt;/li&gt;&#13;
+		 &lt;li&gt; Numéro de reçu&lt;/li&gt;&#13;
+		 &lt;li&gt; ID de l'emplacement de la ligne de bon de commande&lt;/li&gt;&#13;
+		 &lt;li&gt; ID de combinaison du code de dist.&lt;/li&gt;&#13;
+		 &lt;li&gt; Attribute1&lt;/li&gt;&#13;
+		 &lt;li&gt; Attribute2&lt;/li&gt;&#13;
+		 &lt;li&gt; Attribute3&lt;/li&gt;&#13;
+		 &lt;li&gt; Attribute4&lt;/li&gt;&#13;
+		 &lt;li&gt; Attribute5&lt;/li&gt;&#13;
+         &#13;
+      &lt;/ul&gt;&#13;
+   &lt;/li&gt;&#13;
+   &lt;p&gt;&lt;/p&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+   &lt;li&gt;&#13;
+      &lt;b&gt;Détails de facture AP&lt;/b&gt; : objet complexe contenant les champs suivants :  &#13;
+      &lt;ul&gt;&#13;
+         &lt;li&gt; Statut&lt;/li&gt;&#13;
+         &lt;li&gt; Source&lt;/li&gt;&#13;
+         &lt;li&gt; Données de message&lt;/li&gt;&#13;
+         &lt;li&gt; ID de groupe&lt;/li&gt;&#13;
+      &lt;/ul&gt;&#13;
+   &lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Statut&lt;/b&gt; : si la demande est effectuée avec succès, le statut est défini sur « Réussite ». Si une défaillance se produit dans Oracle EBS, le statut est défini sur « Erreur ».&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+   &lt;li&gt;Informations d'identification non valides.&lt;/li&gt;&#13;
+   &lt;li&gt;Fournisseur non valide.&lt;/li&gt;&#13;
+   &lt;li&gt;Site fournisseur non valide.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Oracle EBS correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Oracle EBS. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:29</sys_created_on>
+        <sys_id>71670f7d834d72907c2356e0deaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_71670f7d834d72907c2356e0deaad3bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:29</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

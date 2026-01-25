@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d6684d2583a722107c2356e0deaad316</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>05422b4ddb935340bea7ff561d961941</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>d6684d2583a722107c2356e0deaad316</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Points de terminaison est un ensemble de points de terminaison qui implémentent le service réel. Cette action crée un nouveau point de terminaison sur l'instance Kubernetes.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Espace de noms&lt;/b&gt; : nom de la grappe virtuelle sur laquelle le point de terminaison sera créé.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Nom du point de terminaison&lt;/b&gt; : nom du point de terminaison à créer.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Sous-ensembles de points de terminaison&lt;/b&gt; : l'ensemble de tous les points de terminaison est l'union de tous les sous-ensembles. L'entrée utilise une liste d'adresses IP et de ports associés au format JSON. Exemple : {"addresses": [{"ip": "10.10.1.1"}, {"ip": "10.10.2.2"}],"ports": [{"name": "a","port": 8675}, {"name": "b","port": 309}]}.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Étiquettes des points de terminaison&lt;/b&gt; : les étiquettes peuvent être utilisées pour organiser et sélectionner des sous-ensembles d'objets. L'entrée utilise une liste JSON d'étiquettes qui seront associées à l'objet Points de terminaison. Exemple : {"project" : "magento"}&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur Réussite si la demande aboutit ou sur Erreur si une défaillance se produit.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : est rempli si l'état est « Erreur ».&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Nom du point de terminaison&lt;/b&gt; : nom du point de terminaison créé en cas de réussite.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Informations sur le point de terminaison&lt;/b&gt; : informations sur le point de terminaison créé en cas de réussite.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+        &lt;li&gt;L'espace de noms fourni n'est pas valide ou n'existe pas.&lt;/li&gt;
+	&lt;li&gt;Le nom de point de terminaison fourni existe déjà.&lt;/li&gt;
+        &lt;li&gt;Le nom de point de terminaison fourni n'est pas valide.&lt;/li&gt;
+	&lt;li&gt;L'adresse IP fournie n'est pas valide.&lt;/li&gt;
+	&lt;li&gt;Le port fourni n'est pas valide.&lt;/li&gt;
+        &lt;li&gt;Le JSON fourni pour l'entrée Sous-ensembles du point de terminaison n'est pas valide.&lt;/li&gt;
+        &lt;li&gt;Le JSON fourni pour l'entrée Étiquettes du point de terminaison n'est pas valide.&lt;/li&gt;
+        &lt;li&gt;Le champ Adresses est obligatoire et non fourni ou non valide dans les sous-ensembles de point de terminaison JSON.&lt;/li&gt;
+	&lt;li&gt;Nom d'utilisateur ou mot de passe/jeton utilisé non valide.&lt;/li&gt;
+	&lt;li&gt;L'utilisateur ayant les informations d'identification associées à la connexion de spoke Kubernetes ne possède pas l'autorisation requise pour effectuer cette action.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque supplémentaire :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; Consultez la documentation de l'API Rest Kubernetes pour connaître la description détaillée des champs et des descriptions de chacune des entrées.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour utiliser cette action, la connexion Kubernetes et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Kubernetes.   &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:47</sys_created_on>
+        <sys_id>17e70735838d72907c2356e0deaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_17e70735838d72907c2356e0deaad3f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:47</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

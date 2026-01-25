@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a168c52583a722107c2356e0deaad30b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>041491361b9b20107457ddf7dc4bcbce</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>a168c52583a722107c2356e0deaad30b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Récupérer le profil de téléphone  Zoom d'un utilisateur.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;ID d'utilisateur&lt;/b&gt; : ID d'utilisateur Zoom pour créer la réunion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Profil d'utilisateur&lt;/b&gt; : objet complexe contenant les champs suivants :	
+    &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : ID d'utilisateur Zoom.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;ID d'utilisateur de téléphone&lt;/b&gt; : ID d'utilisateur du téléphone Zoom.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;E-mail&lt;/b&gt; : adresse e-mail de l'utilisateur.&lt;/li&gt;
+        &lt;li&gt;&lt;b&gt;Plan d'appel&lt;/b&gt; : plan d'appel de l'utilisateur.&lt;/li&gt;
+                &lt;li&gt;&lt;b&gt;Numéros de téléphone&lt;/b&gt; : les numéros de téléphone de l'utilisateur.&lt;/li&gt;
+
+        &lt;li&gt;&lt;b&gt;Numéro de poste&lt;/b&gt; : le numéro de poste de l'utilisateur.&lt;/li&gt;
+
+        &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : l'état de l'utilisateur.&lt;/li&gt;
+               
+
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur « Réussite » si la demande aboutit ou sur « Erreur » si une erreur se produit&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : le message décrivant l'erreur si la requête n'est pas acceptée. Renseigné uniquement lorsqu'une erreur se produit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;enforce_login_domains invalide ; séparer plusieurs domaines par un point-virgule.&lt;/li&gt;
+&lt;li&gt;L'utilisateur est introuvable.&lt;/li&gt;
+&lt;li&gt;L'hôte de réunion {userId} n'existe pas ou n'appartient pas à ce compte.&lt;/li&gt;
+&lt;li&gt;L'utilisateur n'appartient pas à ce compte : {accountId}&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour utiliser cette action, une connexion Zoom et les informations d'identification correspondantes doivent être créées et associées à l'alias de connexion les informations d'identification Zoom. &lt;a href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation de production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:29</sys_created_on>
+        <sys_id>50a7cb31838d72907c2356e0deaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_50a7cb31838d72907c2356e0deaad30b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:29</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c568c12583a722107c2356e0deaad37b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>05aa7474eb63301006a5c27849522845</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>c568c12583a722107c2356e0deaad37b</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt; Extrait les détails du groupe de données législatives pour une personne spécifique.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;ID de la personne&lt;/b&gt; : transmettre l'ID de la personne&lt;/li&gt;
+   &lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;
+      &lt;b&gt;Détails du groupe de données législatives&lt;/b&gt; : liste des objets contenant ces valeurs
+      &lt;ul&gt;
+         &lt;li&gt; ID de la personne&lt;/li&gt;
+         &lt;li&gt; ID de groupe de données législatives&lt;/li&gt;
+         &lt;li&gt; ID de l'employeur légal&lt;/li&gt;
+         &lt;li&gt; Employeur légal&lt;/li&gt;
+         &lt;li&gt; Date de démarrage&lt;/li&gt;
+		 &lt;li&gt; Date de fin&lt;/li&gt;
+		 &lt;li&gt; Numéro d'affectation&lt;/li&gt;
+		 &lt;li&gt; ID d'affectation&lt;/li&gt;
+         &lt;li&gt; Nom de la rémunération&lt;/li&gt;
+      &lt;/ul&gt;
+   &lt;/li&gt; 
+    &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur « Réussite ». Si une défaillance se produit dans Oracle Cloud HCM, l'état est défini sur « Erreur ».&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;Veuillez indiquer une valeur valide pour les champs d'entrée.&lt;/li&gt;
+	&lt;li&gt;L'utilisateur n'a pas l'autorisation d'exécuter le rapport dans le cloud Oracle ou le chemin d'accès absolu du rapport n'est pas une table de chemin de rapport BI correcte.&lt;/li&gt;
+	&lt;li&gt;Informations d'identification non valides. Veuillez vérifier les (détails des informations d'identification/attributs de connexion) dans les alias de connexion et d'informations d'identification de Spoke Oracle Cloud HCM Spoke.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Oracle Cloud HCM correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Oracle Cloud HCM.&lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:07:17</sys_created_on>
+        <sys_id>fe084b75838d72907c2356e0deaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_fe084b75838d72907c2356e0deaad3a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:07:17</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

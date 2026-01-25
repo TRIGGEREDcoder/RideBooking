@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c45801a183a722107c2356e0deaad37e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0717132753b023007877ddeeff7b124b</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>c45801a183a722107c2356e0deaad37e</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Cette action définit un utilisateur Slack à désactiver et masque cet utilisateur à partir de toutes les demandes futures.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;ID d'utilisateur&lt;/b&gt; : ID de l'utilisateur à désactiver.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : défini sur Réussite si la demande aboutit ou sur Erreur si une défaillance se produit dans Slack.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : motif de l'erreur. Renseigné uniquement lorsqu'une erreur se produit.
+L'état ne est Erreur qu'en cas de défaillance dans Slack.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Cet ID d'utilisateur n'est pas valide.&lt;/li&gt;
+&lt;li&gt;L'utilisateur est introuvable.&lt;/li&gt;
+&lt;li&gt;Impossible de s'auto-désactiver ou de désactiver le propriétaire principal&lt;/li&gt;
+&lt;li&gt;Autorisations insuffisantes. Veuillez vérifier le jeton OAuth et l'autorisation de périmètre.&lt;/li&gt;
+&lt;li&gt;Demande interdite. Veuillez vérifier le jeton OAuth et l'autorisation du périmètre.&lt;/li&gt;
+&lt;li&gt;Connexion non valide&lt;/li&gt;
+&lt;li&gt;Erreur inconnue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; Pour utiliser cette action, une connexion Slack et des informations d'identification correspondantes doivent être créées et associées à l'alias de connexion les informations d'identification Slack.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:54</sys_created_on>
+        <sys_id>386b87358301b2907c2356e0deaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_386b87358301b2907c2356e0deaad38d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:54</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

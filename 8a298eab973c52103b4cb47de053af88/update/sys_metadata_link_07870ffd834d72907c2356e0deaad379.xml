@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>015885a183a722107c2356e0deaad3e2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>03ae1a9e870341107139da87cebb356e</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>015885a183a722107c2356e0deaad3e2</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupère des informations sur la liste des abonnements webhook.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sorties : &lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Enregistrement webhook : &lt;/strong&gt;objet contenant ces champs :&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Actif&lt;/strong&gt; : indique si l'abonnement crée des événements webhook.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ID : &lt;/strong&gt;ID unique de webhook.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt; : brève description de l'abonnement webhook.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Événements&lt;/strong&gt; : ensemble des types d'événements sortants que le webhook reçoit.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Mode de livraison&lt;/strong&gt; : objet contenant ces champs :&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Temporairement désactivé : &lt;/strong&gt;indique si cet abonnement à un webhook est temporairement désactivé. La valeur est Vrai si l'URL du mode de livraison de l'URL est rejetée à plusieurs reprises par le serveur.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;URL&lt;/strong&gt; : URL de destination pour la livraison de webhook.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;En-têtes personnalisés&lt;/strong&gt; : en-têtes facultatifs à définir sur cet abonnement webhook lors de l'envoi. Les valeurs d'en-tête sont rédigées dans les demandes GET, mais ne sont pas rédigées sur le webhook lorsqu'elles sont envoyées au point de terminaison de webhook.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt;&lt;strong&gt; :&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;&lt;li&gt;La ressource demandée est introuvable.&lt;/li&gt;&lt;li&gt;Le champ obligatoire ne peut pas être laissé vide.&lt;/li&gt;&lt;li&gt;Erreur de serveur interne : erreur rencontrée dans PagerDuty.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification PagerDuty correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification PagerDuty. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&lt;p&gt; Pour obtenir plus d'informations sur cette action. &lt;a href="https://developer.pagerduty.com/api-reference/90ac9f49d9946-list-webhook-subscriptions"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Remarque&lt;/strong&gt; : nécessite un abonnement pour une utilisation en production. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:08</sys_created_on>
+        <sys_id>07870ffd834d72907c2356e0deaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_07870ffd834d72907c2356e0deaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:08</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

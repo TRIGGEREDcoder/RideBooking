@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2768456583a722107c2356e0deaad315</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0411f215c31d32007bf1bea192d3aebb</documentkey>
+        <fieldname>content</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>2768456583a722107c2356e0deaad315</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_embedded_help_content</tablename>
+        <value>
+			&lt;h1 class="title topictitle1"&gt;Créer des informations d'identification SSH&lt;/h1&gt;
+			&lt;div class="body taskbody"&gt;
+				&lt;div class="section context"&gt;
+					&lt;span class="ph"&gt;Le type d'informations d'identification SSH gère l'accès aux équipements Unix et Linux           qui utilisent Secure Shell (SSH).&lt;/span&gt;&lt;/div&gt;
+				&lt;ol class="ol steps" id="ssh_credentials-setup__steps_ecl_b5b_1w"&gt;
+					&lt;li class="li step"&gt;
+						&lt;span class="ph cmd"&gt;Renseignez les champs dans le formulaire.&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li class="li step"&gt;
+						&lt;span class="ph cmd"&gt;Pour tester vos informations d'identification avant de les envoyer, cliquez sur
+							&lt;span class="ph uicontrol"&gt;Tester les                        informations d'identification&lt;/span&gt;
+							sous
+							&lt;span class="ph uicontrol"&gt;Liens connexes&lt;/span&gt;
+							.&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li class="li step"&gt;
+						&lt;span class="ph cmd"&gt;Fournissez les détails de connexion dans la boîte de dialogue Tester les informations d'identification, puis cliquez sur
+							&lt;span class="ph uicontrol"&gt;OK&lt;/span&gt;
+							.&lt;/span&gt;
+					&lt;/li&gt;
+					&lt;li class="li step"&gt;
+						&lt;span class="ph cmd"&gt;Si les informations d'identification se connectent à la cible, cliquez sur
+							&lt;span class="ph uicontrol"&gt;Soumettre&lt;/span&gt;
+							.&lt;/span&gt;
+					&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/div&gt;
+			&lt;div class="related-links"&gt;
+				&lt;div class="relinfo"&gt;
+					&lt;div class="reltitle"&gt;Informations connexes
+						&lt;br/&gt;
+						&lt;div&gt;
+							&lt;a class="link" href="https://docs.servicenow.com/?context=CSHelp:SSHCredentials&amp;amp;version=jakarta" rel="nofollow" target="_blank"&gt;Informations d'identification SSH&lt;/a&gt;&lt;/div&gt;
+						&lt;div&gt;
+							&lt;a class="link" href="https://docs.servicenow.com/?context=CSHelp:TestCredentials&amp;amp;version=jakarta" rel="nofollow" target="_blank"&gt;Informations d'identification de test&lt;/a&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:05:28</sys_created_on>
+        <sys_id>04a78b31838d72907c2356e0deaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_04a78b31838d72907c2356e0deaad396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:05:28</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

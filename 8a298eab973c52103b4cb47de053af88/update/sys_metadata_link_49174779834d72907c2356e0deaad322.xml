@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c348096183a722107c2356e0deaad3c3</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>002d7336efb86110edd9f2fcae97d72c</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>c348096183a722107c2356e0deaad3c3</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Crée un nouvel incident de véhicule sur la réclamation donnée.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id="inputs"&gt;
+    &lt;li&gt;&lt;b&gt;ID de déclaration&lt;/b&gt; : l'identificateur de la déclaration.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Attributs&lt;/b&gt; : objet contenant les détails de l'incident.
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Airbags déployés&lt;/b&gt; : une valeur réelle indique que les airbags du véhicule ont été déployés.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code du chemin d'accès d'automatisation&lt;/b&gt; : valeur de code du chemin d'accès d'automatisation. Voici quelques-unes des valeurs disponibles :
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;vehiclerepair&lt;/b&gt; : réparation de véhicule&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;vehicletotalloss&lt;/b&gt; : perte totale de véhicule&lt;/li&gt;
+                    &lt;p&gt;Pour obtenir des détails sur d'autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;AutomationPath&lt;/b&gt;.&lt;/p&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code d'état du siège de sécurité enfant&lt;/b&gt; : valeur de code pour le siège de sécurité enfant. Voici quelques-unes des valeurs disponibles : 
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;none&lt;/b&gt; : aucun siège enfant&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;occupied&lt;/b&gt; : siège enfant occupé&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;damagedunoccupied&lt;/b&gt; : siège enfant non occupé et endommagé&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;damagedunoccupied&lt;/b&gt; : siège enfant non occupé et non endommagé&lt;/li&gt;
+                    &lt;p&gt;Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;ChildSafetySeatStatus&lt;/b&gt;.&lt;/p&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Collision&lt;/b&gt; : une valeur vraie indique que le véhicule a été impliqué dans une collision.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code de point de collision&lt;/b&gt; : valeur de code pour le point de collision. Voici quelques-unes des valeurs disponibles :
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;01&lt;/b&gt; : aile droite, côté et zone des roues&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;02&lt;/b&gt; : aile droite, avant (zone des projecteurs)&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;03&lt;/b&gt; : pare-chocs avant, calandre, hotte et radiateur&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;04&lt;/b&gt; : aile gauche - avant (zone des projecteurs)&lt;/li&gt;
+                    &lt;p&gt;Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;CollisionPoint&lt;/b&gt;.&lt;/p&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Description du dommage&lt;/b&gt; : description générale du dommage.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Conducteur&lt;/b&gt; : référence à l'objet du conducteur, qui peut exister dans la police ou qui ne peut exister que sur la réclamation.
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : identificateur unique de l'élément référencé.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;ID système de la police&lt;/b&gt; : identificateur unique de l'élément référencé dans le système de la police&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Défaillance de l'équipement&lt;/b&gt; : une valeur vraie indique que la défaillance de l'équipement a été impliquée dans cette perte.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Propriétaire de l'incident&lt;/b&gt; : référence à l'objet du propriétaire de l'incident, qui peut exister dans la police ou qui ne peut exister que sur la réclamation.
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : identificateur unique de l'élément référencé.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;ID système de la police&lt;/b&gt; : identificateur unique de l'élément référencé dans le système de la police.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code de la partie associée à la perte&lt;/b&gt; : valeur de code pour la partie associée à la perte. Les valeurs disponibles sont les suivantes :
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;insured&lt;/b&gt; : perte de l'assuré&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;third_party&lt;/b&gt; : responsabilité civile&lt;/li&gt;
+                    &lt;p&gt;Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;LossPartyType&lt;/b&gt;.&lt;/p&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Description des dommages matériels&lt;/b&gt; : description de la propriété qui a été endommagée.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Valeur de la propriété&lt;/b&gt; : valeur estimée de la propriété perdue ou endommagée (depuis Guidewire 1.3.0).
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Montant&lt;/b&gt; : montant décimal.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Currency&lt;/strong&gt; : devise du montant. Voici quelques-unes des valeurs disponibles :&lt;ul&gt;&lt;li&gt;&lt;strong&gt;usd&lt;/strong&gt; : USD&lt;/li&gt;&lt;li&gt;&lt;strong&gt;eur&lt;/strong&gt; : EUR&lt;/li&gt;&lt;li&gt;&lt;strong&gt;gbp&lt;/strong&gt; : GBP&lt;/li&gt;&lt;li&gt;&lt;strong&gt;cad&lt;/strong&gt; : CAD&lt;/li&gt;&lt;/ul&gt;
+      Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux :   &lt;i&gt;rechercher la liste de types du centre de réclamations&lt;/i&gt;. La valeur de l'entrée Nom de la liste de types est &lt;strong&gt;Currency&lt;/strong&gt;.      &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Sécurité au volant&lt;/b&gt; : une valeur vraie indique que le véhicule est toujours utilisable.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code de gravité&lt;/b&gt; : valeur de code pour la gravité. Voici quelques-unes des valeurs disponibles :
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;minor&lt;/b&gt; : mineure&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;moderate-auto&lt;/b&gt; : modérée (utilisable)&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;major-auto&lt;/b&gt; : majeure (inutilisable)&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;severe-auto&lt;/b&gt; : perte totale possible&lt;/li&gt;
+                    &lt;p&gt;Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;SeverityType&lt;/b&gt;.&lt;/p&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Vol&lt;/b&gt; : une valeur vraie indique que le véhicule a été volé.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Perte totale&lt;/b&gt; : une valeur vraie indique que le véhicule a été volé.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code d'évaluation requise&lt;/b&gt; : valeur de code pour l'évaluation requise. Voici quelques-unes des valeurs disponibles :
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;no_analytics_indicate_repair&lt;/b&gt; : non, l'analyse indique la réparation&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;no_quote_indicates_repair&lt;/b&gt; : non, l'estimation indique la réparation&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;no_quote_indicates_total_loss&lt;/b&gt; : non, l'estimation indique la perte totale&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;oui&lt;/b&gt; : oui&lt;/li&gt;
+                    &lt;p&gt;Pour obtenir des détails sur d'autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;ValuationRequired&lt;/b&gt;.&lt;/p&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code de la source d'évaluation&lt;/b&gt; : valeur de code pour la source d'évaluation. Les valeurs disponibles sont :
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;demo&lt;/b&gt; : démo&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;manual&lt;/b&gt; : manuel&lt;/li&gt;
+                    &lt;p&gt;Pour obtenir des détails sur d'autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;PropertyValuationSource&lt;/b&gt;.&lt;/p&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Véhicule&lt;/b&gt; : référence à l'objet du véhicule.
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;Couleur&lt;/b&gt; : la couleur de ce véhicule.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : identificateur unique de l'élément référencé.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Plaque d'immatriculation&lt;/b&gt; : numéro de plaque d'immatriculation de ce véhicule.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Marque&lt;/b&gt; : marque de ce véhicule.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Code du fabricant&lt;/b&gt; :  valeur de code du fabricant de ce véhicule. Voici quelques-unes des valeurs disponibles :
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;b&gt;ACUR&lt;/b&gt; : Acura&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;ALFA&lt;/b&gt; : Alfa Romeo&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;BENT&lt;/b&gt; : Bentley&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;JAGU&lt;/b&gt; : Jaguar&lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;p&gt;Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;VehicleManufacturer&lt;/b&gt;.&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Modèle&lt;/b&gt; : modèle de ce véhicule.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;ID système de la police&lt;/b&gt; : identificateur unique de l'élément référencé dans le système de la police.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Code d'Etat&lt;/b&gt; : valeur de code de la juridiction de ce véhicule. Voici quelques-unes des valeurs disponibles :
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;b&gt;AU_ACT&lt;/b&gt; : Territoire de la capitale australienne (ACT)&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;AL&lt;/b&gt; : Alabama&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;AK&lt;/b&gt; : Alaska&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;AB&lt;/b&gt; : Alberta&lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;p&gt;Pour obtenir d'autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;Jurisdiction&lt;/b&gt;.&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Code de style&lt;/b&gt; : valeur de code de la juridiction du style de ce véhicule. Voici quelques-unes des valeurs disponibles :
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;b&gt;boat&lt;/b&gt; : bateau&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;snowmobile&lt;/b&gt; : motoneige&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;passengercar&lt;/b&gt; : véhicule de tourisme&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;pick_up&lt;/b&gt; : pickup&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;van&lt;/b&gt; : van&lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;p&gt;Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;VehicleStyle&lt;/b&gt;.&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;NIV&lt;/b&gt; : le numéro d'identification de ce véhicule.&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;Année&lt;/b&gt; : l'année modèle de ce véhicule.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code de direction du véhicule&lt;/b&gt;  :  valeur de code du style de ce véhicule. Voici quelques-unes des valeurs disponibles :
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;reverse&lt;/b&gt; : marche arrière&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;passed&lt;/b&gt; : être dépassé par un ou plusieurs autre(s) véhicule(s)&lt;/li&gt; 
+                    &lt;li&gt;&lt;b&gt;leave&lt;/b&gt; : quitter une place de stationnement&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;uturn&lt;/b&gt; : faire demi-tour&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;VehicleDirection&lt;/b&gt;.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Véhicule garé&lt;/b&gt; : une valeur vraie indique que le véhicule était stationné au moment de l'incident.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code de type du véhicule&lt;/b&gt; :  valeur de code du type de ce véhicule. Voici quelques-unes des valeurs disponibles :
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;listed&lt;/b&gt; : répertorié sur la police&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;new&lt;/b&gt; : nouvellement acquis&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;owned&lt;/b&gt; : possédé&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;leased&lt;/b&gt; loué&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;VehicleType&lt;/b&gt;.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;Code de motif d'utilisation du véhicule&lt;/b&gt; :  valeur de code pour l'utilisation de ce véhicule au moment de l'incident. Voici quelques-unes des valeurs disponibles :
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;b&gt;business&lt;/b&gt; : professionnel&lt;/li&gt;
+                    &lt;li&gt;&lt;b&gt;plaisir&lt;/b&gt; : plaisir&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;Pour obtenir des détails sur les autres valeurs valides, exécutez l'action du Concepteur de flux : rechercher la liste de types du centre de réclamations. La valeur de l'entrée Nom de la liste de types est &lt;b&gt;ReasonForUse&lt;/b&gt;.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;p&gt;&lt;/p&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Passagers&lt;/b&gt; :  liste de références aux éléments ClaimContact qui représentent les passagers dans le véhicule.
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;ID&lt;/b&gt; : identificateur unique de l'élément référencé.&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;ID système de la police&lt;/b&gt; : identificateur unique de l'élément référencé dans le système de la police.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id="outputs"&gt;
+    &lt;li&gt;&lt;b&gt;ID d'incident de véhicule&lt;/b&gt; : ID du centre de réclamation de l'incident du véhicule.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID du véhicule&lt;/b&gt; : ID du centre de réclamation du véhicule associé à cet incident.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID du conducteur&lt;/b&gt; : référence aux éléments ClaimContact qui représentent le conducteur du véhicule.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Somme de contrôle&lt;/b&gt; : somme de contrôle pour l'élément qui permet d'empêcher les mises à jour perdues en détectant que l'élément a été mis à jour depuis sa dernière récupération par l'appelant. Consultez la documentation pour en savoir plus sur la prévention des mises à jour perdues.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID de passagers&lt;/b&gt; : liste de références aux éléments ClaimContact qui représentent les passagers dans le véhicule.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;JSON d'incident&lt;/b&gt; : objet JSON d'incident contenant toute la réponse.&lt;/li&gt;
+&lt;/ul&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:04</sys_created_on>
+        <sys_id>49174779834d72907c2356e0deaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_49174779834d72907c2356e0deaad322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:04</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

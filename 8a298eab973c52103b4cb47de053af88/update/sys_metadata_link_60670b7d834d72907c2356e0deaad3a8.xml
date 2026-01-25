@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7258c1e183a722107c2356e0deaad322</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>02a7fdeddb7c5410127e3764e2961963</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>7258c1e183a722107c2356e0deaad322</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt; Les opérations POST/PUT peuvent être exécutées pour les champs personnalisés d'objet Workday.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;Objet parent&lt;/b&gt; : objet parent des champs personnalisés.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Objet personnalisé&lt;/b&gt; : objet des champs personnalisés.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Champs d'objet personnalisés&lt;/b&gt; : champs d'objet personnalisés.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;ID d'objet parent&lt;/b&gt; : ID unique du parent.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Mettre à jour si disponible&lt;/b&gt; : vrai pour Mettre à jour l'enregistrement, faux pour Créer l'enregistrement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;État de Workday&lt;/b&gt; : contient la réponse de l'API Workday.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur « Réussite ». En cas de défaillance dans Workday, l'état est défini sur « Erreur ».&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;Détails introuvables pour XXXX.&lt;/li&gt;
+   &lt;li&gt;Impossible d'authentifier le jeton d'accès. Veuillez vérifier les détails d'informations d'identification dans les alias de connexion et d'informations d'identification du spoke de Workday RH.&lt;/li&gt;
+   &lt;li&gt;Service indisponible : veuillez vérifier le journal pour plus d'informations.&lt;/li&gt;
+   &lt;li&gt;Erreur interne du serveur : une erreur s'est produite sur le serveur Workday pendant le traitement de cette demande.&lt;/li&gt;
+   &lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque &lt;/b&gt;: nécessite un abonnement&lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;pour une utilisation en production.&lt;/a&gt; En savoir plus.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:04:24</sys_created_on>
+        <sys_id>60670b7d834d72907c2356e0deaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_60670b7d834d72907c2356e0deaad3a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:04:24</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

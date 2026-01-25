@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8268c92583a722107c2356e0deaad321</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>077cb5ee87fb4110dd3e0e1d0ebb35aa</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>8268c92583a722107c2356e0deaad321</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt;Récupère les détails des données de l'abonné de la liste.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrées :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Propriétés :&lt;/strong&gt; propriétés de la liste qui doivent être récupérées.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sorties :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Abonnés : &lt;/strong&gt;objet contenant ces champs :&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Adresse e-mail : &lt;/strong&gt;adresse e-mail associée au nouvel utilisateur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clé d'abonné : &lt;/strong&gt;identification d'un abonné spécifique.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date de création : &lt;/strong&gt;date et heure de création en lecture seule de l'objet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Préférence de type d'e-mail :&lt;/strong&gt; format à utiliser lors de l'envoi d'un e-mail à un abonné.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ID :&lt;/strong&gt; identificateur en lecture seule d'un objet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clé de partenaire :&lt;/strong&gt; identificateur unique fourni par le partenaire pour un objet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;État :&lt;/strong&gt; définit l'état de l'objet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date de désabonnement :&lt;/strong&gt; représente la date à laquelle l'abonné a été désabonné d'une liste.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et les informations d'identification de Salesforce Marketing Cloud correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification du spoke Salesforce Marketing Cloud. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pour en savoir plus sur les API dans le cloud de Salesforce Marketing, &lt;a href="https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/apis-overview.html"&gt;cliquez ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remarque &lt;/strong&gt;: nécessite un abonnement&lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;pour une utilisation en production.&lt;/a&gt; En savoir plus.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:22:26</sys_created_on>
+        <sys_id>a08b8b758301b2907c2356e0deaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_a08b8b758301b2907c2356e0deaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:22:26</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

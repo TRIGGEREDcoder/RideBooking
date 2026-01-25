@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e478c96583a722107c2356e0deaad302</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>04c8a2431324030039a039ed9344b096</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>e478c96583a722107c2356e0deaad302</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Publiez les détails du problème sur les canaux des équipes Microsoft à l'aide d'un &lt;a target="_blank" href="https://msdn.microsoft.com/en-us/microsoft-teams/connectors#setting-up-a-custom-incoming-webhook"&gt;connecteur Webhook&lt;/a&gt;. Indiquez l'URL Webhook et le problème à envoyer. Les champs par défaut sont Description brève, État, Priorité, Groupe d'affectation et Affecté à.&lt;/p&gt;
+
+&lt;p&gt;En option : configurez les champs Titre, Message supplémentaire, Couleur du thème ou Remplacement par défaut p. ex. 
+
+&lt;ul&gt;
+  &lt;li&gt;Titre : Problème à priorité élevée créé&lt;/li&gt; 
+  &lt;li&gt;Message supplémentaire : veuillez suivre&lt;/li&gt;
+  &lt;li&gt;Couleur du thème (valeur hexadécimale sans #) : D1222B.&lt;/li&gt;
+  &lt;li&gt;Remplacer les champs par défaut : priority,assigned_to&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : Nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Lire plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:15</sys_created_on>
+        <sys_id>abc74fb1838d72907c2356e0deaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_abc74fb1838d72907c2356e0deaad3e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:15</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

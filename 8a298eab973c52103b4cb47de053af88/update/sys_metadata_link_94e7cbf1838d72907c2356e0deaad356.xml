@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2a7889a583a722107c2356e0deaad36a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>050fea85db824c501b4b9cfadb96190c</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>2a7889a583a722107c2356e0deaad36a</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt; Affecte la société, le centre de coûts, la région entre autres, configurés pour la dotation en personnel à un poste occupé.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;b&gt;ID de référence du poste&lt;/b&gt; : ID de référence unique du poste.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Date d'effet&lt;/b&gt; : date d'effet des affectations de l'organisation.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Type d'agent&lt;/b&gt; : type d'agent, par exemple employé ou temporaire.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;ID de l'employé&lt;/b&gt; - ID unique de l'employé.&lt;/li&gt; 
+   &lt;li&gt;&lt;b&gt;ID de référence des affectations de centres de coûts&lt;/b&gt; - ID de référence unique des affectations de centres de coûts.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;ID de référence des affectations de sociétés&lt;/b&gt; - ID de référence unique des affectations de sociétés.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;ID de référence des affectations de régions&lt;/b&gt; - ID de référence unique des affectations de régions.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Champs supplémentaires&lt;/b&gt; : champs ou valeurs supplémentaires que vous souhaitez ajouter aux détails.&lt;/li&gt;
+   &lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;
+      &lt;b&gt;Réponse du changement org.&lt;/b&gt; : objet complexe qui contient les champs suivants : - 
+      &lt;ul&gt;
+         &lt;li&gt; ID d'événement Workday&lt;/li&gt;
+         &lt;li&gt; État du changement org.&lt;/li&gt;
+      &lt;/ul&gt;
+   &lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est exécutée avec succès, l'état est défini sur Réussite. En cas de défaillance dans l'exécution, l'état est défini sur Erreur.&lt;/li&gt;
+   &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;Une erreur s'est produite lors de l'envoi de la demande de changement d'organisation.&lt;/li&gt;
+   &lt;li&gt;Nom d'utilisateur ou mot de passe non valide. Veuillez accéder aux politiques de sécurité SOAP et fournir le nom d'utilisateur et le mot de passe corrects dans la politique de sécurité SOAP « WorkdayHR ».&lt;/li&gt;
+   &lt;li&gt;Valeur d'ID non valide.  « XXXX » n'est pas une valeur d'ID valide pour le type = « Employee_ID ».&lt;/li&gt;
+   &lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:34</sys_created_on>
+        <sys_id>94e7cbf1838d72907c2356e0deaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_94e7cbf1838d72907c2356e0deaad356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:34</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

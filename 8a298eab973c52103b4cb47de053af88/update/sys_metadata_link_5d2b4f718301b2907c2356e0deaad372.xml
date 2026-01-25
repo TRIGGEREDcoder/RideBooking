@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4a88812983a722107c2356e0deaad3ce</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>063ccc640f032010406f3a3485767e3c</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>4a88812983a722107c2356e0deaad3ce</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_transform_definition</tablename>
+        <value>&lt;p&gt;Fonction utilitaire qui vérifie si la valeur d'entrée ne contient pas une séquence de caractères.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrée :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chaîne&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Paramètres :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chaîne&lt;/strong&gt; : caractères à rechercher.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sortie :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Booléen : un booléen qui indique s'il existe une séquence de caractères dans la chaîne indiquée.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Exemple :&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Entrée :&lt;/p&gt;
+&lt;pre&gt;"Cheese Pizza"&lt;/pre&gt;
+&lt;p&gt;Chaîne :&lt;/p&gt;
+&lt;pre&gt;"Joey"&lt;/pre&gt;
+&lt;p&gt;Résultat :&lt;/p&gt;
+&lt;pre&gt;vrai&lt;/pre&gt;
+&lt;p&gt;&lt;span style="font-family: Verdana, Arial, Helvetica, sans-serif;"&gt;Remarque : la transformation est sensible à la casse. Si le type de données d'entrée n'est pas Chaîne, les données ne sont pas transformées pendant l'exécution.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="/api/now/v1/context_doc_url/CSHelp:String-Transform-Functions" target="_blank"&gt;Lire plus.&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:20:51</sys_created_on>
+        <sys_id>5d2b4f718301b2907c2356e0deaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_5d2b4f718301b2907c2356e0deaad372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:20:51</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

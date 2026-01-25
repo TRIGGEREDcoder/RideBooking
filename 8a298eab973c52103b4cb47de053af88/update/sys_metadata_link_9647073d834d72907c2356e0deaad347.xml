@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6b484d6183a722107c2356e0deaad350</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0230e0f71b8fc450243764abbc4bcb55</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>6b484d6183a722107c2356e0deaad350</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt; Cette action est utilisée pour exécuter le programme simultané qui importe les données des bons de commande depuis la table d'interface vers la table de base d'EBS. L'objectif de cette action est de créer et de soumettre une demande de programme simultané au serveur EBS. Celui-ci répond avec l'état Réussite si la demande a été soumise avec succès. &#13;
+ La progression et le résultat de l'exécution simultanée du programme peuvent être vérifiés sur le serveur EBS.&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+   &lt;li&gt;&lt;b&gt;ID du lot&lt;/b&gt; : ID unique du lot du bon de commande.&lt;/li&gt;&#13;
+   &lt;p&gt;&lt;/p&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+   &lt;li&gt;&#13;
+      &lt;b&gt;Soumettre les détails du bon de commande&lt;/b&gt; : objet complexe contenant les champs suivants :  &#13;
+      &lt;ul&gt;&#13;
+         &lt;li&gt; Statut&lt;/li&gt;&#13;
+         &lt;li&gt; Message&lt;/li&gt;&#13;
+         &lt;li&gt; ID de demande&lt;/li&gt;&#13;
+      &lt;/ul&gt;&#13;
+   &lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Statut&lt;/b&gt; : si la demande est effectuée avec succès, le statut est défini sur « Réussite ». Si une défaillance se produit dans Oracle EBS, le statut est défini sur « Erreur ».&lt;/li&gt;&#13;
+   &lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+   &lt;li&gt;Informations d'identification non valides.&lt;/li&gt;&#13;
+   &lt;li&gt;Lot non valide.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Oracle EBS correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Oracle EBS. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : Nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Lire plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:59</sys_created_on>
+        <sys_id>9647073d834d72907c2356e0deaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_9647073d834d72907c2356e0deaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:59</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

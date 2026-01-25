@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7f58c9e183a722107c2356e0deaad36c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0543980ab966fc10f8770333fc88cf31</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>7f58c9e183a722107c2356e0deaad36c</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_snapshot</tablename>
+        <value>&lt;p&gt;Vérifie si un ordinateur existant est membre du groupe spécifié dans Jamf.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Entrées :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ordinateur&lt;/strong&gt; : ordinateur dont vous souhaitez enregistrer l'adhésion au groupe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Groupe&lt;/strong&gt; : groupe dans lequel vous souhaitez vérifier l'état de l'adhésion.&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;p&gt;&lt;b&gt;Sorties :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;L'ordinateur est-il dans le groupe&lt;/strong&gt; : la valeur est « Vrai » si l'ordinateur est membre du groupe et « Faux » si l'ordinateur n'est pas membre du groupe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;État&lt;/strong&gt; : si la demande est exécutée avec succès, l'état est défini sur Réussite. En cas de défaillance, l'état est défini sur Erreur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Message d'erreur&lt;/strong&gt; : motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;p&gt;&lt;b&gt;Messages d'erreur :&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;L'ordinateur ne peut pas être vide.&lt;/li&gt;
+&lt;li&gt;Le groupe ne peut pas être vide.&lt;/li&gt;
+&lt;li&gt;Mauvaise demande. Vérifiez la syntaxe de la demande, notamment le corps XML.&lt;/li&gt;
+&lt;li&gt;L'authentification a échoué. Vérifiez les informations d'identification utilisées pour la demande.&lt;/li&gt;
+&lt;li&gt;Autorisations non valables. Vérifiez que le compte utilisé dispose des privilèges appropriés pour la ressource à laquelle vous essayez d'accéder.&lt;/li&gt;
+&lt;li&gt;Ressource non trouvée. Vérifiez que le chemin de l'URL est correct.&lt;/li&gt;
+&lt;li&gt;La demande n'a pas pu être terminée en raison d'un conflit avec l'état actuel de la ressource. Voir la réponse à l'erreur pour plus de détails.&lt;/li&gt;
+&lt;li&gt;La précondition a échoué. Voir la description de l'erreur pour plus de détails.&lt;/li&gt;
+&lt;li&gt;Charge utile trop importante.&lt;/li&gt;
+&lt;li&gt;Request-URI trop long.&lt;/li&gt;
+&lt;li&gt;Erreur interne du serveur. Réessayez la demande ou contactez le support Jamf si l'erreur est persistante.&lt;/li&gt;
+&lt;li&gt;Mauvaise passerelle. Généralement dû à un problème de délai.&lt;/li&gt;
+&lt;li&gt;Service non disponible.&lt;/li&gt;
+&lt;li&gt;Une erreur est survenue. Consultez le journal pour plus de détails.&lt;/li&gt;
+&lt;/ul&gt;
+ 
+&lt;p&gt;Pour utiliser cette action, une connexion et informations d'identification Jamf correspondantes doivent être créées et associées respectivement à l'alias de connexion et d'informations d'identification Jamf. &lt;a target="_blank" href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:06:47</sys_created_on>
+        <sys_id>23e70735838d72907c2356e0deaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_23e70735838d72907c2356e0deaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:06:47</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

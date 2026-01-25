@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5368c16583a722107c2356e0deaad357</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>01395be4dba1081046b9fb371d9619c5</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>5368c16583a722107c2356e0deaad357</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p&gt; Renomme une base de données.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt; &lt;ul&gt;&lt;li&gt;&lt;b&gt;ID d'abonnement&lt;/b&gt; : ID d'abonnement pour identifier l'abonnement Azure.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom du groupe de ressources&lt;/b&gt; : nom du groupe de ressources qui contient la ressource. Vous pouvez obtenir cette valeur à partir de l'API Azure Resource Manager ou du portail Azure.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom du serveur&lt;/b&gt; : nom du serveur.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nom de la base de données actuelle&lt;/b&gt; : nom de la base de données actuelle en cours d'utilisation.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Nouveau nom de la base de données&lt;/b&gt; : nouveau nom de la base de données.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;État&lt;/b&gt; : si la demande est effectuée avec succès, l'état est défini sur Réussite. Si une défaillance s'est produite dans Microsoft Azure, l'état est défini sur Erreur.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message d'erreur&lt;/b&gt; : la raison de l'erreur. Généré uniquement lorsqu'une erreur survient.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message d'information&lt;/b&gt; : message confirmant la réussite de l'exécution. Renseigné uniquement si l'état est Réussite.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Non-concordance du nom de la ressource, du nom du serveur ou du nom de la base de données dans l'URL, ou ce nom de base de données existe.&lt;/li&gt;&lt;li&gt;L'ID d'abonnement, le groupe de ressources, le serveur, la base de données ou la version de l'API saisi(e) est non valide ou introuvable.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Pour utiliser cette action, la connexion et les informations d'identification Microsoft Azure correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Microsoft Azure. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;En savoir plus&lt;/a&gt;.&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:03:31</sys_created_on>
+        <sys_id>eb278bb9834d72907c2356e0deaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_eb278bb9834d72907c2356e0deaad34e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:03:31</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3678c9a583a722107c2356e0deaad3c0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated_text">
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>07055337770a25107cac5228c810610e</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>3678c9a583a722107c2356e0deaad3c0</sys_id>
+        <sys_mod_count/>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>&lt;p id="short_desc"&gt; Récupère la liste des messages dans un canal d'une équipe.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Entrées&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id="inputs"&gt;
+    &lt;li&gt;&lt;b&gt;ID du groupe/ID de l'équipe&lt;/b&gt; : ID unique de l'équipe/du groupe.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;ID du canal&lt;/b&gt; : ID unique du canal.&lt;/li&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Sorties&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id='outputs'&gt;
+    &lt;li&gt;&lt;b&gt;Messages de canal (objet)&lt;/b&gt; : liste d'objets contenant les détails suivants du message du canal :
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : ID unique du message.&lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt;De&lt;/strong&gt; : objet contenant les détails de l'expéditeur du message de messagerie instantanée. En fonction du type d'expéditeur, les détails suivants sont renseignés en conséquence :
+                &lt;ul&gt;
+                    &lt;li&gt; Utilisateur
+                        &lt;ul&gt;
+                            &lt;li&gt;ID&lt;/li&gt;
+                            &lt;li&gt;Nom d'affichage&lt;/li&gt;
+                            &lt;li&gt;Type d'identité d'utilisateur&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt; Application
+                        &lt;ul&gt;
+                            &lt;li&gt;ID&lt;/li&gt;
+                            &lt;li&gt;Nom d'affichage&lt;/li&gt;
+                            &lt;li&gt;Type d'identité d'application&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt; Équipement
+                        &lt;ul&gt;
+                            &lt;li&gt;ID&lt;/li&gt;
+                            &lt;li&gt;Nom d'affichage&lt;/li&gt;
+                            &lt;li&gt;Type d'identité d'appareil&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Balise électronique&lt;/strong&gt; : numéro de version du message de messagerie instantanée.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Type de message&lt;/strong&gt; : type du message de messagerie instantanée.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Date/heure de création&lt;/strong&gt; : horodatage dans le fuseau horaire UTC lors de la création du message de messagerie instantanée.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Date/heure de la dernière modification&lt;/strong&gt; : horodatage dans le fuseau horaire UTC lorsque le message de messagerie instantanée est créé (paramètre initial) ou modifié, y compris lorsqu'une réaction est ajoutée ou supprimée.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Date/heure d'édition&lt;/strong&gt; : horodatage dans le fuseau horaire UTC lors de l'édition du message de messagerie instantanée.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Date/heure de suppression&lt;/strong&gt; : horodatage dans le fuseau horaire UTC lors de la suppression du message de messagerie instantanée&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Objet&lt;/strong&gt; : objet du message de messagerie instantanée.&lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt;Corps&lt;/strong&gt; : objet contenant les détails suivants du contenu du message de messagerie instantanée :
+                &lt;ul&gt;
+                    &lt;li&gt;Type de contenu&lt;/li&gt;
+                    &lt;li&gt;Contenu&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Résumé&lt;/strong&gt; : texte récapitulatif du message de messagerie instantanée&lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt;Pièces jointes&lt;/strong&gt; : liste d'objets contenant les détails suivants de la pièce jointe :
+                &lt;ul&gt;
+                    &lt;li&gt;ID&lt;/li&gt;
+                    &lt;li&gt;Type de contenu&lt;/li&gt;
+                    &lt;li&gt;URL de contenu&lt;/li&gt;
+                    &lt;li&gt;Contenu&lt;/li&gt;
+                    &lt;li&gt;Nom&lt;/li&gt;
+                    &lt;li&gt;URL de la miniature&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt;Mentions&lt;/strong&gt; : liste d'objets contenant les détails suivants de la mention :
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; : index d'une entité mentionnée dans le message de messagerie instantanée spécifié. Correspond à la valeur {index} de la balise correspondante
+                        &lt;at id="{index}"&gt; dans le corps du message.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Texte mentionné&lt;/strong&gt; : texte utilisé pour représenter la mention&lt;/li&gt;
+                    &lt;li&gt; &lt;strong&gt;Mentionné&lt;/strong&gt; : objet contenant les détails de l'entité mentionnée. En fonction du type d'entité mentionnée, les détails suivants sont renseignés en conséquence :
+                        &lt;ul&gt;
+                            &lt;li&gt; Utilisateur
+                                &lt;ul&gt;
+                                    &lt;li&gt;ID&lt;/li&gt;
+                                    &lt;li&gt;Nom d'affichage&lt;/li&gt;
+                                    &lt;li&gt;Type d'identité d'utilisateur&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt; Application
+                                &lt;ul&gt;
+                                    &lt;li&gt;ID&lt;/li&gt;
+                                    &lt;li&gt;Nom d'affichage&lt;/li&gt;
+                                    &lt;li&gt;Type d'identité d'application&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt; Équipement
+                                &lt;ul&gt;
+                                    &lt;li&gt;ID&lt;/li&gt;
+                                    &lt;li&gt;Nom d'affichage&lt;/li&gt;
+                                    &lt;li&gt;Type d'identité d'appareil&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt; Conversation
+                                &lt;ul&gt;
+                                    &lt;li&gt;ID&lt;/li&gt;
+                                    &lt;li&gt;Nom d'affichage&lt;/li&gt;
+                                    &lt;li&gt;Type d'identité de conversation&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Importance&lt;/strong&gt; : importance du message.&lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt;Réactions&lt;/strong&gt; : liste d'objets contenant les détails suivants de la réaction :
+                &lt;ul&gt;
+                    &lt;li&gt;Type de réaction&lt;/li&gt;
+                    &lt;li&gt;la date et l'heure de la création&lt;/li&gt;
+                    &lt;li&gt; &lt;strong&gt;De&lt;/strong&gt; : objet contenant les détails de l'entité qui a réagi au message de messagerie instantanée. En fonction du type d'entité à l'origine de la réaction, les détails suivants sont renseignés en conséquence :
+                        &lt;ul&gt;
+                            &lt;li&gt; Utilisateur
+                                &lt;ul&gt;
+                                    &lt;li&gt;ID&lt;/li&gt;
+                                    &lt;li&gt;Nom d'affichage&lt;/li&gt;
+                                    &lt;li&gt;Type d'identité d'utilisateur&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt; Application
+                                &lt;ul&gt;
+                                    &lt;li&gt;ID&lt;/li&gt;
+                                    &lt;li&gt;Nom d'affichage&lt;/li&gt;
+                                    &lt;li&gt;Type d'identité d'application&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt; Équipement
+                                &lt;ul&gt;
+                                    &lt;li&gt;ID&lt;/li&gt;
+                                    &lt;li&gt;Nom d'affichage&lt;/li&gt;
+                                    &lt;li&gt;Type d'identité d'appareil&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Paramètre régional&lt;/strong&gt; : paramètre régional du message de messagerie instantanée défini par le client.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;URL Web&lt;/strong&gt; : lien vers le message dans Microsoft Teams.&lt;/li&gt;
+            &lt;li&gt; &lt;strong&gt;Identité du canal&lt;/strong&gt; : objet contenant les détails suivants du canal :
+                &lt;ul&gt;
+                    &lt;li&gt;ID de l'équipe&lt;/li&gt;
+                    &lt;li&gt;ID de canal&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Messages de canal (JSON)&lt;/b&gt; : objet JSON des messages.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Statut de l'action&lt;/strong&gt; : objet avec les champs suivants :
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; : si la demande est exécutée avec succès, le code est défini sur 0. En cas d'échec, le code est défini sur 1.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Message : &lt;/strong&gt;motif de l'erreur. Renseigné seulement lorsqu'une erreur se produit.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Messages d'erreur&lt;/b&gt; :&lt;/p&gt;
+&lt;ul id='error_messages'&gt;
+    &lt;li&gt;Informations d'identification non valides.&lt;/li&gt;
+    &lt;li&gt;ID de l'équipe non valide.&lt;/li&gt;
+    &lt;li&gt;ID de canal non valide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Pour utiliser cette action, une connexion et des informations d'identification Microsoft Teams Graph correspondantes doivent être créées et associées à l'alias de connexion et d'informations d'identification Microsoft Teams Graph.&lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Remarque&lt;/b&gt; : Nécessite un abonnement pour une utilisation en production. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Lire plus&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- This description is generated using the description tool --&gt;</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 11:21:50</sys_created_on>
+        <sys_id>b75bc3358301b2907c2356e0deaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created </sys_name>
+        <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
+        <sys_update_name>sys_metadata_link_b75bc3358301b2907c2356e0deaad378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 11:21:50</sys_updated_on>
+        <tablename>sys_translated_text</tablename>
+    </sys_metadata_link>
+</record_update>
