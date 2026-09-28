@@ -10,7 +10,7 @@
         <sys_id>d5fa0a6f973c52103b4cb47de053aff4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Choice 3</sys_name>
-        <sys_package/>
+        <sys_package display_value="Asset Management Workspace" source="sn_itam_workspace">54b90b435d70f410f87728dca52fcfea</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
         <sys_update_name>question_choice_d5fa0a6f973c52103b4cb47de053aff4</sys_update_name>

@@ -48,5 +48,6 @@
         <va_supported>true</va_supported>
         <variable_set/>
         <view/>
+        <x_snc_devtools_table/>
     </catalog_ui_policy>
 </record_update>

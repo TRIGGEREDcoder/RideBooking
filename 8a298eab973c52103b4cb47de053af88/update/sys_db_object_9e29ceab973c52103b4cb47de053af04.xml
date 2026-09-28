@@ -10,6 +10,7 @@
         <create_access_controls>false</create_access_controls>
         <delete_access>true</delete_access>
         <filter_extension/>
+        <is_data_interface>false</is_data_interface>
         <is_df_table>false</is_df_table>
         <is_extendable>false</is_extendable>
         <label>Ride Booking Request</label>
@@ -19,7 +20,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Request Task" name="sn_creatorstudio_task">b74675d3974412103b4cb47de053af6e</super_class>
+        <super_class display_value="Request Task" name="sn_creatorstudio_task">13411c72932622105b75b2ddfaba1083</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-28 14:23:55</sys_created_on>

@@ -7,6 +7,7 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Office">109cdff8c6112276003b17991a09ad65</category>
+        <cc_render_type>system</cc_render_type>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -60,6 +61,7 @@
         <published_ref/>
         <recurring_frequency/>
         <redirect_url>generated_record</redirect_url>
+        <remote_catalog_item>false</remote_catalog_item>
         <request_method/>
         <roles/>
         <save_options/>
@@ -81,6 +83,7 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */]]></script>
+        <secondary_owners/>
         <short_description>This application is to book rides for the employees travelling to their office or on their way back to home.</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -91,7 +94,7 @@
         <sys_id>178906eb973c52103b4cb47de053afed</sys_id>
         <sys_mod_count>12</sys_mod_count>
         <sys_name>Ride Booking</sys_name>
-        <sys_package/>
+        <sys_package display_value="Asset Management Workspace" source="sn_itam_workspace">54b90b435d70f410f87728dca52fcfea</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
         <sys_update_name>sc_cat_item_producer_178906eb973c52103b4cb47de053afed</sys_update_name>

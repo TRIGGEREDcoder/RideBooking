@@ -28,6 +28,7 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
+        <hide_on_grid>false</hide_on_grid>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -46,6 +47,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>question_3efca063f00f3e65a30fefd07340ba17</name>
+        <no_auto_populate_also_request_for>false</no_auto_populate_also_request_for>
         <not_available_conversation>false</not_available_conversation>
         <order>500</order>
         <post_insert_script/>
@@ -76,6 +78,12 @@
         <scale_min>0</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
+        <sn_sb_pro_remote_choice_additional_info_field/>
+        <sn_sb_pro_remote_choice_definition/>
+        <sn_sb_pro_remote_choice_dependent_field/>
+        <sn_sb_pro_remote_choice_dependent_on/>
+        <sn_sb_pro_remote_choice_display_field/>
+        <sn_sb_pro_remote_choice_enabled>false</sn_sb_pro_remote_choice_enabled>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
@@ -84,7 +92,7 @@
         <sys_id>995b8e6f973c52103b4cb47de053afc4</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Submit</sys_name>
-        <sys_package/>
+        <sys_package display_value="Asset Management Workspace" source="sn_itam_workspace">54b90b435d70f410f87728dca52fcfea</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
         <sys_update_name>item_option_new_995b8e6f973c52103b4cb47de053afc4</sys_update_name>

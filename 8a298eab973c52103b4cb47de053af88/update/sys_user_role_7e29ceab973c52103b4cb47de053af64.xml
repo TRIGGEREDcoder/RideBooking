@@ -4,6 +4,8 @@
         <can_delegate>true</can_delegate>
         <description>Provides access to Ride Booking Request</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <federated_id>xkc+cVT5Nuq/pLK7BlU1TzbbGHC5Xwp4OkasqdfjAKQ=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1536901_ride_b_0.agent</name>

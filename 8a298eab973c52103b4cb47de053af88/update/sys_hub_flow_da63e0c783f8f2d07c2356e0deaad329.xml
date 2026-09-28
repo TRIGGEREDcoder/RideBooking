@@ -3,6 +3,7 @@
         <access>public</access>
         <acls/>
         <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1295013000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
@@ -36,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>da63e0c783f8f2d07c2356e0deaad329</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Manager Approval for Adobe</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
@@ -44,11 +45,11 @@
         <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
         <sys_update_name>sys_hub_flow_da63e0c783f8f2d07c2356e0deaad329</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-13 08:48:18</sys_updated_on>
+        <sys_updated_on>2026-01-25 06:30:24</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record display_value="Created 2025-11-25 21:36:09">55727733839132547c2356e0deaad3a9</version_record>
+        <version_record>715f38c293fc4f105b75b2ddfaba1068</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=da63e0c783f8f2d07c2356e0deaad329"/>
     <sys_variable_value action="delete_multiple" query="document_key=da63e0c783f8f2d07c2356e0deaad329"/>
@@ -135,6 +136,7 @@
         <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -219,6 +221,7 @@
         <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference display_value="" name="sc_req_item">sc_req_item</reference>
         <reference_cascade_rule/>
@@ -522,11 +525,11 @@
         <sys_created_on>2025-10-29 10:56:41</sys_created_on>
         <sys_id>2b4f680f83fcf2d07c2356e0deaad3ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_da63e0c783f8f2d07c2356e0deaad329_request_item_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-29 10:56:41</sys_updated_on>
         <url/>
@@ -545,11 +548,11 @@
         <sys_created_on>2025-10-29 10:56:41</sys_created_on>
         <sys_id>eb4f680f83fcf2d07c2356e0deaad3f0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_da63e0c783f8f2d07c2356e0deaad329_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-29 10:56:41</sys_updated_on>
         <url/>
@@ -561,6 +564,7 @@
         <access>public</access>
         <acls/>
         <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
@@ -665,6 +669,7 @@
         <order>100</order>
         <primary>false</primary>
         <read_only>true</read_only>
+        <read_only_option>instance_configured</read_only_option>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -749,6 +754,7 @@
         <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference display_value="" name="sc_req_item">sc_req_item</reference>
         <reference_cascade_rule/>
@@ -1052,11 +1058,11 @@
         <sys_created_on>2025-10-29 10:56:58</sys_created_on>
         <sys_id>3b5fe80f83fcf2d07c2356e0deaad3cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_af5fe80f83fcf2d07c2356e0deaad38b_request_item_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-29 10:56:58</sys_updated_on>
         <url/>
@@ -1075,11 +1081,11 @@
         <sys_created_on>2025-10-29 10:56:58</sys_created_on>
         <sys_id>ff5fe80f83fcf2d07c2356e0deaad3c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Ride Booking" source="x_1536901_ride_b_0">8a298eab973c52103b4cb47de053af88</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ride Booking">8a298eab973c52103b4cb47de053af88</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_af5fe80f83fcf2d07c2356e0deaad38b_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-29 10:56:58</sys_updated_on>
         <url/>
